@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='twist-x.xsl'?>
+<NACH>
+    <TABLIZA>
+        <NAME> Oleg </NAME>
+        <OZENKA> 10 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Kiril </NAME>
+        <OZENKA> 8 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Yan </NAME>
+        <OZENKA> 9 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Muha </NAME>
+        <OZENKA> 2 </OZENKA>
+    </TABLIZA>
+    <TABLIZA>
+        <NAME> Pupa </NAME>
+        <OZENKA> 4 </OZENKA>
+    </TABLIZA>
+ <TABLIZA>
+        <NAME> Purr </NAME>
+        <OZENKA> 1 </OZENKA>
+    </TABLIZA>
+</NACH>

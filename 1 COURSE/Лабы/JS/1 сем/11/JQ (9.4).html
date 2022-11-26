@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>9.4jQ</title>
+</head>
+<body>
+
+<style>
+  #img {
+    position: absolute;
+  }
+  select {
+    background: rgb(22, 21, 21);
+    color: white;
+  }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+
+
+<body>
+  <canvas id="graf" width="800" height="400"></canvas>    <!-- имитация контура художника (для использования метода draw) -->
+  <br />
+
+  <input id="r1" name="knopka" type="radio" value="1" /> y = x<sup>3</sup>
+  <input id="r2" name="knopka" type="radio" value="2" /> y = x<sup>2</sup>
+  <input id="r3" name="knopka" type="radio" value="3" checked /> y = sin(x)
+  <input id="r4" name="knopka" type="radio" value="4" checked /> y = cos(x)
+  <br />
+
+  <select id="sel" name="select1">
+    <option>red</option>
+    <option>yellow</option>
+    <option>purple</option>
+    <option>gray</option>
+    <option>blue</option>
+    <option>lavender</option>
+    <option>black</option>
+  </select>
+</body>
+
+<script>
+  let NumberOfGraf = 3; //Начальный график
+  draw("Math.cos(x/10)*100"); //Отрисовка при открытии страницы
+  $("canvas").draggable(); //разрешение на перемещение
+
+  let Graf = [
+    "x*x*x/100",
+    "x*x/100",
+    "Math.sin(x/10)*100",
+    "Math.cos(x/10)*100",
+  ];
+
+  $("#sel").click(() => draw(Graf[NumberOfGraf]));
+
+  $("#r1").click(() => {
+    draw(Graf[0]);
+    NumberOfGraf = 0;
+  });
+  $("#r2").click(() => {
+    draw(Graf[1]);
+    NumberOfGraf = 1;
+  });
+  $("#r3").click(() => {
+    draw(Graf[2]);
+    NumberOfGraf = 2;
+  });
+  $("#r4").click(() => {
+    draw(Graf[3]);
+    NumberOfGraf = 3;
+  });
+
+  function draw(fun) {
+    let canvas = document.getElementById("graf"); 
+    let ctx = canvas.getContext("2d"); //выбор пространства
+    ctx.clearRect(0, 0, canvas.width, canvas.height); //Очистка холста
+
+    ctx.fillStyle = "green"; //Цвет осей
+    ctx.fillRect(0, 200, 800, 1); //Отрисовка прямоугольников, т.е. оси
+    ctx.fillRect(400, 0, 1, 400);
+
+    let x = 1,
+      y = 0,
+      PrevX = -1,
+      PrevY = -1;
+
+    for (let i = -400; i < 400; i++) {
+      x = i;
+      y = eval(fun) + 200; //вычисляет выражение и возвращает его значение
+
+      x = x + 400;
+      y = 400 - y;
+
+      if (PrevX != -1) {
+        ctx.beginPath(); //начинает контур или сбрасывает текущий контур
+        ctx.strokeStyle = document.all["select1"].value;
+        ctx.moveTo(PrevX, PrevY); //передвигает точку контура в заданные координаты не рисуя линию
+        ctx.lineTo(x, y); //рисует линию
+        ctx.stroke(); //рисует фигуру заданным контуром
+      }
+
+      PrevX = x;
+      PrevY = y;
+    }
+  }
+</script>
+</body>
+</html>

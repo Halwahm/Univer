@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> 1 </title>
+        <style>
+
+            @font-face {
+                font-family:'Carveat';
+                src: url('fonts/Carveat.woff');
+            }
+
+            @font-face {
+                font-family:'Exo2';
+                src: url('fonts/Exo2.woff');
+                }
+
+             @font-face {
+                font-family:'Comfortaa';
+                src: url('fonts/Comfortaa.woff');
+            }
+
+            body { background: #F9F2E3; }
+
+            h1{
+                text-align:center;
+                font-size:45px;
+                font-weight:bold;
+                text-transform:lowercase;
+                text-shadow:5px 3px 4px black;
+                margin:0; 
+                font-family:'Carveat';
+            }
+            
+            h2{
+                margin-bottom:1.2em;
+                margin-top:0.2rem;
+                text-indent:25px;
+                text-align:left;
+                font-family:'Exo2';
+            }
+
+            p {
+                text-indent:25px;
+                text-align:justify;
+                margin:0;
+                font-size:20px;
+                line-height:200%;
+                font-family:'Comfortaa';
+            }
+            p::first-letter {
+                font-weight:bold;
+                font-size:45px;
+                color:white;
+                background: hsla(275, 100%, 10%, 1);
+            }
+            
+            ol h2{
+
+                margin:0;
+            }
+
+            ol {
+				font-family: "Comfortaa";
+				font-size: 20px;
+				margin-top: -0.8em;
+				list-style-type: none;
+				counter-reset: item;
+			}
+
+            li:before {
+                content: counter(item, upper-roman) ".";
+				counter-increment:item;
+                color: blue;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Звери</h1>
+        
+        <h2>Олень</h2>
+        <p> Древнейший обитатель лесов. Крупное, изящное животное с тонкой длинной шеей и стройными ногами.</p>
+        
+        <p>
+            Семейство парнокопытных млекопитающих, содержащее 51 современный вид.
+            Оленевые распространены в Евразии, Северной и Южной Америке, а также были завезены человеком в Австралию и Новую Зеландию.
+        </p>
+        <h2>Баран</h2>
+        <p>
+            Род парнокопытных из семейства полорогих, включающий домашнюю овцу. 
+            По одной из версий, название заимствовано из иранских языков, посредством тюркских.
+        </p>
+
+
+        <ol> 
+            <h2>Купить</h2>
+
+            <li>Хлебушек</li>
+            <li>Сметану</li>
+            <li>Картофель</li>
+            <li>Молочко</li>
+            <li>Ананас</li>
+        </ol>
+
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab9.3jQ</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   
+            <style>
+            #mybody {
+                background-color: rgb(111, 246, 240);
+                font-family:arial;
+            }
+            .c1 {
+                width: 40%;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body id="mybody">
+
+        <img
+        id="ill"
+        class = "c1";
+        src="0f63577be1be98c488aa3b218fc41444.jpg"
+        />
+
+
+        <script>
+        //3
+        $("#ill").click (function() {
+        $("#ill").animate ({marginLeft : "100px", marginTop : "160px"}, 700);
+        $("#ill").animate ({marginLeft : "150px", marginTop : "-5px"}, 700);
+        $("#ill").animate ({marginLeft : "200px", marginTop: "160px"}, 700);
+        $("#ill").animate ({marginLeft : "250px", marginTop: "-5px"}, 700);
+        $("#ill").animate ({marginLeft : "300px", marginTop: "160px"}, 700);
+        $("#ill").animate ({marginLeft : "350px", marginTop : "-5px"}, 700);
+        $("#ill").animate ({marginLeft : "400px", marginTop : "160px"}, 700);
+	})
+    </script>
+    </body>
+</html>

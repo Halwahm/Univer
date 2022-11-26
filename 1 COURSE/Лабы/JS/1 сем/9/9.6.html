@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>6 zad</title>
+<style>
+    .menu-item {
+    margin: 24px;
+    text-align: center;
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+    }
+    .submenu {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div id="nav" onmouseover="onmouse(event)">
+<div class="menu-item">
+Меню 1
+<div class="submenu">
+Подменю
+</div>
+
+</div>
+<div class="menu-item">
+Меню 2
+<div class="submenu">
+Подменю
+</div>
+</div>
+<div class="menu-item">
+Меню 3
+<div class="submenu">
+Подменю
+</div>
+</div>
+</div>
+<script>
+
+document.getElementById('nav').onmouseover = function(event){ //если мышь наведена - вызов функции с проверкой события
+
+var target = event.target; //отслеживает нахождение мыши внутри блока
+
+if (target.className == 'menu-item'){ //отслеживаем наводку
+let s = target.getElementsByClassName('submenu');
+s[0].style.display='block'; 
+}
+}
+
+document.onmouseover=function(event){
+var target = event.target;
+
+if (target.className!='menu-item' && target.className!='submenu'){
+closeMenu();
+}
+}
+
+function closeMenu(){
+//получение всех элементов подменю в блоке nav, присваивание display:none (чтобы объект стал невидимым)
+let menu = document.getElementById('nav'); //обращение по идентификатору
+let subm=document.getElementsByClassName('submenu'); //обращение по классу
+for (let i=0; i < subm.length; i++){ //смотрим кол-во элементов
+subm[i].style.display ="none";
+}
+}
+</script>
+</body>
+
+</html>

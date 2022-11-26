@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>8jQ</title>
+    <script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){ //запуск скрикта после загрузки документа
+        $("#t1").mouseover(function(){ //при наведении мыши
+            $(this).css('color',"green");
+        });
+        $("#t1").mouseout(function(){ //если мыши убрана с объекта
+            $(this).css('color',"black");
+        });
+    
+        $("#t2").click(function(){
+            $(this).css('fontSize',"50px");
+        });
+        $("#t2").dblclick(function(){ //двойное нажатие
+            $(this).css('fontSize',"");
+        });
+    
+        $("#img1").click(function(){
+            $(this).attr('src',"1.jpg"); // получает значение атрибута для первого элемента в наборе совпавших элементов
+        });    
+    
+        $("#txt1").click(function(){
+            $(this).html("<img src='1.jpg' style='height: 400px; width: 600px;'>");
+        });    
+    
+        $("#img2").mouseover(function(){
+            $(this).css('width',"600px");
+        });    
+        $("#img2").mouseout(function(){
+            $(this).css('width',"500px");
+        });   
+    
+        $("#txt2").dblclick(function(){
+            $(this).css('border',"7px double yellow");
+        });    
+        $("#txt2").click(function(){
+            $(this).css('border',"0px");
+        });   
+    });
+    </script>
+    <body>
+        <h1>Задание 1</h1>
+<p id="t1" style="font-size: 30px;"> Создать программу на JS, изменяющую цвет слова в тексте  при наведении курсора мыши (событие Onmouseover, свойство style.color).</p>
+
+<h1>Задание 2</h1>
+<p id="t2" style="font-size: 30px;"> Создать программу на JS, изменяющую размер шрифта слова  щелчком мыши (событие Onclick, свойство style.fontSize).</p>
+
+<h1>Задание 3</h1>
+<br><h2>Создать программу на JS замены картинки на другую при  щелчке мышью с помощью метода getElementById и свойства src</h2>
+<br><p><img src="2.jpg" style="height: 400px; width: 600px;" id="img1"></p>
+
+<br><h1>Задание 4</h1>
+<br><p id="txt1">
+    Создать программу на JS, заменяющую текст изображением, с использованием метода getElementById и свойства innerHTML.</p>
+
+    <br> <h1>Задание 5</h1>
+<br><h2> Создать эффекты увеличения размера рисунка (свойство width) при наведении на него курсора мыши и возврата к первоначальному размеру при уходе курсора с рисунка (событие onmouseout) </h2>
+<br><img src="2.jpg" id="img2" heigth="300px" width="500px">
+
+<br><h1>Задание 6</h1>
+<br><p id="txt2">Нарисовать цветную рамку произвольного стиля вокруг любого абзаца при двойном щелчке (событие dblclick) на абзац</p>
+
+</body>
+</html>

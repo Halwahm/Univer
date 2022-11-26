@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>3lab</title>
+        </head>
+        <body>
+            <script type=text/javascript>
+            //1
+            function lab31() {
+				let mass = [4];
+				mass[0] = Math.pow(Math.PI, 2) * 6 - Math.pow(Math.E, 8) * 3;
+				mass[1] = Math.cos(4) * 2 + Math.cos(12) + 8 * Math.pow(Math.E, 3);
+				mass[2] = 3 * Math.sin(9) + Math.log(5) + Math.pow(3, 0.5);
+				mass[3] = 2 * Math.tan(5) + 6 * Math.PI + Math.pow(12, 0.5);
+				document.write(  `Значение первого выражения = ${mass[0]}<br>
+			                      Значение второго аыражения = ${mass[1]}<br>
+			                      Значение третьего выражения = ${mass[2]}<br>
+			                      Значение четвёртого выражения = ${mass[3]}<br>`);
+
+				document.write(`минимальный элемент массива ${Math.min(mass[0], mass[1], mass[2], mass[3])} и его  номер ${mass.indexOf(Math.min(mass[0], mass[1], mass[2], mass[3]))}<br>`);
+				document.write(`максимальный элемент массива ${Math.max(mass[0], mass[1], mass[2], mass[3])} и его  номер ${mass.indexOf(Math.max(mass[0], mass[1], mass[2], mass[3]))}<br>`);
+            }
+
+            //2
+            function lab32() {
+				let arr = [], arrMath = [], arrArray = [];
+				arr[0] = "pow";
+				arr[1] = "pop";
+				arr[2] = "push";
+				arr[3] = "shift";
+				arr[4] = "round";
+				arr[5] = "floor";
+				arr[6] = "sline";
+				arr[7] = "sort";
+
+				for (let i = 0; i < arr.length; i++) {
+					if (
+						arr[i] == "pow" ||
+						arr[i] == "round" ||
+						arr[i] == "floor" ||
+						arr[i] == "sline"
+						// in Math 
+                        ) {
+						arrMath[arrMath.length] = arr[i];
+					} else {
+						arrArray[arrArray.length] = arr[i];
+					}
+				}
+				arrMath.unshift("cos");
+				arrArray.push("concat");
+				for (let i = 0; i < arrArray.length; i++) {
+					document.write(`${arrArray[i]}, `);
+				}
+				document.write(`длина массива ${arrArray.length}<br>`);
+				for (let i = 0; i < arrMath.length; i++) {
+					document.write(`${arrMath[i]}, `);
+				}
+				document.write(`длина массива ${arrMath.length}<br>`);
+            }
+
+            //3
+            function lab33() {
+				let strin = "Халалеенко Андрей Николаевич";
+				if (confirm("Желаете вывести мои имя фамилию") == true) {
+					document.write(`${strin}<br>`);
+				}
+				if (confirm("Желаете узнать длину моего полного имени") == true) {
+					document.write(`${strin.length}<br>`);
+				}
+				if (confirm("Переведём все в верний регистр") == true) {
+					document.write(`${strin.toUpperCase()}<br>`);
+				}
+				if (confirm("Переведём в нижний регистр") == true) {
+					document.write(`${strin.toLowerCase()}<br>`);
+				}
+				let arr = [], fio = [];
+				arr = strin.split(""); /*разбивает строку на массив*/
+				
+				for (let i = 0; i < arr.length; i++) {
+					if (arr[i] >= "А" && arr[i] <= "Я") {
+						fio[fio.length] = arr[i]; /*элементу массива с индексом (длина существующего массива) присвоить значеение элемента
+						                          под индексом (счётчик цикла) */
+					}
+				}
+				if (confirm("Желаете увидеть инициалы") == true) {
+					document.write(`${fio[0]}.${fio[1]}.${fio[2]}`);
+				}
+			}
+
+        </script>
+        <input type="button" value="1" onclick="lab31()">
+        <input type="button" value="2" onclick="lab32()">
+        <input type="button" value="3" onclick="lab33()">
+    </body>
+</html>

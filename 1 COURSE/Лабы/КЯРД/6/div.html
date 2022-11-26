@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>div</title>
+        <style>
+            .s1{
+                display: inline-block;
+                background-image: linear-gradient(to bottom, blue, red);
+                width: 100px;
+                height: 100px;
+                border: 2px double rgb(0, 0, 0);
+                
+            }
+            .s2{
+                display: inline-block;
+                background-image: repeating-linear-gradient(45deg, rgb(255, 0, 0) 20px, rgb(0, 26, 255) 30px, rgb(255, 0, 0) 40px);
+                width: 100px;
+                height: 100px;
+                border: 2px double rgb(0, 0, 0);
+            }
+            .s3{
+                display: inline-block;
+                background-image: radial-gradient(yellow, green);
+                width: 100px;
+                height: 100px;
+                border: 2px double rgb(0, 0, 0);
+            }
+            .s4{
+                display: inline-block;
+                height: 200px;
+                background: repeating-radial-gradient(circle, green, green 5px, yellow 5px, yellow 10px);       
+                width: 100px;
+                height: 100px;
+                border: 2px double rgb(0, 0, 0);
+            }
+            .s5{
+                display: inline-block;
+                background: radial-gradient(yellow 5%, green 58%, transparent 80%), linear-gradient(blue, purple);
+                width: 100px;
+                height: 100px;
+                border: 2px double rgb(0, 0, 0);
+            }
+            .s6{
+                display: inline-block;
+                background: linear-gradient(to right,  yellow 20%,	green 58%,  transparent 80%), linear-gradient(to bottom, black 35%, white 70%, blue 85%, pink 100%);
+                width: 100px;
+                height: 100px;
+                border: 2px double rgb(0, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="s1"></div>
+        <div class="s2"></div>
+        <div class="s3"></div>
+        <div class="s4"></div>
+        <div class="s5"></div>
+        <div class="s6"></div>
+    </body>
+</html>

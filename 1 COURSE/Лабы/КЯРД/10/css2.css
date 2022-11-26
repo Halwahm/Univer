@@ -1,0 +1,53 @@
+div {
+	background-color: salmon;
+	border: 2px solid black;
+	padding: 5px;
+	display: inline;
+}
+
+.nav div {
+	display: inline;
+	margin: 5px;
+}
+
+ul {
+	list-style-type: none;
+	justify-content: center;
+}
+
+li {
+	display: inline;
+	height: 30px;
+	width: 150px;
+}
+
+div.main_div {
+	visibility: hidden;
+	width: 50px;
+}
+
+@media (max-width: 560px) {
+	li {
+		display: block;
+	}
+	.nav div {
+		display: block;
+	}
+
+	div.main_div {
+		visibility: visible;
+	}
+
+	ul.second {
+		visibility: hidden;
+		opacity: 0; /*прозрачность */
+		transform: translateY(-10px);
+		transition: all 0.3s ease;
+	}
+
+	.nav li:hover .second {
+		visibility: visible;
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 4 </title>
+        <style>
+          form {
+              background:indigo;
+              width: 450px;
+              height: 500px;
+          }
+
+          
+          body {
+              color:white;
+              font-size:1.2em;
+          }
+          
+          .v {
+            border-radius:5px;
+            box-shadow: inset 0 0 10px rgba(255,255,255, 0.75);
+              background:rgba(202, 142, 142, 0.5);
+              color:rgba(255,255,255,1);   
+          }
+
+          .v:focus {
+              background: black;
+              color: black;
+          }
+
+          .c {
+            border-radius:5px;
+              color:white;
+              background:navy;
+              box-shadow: 0 0 4px white;
+          }
+
+          .b {
+            border-radius:5px;
+            box-shadow: inset 0 0 10px rgba(255,255,255, 0.75);
+              background:rgba(202, 142, 142, 0.5);
+              color:rgba(255,255,255,1);
+          }
+          
+        </style>
+    </head>
+    <body>
+        <form>
+            
+           <legend>Регистрация постоянного клиента</legend>
+           <p>Фамилия: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" class="v"></p>
+           <p>Имя: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="v" type="text"></p> 
+           <p>Отчество: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="v" type="text"></p>
+           <p>Ваш возраст: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="v" type="text"></p>
+           <p>Пол &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox"> мужской <input type="checkbox">женский</p> 
+           <p>Email &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="b" type="Email"></p>
+           <p>Страна проживания: &emsp;&emsp;&emsp;&emsp;&emsp;<input class="v" type="text"></p>
+           <p>Откуда вы узнали о нас? &emsp;&emsp;&emsp;&emsp;&emsp;<select class="v">
+               <option>Выберите вариант</option>
+               <option>Реклама</option>
+               <option>Книги</option>
+           </select></p>
+           <p>Дата заполнения &emsp;<input type="date"></p>
+           <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="c" type="button" value="Регистрация"> <input class="c" type="button" value="Отмена"></p>
+        </form>
+    </body>
+</html>

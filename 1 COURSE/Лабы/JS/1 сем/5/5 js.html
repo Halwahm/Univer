@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>5lab</title>
+        <style>
+            body {
+                color: rgb(6, 52, 66);
+                width: 500px;
+                background-image: linear-gradient(to right, red 20%, green 30%, orange 70%, red 80%);
+            }
+
+            .m {
+                display: block;
+                background-color:rgba(93, 253, 45, 0.479);
+                width: 40px;
+                top: 37px;
+                left:0px;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+
+        <script>
+            //1 
+            function teg(){
+        var tags="length= "+document.all.length+"\n";
+    for(let i = 0; i < document.all.length; i++) {
+          tags+="Tag " + document.all[i].tagName + " number " + i+"\n";
+     } 
+     alert(tags);
+    }                                  
+            //2
+            function docboby() {
+                tags="length= "+document.body.childNodes.length+"\n";
+    for(let v = 0; v < document.body.childNodes.length; v++){
+          tags+="Tag " + document.body.childNodes[v].tagName + " number " + v+"\n";
+     } 
+     alert(tags);
+    }
+            
+    
+            //3 
+            function windwow() {
+                let all_1 = document.querySelectorAll('span'); /*возвращает все найденные элементы*/
+            alert("Первый элемент span: " + all_1[0].innerHTML+"\n");
+            let all_2 = document.getElementsByTagName('span');
+            alert("Первый элемент span : " + all_2[0].innerHTML+"\n");
+            let all_3 = document.getElementById('id');
+            alert("Первый элемент span: " + all_3.innerHTML+"\n");
+            }
+
+
+            //4
+            function table(){
+                let average_marks = 0;
+                let all_3 = document.getElementsByClassName('mark');
+            for (let z = 0; z < all_3.length; z++) {
+                average_marks += parseInt( all_3[z].innerHTML); /*преобразование первой строки в число*/
+            }
+            average_marks = average_marks/5;
+
+            let all_4 = document.getElementsByTagName('span');
+            all_4[1].innerHTML = all_4[1].innerHTML +" средний балл  = " + average_marks;
+            alert("Средний балл = " + average_marks);
+            }
+        </script>
+        <button onclick="teg()">1</button>
+        <button onclick="docboby()">2</button>
+        <button onclick="windwow()">3</button>
+        <button onclick="table()">4</button>
+
+
+
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+<H3> iPhone 12 </H3>  
+<br>
+<br>
+<p>
+ <span style="padding: 0 10px; background: #999;"> iPhone 12 Pro и iPhone 12 Pro Max отнесем к лучшим смартфонам этого года. </span> 
+iPhone 12 Pro получил 6,1-дюймовый OLED-экран. Производительный процессор A14 Bionic. «Простую», но в «стиле Apple» (cчитай: отличную) 12-мегапиксельную камеру.
+Производительный процессор и повышенный объем оперативной памяти (до 6 ГБ) позволил оптимизировать многозадачность: iPhone 12 Pro и iPhone 12 Pro Max орудуют одновременно с бо́льшим количеством приложений, чем в прошлом.
+В качестве опции — беспроводная магнитная зарядка — не быстрая (на 15 Вт), но тренд налицо.
+Кстати, Apple достаточно сложно конкурировать с собой на ниве мобильной фотографии: бесконечно улучшать алгоритмы невозможно. Поэтому коротко: с этим аспектом у iPhone 12 Pro по традиции все отлично, LiDAR-сканер дополняет камеру (но в целом сфера его применения пока четко не определена). iPhone 12 Pro Max, вероятно, на небольшой процент опережает обычную «прошку», только вот заметят это немногие.
+
+</p>
+<br>
+<br>
+<H3> Samsung series </H3>
+Samsung Galaxy Note20 Ultra и Samsung Galaxy S20 Ultra — для тех, кто любит Android. В отличие от топовых iPhone, эта пара смартфонов Samsung имеет более четкие границы их целевых групп. Но с технической точки зрения они очень походят друг на друга.
+<span style="padding: 0 10px; background: #999;">Диагональ дисплея  в обоих случаях составляет</span>
+6,9 дюйма, однако у «галактики» разрешение чуть выше за счет более вытянутого дисплея: 1440×3200 и 1440×3088 соответственно. Процессоры — Snapdragon 865 и Snapdragon 865 Plus у Galaxy Note20 Ultra 5G (есть более дешевые варианты с Exynos), второй чип имеет повышенную тактовую частоту и более продвинутую графическую подсистему.
+Разницу в производительности пользователь не заметит, и «лишние» проценты нужны, вероятно, для стилуса Note20 Ultra — точнее, «плавного пользовательского опыта». То же касается частоты обновления экрана в 120 Гц (на этот раз у обоих смартфонов) — приятное, хоть и не всегда заметное дополнение к комфорту. Сюда же стоит добавить емкую батарейку (на день точно хватит) и беспроводную зарядку на те же 15 Вт.
+
+</p>
+
+<br>
+<br>
+<H3> Ещё один Samsung </H3> 
+
+
+Samsung Galaxy S20 FE — интересный ход со стороны Samsung, выпустившей еще одну версию флагманского смартфона. Походит на ситуацию, когда решили убрать часть не очень нужной шелухи, добавить теоретически полезных фишек — получилось «то же самое, только дешевле».
+<span style="padding: 0 10px; background: #999;"> которая не играет заметной роли </span>
+Пару слов о «шелухе», которая не играет заметной роли, но делает смартфоны доступнее. От обычного Samsung Galaxy S20 версия FE отличается увеличенным (!) с 6,2 до 6,5 дюйма AMOLED-экраном с частотой обновления 120 Гц, но разрешение у него поменьше — 1080×2400 против 1440×3200 точек. Зато батарея прибавила 500 мА·ч — до 4500.
+
+Оперативки 6 ГБ, а не 8, также изменилась компоновка фотомодулей: 12 Мп + 12 Мп + 8 Мп, а не 12 Мп + 64 Мп + 12 Мп. То есть теперь почти «как у iPhone». Процессор и графика те же, поэтому производительность страдать не будет. Samsung все же не удержалась и заменила 10-мегапиксельный фронтальный фотомодуль на 32-мегапиксельный. Теперь понятно, на кого ориентирован девайс.
+
+Samsung сделала интересный финт, выпустив не совсем лайт-версию, которая, в отличие от общепринятой практики, оказалась не такой куцей. Galaxy S20 FE — производительный смартфон, судя по всему, с неплохой камерой и приемлемой ценой.
+ 
+</p>
+
+
+<h2>Таблица</h2>
+<table border = 10>
+    <td style="text-align:right">ФИО</td> <td colspan="3" style="text-align:center">Халалеенко Андрей Николаевич</td>
+   
+    <tr>
+        <td rowspan="6" style="text-align:center">11 класс</td> 
+         <td style="text-align:center">Дата</td> 
+         <td style="text-align:center">Предмет</td>
+         <td style="text-align:center">Оценка</td>
+    </tr>
+    <tr>
+         <td style="text-align:right">31.12.2020</td> 
+         <td style="text-align:center">Физика</td> 
+         <td class="mark" style="text-align:center">9</td>
+    </tr>
+    <tr>
+         <td style="text-align:right">31.12.2020</td> 
+         <td style="text-align:center">Математика</td>
+         <td class="mark" style="text-align:center">9</td>
+    </tr>
+    <tr>
+         <td style="text-align:right">31.12.2021</td> 
+         <td style="text-align:center">Немецкий</td> 
+         <td class="mark" style="text-align:center">9</td>
+    </tr>
+    <tr>
+         <td style="text-align:right">31.12.2020</td> 
+         <td style="text-align:center">Химия</td> 
+         <td class="mark" style="text-align:center">9</td>
+    </tr>
+    <tr>
+         <td style="text-align:right">31.12.2021</td> 
+         <td style="text-align:center">Русский язык</td>
+         <td class="mark" style="text-align:center">9</td>
+    </tr>
+</table>
+
+
+    </body>
+</html>

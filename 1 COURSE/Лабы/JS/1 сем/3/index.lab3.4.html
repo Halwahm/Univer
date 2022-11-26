@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table</title>
+        </head>
+        <body>
+            
+        <script>
+        function func() {
+				let A = new Date();
+                document.write(`<table border=10> 
+                    <tr><td>Год </td><td>${A.getFullYear()}</td></tr>
+                    <tr><td>Месяц </td><td>${A.getMonth() + 1}</td></tr>
+                    <tr><td>День </td><td>${A.getDate()}</td></tr>
+                    <tr><td>Часов </td><td>${A.getHours()}</td></tr>
+                    <tr><td>Минут </td><td>${ A.getMinutes()}</td></tr>
+                    <tr><td>Секунд </td><td>${ A.getSeconds()}</td></tr>
+                    </table>`);
+        }
+        </script>
+        <button onclick="func()">Table</button>
+    </body>
+        </html>

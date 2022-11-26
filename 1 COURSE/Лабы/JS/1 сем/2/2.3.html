@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function table() {
+          let  a = +prompt("Первое число");
+          let  b = +prompt("Второе число");
+          
+    document.write("Таблица премножения двух чисел");
+    document.write(`<table style="border-collapse:collapse" border="1" color="green"> `);
+    document.write("<tr>");
+    document.write("<td>Радиус</td>");
+    document.write("<td>Площадь круга</td>");
+    document.write("<td>Длина окружности</td>");
+    document.write("</tr>");
+    
+    do {
+    document.write("<tr>");
+    document.write(`<td>${a.toFixed(1)}</td>`);
+    document.write(`<td>${a * a * Math.PI}</td>`); 
+    document.write(`<td>${a * 2 * Math.PI}</td>`);
+    document.write("</tr>");
+    a = a + 0.3;
+    } while (a <= b);
+    
+    document.write("</table >");
+}
+    </script>
+</head>
+
+    <body>
+        <input type="button" value="Таблица перемножения" onclick="table()" />
+    </body>
+
+
+<html>

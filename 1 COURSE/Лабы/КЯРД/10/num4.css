@@ -1,0 +1,15 @@
+#spec {
+	display: block;
+}
+div.foto > div {
+	display: none;
+}
+
+div.foto:hover > div {
+	display: block;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+}

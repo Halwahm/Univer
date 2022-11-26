@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html> 
+
+	<head>
+
+		<script>
+
+			function table() {
+
+				if (confirm("Выполним?") == true) {
+					
+				  let	a = +prompt("Введите первое число", "Первое число");
+
+				  let	b = +prompt("Введите второе число", "Второе число");
+// + здесь унарный плюс переводит строку в число
+					document.write(`<table style="border-collapse:collapse" border="1">`);  // border - толщина границ таблицы
+						//Значение collapse позволяет избегать наложения границ друг на друга
+					for (let v = 1; v <= b; v++) {    //++v увеличение значения v на 1 до выполнения основного кода. v++ увеличение после выполнения основного кода
+// v выполняет значение номера строки и по совместительству значение переменной от 1 до b
+						document.write("<tr>");
+						for (let z = 1; z <= a; z++) 
+						{
+							document.write(`<td>${v * z}</td>`); // шаблонный литерал
+						} 
+						document.write("</tr>");
+					}
+// `${}`
+// dw("6 + 34 =" + vech)
+// dw(`6+34 = ${vech}`)
+
+					document.write("</table>");
+				}
+			}
+		</script>
+
+	</head>
+
+	<body>
+
+		<input type="button" value="Таблица" onclick="table()" />
+		
+	</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href = "css.css" rel = "stylesheet">
+		<title>Graphik</title>
+	</head>
+
+	<body>
+		<form name="f">
+			<input type="radio" name="graph" value="1" /> y = x<sup>2</sup> <br />
+			<input type="radio" name="graph" value="2" /> y = x<sup>3</sup> <br />
+			<input type="radio" name="graph" value="3" /> y = cos(x) <br />
+			<input type="radio" name="graph" value="4" /> y = sin(x) <br />
+			Цвет
+			<select name="select">
+				<option>green</option>
+				<option>red</option>
+				<option>blue</option>
+				<option>yellow</option>
+				<option>purple</option>
+			</select>
+			<br />
+			<input type="button" onclick="draw()" value="График" /> <br />
+		</form>
+		<script>
+			let switchColor = (color) => {
+				switch (color) {
+					case "green":
+						document.write("<font color = 'green'>");
+						break;
+					case "red":
+						document.write("<font color = 'red'>");
+						break;
+					case "blue":
+						document.write("<font color = 'blue'>");
+						break;
+					case "yellow":
+						document.write("<font color = 'yellow'>");
+						break;
+					case "purple":
+						document.write("<font color = 'purple'>");
+						break;
+				}
+			}
+
+			function draw() {
+				let color = document.f.select.value;
+				let flag = document.forms[0].elements.graph.value;
+				width = 1865;
+				height = 925; 
+				x0 = width / 2;
+				y0 = height / 2; // x0, y0 - координаты центра экрана
+		
+				kx = width / 70;
+				ky = height / 70; // коэффициенты масштабирования
+				switch (+flag) {
+					case 1:
+						document.write(" График функции y=x<sup>2</sup> при -50 < x < 50 ");
+						document.write(" <style>div{position:absolute}</style> ");
+
+						switchColor(color);
+						for (x = -50; x < 50; x = x + 0.01) {
+							y = Math.pow(x, 2); // рассчитываем значение y
+							document.write("<div style='left:" + (x0 + kx * x) + ";top:" + (y0 - ky * y + 3) + " '>*</div>"); // ставим точку в нужном месте
+						}
+						break;
+
+					case 2:
+						document.write(" График функции y=x<sup>3</sup> при -50 < x < 50 ");
+						document.write(" <style>div{position:absolute}</style> ");
+
+						switchColor(color);
+						for (x = -3.25; x < 50; x = x + 0.01) {
+							y = Math.pow(x, 3);
+							document.write("<div style='left:" + (x0 + kx * x) + ";top:" + (y0 - ky * y + 3) + " '>*</div>");
+						}
+						break;
+
+					case 3:
+						document.write(" График функции y=cos(x) при -50 < x < 50 ");
+						document.write(" <style>div{position:absolute}</style> ");
+
+						switchColor(color);
+						for (x = -50; x < 35; x = x + 0.01) {
+							y = Math.cos(x);
+							document.write("<div style='left:" + (x0 + kx * x) + ";top:" + (y0 - ky * y + 3) + " '>*</div>");
+						}
+						break;
+
+					case 4:
+						document.write(" График функции y=sin(x) при -50 < x < 50 ");
+						document.write(" <style>div{position:absolute}</style> ");
+
+						switchColor(color);
+						for (x = -50; x < 45; x = x + 0.01) {
+							y = Math.sin(x);
+							document.write("<div style='left:" + (x0 + kx + 20 * x) + ";top:" + (y0 - ky * y + 3) + " '>*</div>");
+						}
+						break;
+				}
+			}
+		</script>
+	</body>
+</html>

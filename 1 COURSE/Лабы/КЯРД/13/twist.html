@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>twist</title>
+</head>
+<body>
+    <div>
+        <p>Месяц:<span id = "month"></span></p>
+        <p>День:<span id = "day"></span></p>
+    </div>
+    <script>
+        var txt = "<year>";
+        txt += "<month>1 месяц</month>";
+        txt += "<day>Четырнадцатый день</day>";
+        txt += "<body>Когда-нибудь</body>";
+        txt += "</year>";
+        if (window.DOMParser) //для разбора документа
+        {
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt, "text/xml"); //анализирует строку, содержащую HTML или XML, возвращая HTMLDocument или XMLDocument
+        } 
+        else 
+        {
+            xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+            xmlDoc.async = false; //Для задания режима синтаксического анализа при загрузке XML документа
+            xmlDoc.loadXml(txt); //Загружает XML-документ из указанной строки
+        }
+
+        document.getElementById("month").innerHTML = xmlDoc.getElementsByTagName("month")
+        [0].childNodes[0].nodeValue; //свойство nodeValue позволяет получить или установить значение текущего узла
+        document.getElementById("day").innerHTML = xmlDoc.getElementsByTagName("day")
+        [0].childNodes[0].nodeValue;
+    </script>
+</body>
+</html>

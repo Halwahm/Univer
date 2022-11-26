@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Блочная модель</title>
+		<style>
+			body {
+				margin-top: 40px;
+			}
+
+			.btn {
+				display: inline-block;
+				background: #1dfa8b;
+				color: black;
+				padding: 1rem 1.5rem;
+				text-decoration: none;
+				border-radius: 3px;
+			}
+			div {
+				padding: 10px, 0px, 10px, 0px;
+				font-size: 50px;
+				display: inline;
+				border-width: 10px;
+			}
+
+			p {
+				margin: 5px;
+				border: 5px;
+				padding: 5px;
+				background-color: #ffa500;
+				border-style: solid;
+				border-width: 5px;
+				border-color: #ff4500;
+			}
+
+			p:nth-child(11) {
+				border-style: solid;
+				border-color: #ff7f50;
+				background-color: rgb(0, 162, 255);
+				width: 400px;
+				margin: auto;
+			}
+
+			p:nth-child(12) {
+				border-style: solid;
+				border-color: red;
+				border-width: 5px;
+				border-radius: 20px/40px;
+				box-shadow: inset 2px 2px 8px 8px rgba(0, 0, 0, 0.5);
+				overflow: auto;
+			}
+
+			p:nth-child(13) {
+				border-style: solid;
+				border-color: #ff6347;
+			}
+
+			.first {
+				border-style: outset;
+				border-color: rgb(220, 20, 60);
+			}
+
+			.second {
+				border-style: dashed;
+				border-color: rgb(0, 255, 0);
+			}
+
+			.third {
+				border-style: dotted;
+				border-color: rgb(0, 0, 205);
+			}
+
+			.fourth {
+				border-style: double;
+				border-color: rgb(0, 255, 255);
+			}
+
+			.fifth {
+				border-style: groove;
+				border-color: rgb(255, 0, 255);
+			}
+
+			.sixth {
+				border-style: inset;
+				border-color: rgb(255, 255, 0);
+			}
+
+			.seventh {
+				border-style: solid;
+				border-color: rgb(0, 0, 0);
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="first">R</div>
+		<div class="second">G</div>
+		<div class="third">B</div>
+		<div class="fourth">C</div>
+		<div class="fifth">M</div>
+		<div class="sixth">Y</div>
+		<div class="seventh">K</div>
+
+		<br />
+		<br />
+		<br />
+
+		<p name="vasya">
+			<strong
+				>«Я ничего не смыслю в математике, да и писать грамотно не мог
+				научиться. И горжусь этим. Ведь я прочёл тысячи и тысячи книг, тут и
+				попугай стал бы грамотным. Так что моя безграмотность свидетельствует о
+				моём кретинизме. А мой кретинизм — о моей гениальности» — Николай
+				Гумилёв</strong
+			>
+		</p>
+
+		<p name="vasya">
+			<u
+				>«Утверждать, что мир и жизнь ничего не стоят, и в качестве
+				доказательства ссылаться на зло, – абсурдно, потому что если это так, то
+				чего же нас тогда лишает зло?» — Симона Вейль</u
+			>
+		</p>
+
+		<p name="vasya">
+			<i
+				>«Как ни смотри, а смерть принять куда легче, чем любовь. И так оно
+				всегда. Я с большей готовностью соглашусь на полное уничтожение, чем
+				быть любимым. Сама мысль о том, чтобы стать объектом глубочайших чувств,
+				настолько невероятна для меня, что я не могу не думать об этом без
+				ужаса» - Белден С. Лейн</i
+			>
+		</p>
+
+		<br />
+
+		<a href="block.html" class="btn">Переход на страницу block</a>
+	</body>
+</html>

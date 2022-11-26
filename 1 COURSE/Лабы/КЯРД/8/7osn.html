@@ -1,0 +1,324 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>1</title>
+            <style>
+
+				.boina li {
+					display: inline;
+				}
+
+				.boina a {
+					display: inline-block;
+					border: 1px solid whitesmoke;
+					padding: 5px 15px 5px 15px;
+					background-color: yellow;
+					text-decoration: none;
+					color: blue;
+					margin-right: -4px;
+				}
+
+				ul.boina {
+					text-align: center;
+				}
+
+				ul.nav {
+					float: right;
+					list-style-type: none;
+					color: white;
+				}
+
+				ul.nav a {
+					display: block;
+					border: 2px solid white;
+					background-color: yellowgreen;
+					right: 30px;
+					padding: 10px;
+				}
+
+
+
+                body {
+                    background-color: black;
+                }
+                h1 {
+                    color: rgb(150, 240, 240);
+                    animation: h1 4s linear infinite;
+                    margin: 30px;
+                    margin-left: 50px;
+                }
+                img {
+                    width: 180px;
+                    height: 190px;
+                }
+                div[name="1"] {
+                    display: inline-flex;
+                    position: relative;
+                    margin: 70px;  
+                    perspective: 3;
+			    }
+                div.from {
+				width: 200px;
+				height: 200px;
+				border: 2px solid red;
+				color: white;
+				animation: photo 5s linear infinite;
+			}
+                .kot{
+                    animation: kot 4s linear infinite;
+                    display: block;
+                    height: 300px;
+                    width: 300px;
+                    font-size: 30px;
+                    margin: auto;
+                }
+                .c1 {
+                    transform: perspective(300px) scaleZ(1) rotateX(45deg);
+                }
+                .c1:hover {
+                    transform: scale(0.5);
+                }
+                .c2 {
+                    transform: skewY(30deg);
+                   
+                }
+                .c2:hover {
+                    transform: rotate(45deg);
+                }
+                .c3 {
+                    transform: perspective(300px) scaleZ(1) rotateX(45deg);
+                }
+                .c3:hover {
+                    transform: translateX(50px);
+                }
+                .c4 {
+                    transform: skewY(30deg);
+                    padding-left: 60px;
+                }
+                .c4:hover {
+                    transform: skew(-20deg);
+                }
+                div.dog {
+                    margin: 50px;
+                    position: relative;
+                }
+                    div[name="c1"] {
+                    animation: dog1 4s linear infinite;
+                }
+
+                div[name="c2"] {
+                    animation: dog2 4s linear infinite;
+                }
+
+                div[name="c3"] {
+                    animation: dog3 4s linear infinite;
+                    margin-left: 400px;
+                }
+
+			    div[name="c4"] {
+                    animation: dog4 4s linear infinite;
+                }
+
+                @keyframes kot {
+				0% {
+					color: red;
+				}
+				25% {
+					color: blue;
+				}
+				50% {
+					color: purple;
+				}
+				75% {
+					color: green;
+				}
+				100% {
+					color: brown;
+				}
+			}
+
+            @keyframes photo {
+				0% {
+					background: url(images/1.jpg);
+				}
+				25% {
+					background: url(images/2.jpg);
+				}
+				50% {
+					background: url(images/3.jpg);
+				}
+				75% {
+					background: url(images/4.jpg);
+				}
+				100% {
+					background: url(images/5.jpg);
+				}
+			}
+
+            @keyframes dog1 {
+				0% {
+					left: 0px;
+					top: 0;
+				}
+				50% {
+					left: 900px;
+					top: 0;
+				}
+
+				100% {
+					left: 0px;
+					top: 0px;
+				}
+			}
+
+            @keyframes dog2 {
+				0% {
+					left: 0px;
+					top: 0px;
+				}
+
+				50% {
+					left: 0px;
+					top: 350px;
+				}
+
+				100% {
+					left: 0px;
+					top: 0px;
+				}
+			}
+
+            @keyframes dog3 {
+				0% {
+					left: 0px;
+					bottom: 0px;
+				}
+
+				25% {
+					left: 300px;
+					bottom: 300px;
+				}
+
+				75% {
+					left: 600px;
+					bottom: 0px;
+				}
+
+				100% {
+					left: 0px;
+					bottom: 0px;
+				}
+			}
+
+            @keyframes dog4 {
+				0% {
+					left: 0;
+					top: 0;
+				}
+				25% {
+					left: 400px;
+					top: 0;
+				}
+				50% {
+					left: 400px;
+					top: 400px;
+				}
+				75% {
+					left: 0;
+					top: 400px;
+				}
+				100% {
+					left: 0;
+					top: 0;
+				}
+			}
+
+            @keyframes h1 {
+				from {
+					opacity: 0%;
+				}
+				to {
+					opacity: 80%;
+				}
+			}
+
+			a.one:link {
+				text-decoration: none;
+				color: red;
+			}
+
+			a.two:visited {
+				color: #8b0000;
+			}
+
+			a.three:hover {
+				color: green;
+			}
+
+			a.four:active {
+				color: rgb(184, 134, 11);
+			}
+            </style>
+        </head>
+        
+        <body>
+
+
+			<ul class="boina">
+				<li><a href="#h1">Задание 1,2</a></li>
+				<li><a href="#h2">Задание 3</a></li>
+				<li><a href="#h3">Задание 4</a></li>
+				<li><a href="#h4">Задание 5</a></li>
+			</ul>
+	
+			<ul class="nav">
+				<li><a href="КЯРД1]1.html" class="one">Задание 1</a></li>
+				<li><a href="Text.html" class="two">Задание 2</a></li>
+				<li><a href="4.1.html" class="three">Задание 3</a></li>
+				<li><a href="block.html" class="four">Задание 4</a></li>
+			</ul>
+
+
+
+            <h1><a name="h1">Задания 1 и 2</a></h1>
+            <div class = "c1" name ="1"><img src = "images/1489052030_kotik-hosiko-12.jpg" alt="котики"></div>
+    
+            <div class = "c2" name ="1"><img src = "images/17b100a0bcbc6e5e8d11101cde21aca7.jpg" alt="котики"></div>
+ 
+            <div class = "c3" name ="1"><img src = "images/1385362124_897680212.jpg" alt="котики"></div>
+
+            <div class = "c4" name ="1"><img src = "images/kot-koshka-veresk-tsvety-lapa-poza-cherno-belyi-morda-fon-pr.jpg" alt="котики"></div>
+            
+
+
+            <h1><a name="h2">Задание 3</a></h1>
+
+		<p class = "kot">Котики очень красивые</p>
+
+
+
+		<h1><a name="h3">Задание 4</a></h1>
+
+		<div class="from"></div>
+
+
+
+        <h1><a name="h4">Задание 5</a></h1>
+
+		<div class="dog" name="c1">
+			<img src="images/dog.jpg" alt="c" />
+		</div>
+
+		<div class="dog" name="c2">
+			<img src="images/dog.jpg" alt="c" />
+		</div>
+
+		<div class="dog" name="c3">
+			<img src="images/dog.jpg" alt="c" />
+		</div>
+
+		<div class="dog" name="c4">
+			<img src="images/dog.jpg" alt="c" />
+		</div>
+        </body>
+    </html>

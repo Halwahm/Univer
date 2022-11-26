@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab9.1jQ</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+            <style>
+            #mybody {
+                background-color: rgb(111, 246, 240);
+                font-family:arial;
+            }
+        </style>
+    </head>
+    <body id="mybody">
+    <img id="myimg" src="0f63577be1be98c488aa3b218fc41444.jpg" style = "position:absolute; top:50px; left:50px; height:150px; width:150px;" />
+    <br>
+    <textarea id="txt" style ="position:absolute; top:200px;  font-size: 50px;  font-family: Arial; color:rgb(255, 0, 55)" >ТЕКСТ</textarea>  
+    <br>
+    
+    <img id="microsoft" src="6cp5eMKxi.jpg."  style="position:absolute; top:330px; left:20px; width:150px; height:100px;" />
+    </body>
+
+
+    <script>
+
+        //1, 2 
+        //Знак $ сообщает, что символы, идущие после него, являются jQuery кодом;
+        $("#myimg").draggable(); // перетаскивание
+        $("textarea").draggable({ cancel: "" }); 
+        // cancel - опция, которая позволяет перетаскивать неперетаскиваемые объекты
+
+        //3
+        $( "#microsoft" ).click( ()=> {
+	    $( "#microsoft" ).animate({left: 500},1000);
+     });
+
+      </script>
+
+    </html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>4lab</title>
+        <style>
+            body{
+                width: 250px;
+                background-image: linear-gradient(90deg, black, white);
+                color: blue;
+            }
+        </style>
+        </head>
+        <body>
+        <script>
+                 
+                function Group(index, speciality, amount) {
+				this.index = index;
+				this.speciality = speciality;
+				this.amount = amount;
+                
+				this.addStudents = function addStudents(k) {
+					this.amount += k;
+
+                document.write(`В группу ${this.index} добавили ${k} студентов <br>`);
+                return this;
+            }
+                 this.kickStudents = function kickStudents(k) {
+					this.amount -= k;
+				    document.write(`Из группы ${this.index} исключили ${k} студентов.<br>`);
+                    return this;
+            }
+            this.write = function write() {
+					document.write(`<hr>Номер: ${this.index}<br>
+					Специальность: ${this.speciality}<br>
+					 Количество студентов ${this.amount}<br><hr>`);
+                     return this;
+            }    
+                    }
+
+                    function Student(name, secondname, physics, maths, IT) {
+				this.name = name;
+				this.secondname = secondname;
+				this.physics = physics;
+				this.maths = maths;
+				this.IT = IT;
+				this.write = function write() {
+					document.write(`Имя: ${this.name} <br> Фамилия: ${this.secondname}<br> курс: ${this.course}<br> Балл по физике: ${this.physics} <br> Балл по математике: ${this.maths}<br> Балл по информатике: ${this.IT}<br>`);
+					return this;
+				};
+				this.averageGrade = function averageGrade() {
+					document.write(`Средний балл: ${Math.round(
+						(this.physics + this.maths + this.IT) / 3
+					)}<br><hr>`);
+					return this;
+				}
+			}
+
+
+            
+                    function func() {
+                        document.write("Задание 1" + "<br> <br>");
+				
+				group1 = new Group(1, "ИСиТ", 90);
+				group1.addStudents(3).kickStudents(7).write();
+
+				group2 = new Group(2, "ПОИТ", 90);
+				group2.addStudents(23).kickStudents(10).write();
+
+				group3 = new Group(3, "ПОИБМС", 45);
+				group3.addStudents(15).kickStudents(15).write();
+
+				group4 = new Group(4, "ДЭиВИ", 45);
+				group4.addStudents(15).kickStudents(30).write();
+
+
+                     
+                        document.write("Задание 2" + "<br> <br>");
+                        Student.prototype.course = this.course;
+                student1 = new Student("Андрей", "Андреев", 10, 9, 10);
+                student1.course = 1;
+                student1.write().averageGrade();
+
+                student2 = new Student("Даниил", "Данилов", 6, 6, 8);
+                student2.course = 1;
+                student2.write().averageGrade();
+
+                student3 = new Student("Виктор", "Викторов", 4, 4, 6);
+                student3.course = 1;
+                student3.write().averageGrade();
+
+                student4 = new Student("Сергей", "Сергеев", 6, 4, 2);
+                student4.course = 1;
+                student4.write().averageGrade();
+
+
+                document.write(`<hr><br><h3>Задание 3:</h3><br><hr>`);
+				let A = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+                for(let ind = 0; ind < 10; ind++){
+                    document.write(`${ind} : ${A[ind]}<br />`)
+                }
+                document.write(`<br/> <br/>`);
+                delete A[3];
+                for(ind = 0; ind < 10; ind++){
+                    document.write(`${ind} : ${A[ind]}<br />`)
+                } 
+
+                
+                 document.write(`<br><hr>2 in Array: ${2 in A}<br>
+			        index in group1: ${"index" in group1}<br>
+			        index in student1: ${"index" in student1}<br><hr>
+                    student1 instanceof String: ${student1 instanceof String}<br>
+			        student1 instanceof Array: ${student1 instanceof Array}<br>
+			        student1 instanceof Object: ${student1 instanceof Object}<br><hr>
+			        typeof(student1): ${typeof student1}<br>
+			        typeof(Student):  ${typeof Student}<br>
+                    typeof(group1.index): ${typeof group1.index}<br>
+                    typeof(group1.speciality): ${typeof group1.speciality}<br><hr>`);
+            }
+            func();
+            
+        </script>
+        
+    </body>
+</html>

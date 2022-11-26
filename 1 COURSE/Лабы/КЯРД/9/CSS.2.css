@@ -1,0 +1,13 @@
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.container {
+	position: relative;
+	left: 34%;
+	display: grid;
+	grid-template-columns: 160px 160px 160px 160px;
+	grid-template-rows: 160px 160px;
+	grid-gap: 5px;
+}

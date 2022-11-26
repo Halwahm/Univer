@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+ 
+
+<head>
+
+    <title>lab1js</title>
+
+    </head>
+
+
+
+
+<script type="text/javascript">
+
+                   // зад 1
+function nachalo() { alert("Вас приветствует учебный центр");
+             let  a=prompt("Введите имя");
+                 alert("Добро пожаловать на наши курсы, "+a); 
+              let   x=confirm("Хотите стать Web-дизайнером?");
+                 if (x===true)
+                   {document.write("Учите стили CSS и JavaScript!");
+                   }
+                   else
+                   {document.write("Упускаете время!");
+                 
+                }
+                  
+                   }
+
+                   // зад 2
+
+function sumchis() { 
+
+      let sumchisel; 
+      let x=10;
+      let y=5;
+          sumchisel = x+y; 
+         alert (sumchisel);
+
+}
+                
+                 
+                
+function sumstr() {
+
+
+      let sumstrok; 
+      let x="10";
+      let y="5";
+         sumstrok=x+y; 
+         alert (sumstrok);
+
+}
+
+function sumchisstr() {
+
+    let sumchiselistrok; 
+    let x=22;
+    let y="5";
+          sumchiselistrok=x+y; 
+         alert(sumchiselistrok);
+
+}
+
+
+function rezultat() {
+
+        alert("Результатом сложения строки и числа всегда будет строка");
+
+
+
+}
+
+// зад 3
+
+function mathe() {
+
+
+
+            let x=prompt("Введите значение первой переменной","Введите значение первой переменной");
+			let y=prompt("Введите значение второй переменной","Введите значение второй переменной");
+			let c=(35*y-25*x)/5+232;
+			let d=((8*y/x+5*x/y+(-43))*6);
+			document.write("Значение первого выражения "+"(35*y-25*x)/5+232"+" = "+c+"<br>");
+			document.write("Значение второго выражения "+"(8*y/x+5*x/y+(-43))*6"+" = "+d+"<br>");
+			document.write("Остаток от деления первого на второе = "+c%d+"<br>");
+			let letswin = window.open("Новое окно");
+			letswin.document.write("Значение первого выражения "+"(35*y-25*x)/5+232"+" = "+c+"<br>"
+			+"Значение второго выражения "+"(8*y/x+5*x/y+(-43))*6"+" = "+d+"<br>"+("Остаток от деления первого на второе = "+c%d+"<br>"));		
+			
+
+
+}
+
+// зад 4
+
+
+function bolmen() {
+
+          let a= prompt("Введите число","Число");
+          if(a<20 || a>40 && a!=15 && a%5===0) {
+            alert("Правильное значение");
+          }
+          else {
+              alert("Не правильное значение");
+          }
+
+          if (confirm("Ещё одна задача?")===true) 
+          {
+              alert("Ну хорошо. Решите: x-1>0"); a=prompt("Введите свой x", "Число");
+          if (a>2 && a!=0 ) {
+              alert("Верно");
+          }
+          else {
+              alert("Лентяй");
+          }
+
+      }
+    }
+
+// зад 5
+
+function chisla() {
+
+       let A=prompt("Ввод числа А","Число");
+       let B=prompt("Ввод числа Б","Число");
+        if(A>B)
+        alert("A больше Б");
+        else if(A<B)
+        alert("A меньше Б");
+        else alert("A равно Б");
+
+
+}
+
+
+// зад 6
+
+
+      function den(){
+         let r=prompt("Какой по счёту день недели?");
+          switch (r) {
+              case "1":
+                  alert("Понедельник");
+                  break;
+              case "2":
+                  alert("Вторник");
+                  break;
+              case "3":
+                  alert("Среда");
+                  break;
+              case "4": 
+                  alert("Четверг");
+                  break;
+              case "5": 
+                  alert("Пятница");
+                  break;
+              case "6":
+                  alert("Суббота");
+                  break;
+              case "7": 
+                  alert("Воскресенье");
+                  break;
+
+                  default: alert("Такого дня недели не существует(:");
+                  
+                  
+          }
+      }
+
+
+ // зад 7
+          function err(){
+             try {
+              
+                alert ("Начало работы кода");
+                
+
+                chiel
+                 
+             }
+
+             catch (error){
+
+
+             alert("Ошибка");
+             }
+
+
+            }
+
+        
+
+</script>
+
+<body>
+
+
+
+      <input type="button" value="Диалог" onclick="nachalo()" />
+      <input type="button" value="Операции с числами" onclick="sumchis()" />
+      <input type="button" value="Операции со строками" onclick="sumstr()" />   
+      <input type="button" value="Операции с числами и строками" onclick="sumchisstr()" />
+      <input type="button" value="Ответ на ваш вопрос" onclick="rezultat()" />
+      <input type="button" value="Ох уж эта математика" onclick="mathe()" />
+      <input type="button" value="Число" onclick="bolmen()" />
+      <input type="button" value="if/else" onclick="chisla()" />
+      <input type="button" value="Какой сегодня день недели" onclick="den()" />
+      <input type="button" value="Error" onclick="err()" /> 
+
+
+
+      
+</body>
+
+</html>

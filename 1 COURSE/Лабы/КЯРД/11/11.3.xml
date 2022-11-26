@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF8"?>
+<?xml-stylesheet type="text/css" 
+href="1.css"?>
+
+<FACULTY
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="shema.xsd">
+
+
+<NAME> Касперский </NAME>
+<TIME> 11:00 </TIME>
+<EXAM> ТРПО </EXAM>
+<PAGES> 92-98 </PAGES>
+<PASSING> Ауд. 302-3 </PASSING>
+
+
+<NAME> Andry </NAME>
+<TIME> 11:30 </TIME>
+<EXAM> ОАиП </EXAM>
+<PAGES> 102-107 </PAGES>
+<PASSING> Ауд. 12-1 </PASSING>
+</FACULTY>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>9.6</title>
+<script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+</script>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    }
+    
+    h1,
+    h2 {
+    text-align: center;
+    }
+    
+    #nav{
+    display: flex;
+    }
+    
+    .menu-item1, .menu-item2, .menu-item3 {
+    width: 100px;
+    background: #ff7e7e;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .menu-item1 > .submenu1, .menu-item2> .submenu2, .menu-item3 > .submenu3 {
+    transition: 0.3s ease-in-out;
+    display: none;
+    padding: 10px;
+    background: #7cb8b8;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    margin-left: -10px;
+    margin-top: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<div id="nav" onmouseover="onmouse(event)">
+<div class="menu-item1">
+Меню 1
+<div class="submenu1">
+Подменю
+</div>
+
+</div>
+<div class="menu-item2">
+Меню 2
+<div class="submenu2">
+Подменю
+</div>
+</div>
+<div class="menu-item3">
+Меню 3
+<div class="submenu3">
+Подменю
+</div>
+</div>
+</div>
+<script>
+//Задание 6. Создайте меню, использую средства HTML/CSS/JS
+$(document).ready(function() {
+   $(".menu-item1").mouseout(function(){$(".submenu1").fadeOut(10)}); //когда курсор уходит с элемента. скрыть (сделать прозрачным)
+   $(".menu-item1").mouseover(function(){$(".submenu1").fadeIn(10)}); //курсор над элементом. появление (fadein - убрать прозрачность)  (продолжительность)
+
+   $(".menu-item2").mouseout(function(){$(".submenu2").fadeOut(10)});
+   $(".menu-item2").mouseover(function(){$(".submenu2").fadeIn(10)});
+
+   $(".menu-item3").mouseout(function(){$(".submenu3").fadeOut(10)});
+   $(".menu-item3").mouseover(function(){$(".submenu3").fadeIn(10)});
+})
+</script>
+</body>
+
+</html>

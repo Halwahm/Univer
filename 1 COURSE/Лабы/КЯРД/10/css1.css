@@ -1,0 +1,51 @@
+@import url(imp.css) (max-width: 768px);
+
+div.container1 > div {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.container1 {
+    padding-left: 40%;
+	display: flex;
+	width: 20%;
+	flex-flow: row wrap;
+}
+
+.div1c1 {
+    flex: 1 1 300px;
+	justify-content: space-between;
+}
+
+.div2c1 {
+    flex: 1 1 30%;
+}
+
+.flexbox {
+    flex: 1 1 40%;
+}
+
+/* <--------------- Задание 4 --------------------> */
+
+#spec {
+	display: none;
+}
+
+.foto div {
+	display: inline;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+@media (max-width: 1280px) {
+	.foto > div {
+		display: block;
+	}
+
+	#spec {
+		display: none;
+	}
+}

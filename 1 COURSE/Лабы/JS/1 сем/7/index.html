@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			form {
+				width: 330px;
+			}
+			legend {
+				background-color: rgb(187, 240, 227);
+				margin-left: 18px;
+				font-size: 20px;
+				color: rgb(34, 10, 56);
+				width: 320px;
+				text-align: center;
+				border-top-left-radius: 20px;
+				border-top-right-radius: 20px;
+			}
+			fieldset {
+				border-radius: 20px;
+				background-color: rgb(184, 217, 219);
+				border-color: rgb(203, 223, 220);
+			}
+			input {
+				margin: 5px;
+			}
+			div:nth-child(1) {
+				height: 30px;
+				width: 330px;
+				background-color: cornsilk;
+				text-align: center;
+				border-radius: 20px;
+			}
+			input {
+				border-radius: 5px;
+			}
+		</style>
+		<title>7 lab</title>
+	</head>
+	<body>
+		<form name="qwe">
+			<fieldset>
+				<textarea name="wert">Факультет информационных технологий</textarea><br />
+				Имя: <br /> <input type="text" name="firstname" /><br />
+				Фамилия:<br /> <input type="text" name="name" /><br />
+				<p>
+					Специальность
+					<select>
+						<option>ИСиТ</option>
+						<option>ПОИТ</option>
+						<option>ПОИБМС</option>
+						<option>ДЭиВИ</option>
+					</select>
+				</p>
+
+				<p>Курс</p>
+				<input type="radio" name="s" value="1" /> 1
+				<input type="radio" name="s" value="2" /> 2
+				<input type="radio" name="s" value="3" /> 3
+				<input type="radio" name="s" value="4" /> 4
+				<p>Предметы</p>
+				<input type="checkbox" name="space" value="ТРПО" />
+				ТРПО
+				<input type="checkbox" name="space" value="ОАиП" />
+				ОАиП
+				<input type="checkbox" name="space" value="АЛОЦВМ" />
+				АЛОЦВМ
+				<input type="checkbox" name="space" value="Мат анализ" />
+				Мат анализ
+				<input type="checkbox" name="space" value="Алгебра" />
+				Алгебра <br />
+				<br />
+				<input type="submit" value="Submit" />
+				<input type="reset" value="Reset" /><br /><br />
+				<input type="button" value="Напечатать" onclick="qwerty()" />
+				<input type="button" value="Задание №4" onclick="qwerty1()" />
+			</fieldset>
+		</form>
+		<script>
+			var i = 0;
+			var j = 0;
+			function qwerty() {
+				let z;
+				z = window.open(); //открытие окна
+				z.document.title = "Zadanie 4"; //название открывшегося окна
+				z.document.body.innerHTML = document.forms.qwe.wert.value + "<br />"; //значение формы динамические преобразуем в тело документа в новом открывшемся окне
+				z.document.body.innerHTML += (`Студент ${document.forms.qwe.firstname.value} ${document.forms.qwe.name.value} специальность ${document.forms.qwe.elements[4].value} курс ${document.forms.qwe.s.value} должен сдавать следующие  предметы:<br />`);
+				//вывод значений, полученных благодаря шаблонному литералу
+				let f = Array.from(document.forms.qwe.space).filter((k) => k.checked /*вызов стрелочной функции*/); //from() - преобразует и возвращает новый массив из массивоподобного, или итерируемого объекта
+				//filter() создаёт новый массив, отфильтровывая все элементы
+				z.document.body.innerHTML += "<ul>";
+					//преобразуем вывод списка
+				while (f[i]) {
+					z.document.body.innerHTML += `<li> ${f[i].value}</li>`;
+					i++;
+					//вывод элементами списка отмеченные галочкой пункты
+				}
+				z.document.body.innerHTML += "</ul>";
+			}
+			function qwerty1() {
+				let q;
+				q = window.open();
+				let p = Array.from(document.forms.qwe.space).filter((t) => t.checked);
+				q.document.write("<form><fieldset><select>");
+				while (p[j]) {
+					q.document.write(`<option> ${p[j].value} </option>`);
+					j++;
+				}
+				q.document.write("</select></fieldset></form>");
+			}
+		</script>
+	</body>
+</html>

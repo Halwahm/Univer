@@ -1,0 +1,41 @@
+div > div {
+	background-color: yellowgreen;
+}
+
+body {
+	width: 1300px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	left: 55%;
+	display: grid;
+	grid-template-columns: 110px 210px 120px;
+	grid-template-rows: 110px 210px 100px;
+	grid-gap: 5px;
+}
+
+.div1 {
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.div2 {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.div3 {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}

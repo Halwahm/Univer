@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab9-10</title>
+        <style>
+            #mybody {
+                background-color: rgb(111, 246, 240);
+                font-family:arial;
+            }
+        </style>
+    </head>
+    <body id='mybody'>
+    <img id='myimg' src='0f63577be1be98c488aa3b218fc41444.jpg' style = 'position:absolute; top:50px; left:50px; height:150px; width:150px;' />
+    <br>
+    <textarea id='txt' style ='position:absolute; top:200px;  font-size: 50px;  font-family: Arial; color:rgb(255, 0, 55)' >ТЕКСТ</textarea>  
+    <br>
+    
+    <img id='microsoft' src='6cp5eMKxi.jpg.' onclick="init_microsoft()" style='position:absolute; top:330px; left:20px; width:150px; height:100px;' />
+    <br>
+
+    </body>
+    <script>
+   
+    //Задание 1
+    //Создать программу на JS, позволяющую перетащить мышью картинку или тескт. 
+    let img=document.getElementById('myimg'); //обращение по идентификатору
+    img.onmousedown = function() { //вызов функции при нажатии на клавишу мыши
+      document.onmousemove = function(photo) { //вызов функции при наведении мыши
+        img.style.left = photo.pageX - img.offsetWidth / 2 + 'px'; //изменение позиции (по центру) объекта по двум координатам
+        img.style.top = photo.pageY - img.offsetHeight / 2 + 'px'; //св-ва для чтения ширины/высоты элемента
+      }
+      img.onmouseup = function() {
+        document.onmousemove = null; //отпущена клавиша мыши - прекратить перетаскивать объект
+      }
+      img.ondragstart = function() { //отпустил
+      return false;
+      };
+    }
+   
+  
+    //Создать программу на JS, позволяющую перетащить мышью текст. 
+    let text = document.getElementById('txt');
+    text.onmousedown = function() {
+      document.onmousemove = function(textar) {
+        text.style.left = textar.pageX - text.offsetWidth / 2 + 'px'; 
+        text.style.top = textar.pageY - text.offsetHeight / 2 + 'px'; 
+      }
+      text.onmouseup = function() {
+        document.onmousemove = null;
+      }
+      text.ondragstart = function() {
+      return false;
+    };
+    }
+    
+        
+    //Задание 2
+    //Создать программу на JS, организующую движение картинки по прямой линии. 
+    function init_microsoft() 
+    {
+      let id_move = setInterval (function() //выполнение в течение заданного промежутка времени (20)
+      {
+        positionx = 10,
+        // positiony = 0;
+        // у = parseInt(document.all['microsoft'].style.top);
+        x = parseInt(document.all['microsoft'].style.left); // parseInt преобразует строку в целое число. Это нужна для работы с px
+        //document.all.microsoft.style.top  = у+positiony+'px'; 
+        document.all.microsoft.style.left = x+positionx+'px'; //изменение позиции по x
+        if(parseInt(document.all['microsoft'].style.left)>600) // принимает строку в качестве аргумента и возвращает целое число в соответствии с указанным основанием системы счисления.
+        {
+          clearInterval(id_move); //остановка интервала
+        }
+      }, 20); 
+    }
+  
+    </script>
+    </html>

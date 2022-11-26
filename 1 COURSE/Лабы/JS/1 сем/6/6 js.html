@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>6</title>
+        <style>
+            body {
+                background-image: radial-gradient(red, blue); 
+            }
+           
+            #button {
+                display: inline-block;
+                color: white;
+                padding: 20px 30px;
+                margin: 10px 20px;
+                border-radius: 10px;
+                font-family: sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+                background-size: 200% auto;
+                box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        
+            }
+        </style>
+    </head>
+
+    <body>
+        <script>
+            var sit; 
+            var name;
+            function opened(){
+                name = prompt("Введите имя", "default");
+    sit = window.open();
+    sit.document.title = name; 
+    }
+            function closes(){
+    sit.window.close();
+    }
+            function windowh(){
+    sit.document.write("Hello");
+  }
+            function table(){
+
+    document.write("<table border = 10>");
+    document.write("<th>свойство</th>");
+    document.write("<th>значение</th>");
+    document.write("<tr><td>1. всю информацию о браузере пользователя</td><td>"+navigator.userAgent+"</td></tr>");
+    document.write("<tr><td>2. версию браузера</td><td>"+navigator.appVersion+"</td></tr>");
+    document.write("<tr><td>3. назване браузера</td><td>"+navigator.appName+"</td></tr>");
+    document.write("<tr><td>4. кодовое название браузера</td><td>"+navigator.appCodeName+"</td></tr>");
+    document.write("<tr><td>5. ОС, которую использует пользователь</td><td>"+navigator.platform+"</td></tr>");
+    document.write("<tr><td>6. включена ли поддержка Java в браузере</td><td>"+navigator.javaEnabled()+"</td></tr>");
+    document.write("<tr><td>7. ширину и высоту экрана</td><td>ширина экрана: "+screen.width+", высота экрана: "+screen.height+"</td></tr>");
+    document.write("<tr><td>8. глубину цвета</td><td>"+screen.colorDepth+"</td></tr>");
+    document.write("<tr><td>9. URL, которые были посещены в данном окне браузера</td><td>"+history+"</td></tr>");
+    document.write("<tr><td>10. URL текущего документа</td><td>"+location.href+"</td></tr>");
+    document.write("<tr><td>11. путь к загруженному документу</td><td>"+location.pathname+"</td></tr>");
+    document.write("<tr><td>12. имя домена загруженного документа</td><td>"+location.host+"</td></tr>");
+            }
+        </script>
+        
+<button id = "button" onclick="opened()">window open</button>
+<button id = "button" onclick="closes()">window close</button>
+<button id = "button" onclick="windowh()">Hello</button>
+<button id = "button" onclick="table()">table</button>
+    </body>
+</html>

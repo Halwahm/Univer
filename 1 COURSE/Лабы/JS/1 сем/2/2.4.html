@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script type="text/javascript">
+    
+        function table() {
+
+
+let x=Number(prompt("Введите а")), y=Number(prompt("Введите b"));
+
+
+document.write("<table border = '1'>");
+
+document.write("<tr>");
+document.write("<td>" + "Число" + "</td>");
+document.write("<td>" + "Метод" + "</td>");
+document.write("<td>" + "Результат" + "</td>");
+document.write("<td>" + "Описание метода" + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + x + "</td>");
+document.write("<td>" + "toString(16)" + "</td>");
+document.write("<td>" + x.toString(16) + "</td>");
+document.write("<td>" + "Строковое представление числа в 16-ричной системе счисления" + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + y + "</td>");
+document.write("<td>" + "toString(16)" + "</td>");
+document.write("<td>" + y.toString(16) + "</td>");
+document.write("<td>" + "Строковое представление числа в 16-ричной системе счисления" + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + x + "</td>");
+document.write("<td>" + "toExponential(4)" + "</td>");
+document.write("<td>" + x.toExponential(4) + "</td>");
+document.write("<td>" + "Представление числа в экспоненциальной форме с 4 знаками после точки" + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + y + "</td>");
+document.write("<td>" + "toExponential(4)" + "</td>");
+document.write("<td>" + y.toExponential(4) + "</td>");
+document.write("<td>" + "Представление числа в экспоненциальной форме с 4 знаками после точки" + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + x + "</td>");
+document.write("<td>" + "toFixed(2)" + "</td>");
+document.write("<td>" + x.toFixed(2)  + "</td>");
+document.write("<td>" + "представление числа в форме с фиксированным количеством цифр (2) после точки" + "</td>");
+
+document.write("</tr>");
+document.write("<td>" + y + "</td>");
+document.write("<td>" + "toFixed(2)" + "</td>");
+document.write("<td>" + y.toFixed(2) + "</td>");
+document.write("<td>" + "представление числа в форме с фиксированным количеством цифр (2) после точки" + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + x + "</td>");
+document.write("<td>" + "toPrecision(8)" + "</td>");
+document.write("<td>" + x.toPrecision(8) + "</td>");
+document.write("<td>" + "Представление числа с заданным общим количеством значащих цифр(8)" + "</td>");
+document.write("</tr>");
+
+document.write("<tr>");
+document.write("<td>" + y + "</td>");
+document.write("<td>" + "toPrecision(8)" + "</td>");
+document.write("<td>" + y.toPrecision(8) + "</td>");
+document.write("<td>" + "Представление числа с заданным общим количеством значащих цифр(8)" + "</td>");
+document.write("</table>");
+}
+
+</script>
+
+</head>
+
+    <body>
+        <input type="button" value="Таблица" onclick="table()" />
+    </body>
+
+<html>

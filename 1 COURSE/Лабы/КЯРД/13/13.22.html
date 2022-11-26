@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> first </title>
+   </head>
+<body>
+   <div>
+      <b>Книга:</b> <span id="name"></span><br />
+      <b>Автор:</b> <span id="author"></span><br />
+      <b>Дата выхода:</b> <span id="date"></span>
+   </div>
+
+   <script>
+      var txt = "<note>";
+      txt += "<name>Митяй</name>";
+      txt += "<author>Воликов Д.А.</author>";
+      txt += "<date>11.09.2003</date>";
+      txt += "<body>Не забудь обо мне в эти выходные!</body>";
+      txt += "</note>";
+
+      if (window.DOMParser)
+      {
+         parser = new DOMParser();
+         xmlDoc = parser.parseFromString(txt,"text/xml");
+      }
+      else 
+      {
+         xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+         xmlDoc.async = false;
+         xmlDoc.loadXML(txt);
+      }
+
+      document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+      document.getElementById("author").innerHTML = xmlDoc.getElementsByTagName("author")[0].childNodes[0].nodeValue;
+      document.getElementById("date").innerHTML = xmlDoc.getElementsByTagName("date")[0].childNodes[0].nodeValue;
+   </script>
+</body>
+</html>

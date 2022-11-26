@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>JS9.3</title>
+  </head>
+  <body>
+    <img
+      src="0f63577be1be98c488aa3b218fc41444.jpg"
+      id="il"
+      width="40%"
+      style="position: absolute" 
+      onclick="curvemove('il')"
+    />
+
+    <script>
+      function curvemove(ilId) {
+        //onclick="curvemove()" в функцию curvemove передаётся ID элемента в виде строки
+        let x = 2, y = 2,
+          flag = 0; //Флажок
+
+        let timer = setInterval(() => {
+          if (flag == 0) x += 1;
+          if (x == 700) flag = 1;
+          if (flag == 1) y++, x--;
+          if (x == 0) flag = 2;
+          if (flag == 2) y--;
+
+          document.all[ilId].style.left = x; 
+          document.all[ilId].style.top = y;
+          y == 0 ? clearInterval(timer) : null; //еще один способ записи if - else
+        });
+      }
+    </script>
+  </body>
+</html>

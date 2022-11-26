@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="FACULTY">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SPECIALIZATION" 
+type="xs:string"/>
+<xs:element name="NAME" 
+type="xs:string"/>
+<xs:element name="TIME" 
+type="xs:string"/>
+<xs:element name="EXAM" 
+type="xs:string"/>
+<xs:element name="PAGES" 
+type="xs:string"/>
+<xs:element name="PASSING" 
+type="xs:string"/>
+</xs:sequence>
+ </xs:complexType>
+ </xs:element>
+</xs:schema>

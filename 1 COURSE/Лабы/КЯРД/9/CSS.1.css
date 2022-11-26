@@ -1,0 +1,94 @@
+div.container1 > div {
+	border: 2px solid black;
+	text-align: center;
+}
+
+div.container2 > div {
+	border: 2px solid black;
+	text-align: center;
+}
+
+div.container3 > div {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.container1 {
+	position: absolute;
+	width: 100%;
+	left: 42%;
+	display: grid;
+	grid-template-columns: 140px 140px 140px;
+	grid-template-rows: 10px 10px;
+	grid-gap: 5px;
+}
+
+.div1c1 {
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.container2 {
+	position: absolute;
+	width: 60%;
+	left: 40%;
+	top: 15%;
+	display: grid;
+	grid-template-columns: 20px 80px 80px;
+	grid-template-rows: 175px;
+	grid-gap: 5px;
+}
+
+.div1c2 {
+	width: 1em;
+	line-height: 1em;
+	font-size: 19px;
+}
+
+.container3 {
+	position: absolute;
+	width: 100%;
+	left: 60%;
+	top: 15%;
+	display: grid;
+	grid-template-columns: 80px 80px 80px;
+	grid-template-rows: 86px 86px;
+	grid-gap: 5px;
+}
+
+.div1c3 {
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.div2c3 {
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.div3c3 {
+	width: 1em;
+	line-height: 1em;
+	font-size: 19px;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+/* <----- Задание 2 -----> */
+
+div.container {
+	position: absolute;
+	width: 100%;
+	left: 25%;
+	top: 55%;
+}
+
+div > div > div {
+	border: 2px solid black;
+}
