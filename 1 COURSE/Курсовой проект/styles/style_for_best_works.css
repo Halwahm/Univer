@@ -1,0 +1,618 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main_g {
+  width: 1519px;
+  min-height: 700px;
+}
+
+.st1j2 {
+  min-height: 700px;
+  background: url(/strih/2.png) -30% 140% no-repeat;
+  background-size: 50% 50%;
+}
+
+.st1j1 {
+  min-height: 700px;
+  background: url(/strih/1.png) 106% 100% no-repeat;
+  background-size: 15% 60%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1B1515;
+  top: 0;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header {
+  margin: 3% 0 0 3%;
+  width: 25%;
+  height: 20%;
+}
+
+.head {
+  font-size: 80px;
+}
+
+.desc_m {
+  margin: 4% 0 0 3%;
+  width: 45%;
+  height: 20%;
+}
+
+.des_m {
+  font-size: 30px;
+}
+
+.work {
+  margin: 4% 0 0 10%;
+  background-color: #1B1515;
+  color: #ffffff;
+  width: 22%;
+  height: 60px;
+  text-align: center;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.work a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  font-size: 25px;
+  z-index: 2;
+}
+
+#main_photo {
+  width: 630px;
+  height: 430px;
+  position: absolute;
+  top: 120px;
+  left: 750px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.master_works {
+  background-color: #1B1515;
+  position: relative;
+  width: 1519px;
+  height: 90px;
+}
+
+.master_text {
+  text-align: center;
+  color: white;
+  padding-top: 1%;
+  font-size: 50px;
+}
+
+.st3 {
+  height: 90px;
+  background: url(/strih/3.png) 0px 50% no-repeat;
+  background-size: 20% 80%;
+}
+
+.st4 {
+  height: 90px;
+  background: url(/strih/4_1.png) 100% 50% no-repeat;
+  background-size: 20% 80%;
+}
+
+.gallery {
+  width: 1519px;
+  height: 2100px;
+  position: relative;
+}
+
+#f1 {
+  margin-left: 2.5%;
+  margin-top: 3%;
+  width: 30%;
+  height: 400px;
+  -webkit-box-shadow: 15px 15px 15px -15px rgba(34, 60, 80, 0.6);
+  box-shadow: 15px 15px 15px -15px rgba(34, 60, 80, 0.6);
+}
+
+.st5 {
+  background: url(/strih/5.png) -2% 0% no-repeat;
+  background-size: 10% 50%;
+}
+
+.st6 {
+  background: url(/strih/6.png) 100% 22% no-repeat;
+  background-size: 10% 15%;
+}
+
+.st7 {
+  background: url(/strih/7.png) -20% 75% no-repeat;
+  background-size: 30% 10%;
+}
+
+.st8 {
+  background: url(/strih/8.png) 8% -50% no-repeat;
+  background-size: 5% 90%;
+}
+
+.st13_1 {
+  height: 300px;
+  background: url(/strih/11.jpg) 100% 20% no-repeat;
+  background-size: 40% 120%;
+}
+
+.st13 {
+  background: url(/strih/13.png) 90% 70% no-repeat;
+  background-size: 40% 80%;
+}
+
+.st3_3 {
+  height: 300px;
+  background: url(/strih/9.png) -20% 100% no-repeat;
+  background-size: 60% 70%;
+}
+
+.block_best {
+  position: relative;
+  background-color: #1B1515;
+  width: 1519px;
+  min-height: 1140px;
+}
+
+.text_best {
+  position: relative;
+  display: block;
+  width: 70%;
+  height: 6.12%;
+  padding-top: 5%;
+  padding-left: 99px;
+  color: white;
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 97px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text_h1 {
+  display: block;
+  width: 40.68%;
+  height: 5.99%;
+  position: relative;
+  padding-top: 5%;
+  padding-left: 99px;
+  font-family: Inter;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.text_h2 {
+  display: block;
+  position: relative;
+  width: 40.68%;
+  height: 3%;
+  padding-top: 2%;
+  padding-left: 99px;
+  font-family: Inter;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.text_h3 {
+  display: block;
+  position: relative;
+  padding-top: 2%;
+  padding-left: 99px;
+  font-family: Inter;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.text_p1 {
+  position: relative;
+  display: block;
+  width: 49.37%;
+  height: 17.18%;
+  padding-top: 1%;
+  padding-left: 99px;
+  width: 30%;
+  height: 6.58%;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.text_p2 {
+  display: block;
+  position: relative;
+  padding-top: 1%;
+  padding-left: 99px;
+  width: 30%;
+  height: 6.58%;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.text_p3 {
+  display: block;
+  position: relative;
+  padding-top: 1%;
+  padding-left: 99px;
+  width: 30%;
+  height: 6.58%;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.best_photo {
+  position: relative;
+}
+
+#first_photo {
+  padding-top: 118px;
+  padding-left: 700px;
+  position: absolute;
+  width: 19%;
+  height: 400px;
+}
+
+#second_photo {
+  padding-top: 180px;
+  padding-left: 1050px;
+  position: absolute;
+  width: 19%;
+  height: 400px;
+}
+
+#third_photo {
+  padding-top: 572px;
+  padding-left: 700px;
+  position: absolute;
+  width: 19%;
+  height: 400px;
+}
+
+#fourth_photo {
+  padding-top: 638px;
+  padding-left: 1050px;
+  position: absolute;
+  width: 19%;
+  height: 400px;
+}
+
+.our_home {
+  position: relative;
+  width: 1519px;
+  height: 2200px;
+  background: #FFFFFF;
+}
+
+.st1_3 {
+  background-size: 30% 20%;
+  background: url(/strih/1_3.png) 20% 30% no-repeat;
+}
+
+.text_about_home {
+  padding-top: 60px;
+  padding-left: 69px;
+  position: absolute;
+  width: 27.9%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 105%;
+  color: #000000;
+}
+
+.home_photo {
+  position: relative;
+  width: 1519px;
+  height: 1000px;
+}
+
+#hom1_photo {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 5%;
+  margin-left: 70%;
+  position: absolute;
+  width: 22%;
+  height: 35%;
+  border: 6px solid #000000;
+}
+
+#hom2_photo {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 20%;
+  margin-left: 58%;
+  position: absolute;
+  width: 22%;
+  height: 35%;
+  z-index: 1;
+  border: 6px solid #000000;
+}
+
+#hom3_photo {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 35%;
+  margin-left: 47%;
+  position: absolute;
+  width: 22%;
+  height: 35%;
+  border: 6px solid #000000;
+}
+
+.biggest_works {
+  background-color: #1B1515;
+  position: relative;
+  width: 1519px;
+  height: 80px;
+}
+
+.biggest_text {
+  position: absolute;
+  top: -25%;
+  left: 30%;
+  color: white;
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 116px;
+  letter-spacing: 0em;
+}
+
+#bg_photo1 {
+  margin-top: 3%;
+  margin-left: 20%;
+  position: absolute;
+  width: 22%;
+  height: 15%;
+  border: 6px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+#bg_photo2 {
+  margin-top: 23%;
+  margin-left: 30%;
+  position: absolute;
+  width: 22%;
+  height: 15%;
+  border: 6px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+#bg_photo3 {
+  margin-top: 8%;
+  margin-left: 47%;
+  position: absolute;
+  width: 22%;
+  height: 15%;
+  border: 6px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+#bg_photo4 {
+  margin-top: 27%;
+  margin-left: 62%;
+  position: absolute;
+  width: 30%;
+  height: 15%;
+  border: 6px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.more_home_bu {
+  margin-top: 50%;
+  margin-left: 6%;
+  position: absolute;
+  width: 32%;
+  height: 10.31%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 97px;
+}
+
+#photo_bu1 {
+  margin-top: 65%;
+  margin-left: 6%;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  border: 6px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#photo_bu2 {
+  margin-top: 65%;
+  margin-left: 35%;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  border: 6px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#photo_bu3 {
+  margin-top: 65%;
+  margin-left: 64%;
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  border: 6px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* .st10 {
+  background: url(/strih/strih/10.png) 100% 10% no-repeat;
+  background-size: 70% 70%;
+} */
+.n12 {
+  background: url(/strih/n12.png) 60px 50px no-repeat;
+  background-size: 100px 20px;
+}
+
+.soc_media {
+  position: relative;
+  background: #1B1515;
+  margin-top: 250px;
+  width: 1519px;
+  min-height: 180px;
+}
+
+.st3_last {
+  height: 150px;
+  background: url(/strih/3.png) -10px 20px no-repeat;
+  background-size: 30% 100%;
+}
+
+.st4_last {
+  height: 150px;
+  background: url(/strih/4_1.png) 110% 30px no-repeat;
+  background-size: 30% 80%;
+}
+
+.our_media {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+}
+
+.here_you_are {
+  top: 25%;
+  position: absolute;
+  left: 35%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  color: white;
+}
+
+.inst {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  border-radius: 50%;
+  width: 5%;
+  height: 35%;
+  background: white;
+}
+
+#inst {
+  position: absolute;
+  width: 50%;
+  height: 55%;
+  margin-top: 18%;
+  margin-left: 25%;
+}
+
+.tg {
+  top: 50%;
+  left: 46.5%;
+  position: absolute;
+  border-radius: 50%;
+  width: 5%;
+  height: 35%;
+  background: white;
+}
+
+#tg {
+  position: absolute;
+  width: 60%;
+  height: 70%;
+  margin-top: 13%;
+  margin-left: 20%;
+}
+
+.vk {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  border-radius: 50%;
+  width: 5%;
+  height: 35%;
+  background: white;
+}
+
+#vk {
+  position: absolute;
+  width: 60%;
+  height: 70%;
+  margin-top: 13%;
+  margin-left: 20%;
+}
