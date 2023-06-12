@@ -1,0 +1,36 @@
+E:\Studies\4Sem\PP\lab3\lab3\bin\Debug\net6.0\lab3.exe
+E:\Studies\4Sem\PP\lab3\lab3\bin\Debug\net6.0\lab3.deps.json
+E:\Studies\4Sem\PP\lab3\lab3\bin\Debug\net6.0\lab3.runtimeconfig.json
+E:\Studies\4Sem\PP\lab3\lab3\bin\Debug\net6.0\lab3.dll
+E:\Studies\4Sem\PP\lab3\lab3\bin\Debug\net6.0\lab3.pdb
+E:\Studies\4Sem\PP\lab3\lab3\bin\Debug\net6.0\Lec03BLibN.dll
+E:\Studies\4Sem\PP\lab3\lab3\bin\Debug\net6.0\Lec03BLibN.pdb
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.csproj.AssemblyReference.cache
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfoInputs.cache
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfo.cs
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.csproj.CoreCompileInputs.cache
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.csproj.CopyComplete
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.dll
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\refint\lab3.dll
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.pdb
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\lab3.genruntimeconfig.cache
+E:\Studies\4Sem\PP\lab3\lab3\obj\Debug\net6.0\ref\lab3.dll
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\bin\Debug\net6.0\lab3.exe
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\bin\Debug\net6.0\lab3.deps.json
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\bin\Debug\net6.0\lab3.runtimeconfig.json
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\bin\Debug\net6.0\lab3.dll
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\bin\Debug\net6.0\lab3.pdb
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\bin\Debug\net6.0\Lec03BLibN.dll
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\bin\Debug\net6.0\Lec03BLibN.pdb
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfoInputs.cache
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfo.cs
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.csproj.CopyComplete
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.dll
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\refint\lab3.dll
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.pdb
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\lab3.genruntimeconfig.cache
+C:\Универ\4 сем\ПП\lab3\lab3\lab3\obj\Debug\net6.0\ref\lab3.dll

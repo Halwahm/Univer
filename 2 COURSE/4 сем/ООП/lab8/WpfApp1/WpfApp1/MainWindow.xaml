@@ -1,0 +1,37 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Код клиента" HorizontalAlignment="Left" Margin="15,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Номер счёта" HorizontalAlignment="Left" Margin="15,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Вид вклада" HorizontalAlignment="Left" Margin="15,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сумма" HorizontalAlignment="Left" Margin="15,183,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата вклада" HorizontalAlignment="Left" Margin="15,234,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.573,0.5"/>
+
+        <TextBox x:Name="id" HorizontalAlignment="Left" Height="23" Margin="113,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29"/>
+        <TextBox x:Name="client_code" HorizontalAlignment="Left" Height="23" Margin="113,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
+        <TextBox x:Name="nomer" HorizontalAlignment="Left" Height="23" Margin="113,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
+        <ComboBox x:Name="vklad_type" HorizontalAlignment="Left" Margin="113,137,0,0" VerticalAlignment="Top" Width="192"/>
+        <TextBox x:Name="amount" HorizontalAlignment="Left" Height="23" Margin="113,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
+        <DatePicker x:Name="vklad_date" HorizontalAlignment="Left" Margin="113,234,0,0" VerticalAlignment="Top" Width="192"/>
+
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="228" Margin="323,32,0,0" VerticalAlignment="Top" Width="445"/>
+
+        <Button x:Name="InsertBtn" Content="Добавить" HorizontalAlignment="Left" Margin="156,333,0,0" VerticalAlignment="Top" Width="127" Height="55" Click="InsertBtn_Click"/>
+        <Button x:Name="UpdateBtn" Content="Обновить" HorizontalAlignment="Left" Margin="340,333,0,0" VerticalAlignment="Top" Width="127" Height="55" Click="UpdateBtn_Click"/>
+        <Button x:Name="DeleteBtn" Content="Удалить" HorizontalAlignment="Left" Margin="529,333,0,0" VerticalAlignment="Top" Width="127" Height="55" Click="DeleteBtn_Click"/>
+        <Button x:Name="ClearDataBtn" Content="Очистить" HorizontalAlignment="Left" Margin="15,265,0,0" VerticalAlignment="Top" Width="80" Click="ClearDataBtn_Click" Height="25"/>
+
+        <Label Content="ID" HorizontalAlignment="Left" Margin="283,284,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="search_txt" HorizontalAlignment="Left" Height="23" Margin="323,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <Button  BorderThickness="0" HorizontalAlignment="Left" Margin="756,8,0,0" VerticalAlignment="Top" Width="22" Click="Button_Click">
+            <Image Source="C:\Универ\4 сем\ООП\lab8\WpfApp1\WpfApp1\Resources\вперед.png"></Image>
+        </Button>
+        <Label Content="Таблица клиентов" HorizontalAlignment="Left" Margin="647,6,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

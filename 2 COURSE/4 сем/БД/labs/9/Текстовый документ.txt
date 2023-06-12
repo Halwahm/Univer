@@ -1,0 +1,16 @@
+
+insert into test_dblink values(1, 'one');
+
+select * from test_dblink@han_pba;
+insert into test_dblink@anothetdb values (2, 'two');
+update test_dblink@anothetdb set str = 'dva' where num = 2;
+select * from test_dblink@anothetdb;
+delete from test_dblink@anothetdb where num = 2;
+
+declare
+  y number;
+begin
+  y := 0;
+  return_10@anothetdb(y);
+  dbms_output.put_line(y);
+end;

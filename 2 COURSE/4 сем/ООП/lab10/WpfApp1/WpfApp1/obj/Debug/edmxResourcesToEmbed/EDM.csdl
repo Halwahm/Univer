@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="app1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ADDRESS">
+    <Key>
+      <PropertyRef Name="id_address" />
+    </Key>
+    <Property Name="id_address" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="country" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="street" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="house" Type="Int32" />
+    <Property Name="build" Type="Int32" />
+    <Property Name="flat" Type="Int32" />
+    <NavigationProperty Name="PERSON" Relationship="Self.FK_Person_ADDRESS" FromRole="ADDRESS" ToRole="PERSON" />
+  </EntityType>
+  <EntityType Name="PASSPORT">
+    <Key>
+      <PropertyRef Name="id_passport" />
+    </Key>
+    <Property Name="id_passport" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="serial" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="number" Type="Int32" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="PERSON" Relationship="Self.FK_Person_PASSPORT" FromRole="PASSPORT" ToRole="PERSON" />
+  </EntityType>
+  <EntityType Name="PERSON">
+    <Key>
+      <PropertyRef Name="id_person" />
+    </Key>
+    <Property Name="id_person" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="first_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="middle_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="age" Type="Int32" />
+    <Property Name="phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="id_address" Type="Int32" />
+    <Property Name="id_passport" Type="Int32" />
+    <NavigationProperty Name="ADDRESS" Relationship="Self.FK_Person_ADDRESS" FromRole="PERSON" ToRole="ADDRESS" />
+    <NavigationProperty Name="PASSPORT" Relationship="Self.FK_Person_PASSPORT" FromRole="PERSON" ToRole="PASSPORT" />
+  </EntityType>
+  <Association Name="FK_Person_ADDRESS">
+    <End Role="ADDRESS" Type="Self.ADDRESS" Multiplicity="0..1" />
+    <End Role="PERSON" Type="Self.PERSON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ADDRESS">
+        <PropertyRef Name="id_address" />
+      </Principal>
+      <Dependent Role="PERSON">
+        <PropertyRef Name="id_address" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Person_PASSPORT">
+    <End Role="PASSPORT" Type="Self.PASSPORT" Multiplicity="0..1" />
+    <End Role="PERSON" Type="Self.PERSON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PASSPORT">
+        <PropertyRef Name="id_passport" />
+      </Principal>
+      <Dependent Role="PERSON">
+        <PropertyRef Name="id_passport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="app1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ADDRESS" EntityType="Self.ADDRESS" />
+    <EntitySet Name="PASSPORT" EntityType="Self.PASSPORT" />
+    <EntitySet Name="PERSON" EntityType="Self.PERSON" />
+    <AssociationSet Name="FK_Person_ADDRESS" Association="Self.FK_Person_ADDRESS">
+      <End Role="ADDRESS" EntitySet="ADDRESS" />
+      <End Role="PERSON" EntitySet="PERSON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Person_PASSPORT" Association="Self.FK_Person_PASSPORT">
+      <End Role="PASSPORT" EntitySet="PASSPORT" />
+      <End Role="PERSON" EntitySet="PERSON" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

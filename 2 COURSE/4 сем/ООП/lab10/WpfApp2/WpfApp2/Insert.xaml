@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp2.Insert"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="View" Height="760" Width="450 " Background="#FF92DFC0">
+    <Grid>
+        <Label Content="INSERT DATA" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontSize="48" FontWeight="Bold"/>
+        <Label Content="FIRST NAME" HorizontalAlignment="Left" Margin="33,118,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="firstNameTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="33,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="MIDDLE NAME" HorizontalAlignment="Left" Margin="33,188,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="middleNameTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="33,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="LAST NAME" HorizontalAlignment="Left" Margin="33,258,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="lastNameTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="33,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="AGE" HorizontalAlignment="Left" Margin="33,330,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="ageTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="33,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="STREET" HorizontalAlignment="Left" Margin="269,118,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="streetTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="269,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="HOUSE" HorizontalAlignment="Left" Margin="269,188,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="houseTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="269,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="BUILD" HorizontalAlignment="Left" Margin="269,258,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="buildTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="269,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="FLAT" HorizontalAlignment="Left" Margin="269,330,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="flatTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="269,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="PHONE" HorizontalAlignment="Left" Margin="33,400,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="phoneTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="33,434,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="SERIAL" HorizontalAlignment="Left" Margin="269,400,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="serialTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="269,434,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="COUNTRY" HorizontalAlignment="Left" Margin="33,468,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="countryTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="33,502,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="NUMBER" HorizontalAlignment="Left" Margin="269,468,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="269,502,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="CITY" HorizontalAlignment="Left" Margin="33,538,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="cityTextBox" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="33,572,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="33" Background="Gainsboro" BorderBrush="Black" FontSize="16"/>
+        <Label Content="PHOTO" HorizontalAlignment="Left" Margin="269,538,0,0" VerticalAlignment="Top" Foreground="#FF505050" FontWeight="Bold" FontSize="18"/>
+        <Button Content="INSERT" HorizontalAlignment="Center" Margin="0,623,0,0" VerticalAlignment="Top" Height="75" Width="236" Background="#FFC8E3B2" Foreground="#FF505050" BorderBrush="Black" FontSize="36" FontWeight="Bold" Click="insertButton_Click"/>
+        <Button x:Name="imgButton" Content="UPLOAD" HorizontalAlignment="Left" Margin="269,572,0,0" VerticalAlignment="Top" Width="148" Height="33" Foreground="#FF505050" FontWeight="Bold" FontSize="16" BorderBrush="Black" Click="imgButton_Click"/>
+    </Grid>
+</Window>

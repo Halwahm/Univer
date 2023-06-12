@@ -1,0 +1,33 @@
+C:\Универ\ООП\lab2\lab2\bin\Debug\lab2.exe.config
+C:\Универ\ООП\lab2\lab2\bin\Debug\lab2.exe
+C:\Универ\ООП\lab2\lab2\bin\Debug\lab2.pdb
+C:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.AssemblyReference.cache
+C:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.SuggestedBindingRedirects.cache
+C:\Универ\ООП\lab2\lab2\obj\Debug\lab2.Properties.Resources.resources
+C:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.GenerateResource.cache
+C:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.CoreCompileInputs.cache
+C:\Универ\ООП\lab2\lab2\obj\Debug\lab2.exe
+C:\Универ\ООП\lab2\lab2\obj\Debug\lab2.pdb
+C:\Универ\ООП\lab2\lab2\obj\Debug\WinFormsApp1.Form1.resources
+E:\Универ\ООП\lab2\lab2\bin\Debug\lab2.exe.config
+E:\Универ\ООП\lab2\lab2\bin\Debug\lab2.exe
+E:\Универ\ООП\lab2\lab2\bin\Debug\lab2.pdb
+E:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.AssemblyReference.cache
+E:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.SuggestedBindingRedirects.cache
+E:\Универ\ООП\lab2\lab2\obj\Debug\WinFormsApp1.Form1.resources
+E:\Универ\ООП\lab2\lab2\obj\Debug\lab2.Properties.Resources.resources
+E:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.GenerateResource.cache
+E:\Универ\ООП\lab2\lab2\obj\Debug\lab2.csproj.CoreCompileInputs.cache
+E:\Универ\ООП\lab2\lab2\obj\Debug\lab2.exe
+E:\Универ\ООП\lab2\lab2\obj\Debug\lab2.pdb
+C:\Универ\4 сем\ООП\lab2\lab2\bin\Debug\lab2.exe.config
+C:\Универ\4 сем\ООП\lab2\lab2\bin\Debug\lab2.exe
+C:\Универ\4 сем\ООП\lab2\lab2\bin\Debug\lab2.pdb
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\lab2.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\lab2.csproj.SuggestedBindingRedirects.cache
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\WinFormsApp1.Form1.resources
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\lab2.Properties.Resources.resources
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\lab2.csproj.GenerateResource.cache
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\lab2.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\lab2.exe
+C:\Универ\4 сем\ООП\lab2\lab2\obj\Debug\lab2.pdb

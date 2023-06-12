@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище app1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ADDRESS">
+    <Key>
+      <PropertyRef Name="id_address" />
+    </Key>
+    <Property Name="id_address" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="country" Type="nchar" MaxLength="20" />
+    <Property Name="city" Type="nchar" MaxLength="20" />
+    <Property Name="street" Type="nchar" MaxLength="20" />
+    <Property Name="house" Type="int" />
+    <Property Name="build" Type="int" />
+    <Property Name="flat" Type="int" />
+  </EntityType>
+  <EntityType Name="PASSPORT">
+    <Key>
+      <PropertyRef Name="id_passport" />
+    </Key>
+    <Property Name="id_passport" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="serial" Type="nchar" MaxLength="20" />
+    <Property Name="number" Type="int" />
+    <Property Name="photo" Type="image" />
+  </EntityType>
+  <EntityType Name="PERSON">
+    <Key>
+      <PropertyRef Name="id_person" />
+    </Key>
+    <Property Name="id_person" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="first_name" Type="nchar" MaxLength="10" />
+    <Property Name="middle_name" Type="nchar" MaxLength="10" />
+    <Property Name="last_name" Type="nchar" MaxLength="10" />
+    <Property Name="age" Type="int" />
+    <Property Name="phone" Type="nchar" MaxLength="10" />
+    <Property Name="id_address" Type="int" />
+    <Property Name="id_passport" Type="int" />
+  </EntityType>
+  <Association Name="FK_Person_ADDRESS">
+    <End Role="ADDRESS" Type="Self.ADDRESS" Multiplicity="0..1" />
+    <End Role="PERSON" Type="Self.PERSON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ADDRESS">
+        <PropertyRef Name="id_address" />
+      </Principal>
+      <Dependent Role="PERSON">
+        <PropertyRef Name="id_address" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Person_PASSPORT">
+    <End Role="PASSPORT" Type="Self.PASSPORT" Multiplicity="0..1" />
+    <End Role="PERSON" Type="Self.PERSON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PASSPORT">
+        <PropertyRef Name="id_passport" />
+      </Principal>
+      <Dependent Role="PERSON">
+        <PropertyRef Name="id_passport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище app1ModelContainer">
+    <EntitySet Name="ADDRESS" EntityType="Self.ADDRESS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PASSPORT" EntityType="Self.PASSPORT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PERSON" EntityType="Self.PERSON" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Person_ADDRESS" Association="Self.FK_Person_ADDRESS">
+      <End Role="ADDRESS" EntitySet="ADDRESS" />
+      <End Role="PERSON" EntitySet="PERSON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Person_PASSPORT" Association="Self.FK_Person_PASSPORT">
+      <End Role="PASSPORT" EntitySet="PASSPORT" />
+      <End Role="PERSON" EntitySet="PERSON" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

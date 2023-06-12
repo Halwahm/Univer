@@ -1,0 +1,36 @@
+********************************
+
+Action: DDDiskInfo.getFreeDrivesSpace()
+Date/Time: 07.12.2022 13:04:30
+
+********************************
+
+Action: DDDFileInfo.GetFileInfo()
+File Name: dddLog.txt
+Path: C:\Универ\2 COURSE\Лабы\ООП\3 сем\lab12\dddLog.txt
+Date/Time: 07.12.2022 13:04:30
+
+********************************
+
+Action: DDDDirInfo.GetDirInfo()
+Path: C:\Универ\2 COURSE\Лабы\ООП\3 сем\lab12\
+Date/Time: 07.12.2022 13:04:30
+
+********************************
+
+Action: DDDFileManager.GetAllDirsAndFilesOfDisk()
+Path: C:\
+Date/Time: 07.12.2022 13:04:30
+
+********************************
+
+Action: DDDFileManager.GetAllFilesWithExtension()
+Path: C:\Универ\2 COURSE\Лабы\ПВС
+Date/Time: 07.12.2022 13:04:30
+
+********************************
+
+Action: DDDFileManager.CreateZip()
+Path: C:\Универ\2 COURSE\Лабы\ООП\3 сем\lab12\DDDInspect\DDDFiles
+Date/Time: 07.12.2022 13:04:30
+

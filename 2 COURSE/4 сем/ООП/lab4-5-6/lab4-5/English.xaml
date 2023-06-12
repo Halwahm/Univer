@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:lab4_5" xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="dic_Header">Shop</v:String>
+    <v:String x:Key="dic_AddProduct">Add product</v:String>
+    <v:String x:Key="dic_ChangeProduct">Change product</v:String>
+    <v:String x:Key="dic_SearchProduct">Search product</v:String>
+    <v:String x:Key="dic_DeleteProduct">Delete product</v:String>
+    <v:String x:Key="dic_ClearField">Clear field</v:String>
+    <v:String x:Key="dic_Sort">Sort</v:String>
+    <v:String x:Key="dic_Menu">Menu</v:String>
+    <v:String x:Key="dic_SwitchTheme1">Switch Theme on first</v:String>
+    <v:String x:Key="dic_SwitchTheme2">Switch Theme on second</v:String>
+    <v:String x:Key="dic_SwitchLanguage">Switch Language</v:String>
+    <v:String x:Key="dic_ProductsName">Name:</v:String>
+    <v:String x:Key="dic_ProductsPrice">Price:</v:String>
+    <v:String x:Key="dic_ProductsTypeOfProduct">Type:</v:String>
+    <v:String x:Key="dic_ProductsRating">Rating:</v:String>
+    <v:String x:Key="dic_ProductsDescription">Description:</v:String>
+    <v:String x:Key="dic_Add">Add product</v:String>
+    <v:String x:Key="dic_Photo">Photo:</v:String>
+    <v:String x:Key="dic_SelectPhoto">Select photo</v:String>
+    <v:String x:Key="dic_SearchLabelName">Enter information for search by name:</v:String>
+    <v:String x:Key="dic_SearchLabelPrice">Enter information for search by price:</v:String>
+    <v:String x:Key="dic_SearchLabelType">Enter information for search by type of product:</v:String>
+    <v:String x:Key="dic_SearchLabelRating">Enter information for search by rating:</v:String>
+    <v:String x:Key="dic_SearchButton">Search</v:String>
+    <v:String x:Key="dic_SortLabel">Sort by:</v:String>
+    <v:String x:Key="dic_Name">Name</v:String>
+    <v:String x:Key="dic_Price">Price</v:String>
+    <v:String x:Key="dic_TypeOfProduct">Type of product</v:String>
+    <v:String x:Key="dic_Rating">Rating</v:String>
+</ResourceDictionary>

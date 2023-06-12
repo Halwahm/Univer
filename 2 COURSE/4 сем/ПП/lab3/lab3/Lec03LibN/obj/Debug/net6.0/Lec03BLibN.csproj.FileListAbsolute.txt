@@ -1,0 +1,24 @@
+E:\Studies\4Sem\PP\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.deps.json
+E:\Studies\4Sem\PP\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.dll
+E:\Studies\4Sem\PP\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.pdb
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.AssemblyReference.cache
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfoInputs.cache
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfo.cs
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.CoreCompileInputs.cache
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.dll
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\refint\Lec03BLibN.dll
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.pdb
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\ref\Lec03BLibN.dll
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfoInputs.cache
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfo.cs
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.dll
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\refint\Lec03BLibN.dll
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.pdb
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.deps.json
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.dll
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.pdb
+C:\Универ\4 сем\ПП\lab3\lab3\Lec03LibN\obj\Debug\net6.0\ref\Lec03BLibN.dll

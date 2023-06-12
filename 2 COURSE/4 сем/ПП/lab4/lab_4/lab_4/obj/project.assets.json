@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Lec04LibN/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Lec04LibN.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lec04LibN.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lec04LibN/1.0.0": {
+      "type": "project",
+      "path": "../Lec04LibN/Lec04LibN.csproj",
+      "msbuildProject": "../Lec04LibN/Lec04LibN.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Lec04LibN >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\halal\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Универ\\4 сем\\ПП\\lab4\\lab_4\\lab_4\\lab_4.csproj",
+      "projectName": "lab_4",
+      "projectPath": "C:\\Универ\\4 сем\\ПП\\lab4\\lab_4\\lab_4\\lab_4.csproj",
+      "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
+      "outputPath": "C:\\Универ\\4 сем\\ПП\\lab4\\lab_4\\lab_4\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Универ\\4 сем\\ПП\\lab4\\lab_4\\Lec04LibN\\Lec04LibN.csproj": {
+              "projectPath": "C:\\Универ\\4 сем\\ПП\\lab4\\lab_4\\Lec04LibN\\Lec04LibN.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+D:\PP_4sem\lab6\lab6\bin\Debug\net6.0\lab6.exe
+D:\PP_4sem\lab6\lab6\bin\Debug\net6.0\lab6.deps.json
+D:\PP_4sem\lab6\lab6\bin\Debug\net6.0\lab6.runtimeconfig.json
+D:\PP_4sem\lab6\lab6\bin\Debug\net6.0\lab6.dll
+D:\PP_4sem\lab6\lab6\bin\Debug\net6.0\lab6.pdb
+D:\PP_4sem\lab6\lab6\bin\Debug\net6.0\Lab6Lib.dll
+D:\PP_4sem\lab6\lab6\bin\Debug\net6.0\Lab6Lib.pdb
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.csproj.AssemblyReference.cache
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.GeneratedMSBuildEditorConfig.editorconfig
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.AssemblyInfoInputs.cache
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.AssemblyInfo.cs
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.csproj.CoreCompileInputs.cache
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.csproj.CopyComplete
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.dll
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\refint\lab6.dll
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.pdb
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\lab6.genruntimeconfig.cache
+D:\PP_4sem\lab6\lab6\obj\Debug\net6.0\ref\lab6.dll
+D:\Универ\4 сем\ПП\lab6\lab6\bin\Debug\net6.0\lab6.exe
+D:\Универ\4 сем\ПП\lab6\lab6\bin\Debug\net6.0\lab6.deps.json
+D:\Универ\4 сем\ПП\lab6\lab6\bin\Debug\net6.0\lab6.runtimeconfig.json
+D:\Универ\4 сем\ПП\lab6\lab6\bin\Debug\net6.0\lab6.dll
+D:\Универ\4 сем\ПП\lab6\lab6\bin\Debug\net6.0\lab6.pdb
+D:\Универ\4 сем\ПП\lab6\lab6\bin\Debug\net6.0\Lab6Lib.dll
+D:\Универ\4 сем\ПП\lab6\lab6\bin\Debug\net6.0\Lab6Lib.pdb
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.csproj.AssemblyReference.cache
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.AssemblyInfoInputs.cache
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.AssemblyInfo.cs
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.csproj.CoreCompileInputs.cache
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.csproj.CopyComplete
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.dll
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\refint\lab6.dll
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.pdb
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\lab6.genruntimeconfig.cache
+D:\Универ\4 сем\ПП\lab6\lab6\obj\Debug\net6.0\ref\lab6.dll

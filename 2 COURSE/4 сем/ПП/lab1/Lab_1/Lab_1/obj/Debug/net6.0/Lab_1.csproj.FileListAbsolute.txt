@@ -1,0 +1,45 @@
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.AssemblyReference.cache
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfoInputs.cache
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfo.cs
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.CoreCompileInputs.cache
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.exe
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.deps.json
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.runtimeconfig.json
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.dll
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.pdb
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.dll
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\refint\Lab_1.dll
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.pdb
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.genruntimeconfig.cache
+F:\.Уник\4 сем\ПП\Лабы\Lab_1\Lab_1\obj\Debug\net6.0\ref\Lab_1.dll
+C:\Универ\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.exe
+C:\Универ\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.deps.json
+C:\Универ\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.runtimeconfig.json
+C:\Универ\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.dll
+C:\Универ\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.pdb
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.AssemblyReference.cache
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfoInputs.cache
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfo.cs
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.CoreCompileInputs.cache
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.dll
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\refint\Lab_1.dll
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.pdb
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.genruntimeconfig.cache
+C:\Универ\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\ref\Lab_1.dll
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.exe
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.deps.json
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.runtimeconfig.json
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.dll
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.pdb
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfoInputs.cache
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfo.cs
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.dll
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\refint\Lab_1.dll
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.pdb
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.genruntimeconfig.cache
+C:\Универ\4 сем\ПП\lab1\Lab_1\Lab_1\obj\Debug\net6.0\ref\Lab_1.dll

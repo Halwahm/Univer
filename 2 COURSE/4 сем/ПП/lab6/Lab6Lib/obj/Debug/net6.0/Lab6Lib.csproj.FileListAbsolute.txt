@@ -1,0 +1,24 @@
+D:\PP_4sem\lab6\Lab6Lib\bin\Debug\net6.0\Lab6Lib.deps.json
+D:\PP_4sem\lab6\Lab6Lib\bin\Debug\net6.0\Lab6Lib.dll
+D:\PP_4sem\lab6\Lab6Lib\bin\Debug\net6.0\Lab6Lib.pdb
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.csproj.AssemblyReference.cache
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.AssemblyInfoInputs.cache
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.AssemblyInfo.cs
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.csproj.CoreCompileInputs.cache
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.dll
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\refint\Lab6Lib.dll
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.pdb
+D:\PP_4sem\lab6\Lab6Lib\obj\Debug\net6.0\ref\Lab6Lib.dll
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\bin\Debug\net6.0\Lab6Lib.deps.json
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\bin\Debug\net6.0\Lab6Lib.dll
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\bin\Debug\net6.0\Lab6Lib.pdb
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.csproj.AssemblyReference.cache
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.AssemblyInfoInputs.cache
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.AssemblyInfo.cs
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.csproj.CoreCompileInputs.cache
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.dll
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\refint\Lab6Lib.dll
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\Lab6Lib.pdb
+D:\Универ\4 сем\ПП\lab6\Lab6Lib\obj\Debug\net6.0\ref\Lab6Lib.dll

@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <BANK>
+    <NOMER>722664</NOMER>
+    <BALANS>Условный вклад</BALANS>
+    <VKLAD>472</VKLAD>
+    <D_OPEN>10.02.2023 16:57:04</D_OPEN>
+    <SMS>True</SMS>
+    <IB>True</IB>
+    <FIO>halal1 andr1 
+</FIO>
+    <D_BDAY>15 февраля 2023 г.
+</D_BDAY>
+    <PASSPORT>AB1267421
+</PASSPORT>
+  </BANK>
+  <BANK>
+    <NOMER>67869</NOMER>
+    <BALANS>Вклад до востребования</BALANS>
+    <VKLAD>210</VKLAD>
+    <D_OPEN>09.02.2023 16:57:04</D_OPEN>
+    <SMS>True</SMS>
+    <IB>False</IB>
+    <FIO>mater hakdgs 
+</FIO>
+    <D_BDAY>20 февраля 2023 г.
+</D_BDAY>
+    <PASSPORT>BM123534
+</PASSPORT>
+  </BANK>
+  <BANK>
+    <NOMER>12887</NOMER>
+    <BALANS>Вклад до востребования</BALANS>
+    <VKLAD>210</VKLAD>
+    <D_OPEN>02.02.2023 16:57:04</D_OPEN>
+    <SMS>True</SMS>
+    <IB>True</IB>
+    <FIO>nacv sdgm 
+</FIO>
+    <D_BDAY>15 февраля 2023 г.
+</D_BDAY>
+    <PASSPORT>MP12431
+</PASSPORT>
+  </BANK>
+  <BANK>
+    <NOMER>88303</NOMER>
+    <BALANS>Вклад до востребования</BALANS>
+    <VKLAD>210</VKLAD>
+    <D_OPEN>02.02.2023 16:57:04</D_OPEN>
+    <SMS>True</SMS>
+    <IB>True</IB>
+    <FIO>kudg kjsgn 
+</FIO>
+    <D_BDAY>27 февраля 2023 г.
+</D_BDAY>
+    <PASSPORT>HB1251731
+</PASSPORT>
+  </BANK>
+  <BANK />
+</NewDataSet>

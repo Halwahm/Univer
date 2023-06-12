@@ -1,0 +1,18 @@
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\Lec04LibN\bin\Debug\Lec04LibN.dll
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\Lec04LibN\bin\Debug\Lec04LibN.pdb
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\Lec04LibN\obj\Debug\Lec04LibN.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\Lec04LibN\obj\Debug\Lec04LibN.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\Lec04LibN\obj\Debug\Lec04LibN.dll
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\Lec04LibN\obj\Debug\Lec04LibN.pdb
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\Lec04LibN\bin\Debug\Lec04LibN.dll
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\Lec04LibN\bin\Debug\Lec04LibN.pdb
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.csproj.AssemblyReference.cache
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.dll
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.pdb
+C:\Универ\4 сем\ПП\lab4\lab_4\Lec04LibN\bin\Debug\Lec04LibN.dll
+C:\Универ\4 сем\ПП\lab4\lab_4\Lec04LibN\bin\Debug\Lec04LibN.pdb
+C:\Универ\4 сем\ПП\lab4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ПП\lab4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ПП\lab4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.dll
+C:\Универ\4 сем\ПП\lab4\lab_4\Lec04LibN\obj\Debug\Lec04LibN.pdb

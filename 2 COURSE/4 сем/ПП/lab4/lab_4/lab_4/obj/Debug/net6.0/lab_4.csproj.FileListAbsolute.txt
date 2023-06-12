@@ -1,0 +1,54 @@
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\bin\Debug\net6.0\lab_4.exe
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\bin\Debug\net6.0\lab_4.deps.json
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\bin\Debug\net6.0\lab_4.runtimeconfig.json
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\bin\Debug\net6.0\lab_4.dll
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\bin\Debug\net6.0\lab_4.pdb
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\bin\Debug\net6.0\Lec04LibN.dll
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\bin\Debug\net6.0\Lec04LibN.pdb
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.AssemblyInfo.cs
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.CopyComplete
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.dll
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\refint\lab_4.dll
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.pdb
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\lab_4.genruntimeconfig.cache
+C:\Users\Acer\Desktop\лабы\ПП\lab_4\lab_4\obj\Debug\net6.0\ref\lab_4.dll
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\bin\Debug\net6.0\lab_4.exe
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\bin\Debug\net6.0\lab_4.deps.json
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\bin\Debug\net6.0\lab_4.runtimeconfig.json
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\bin\Debug\net6.0\lab_4.dll
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\bin\Debug\net6.0\lab_4.pdb
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\bin\Debug\net6.0\Lec04LibN.dll
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\bin\Debug\net6.0\Lec04LibN.pdb
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.AssemblyReference.cache
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.AssemblyInfo.cs
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.CopyComplete
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.dll
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\refint\lab_4.dll
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.pdb
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\lab_4.genruntimeconfig.cache
+C:\Users\777\Desktop\University\2_Grade\2sem\PP\Lab_4\lab_4\lab_4\obj\Debug\net6.0\ref\lab_4.dll
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\bin\Debug\net6.0\lab_4.exe
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\bin\Debug\net6.0\lab_4.deps.json
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\bin\Debug\net6.0\lab_4.runtimeconfig.json
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\bin\Debug\net6.0\lab_4.dll
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\bin\Debug\net6.0\lab_4.pdb
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\bin\Debug\net6.0\Lec04LibN.dll
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\bin\Debug\net6.0\Lec04LibN.pdb
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.AssemblyInfoInputs.cache
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.AssemblyInfo.cs
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.csproj.CopyComplete
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.dll
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\refint\lab_4.dll
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.pdb
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\lab_4.genruntimeconfig.cache
+C:\Универ\4 сем\ПП\lab4\lab_4\lab_4\obj\Debug\net6.0\ref\lab_4.dll

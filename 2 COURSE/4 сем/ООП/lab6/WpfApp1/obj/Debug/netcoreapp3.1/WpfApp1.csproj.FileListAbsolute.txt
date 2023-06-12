@@ -1,0 +1,61 @@
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.AssemblyReference.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Универ\4 сем\ООП\OOP_Labs_4sem-main\7 лаба\lab7\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache

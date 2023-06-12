@@ -1,0 +1,89 @@
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Bank.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form2.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\2 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Bank.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form2.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Search.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Bank.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form2.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Search.resources
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
+C:\Study\2 курс\4 семестр\ООП\сами лабы\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Bank.resources
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form2.resources
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Search.resources
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Универ\ООП\OOP_Labs_4sem-main\3 лаба\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Bank.resources
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form2.resources
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Search.resources
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
+C:\Универ\4 сем\ООП\lab3\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache

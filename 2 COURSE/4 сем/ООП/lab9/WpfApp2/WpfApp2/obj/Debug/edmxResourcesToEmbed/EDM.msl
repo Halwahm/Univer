@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище app1ModelContainer" CdmEntityContainer="app1Entities">
+    <EntitySetMapping Name="ADDRESS">
+      <EntityTypeMapping TypeName="app1Model.ADDRESS">
+        <MappingFragment StoreEntitySet="ADDRESS">
+          <ScalarProperty Name="id_address" ColumnName="id_address" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="street" ColumnName="street" />
+          <ScalarProperty Name="house" ColumnName="house" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="flat" ColumnName="flat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PASSPORT">
+      <EntityTypeMapping TypeName="app1Model.PASSPORT">
+        <MappingFragment StoreEntitySet="PASSPORT">
+          <ScalarProperty Name="id_passport" ColumnName="id_passport" />
+          <ScalarProperty Name="serial" ColumnName="serial" />
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERSON">
+      <EntityTypeMapping TypeName="app1Model.PERSON">
+        <MappingFragment StoreEntitySet="PERSON">
+          <ScalarProperty Name="id_person" ColumnName="id_person" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="middle_name" ColumnName="middle_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="id_address" ColumnName="id_address" />
+          <ScalarProperty Name="id_passport" ColumnName="id_passport" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

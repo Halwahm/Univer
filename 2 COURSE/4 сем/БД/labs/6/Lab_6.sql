@@ -1,0 +1,31 @@
+--1, 2
+--C:\app\potbstu\admin\orcl\pfile
+--3
+ALTER SESSION SET CONTAINER = cdb$root;
+ALTER SESSION SET CONTAINER = pdb_pot;
+
+CREATE PFILE = 'PAV_PFILE.ORA' FROM SPFILE;
+--C:\app\potbstu\product\12.1.0\dbhome_1\database
+--4, 5
+CREATE SPFILE = 'PAV_SPFILE.ORA' FROM PFILE = 'PAV_PFILE.ORA';
+--6
+SELECT NAME, VALUE FROM V$PARAMETER WHERE NAME = 'open_cursors';
+--7
+ALTER SYSTEM SET OPEN_CURSORS = 300 SCOPE = SPFILE;
+--8
+SHOW PARAMETER CONTROL;
+
+SELECT NAME FROM V$CONTROLFILE;
+--9
+ALTER SYSTEM SET OPEN_CURSORS = 300 SCOPE = SPFILE;
+--9
+SHOW PARAMETER control_files;
+--10, 11
+--C:\app\potbstu\product\12.1.0\dbhome_1\database
+SELECT * FROM V$PWFILE_USERS;
+--12
+SELECT * FROM V$DIAG_INFO; 
+--13 PATH: C:\app\potbstu\diag\rdbms\orcl\orcl\alert
+--14
+SELECT VALUE FROM V$DIAG_INFO WHERE NAME = 'Default Trace File';
+

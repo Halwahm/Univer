@@ -1,0 +1,4 @@
+﻿  RemoteConsole.cpp
+D:\Универ\4 сем\ПСП\Laba8\RemoteConsole\RemoteConsole\RemoteConsole.cpp(82,84): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+D:\Универ\4 сем\ПСП\Laba8\RemoteConsole\RemoteConsole\RemoteConsole.cpp(112,2): warning C4065: оператор switch содержит метку "default", но не содержит ни одной метки "case"
+  RemoteConsole.vcxproj -> D:\Универ\4 сем\ПСП\Laba8\RemoteConsole\Debug\RemoteConsole.exe
