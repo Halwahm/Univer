@@ -1,5 +1,0 @@
-﻿  ConcurentServer.cpp
-D:\Универ\4 сем\ПСП\Laba8\ConcurentServer\ConcurentServer\DispathServer.h(53,27): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Универ\4 сем\ПСП\Laba8\ConcurentServer\ConcurentServer\GarbageCleaner.h(23,13): warning C4101: nulX: неиспользованная локальная переменная
-D:\Универ\4 сем\ПСП\Laba8\ConcurentServer\ConcurentServer\ConsolePipe.h(113,26): warning C4018: <: несоответствие типов со знаком и без знака
-  ConcurentServer.vcxproj -> D:\Универ\4 сем\ПСП\Laba8\ConcurentServer\Debug\ConcurentServer.exe
