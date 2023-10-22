@@ -1,0 +1,9 @@
+CREATE TABLE UserResponses (
+    ResponseID NUMBER PRIMARY KEY,
+    UserID NUMBER,
+    RequestID NUMBER, -- Внешний ключ, связывающий с таблицей запросов
+    ResponseText CLOB,
+    ResponseDate TIMESTAMP,
+    CONSTRAINT FK_UserResponses_User FOREIGN KEY (UserID) REFERENCES Users(UserID), -- Связь с таблицей пользователей
+    CONSTRAINT FK_UserResponses_Requests FOREIGN KEY (RequestID) REFERENCES Requests(RequestID) -- Предполагаемая таблица запросов
+);

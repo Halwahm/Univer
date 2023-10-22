@@ -1,0 +1,91 @@
+﻿
+
+<!--task 5-->
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form id="calculator-form">
+        <label for="x">Enter X: </label>
+        <input type="number" id="x" name="x" required><br><br>
+        <label for="y">Enter Y: </label>
+        <input type="number" id="y" name="y" required><br><br>
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        function calculate() {
+            const x = parseFloat(document.getElementById('x').value);
+            const y = parseFloat(document.getElementById('y').value);
+
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', '/api/calculator/add', true);
+            xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const result = JSON.parse(xhr.responseText);
+                    document.getElementById('result').textContent = `Result: ${result}`;
+                } else {
+                    document.getElementById('result').textContent = 'Error occurred during calculation.';
+                }
+            };
+            const data = JSON.stringify({ X: x, Y: y });
+            xhr.send(data);
+        }
+    </script>
+</body>
+</html>
+-->
+
+
+<!--task 6-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form id="calculator-form">
+        <label for="x">Enter X: </label>
+        <input type="number" id="x" name="x" required><br><br>
+        <label for="y">Enter Y: </label>
+        <input type="number" id="y" name="y" required><br><br>
+        <input type="submit" value="Calculate">
+    </form>
+    <p id="result"></p>
+
+    <script>
+        const form = document.getElementById('calculator-form');
+        const resultElement = document.getElementById('result');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const x = parseFloat(document.getElementById('x').value);
+            const y = parseFloat(document.getElementById('y').value);
+
+            const response = await fetch('/api/calculator', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ X: x, Y: y })
+            });
+
+            if (response.ok) {
+                const result = await response.text();
+                resultElement.textContent = `Result: ${result}`;
+            } else {
+                resultElement.textContent = 'Error occurred during calculation.';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+-- Создание последовательности для автогенерации значений Primary Key
+CREATE SEQUENCE Users_Seq START WITH 1 INCREMENT BY 1;
+
+CREATE TABLE Users (
+    UserID NUMBER DEFAULT Users_Seq.NEXTVAL PRIMARY KEY,
+    FirstName NVARCHAR2(50),
+    LastName NVARCHAR2(50),
+    Username NVARCHAR2(50),
+    Email NVARCHAR2(100),
+    Role NVARCHAR2(50),
+    UserFullName GENERATED ALWAYS AS (FirstName || ' ' || LastName) VIRTUAL
+);
+
+CREATE SEQUENCE Requests_Seq START WITH 1 INCREMENT BY 1;
+
+CREATE TABLE Requests (
+    RequestID NUMBER DEFAULT Requests_Seq.NEXTVAL PRIMARY KEY,
+    Title NVARCHAR2(100),
+    Description NVARCHAR2(2000),
+    Status NVARCHAR2(50),
+    Priority NVARCHAR2(50),
+    CreatedAt TIMESTAMP,
+    UpdatedAt TIMESTAMP,
+    UserID NUMBER,
+    UserFullName NVARCHAR2(101),
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+CREATE SEQUENCE Incidents_Seq START WITH 1 INCREMENT BY 1;
+
+CREATE TABLE Incidents (
+    IncidentID NUMBER DEFAULT Incidents_Seq.NEXTVAL PRIMARY KEY,
+    Title NVARCHAR2(100),
+    Description NVARCHAR2(2000),
+    Status NVARCHAR2(50),
+    Priority NVARCHAR2(50),
+    CreatedAt TIMESTAMP,
+    ClosedAt TIMESTAMP,
+    UserID NUMBER,
+    UserFullName NVARCHAR2(101),
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+CREATE SEQUENCE KnowledgeBase_Seq START WITH 1 INCREMENT BY 1;
+
+CREATE TABLE KnowledgeBase (
+    ArticleID NUMBER DEFAULT KnowledgeBase_Seq.NEXTVAL PRIMARY KEY,
+    Title NVARCHAR2(100),
+    Content NVARCHAR2(2000),
+    Category NVARCHAR2(50),
+    CreatedAt TIMESTAMP
+);
+
+CREATE SEQUENCE Reports_Seq START WITH 1 INCREMENT BY 1;
+
+CREATE TABLE Reports (
+    ReportID NUMBER DEFAULT Reports_Seq.NEXTVAL PRIMARY KEY,
+    ReportType NVARCHAR2(50),
+    CreatedAt TIMESTAMP,
+    ReportData NVARCHAR2(2000),
+    UserID NUMBER,
+    UserFullName NVARCHAR2(101),
+    RequestType NVARCHAR2(100),
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+CREATE SEQUENCE Comments_Seq START WITH 1 INCREMENT BY 1;
+
+CREATE TABLE Comments (
+    CommentID NUMBER DEFAULT Comments_Seq.NEXTVAL PRIMARY KEY,
+    Text NVARCHAR2(2000),
+    CreatedAt TIMESTAMP,
+    UserID NUMBER,
+    UserFullName NVARCHAR2(101),
+    RequestID NUMBER,
+    IncidentID NUMBER,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID),
+    FOREIGN KEY (RequestID) REFERENCES Requests(RequestID),
+    FOREIGN KEY (IncidentID) REFERENCES Incidents(IncidentID)
+);

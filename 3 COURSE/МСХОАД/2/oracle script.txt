@@ -1,0 +1,108 @@
+-- Представления
+-- Представление для списка активных запросов
+CREATE OR REPLACE VIEW ActiveRequests AS
+SELECT * FROM Requests WHERE Status = 'Active';
+
+-- Представление для списка инцидентов, отсортированных по приоритету
+CREATE OR REPLACE VIEW HighPriorityIncidents AS
+SELECT * FROM Incidents WHERE Priority = 'High' ORDER BY Priority;
+
+-- Представление для списка отчетов за последний месяц
+CREATE OR REPLACE VIEW ReportsLastMonth AS
+SELECT * FROM Reports WHERE MONTHS_BETWEEN(CURRENT_TIMESTAMP, CreatedAt) <= 1;
+
+-- Индексы
+-- Индекс для внешнего ключа UserID в таблице Requests
+CREATE INDEX IX_Requests_UserID ON Requests(UserID);
+
+-- Индекс для внешнего ключа UserID в таблице Incidents
+CREATE INDEX IX_Incidents_UserID ON Incidents(UserID);
+
+-- Индекс для внешнего ключа UserID в таблице Comments
+CREATE INDEX IX_Comments_UserID ON Comments(UserID);
+
+
+-- Последовательности
+-- Последовательность для RequestID
+CREATE SEQUENCE RequestIDSeq START WITH 1 INCREMENT BY 1;
+
+-- Последовательность для IncidentID
+CREATE SEQUENCE IncidentIDSeq START WITH 1 INCREMENT BY 1;
+
+-- Последовательность для ReportID
+CREATE SEQUENCE ReportIDSeq START WITH 1 INCREMENT BY 1;
+
+CREATE SEQUENCE CommentIDSeq START WITH 1 INCREMENT BY 1;
+
+
+
+-- Процедуры
+-- Процедура для создания нового запроса
+CREATE OR REPLACE PROCEDURE CreateNewRequest(
+    p_Title NVARCHAR2,
+    p_Description NVARCHAR2,
+    p_UserID NUMBER
+) AS
+BEGIN
+    INSERT INTO Requests (RequestID, Title, Description, Status, Priority, CreatedAt, UpdatedAt, UserID, UserFullName)
+    VALUES (RequestIDSeq.NEXTVAL, p_Title, p_Description, 'Active', 'Medium', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, p_UserID, (SELECT UserFullName FROM Users WHERE UserID = p_UserID));
+END CreateNewRequest;
+
+-- Процедура для закрытия запроса
+CREATE OR REPLACE PROCEDURE CloseRequest(p_RequestID NUMBER) AS
+BEGIN
+    UPDATE Requests
+    SET Status = 'Closed', UpdatedAt = CURRENT_TIMESTAMP
+    WHERE RequestID = p_RequestID;
+END CloseRequest;
+
+-- Процедура для создания нового комментария
+CREATE OR REPLACE PROCEDURE AddComment(
+    p_Text NVARCHAR2,
+    p_UserID NUMBER,
+    p_RequestID NUMBER,
+    p_IncidentID NUMBER
+) AS
+BEGIN
+    INSERT INTO Comments (CommentID, Text, CreatedAt, UserID, UserFullName, RequestID, IncidentID)
+    VALUES (CommentIDSeq.NEXTVAL, p_Text, CURRENT_TIMESTAMP, p_UserID, (SELECT UserFullName FROM Users WHERE UserID = p_UserID), p_RequestID, p_IncidentID);
+    COMMIT;
+EXCEPTION
+    WHEN OTHERS THEN
+        ROLLBACK; 
+        RAISE; 
+END AddComment;
+
+
+
+-- Функции
+-- Функция для получения общего количества запросов, созданных каждым пользователем
+CREATE OR REPLACE FUNCTION GetUserRequestCount(p_UserID NUMBER) RETURN NUMBER AS
+    v_RequestCount NUMBER;
+BEGIN
+    SELECT COUNT(RequestID) INTO v_RequestCount
+    FROM Requests
+    WHERE UserID = p_UserID;
+    RETURN v_RequestCount;
+END GetUserRequestCount;
+
+-- Функция для получения общего количества комментариев, оставленных каждым пользователем
+CREATE OR REPLACE FUNCTION GetUserCommentCount(p_UserID NUMBER) RETURN NUMBER AS
+    v_CommentCount NUMBER;
+BEGIN
+    SELECT COUNT(CommentID) INTO v_CommentCount
+    FROM Comments
+    WHERE UserID = p_UserID;
+    RETURN v_CommentCount;
+END GetUserCommentCount;
+
+-- Функция для расчета количества дней с момента последнего обновления запроса
+CREATE OR REPLACE FUNCTION DaysSinceLastUpdate(p_RequestID NUMBER) RETURN NUMBER AS
+    v_DaysSinceLastUpdate NUMBER;
+BEGIN
+    SELECT TRUNC(CURRENT_TIMESTAMP) - TRUNC(UpdatedAt) INTO v_DaysSinceLastUpdate
+    FROM Requests
+    WHERE RequestID = p_RequestID;
+    RETURN v_DaysSinceLastUpdate;
+END DaysSinceLastUpdate;
+
