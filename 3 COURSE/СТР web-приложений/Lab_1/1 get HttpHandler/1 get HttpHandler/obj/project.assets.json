@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\УНИВЕР\\СТР web-приложений\\1\\1 get HttpHandler\\1 get HttpHandler\\1 get HttpHandler.csproj",
+      "projectUniqueName": "D:\\УНИВЕР\\СТР web-приложений\\Lab_1\\1 get HttpHandler\\1 get HttpHandler\\1 get HttpHandler.csproj",
       "projectName": "1 get HttpHandler",
-      "projectPath": "D:\\УНИВЕР\\СТР web-приложений\\1\\1 get HttpHandler\\1 get HttpHandler\\1 get HttpHandler.csproj",
+      "projectPath": "D:\\УНИВЕР\\СТР web-приложений\\Lab_1\\1 get HttpHandler\\1 get HttpHandler\\1 get HttpHandler.csproj",
       "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
-      "outputPath": "D:\\УНИВЕР\\СТР web-приложений\\1\\1 get HttpHandler\\1 get HttpHandler\\obj\\",
+      "outputPath": "D:\\УНИВЕР\\СТР web-приложений\\Lab_1\\1 get HttpHandler\\1 get HttpHandler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\УНИВЕР\\РПР\\Lab4\\4Lib": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

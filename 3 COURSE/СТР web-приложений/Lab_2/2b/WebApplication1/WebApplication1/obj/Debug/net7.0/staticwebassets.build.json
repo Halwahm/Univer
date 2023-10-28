@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "TA524YzIos1zJmQxSYAKmyD8TF4gGVeaJVOxxYs85d4=",
+  "Source": "ASPCMVC13",
+  "BasePath": "_content/ASPCMVC13",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPCMVC13\\wwwroot",
+      "Source": "ASPCMVC13",
+      "ContentRoot": "E:\\Belstu\\3k1s\\MDTWP\\laba2\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ASPCMVC13",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Belstu\\3k1s\\MDTWP\\laba2\\WebApplication1\\WebApplication1\\wwwroot\\Index.html",
+      "SourceId": "ASPCMVC13",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Belstu\\3k1s\\MDTWP\\laba2\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ASPCMVC13",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ]
+}

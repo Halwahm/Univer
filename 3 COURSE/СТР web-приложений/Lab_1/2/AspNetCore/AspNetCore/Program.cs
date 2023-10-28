@@ -11,7 +11,7 @@ app.UseStaticFiles();
 app.UseWebSockets();
 app.MapGet("/", (HttpContext context) =>
 {
-    string pathToFileHtml = "D:\\УНИВЕР\\СТР web-приложений\\2\\AspNetCore\\AspNetCore\\Properties\\html\\WebSocket.html";
+    string pathToFileHtml = "D:\\УНИВЕР\\СТР web-приложений\\Lab_1\\2\\AspNetCore\\AspNetCore\\Properties\\html\\WebSocket.html";
     context.Response.ContentType = "text/html";
     return context.Response.SendFileAsync(pathToFileHtml);
 });

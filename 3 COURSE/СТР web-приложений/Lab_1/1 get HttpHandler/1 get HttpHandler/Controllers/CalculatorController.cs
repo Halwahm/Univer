@@ -6,7 +6,7 @@ namespace _1_get_HttpHandler.Controllers
     [ApiController]
     public class CalculatorController : ControllerBase
     {
-/*        [HttpPost]  // 4 task
+        [HttpPost]  // 4 task
         [Route("add")]
         public IActionResult Add([FromBody] NumbersRequest request)
         {
@@ -14,7 +14,6 @@ namespace _1_get_HttpHandler.Controllers
             double sum = request.X + request.Y;
             return Ok(sum);
         }
-*/
 
         [HttpGet]  // 5 task
         public IActionResult Get()

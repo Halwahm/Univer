@@ -1,0 +1,26 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@hostname = localhost
+@port = 7117
+###
+GET https://{{hostname}}:{{port}}/Start/Index1
+###
+GET https://{{hostname}}:{{port}}/Start/One
+###
+GET https://{{hostname}}:{{port}}/Start/Two
+###
+GET https://{{hostname}}:{{port}}/Start/Three
+###
+POST https://{{hostname}}:{{port}}/Start/Index1
+###
+POST https://{{hostname}}:{{port}}/Start/One
+###
+POST https://{{hostname}}:{{port}}/Start/Two
+###
+POST https://{{hostname}}:{{port}}/Start/Three
+
+###
+GET https://belstu.by/
+
+###
+GET https://{{hostname}}:{{port}}/Start/Five

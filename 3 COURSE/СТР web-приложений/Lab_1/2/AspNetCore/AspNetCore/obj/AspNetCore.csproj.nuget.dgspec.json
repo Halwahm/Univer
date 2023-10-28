@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\УНИВЕР\\РПР\\Lab4\\4Lib": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

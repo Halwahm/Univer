@@ -1,0 +1,54 @@
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\bin\Debug\net7.0\appsettings.Development.json
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\bin\Debug\net7.0\appsettings.json
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.exe
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.deps.json
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.runtimeconfig.json
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.dll
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.pdb
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.GeneratedMSBuildEditorConfig.editorconfig
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.AssemblyInfoInputs.cache
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.AssemblyInfo.cs
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.csproj.CoreCompileInputs.cache
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.MvcApplicationPartsAssemblyInfo.cache
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.RazorAssemblyInfo.cache
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.RazorAssemblyInfo.cs
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.ASPCMVC6.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.build.ASPCMVC6.props
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ASPCMVC6.props
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ASPCMVC6.props
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets.build.json
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets.development.json
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\scopedcss\bundle\ASPCMVC6.styles.css
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.dll
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\refint\ASPCMVC6.dll
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.pdb
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.genruntimeconfig.cache
+E:\Belstu\3k1s\MDTWP\laba2\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ref\ASPCMVC6.dll
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\bin\Debug\net7.0\appsettings.Development.json
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\bin\Debug\net7.0\appsettings.json
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.exe
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.deps.json
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.runtimeconfig.json
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.dll
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\bin\Debug\net7.0\ASPCMVC6.pdb
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.GeneratedMSBuildEditorConfig.editorconfig
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.AssemblyInfoInputs.cache
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.AssemblyInfo.cs
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.csproj.CoreCompileInputs.cache
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.MvcApplicationPartsAssemblyInfo.cache
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.RazorAssemblyInfo.cache
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.RazorAssemblyInfo.cs
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.ASPCMVC6.Microsoft.AspNetCore.StaticWebAssets.props
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.build.ASPCMVC6.props
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ASPCMVC6.props
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ASPCMVC6.props
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets.pack.json
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets.build.json
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\staticwebassets.development.json
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\scopedcss\bundle\ASPCMVC6.styles.css
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.dll
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\refint\ASPCMVC6.dll
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.pdb
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ASPCMVC6.genruntimeconfig.cache
+D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\obj\Debug\net7.0\ref\ASPCMVC6.dll

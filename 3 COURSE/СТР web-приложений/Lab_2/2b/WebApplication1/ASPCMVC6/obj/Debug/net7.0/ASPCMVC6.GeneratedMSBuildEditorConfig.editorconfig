@@ -1,0 +1,33 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ASPCMVC6
+build_property.RootNamespace = ASPCMVC6
+build_property.ProjectDir = D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\УНИВЕР\СТР web-приложений\Lab_2\2b\WebApplication1\ASPCMVC6
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/УНИВЕР/СТР web-приложений/Lab_2/2b/WebApplication1/ASPCMVC6/Views/TAResearch/M01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVEFSZXNlYXJjaFxNMDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/УНИВЕР/СТР web-приложений/Lab_2/2b/WebApplication1/ASPCMVC6/Views/TAResearch/M02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVEFSZXNlYXJjaFxNMDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/УНИВЕР/СТР web-приложений/Lab_2/2b/WebApplication1/ASPCMVC6/Views/TAResearch/M03.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVEFSZXNlYXJjaFxNMDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/УНИВЕР/СТР web-приложений/Lab_2/2b/WebApplication1/ASPCMVC6/Views/TAResearch/MXX.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVEFSZXNlYXJjaFxNWFguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,10 @@
+https://localhost:7177/it/45/dfgdfb
+
+https://localhost:7177/it/false/dfgdfb
+https://localhost:7177/it/true/dfgdfb
+
+https://localhost:7177/it/122.5/dfg
+
+https://localhost:7177/it/grr/160
+
+https://localhost:7177/it/hello@mail.com
