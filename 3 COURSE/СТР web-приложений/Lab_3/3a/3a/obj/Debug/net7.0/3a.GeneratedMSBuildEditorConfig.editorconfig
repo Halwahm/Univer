@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _3a
+build_property.RootNamespace = _3a
+build_property.ProjectDir = D:\УНИВЕР\СТР web-приложений\Lab_3\3a\3a\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\УНИВЕР\СТР web-приложений\Lab_3\3a\3a
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/УНИВЕР/СТР web-приложений/Lab_3/3a/3a/Views/Calc/Calc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xDYWxjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/УНИВЕР/СТР web-приложений/Lab_3/3a/3a/Views/Calc/CalcLink.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xDYWxjTGluay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/УНИВЕР/СТР web-приложений/Lab_3/3a/3a/Views/Calc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
