@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Заказ товаров</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <form name="f1">
+      <h1 align="left">Заказ товаров</h1>
+      Компания <input type="text" name="firma" size="30" /> заказала
+      <input type="text" name="tovar" size="30" /> 
+      Цена <input type="text" name="cena" size="10" /><br /><br />
+      <input id="button" type="button" name="b1" size="30" value="Click" />
+    </form>
+    <table id="table" border="1">
+      <tr>
+        <th>Компания</th>
+        <th>Товар</th>
+        <th>Цена</th>
+      </tr>
+    </table>
+    <div id="totalDisplay">Общая сумма заказа: 0</div>
+    <script defer>
+      const table = document.getElementById('table');
+      const button = document.getElementById('button');
+      const totalDisplay = document.getElementById('totalDisplay');
+      let total = 0;
+
+      button.addEventListener('click', () => {
+        let firma = f1.firma.value;
+        let tovar = f1.tovar.value;
+        let cena = parseFloat(f1.cena.value);
+
+        if (firma && tovar && !isNaN(cena)) {
+          table.innerHTML += `<tr><td>${firma}</td><td>${tovar}</td><td>${cena}</td></tr>`;
+          f1.reset();
+
+          total += cena;
+          totalDisplay.innerText = `Общая сумма заказа: ${total}`;
+        }
+      });
+    </script>
+  </body>
+</html>

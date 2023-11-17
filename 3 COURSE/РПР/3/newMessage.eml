@@ -1,0 +1,280 @@
+Delivered-To: halaleenko1325476@mail.ru
+Return-path: <security@mail.instagram.com>
+Received-SPF: pass (mx57.i.mail.ru: domain of mail.instagram.com designates
+ 66.220.155.141 as permitted sender) client-ip=66.220.155.141;
+ envelope-from=security@mail.instagram.com;
+ helo=66-220-155-141.mail-mail.facebook.com;
+Received: from 66-220-155-141.mail-mail.facebook.com ([66.220.155.141]:38902)
+	by mx57.i.mail.ru with esmtp (envelope-from <security@mail.instagram.com>)
+	id 1qnmcY-008cxJ-1K for halaleenko1325476@mail.ru;
+	Wed, 04 Oct 2023 00:07:59 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail.instagram.com;
+	s=s1024-2013-q3; t=1696367270;
+	bh=ApkzKOJ5S1yvoCVxHcbb1U/rwQmlEwTjWW5ioNYYfaY=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=fRFx+ltw+Lcm+DThBFwd4EyHfHP92AKknChCyI3p83Ywvii5/A/cmd3MP+zkrvE0uJkSnaWnjKJ
+	X3hbSQ9mmB/rOepd+lOZoSEzTW+V1WrKhDLWm8SAtWGHlJkuFoKAVqFPpYYgBJF46b3QsulkHEWaB
+	2Fv7DEnkhtNbDcO5axg=
+X-Facebook: from 2401:db00:311c:142a:face:0:117:0 ([MTI3LjAuMC4x]) 	by
+ ig-thrift.facebook.com with HTTPS (ZuckMail);
+Date: Tue, 03 Oct 2023 14:07:49 -0700
+To: halaleenko1325476@mail.ru
+Subject: =?utf-8?b?0J3QvtCy0YvQuSDQstGF0L7QtCDQsiBJbnN0YWdyYW0g0YfQtdGA0LXQtw==?=
+ Instagram =?utf-8?b?0L3QsA==?= 2107113SG
+X-Mailer: ZuckMail [version 1.00]
+From: Instagram <security@mail.instagram.com>
+Reply-To: Instagram <security@mail.instagram.com>
+Errors-To: security@mail.instagram.com
+X-Facebook-Notify: ig_suspicious_login;
+ mailid=U2U606d5fef12d7eG24bc396c64e05bG606d648873050G9e4
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Finstagram=2Ecom=2Faccounts=2Fremove=2Frevoke=5Fwrong=5Femail=2F=3Fui?=
+ =?utf-8?q?db36=3Dospvk2j&token=3D6eu-2713ff660b052e5dc4233e69c4f6d9d4&nonce?=
+ =?utf-8?q?=3DPyQf2XSL&encoded=5Femail=3DaGFsYWxlZW5rbzEzMjU0NzZAbWFpbC5ydQ=3E?=
+BIMI-Selector: v=BIMI1; s=fb2021q2v1;
+Feedback-ID: 9999:ig_suspicious_login:Facebook
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Message-ID: <e8e67f42-6230-11ee-9d1c-c9506ab81596@mail.instagram.com>
+X-Mailru-Src: mx
+X-4EC0790: 10
+X-7564579A: 646B95376F6C166E
+X-77F55803: =?utf-8?q?E822A06ED42C499A0CC8B1F196A87460592FA27CBF1E284DE1BE26BF9EC7B?=
+ =?utf-8?q?0934A56C7EBF76F9292418713E0A8B07B9806B06CC3B0F8F0D641F8289B32?=
+ =?utf-8?q?84F2AC03E26AFC1AD7C105660823B2EEFD31DC?=
+X-7FA49CB5: =?utf-8?q?FF5795518A3D127A4AD6D5ED66289B5278DA827A17800CE7DBA72CFE7C570?=
+ =?utf-8?q?07CEA1F7E6F0F101C67BD4B6F7A4D31EC0BCC500DACC3FED6E28638F802B7?=
+ =?utf-8?q?5D45FF8AA50765F7900637FE9EFE935CD7C6AE8638F802B75D45FF914D58D?=
+ =?utf-8?q?5BE9E6BC1A93B80C6DEB9DEE97C6FB206A91F05B25478EF5FF1C715ED3728?=
+ =?utf-8?q?CD4ADD54EAAC757283DEEC0DE076?=
+X-C1DE0DAB: =?utf-8?q?0D63561A33F958A532D4F1E349922166FF28D44125B613603768244C0DDDE?=
+ =?utf-8?q?F185A4FF58CDAEABE2AA132EA92956906CBAE0CE78792008AA8E99897350C?=
+ =?utf-8?q?7C491EBADB2A551DC3F950AD821FE3CBC9797D794DB285CF8A07CE197FFA0?=
+ =?utf-8?q?EFC27E0ACA71A35648BE338CEED902CAAD3CD6B00BA7CCD254A1CF5E81546?=
+ =?utf-8?q?550A14C02B32638A446BE3E5C627BF0CFE790FC11A7261332C5CB50AE517C?=
+ =?utf-8?q?79554A2A72441321D95598F8B11C588794DB285CF8A07CE1A2ADC6B458DD0?=
+ =?utf-8?q?2B?=
+X-C8649E89: =?utf-8?q?1C3962B70DF3F0ADD77599EB7CE1BDAAA316C810EF86F79E0357DC0226EF9?=
+ =?utf-8?q?A8E87807E0823442EA2ED31085941D9CD0AF7F820E7B07EA4CF0E3823495E?=
+ =?utf-8?q?614328682074597AEDE05900F315823E0396EEFBC32D337506BC524905B00?=
+ =?utf-8?q?F5DFE93A2CC231B5D63B17C6B60AD14550861453135D9A64E2C149155CAAC?=
+ =?utf-8?q?D699CDC6F98202C26D483E81D6BE9D606FC5F45A472C45E39B71571CB0770?=
+ =?utf-8?q?5BA78DCEBA6DA8FE527C24C205A893643082AE146A756F3?=
+X-D57D3AED: =?utf-8?q?3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZ?=
+ =?utf-8?q?VKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6f?=
+ =?utf-8?q?ImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nrsBwskjMlLbwTDbZjg0ktGW?=
+ =?utf-8?q?yd3ZwR5M2G0g+gzS0PKeJDOBrL=2F=2FrLYldd2avYxhfs9M+DuXTOBSH=2FSnnzuO3?=
+ =?utf-8?q?dUdTEydar=2F8eFJ0Yov0iBYqL0jfyfw95Fg=3D=3D?=
+X-F696D7D5: AZoGL+OHmAY/M1NSwll0IagD9283TXlJy27KdI0NsupRz/doO3B8FlH5r4w7ZsPK
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=security@mail.instagram.com
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass
+	(mx57.i.mail.ru: domain of mail.instagram.com designates 66.220.155.141 as permitted sender)
+	smtp.mailfrom=security@mail.instagram.com
+	smtp.helo=66-220-155-141.mail-mail.facebook.com;
+	dkim=pass header.d=mail.instagram.com;
+	dmarc=pass header.from=security@mail.instagram.com
+X-Mailru-Intl-Transport: d,5bf591a
+Uid: 11845
+Folder: INBOX
+Sender: Instagram <security@mail.instagram.com>
+HtmlBody: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional
+ //EN"><html><head><title>Facebook</title><meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8" /><style nonce="g3jF7kN8">@media all and
+ (max-width: 480px){*[class].ib_t{min-width:100%
+ !important}*[class].ib_row{display:block
+ !important}*[class].ib_ext{display:block !important;padding:10px 0 5px
+ 0;vertical-align:top !important;width:100%
+ !important}*[class].ib_img,*[class].ib_mid{vertical-align:top
+ !important}*[class].mb_blk{display:block
+ !important;padding-bottom:10px;width:100%
+ !important}*[class].mb_hide{display:none
+ !important}*[class].mb_inl{display:inline
+ !important}*[class].d_mb_flex{display:block
+ !important}}.d_mb_show{display:none}.d_mb_flex{display:flex}@media only
+ screen and (max-device-width: 480px){.d_mb_hide{display:none
+ !important}.d_mb_show{display:block !important}.d_mb_flex{display:block
+ !important}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text
+ h5,.mb_text h6{line-height:normal}.mb_work_text
+ h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text
+ h2,.mb_work_text
+ h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text
+ h4,.mb_work_text h5,.mb_work_text
+ h6{font-size:14px;line-height:normal}.mb_work_text
+ a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><body
+ style="margin:0;padding:0;" dir="ltr" bgcolor="#ffffff"><table border="0"
+ cellspacing="0" cellpadding="0" align="center" id="email_table"
+ style="border-collapse:collapse;"><tr><td id="email_content"
+ style="font-family:Helvetica Neue,Helvetica,Lucida
+ Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table border="0"
+ width="100%" cellspacing="0" cellpadding="0"
+ style="border-collapse:collapse;"><tr style=""><td height="20"
+ style="line-height:20px;" colspan="3">&nbsp;</td></tr><tr><td height="1"
+ colspan="3" style="line-height:1px;"></td></tr><tr><td style=""><table
+ border="0" width="100%" cellspacing="0" cellpadding="0"
+ =?utf-8?q?style=3D=22border-collapse=3Acollapse=3Btext-align=3Acenter=3Bhtml=5Fwidth=3A?=
+ =?utf-8?q?100%=3Bwidth=3A100%=3B=22=3E=3Ctr=3E=3Ctd?= width="16px"
+ style="width:16px;"></td><td style="line-height:0px;max-width:600px;padding:0
+ 0 15px 0;"><table border="0" cellspacing="0" cellpadding="0"
+ style="border-collapse:collapse;"><tr><td
+ style="width:100%;text-align:left;height:33px;"><a
+ =?utf-8?q?href=3D=22https=3A=2F=2Fwww=2Einstagram=2Ecom=2F=5Fn=2Fmainfeed=3Futm=5Fcampaign=3Dig=5Fs?=
+ =?utf-8?q?uspicious=5Flogin&amp=3Butm=5Fmedium=3Demail&amp=3Btarget=5Fuser=5Fid=3D53979?=
+ =?utf-8?q?291739&amp=3Bndid=3D606d5fef12d7eG24bc396c64e05bG606d648873051G9e?=
+ =?utf-8?q?4=22?= style="color:#1b74e4;text-decoration:none;"><img height="30"
+ src="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/Otjcwa2eCOF.png"
+ style="border:0;" /></a></td><td
+ style="line-height:18px;min-width:60px;text-align:right;"><a
+ =?utf-8?q?href=3D=22https=3A=2F=2Fwww=2Einstagram=2Ecom=2F=5Fn=2Fuser=3Futm=5Fcampaign=3Dig=5Fsuspi?=
+ =?utf-8?q?cious=5Flogin&amp=3Butm=5Fmedium=3Demail&amp=3Btarget=5Fuser=5Fid=3D539792917?=
+ =?utf-8?q?39&amp=3Busername=3Dlook=5Fat=5Fthe=5Fmagic&amp=3Bndid=3D606d5fef12d7eG24bc?=
+ =?utf-8?q?396c64e05bG606d648873051G9e4=22?=
+ style="color:#1b74e4;text-decoration:none;"><img width="30"
+ =?utf-8?q?src=3D=22https=3A=2F=2Finstagram=2Efadb1-2=2Efna=2Efbcdn=2Enet=2Fv=2Ft51=2E2885-19=2F44?=
+ =?utf-8?q?884218=5F345707102882519=5F2446069589734326272=5Fn=2Ejpg=3F=5Fnc=5Fad=3Dz-m&a?=
+ =?utf-8?q?mp=3B=5Fnc=5Fht=3Dinstagram=2Efadb1-2=2Efna=2Efbcdn=2Enet&amp=3B=5Fnc=5Fcat=3D1&amp=3B=5F?=
+ =?utf-8?q?nc=5Fohc=3DWwHvpReZgZUAX8tAQon&amp=3Bedm=3DALlQn9MBAAAA&amp=3Bccb=3D7-5&a?=
+ =?utf-8?q?mp=3Big=5Fcache=5Fkey=3DYW5vbnltb3VzX3Byb2ZpbGVfcGlj=2E2-ccb7-5&amp=3Boh=3D?=
+ =?utf-8?q?00=5FAfBn-RUBOW018jVHfYZ3JPUS2EALeu8BFjFR6vWkH1Ay6w&amp=3Boe=3D6522?=
+ =?utf-8?q?108F&amp=3B=5Fnc=5Fsid=3De7f676=22?= height="30"
+ style="border:0px;border-radius:18px;vertical-align:middle;"
+ /></a></td></tr></table></td><td width="16px"
+ style="width:16px;"></td></tr></table></td></tr><tr><td style=""><table
+ border="0" width="430" cellspacing="0" cellpadding="0"
+ style="border-collapse:collapse;margin:0 auto 0 auto;"><tr><td
+ style=""><table border="0" width="430px" cellspacing="0" cellpadding="0"
+ align="center" style="border-collapse:collapse;margin:0 auto 0
+ auto;text-align:center;"><tr style=""><td height="16"
+ style="line-height:16px;">&nbsp;</td></tr><tr><table border="0" width="300px"
+ cellspacing="0" cellpadding="0" align="center"
+ style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td
+ =?utf-8?q?style=3D=22width=3A300px=3Bpadding=3A0=3Bmargin=3A0=3Btext-align=3Acenter=3Bcolor?=
+ =?utf-8?q?=3A#262626=3Bfont-size=3A18px=3Bfont-family=3AHelvetica?=
+ =?utf-8?q?_Neue=2CHelvetica=2CRoboto=2CArial=2Csans-serif=3B=22=3E=D0=9C=D1=8B?=
+ =?utf-8?b?INC30LDQvNC10YLQuNC70Lgg0L3QvtCy0YvQuSDQstGF0L7QtCw=?=
+ look_at_the_magic</td></table></tr><tr style=""><td height="4"
+ style="line-height:4px;">&nbsp;</td></tr><tr><table border="0" width="300px"
+ cellspacing="0" cellpadding="0" align="center"
+ style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td
+ =?utf-8?q?style=3D=22width=3A300px=3Bpadding=3A0=3Bmargin=3A0=3Btext-align=3Acenter=3Bcolor?=
+ =?utf-8?q?=3A#999999=3Bfont-size=3A14px=3Bfont-family=3AHelvetica?=
+ =?utf-8?q?_Neue=2CHelvetica=2CRoboto=2CArial=2Csans-serif=3B=22=3E=D0=9C=D1=8B?=
+ =?utf-8?b?INC30LDQvNC10YLQuNC70Lgg0LLRhdC+0LQg0YE=?=
+ =?utf-8?b?INGD0YHRgtGA0L7QudGB0YLQstCwLCDQutC+0YLQvtGA0L7QtSDQstGL?=
+ =?utf-8?b?INC+0LHRi9GH0L3QviDQvdC1?=
+ =?utf-8?b?INC40YHQv9C+0LvRjNC30YPQtdGC0LUuPC90ZD48L3RhYmxlPjwvdHI+PHRy?=
+ style=""><td height="16"
+ style="line-height:16px;">&nbsp;</td></tr></table></td></tr><tr><td
+ style=""><table border="0" width="430px" cellspacing="0" cellpadding="0"
+ align="center" style="border-collapse:collapse;margin:0 auto 0
+ auto;text-align:center;width:430px;"><tr style=""><td height="16"
+ style="line-height:16px;">&nbsp;</td></tr><td align="center" style=""><img
+ width="76" src="https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/7JLEaDkKvA7.png"
+ height="76" style="border:0;" /></td><tr style=""><td height="16"
+ style="line-height:16px;">&nbsp;</td></tr></table></td></tr><tr><td
+ style=""><table border="0" width="430px" cellspacing="0" cellpadding="0"
+ align="center" style="border-collapse:collapse;margin:0 auto 0
+ auto;text-align:center;width:430px;"><tr><table border="0" width="300px"
+ cellspacing="0" cellpadding="0" align="center"
+ style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td
+ align="center"
+ =?utf-8?q?style=3D=22width=3A300px=3Bpadding=3A0=3Bmargin=3A0=3Btext-align=3Acenter=3Bcolor?=
+ =?utf-8?q?=3A#262626=3Bfont-size=3A16px=3Bfont-family=3AHelvetica?=
+ Neue,Helvetica,Roboto,Arial,sans-serif;">2107113SG
+ =?utf-8?b?wrcgSW5zdGFncmFtIMK3?= Minsk, Belarus</td></table></tr><tr
+ style=""><td height="4" style="line-height:4px;">&nbsp;</td></tr><tr><table
+ border="0" width="300px" cellspacing="0" cellpadding="0" align="center"
+ style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td
+ align="center"
+ =?utf-8?q?style=3D=22width=3A300px=3Bpadding=3A0=3Bmargin=3A0=3Btext-align=3Acenter=3Bcolor?=
+ =?utf-8?q?=3A#999999=3Bfont-size=3A14px=3Bfont-family=3AHelvetica?=
+ Neue,Helvetica,Roboto,Arial,sans-serif;">October 3 at 2:07 PM
+ (PDT)</td></table></tr></table></td></tr><tr><td style=""><table border="0"
+ width="430px" cellspacing="0" cellpadding="0" align="center"
+ style="border-collapse:collapse;margin:0 auto 0
+ auto;text-align:center;width:430px;"><tr style=""><td height="16"
+ style="line-height:16px;">&nbsp;</td></tr><td style="border-top:solid 1px
+ #DBDBDB;"></td><tr style=""><td height="16"
+ style="line-height:16px;">&nbsp;</td></tr></table></td></tr><tr><td
+ style=""><table border="0" width="430px" cellspacing="0" cellpadding="0"
+ align="center" style="border-collapse:collapse;margin:0 auto 0
+ auto;text-align:center;width:430px;"><tr style=""><td height="24"
+ style="line-height:24px;">&nbsp;</td></tr><tr><table border="0" width="300px"
+ cellspacing="0" cellpadding="0" align="center"
+ style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td
+ =?utf-8?q?style=3D=22width=3A300px=3Bpadding=3A0=3Bmargin=3A0=3Btext-align=3Acenter=3Bcolor?=
+ =?utf-8?q?=3A#999999=3Bfont-size=3A14px=3Bfont-family=3AHelvetica?=
+ =?utf-8?q?_Neue=2CHelvetica=2CRoboto=2CArial=2Csans-serif=3B=22=3E=D0=95=D1=81=D0=BB?=
+ =?utf-8?b?0Lgg0Y3RgtC+INCx0YvQu9C4INCy0YssINC90LXQutC+0YLQvtGA0YvQtQ==?=
+ =?utf-8?b?INC90LDRgdGC0YDQvtC50LrQuCDQsNC60LrQsNGD0L3RgtCwINC4INC10LPQvg==?=
+ =?utf-8?b?INCx0LXQt9C+0L/QsNGB0L3QvtGB0YLQuCDQvdC1INCx0YPQtNGD0YIg0LLQsNC8?=
+ =?utf-8?b?INC00L7RgdGC0YPQv9C90Ysg0L3QtdGB0LrQvtC70YzQutC+INC00L3QtdC5LA==?=
+ =?utf-8?b?INC90L4g0LLRiyDQvNC+0LbQtdGC0LUg0L7RgtC60YDRi9GC0Ywg0LjRhSDQvdCw?=
+ =?utf-8?b?INGD0YHRgtGA0L7QudGB0YLQstC1LCDRgSDQutC+0YLQvtGA0L7Qs9C+?=
+ =?utf-8?b?INGA0LDQvdC10LUg0LLRi9C/0L7Qu9C90Y/Qu9GB0Y8=?=
+ =?utf-8?q?_=D0=B2=D1=85=D0=BE=D0=B4=2E=3C=2Ftd=3E=3C=2Ftable=3E=3C=2Ftr=3E=3C=2Ftable=3E=3C=2Ftd=3E=3C=2Ftr=3E=3Ctr?=
+ =?utf-8?q?=3E=3Ctd?= style=""><table border="0" width="430px" cellspacing="0"
+ cellpadding="0" align="center" style="border-collapse:collapse;margin:0 auto
+ 0 auto;text-align:center;width:430px;"><tr style=""><td height="16"
+ style="line-height:16px;">&nbsp;</td></tr><tr><table border="0" width="300px"
+ cellspacing="0" cellpadding="0" align="center"
+ style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td
+ =?utf-8?q?style=3D=22width=3A300px=3Bpadding=3A0=3Bmargin=3A0=3Btext-align=3Acenter=3Bcolor?=
+ =?utf-8?q?=3A#999999=3Bfont-size=3A14px=3Bfont-family=3AHelvetica?=
+ =?utf-8?q?_Neue=2CHelvetica=2CRoboto=2CArial=2Csans-serif=3B=22=3E=D0=95=D1=81=D0=BB?=
+ =?utf-8?b?0Lgg0Y3RgtC+INCx0YvQu9C4INC90LUg0LLRiywg0LLRiyDQvNC+0LbQtdGC0LU=?=
+ <a
+ =?utf-8?q?href=3D=22https=3A=2F=2Finstagram=2Ecom=2Faccounts=2Fdisavow=2Fospvk2j=2Fwnci1hAk?=
+ =?utf-8?q?=2F=3Fre=3DaGFsYWxlZW5rbzEzMjU0NzZAbWFpbC5ydQ&amp=3Bce=3DbG9naW5fb25fbm?=
+ =?utf-8?q?V3X2RldmljZQ=22?=
+ =?utf-8?q?_style=3D=22color=3A#1b74e4=3Btext-decoration=3Anone=3B=22=3E=D0=B7=D0=B0=D1=89?=
+ =?utf-8?b?0LjRgtC40YLRjCDRgdCy0L7QuSDQsNC60LrQsNGD0L3RgjwvYT4g0L3QsA==?=
+ =?utf-8?b?INGD0YHRgtGA0L7QudGB0YLQstC1LCDRgSDQutC+0YLQvtGA0L7Qs9C+?=
+ =?utf-8?b?INGA0LDQvdC10LUg0LLRi9C/0L7Qu9C90Y/Qu9GB0Y8g0LLRhdC+0LQuIDxh?=
+ href="https://help.instagram.com/584809789886474"
+ =?utf-8?q?style=3D=22color=3A#1b74e4=3Btext-decoration=3Anone=3B=22=3E=D0=9F=D0=BE=D0=B4?=
+ =?utf-8?b?0YDQvtCx0L3QtdC1PC9hPjwvdGQ+PC90YWJsZT48L3RyPjx0cg==?= style=""><td
+ height="16"
+ =?utf-8?q?style=3D=22line-height=3A16px=3B=22=3E&nbsp=3B=3C=2Ftd=3E=3C=2Ftr=3E=3C=2Ftable=3E=3C=2Ftd=3E=3C=2Ftr=3E=3C?=
+ =?utf-8?q?=2Ftable=3E=3C=2Ftd=3E=3C=2Ftr=3E=3Ctr=3E=3Ctd?= style=""><table
+ border="0" cellspacing="0" cellpadding="0"
+ style="border-collapse:collapse;margin:0 auto 0
+ auto;width:100%;max-width:600px;"><tr style=""><td height="4"
+ style="line-height:4px;" colspan="3">&nbsp;</td></tr><tr><td width="15px"
+ style="width:15px;"></td><td width="20"
+ style="display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td
+ style="text-align:center;"><div style="padding-top:10px;display:flex;"><div
+ style="margin:auto;"><img class="img"
+ src="https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Bqo9-L659wB.png"
+ height="26" width="52" alt="" /></div><br /></div><div
+ style="height:10px;"></div><div style="color:#abadae;font-size:11px;margin:0
+ auto 5px =?utf-8?b?YXV0bzsiPsKp?= Instagram. Meta Platforms, Inc., 1601
+ Willow Road, Menlo Park, CA 94025<br /></div><div
+ style="color:#abadae;font-size:11px;margin:0 auto 5px
+ =?utf-8?b?YXV0bzsiPtCh0L7QvtCx0YnQtdC90LjQtSDQsdGL0LvQvg==?=
+ =?utf-8?b?INC+0YLQv9GA0LDQstC70LXQvdC+INC00LvRjyBsb29rX2F0X3RoZV9tYWdpYw==?=
+ =?utf-8?b?INC90LAg0LDQtNGA0LXRgSA8YQ==?=
+ =?utf-8?q?_style=3D=22color=3A#abadae=3Btext-decoration=3Aunderline=3B=22=3Ehalaleenko13?=
+ =?utf-8?b?MjU0NzYmIzA2NDttYWlsLnJ1PC9hPi4g0J3QtSDQstCw0Yg=?=
+ =?utf-8?b?INCw0LrQutCw0YPQvdGCPyA8YQ==?=
+ =?utf-8?q?_href=3D=22https=3A=2F=2Finstagram=2Ecom=2Faccounts=2Fremove=2Frevoke=5Fwrong=5Femai?=
+ =?utf-8?q?l=2F=3Fuidb36=3Dospvk2j&amp=3Btoken=3D6eu-2713ff660b052e5dc4233e69c4f6d?=
+ =?utf-8?q?9d4&amp=3Bnonce=3DPyQf2XSL&amp=3Bencoded=5Femail=3DaGFsYWxlZW5rbzEzMjU0?=
+ =?utf-8?q?NzZAbWFpbC5ydQ=22?=
+ =?utf-8?q?_style=3D=22color=3A#abadae=3Btext-decoration=3Aunderline=3B=22=3E=D0=A3=D0=B4?=
+ =?utf-8?b?0LDQu9C40YLQtSDQuNC3INC90LXQs9C+INGN0Lsu?=
+ =?utf-8?b?INCw0LTRgNC10YE8L2E+Ljxicg==?= /></div></td><td width="20"
+ style="display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td width="15px"
+ style="width:15px;"></td></tr><tr style=""><td height="32"
+ style="line-height:32px;" colspan="3">&nbsp;</td></tr></table></td></tr><tr
+ style=""><td height="20" style="line-height:20px;"
+ colspan="3">&nbsp;</td></tr></table><span style=""><img
+ =?utf-8?q?src=3D=22https=3A=2F=2Fwww=2Efacebook=2Ecom=2Femail=5Fopen=5Flog=5Fpic=2Ephp=3Fmid=3D606d?=
+ =?utf-8?q?5fef12d7eG24bc396c64e05bG606d648873051G9e4=22?=
+ style="border:0;width:1px;height:1px;"
+ /></span></td></tr></table></body></html>
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional //EN"><html><head><title>Facebook</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style nonce="g3jF7kN8">@media all and (max-width: 480px){*[class].ib_t{min-width:100% !important}*[class].ib_row{display:block !important}*[class].ib_ext{display:block !important;padding:10px 0 5px 0;vertical-align:top !important;width:100% !important}*[class].ib_img,*[class].ib_mid{vertical-align:top !important}*[class].mb_blk{display:block !important;padding-bottom:10px;width:100% !important}*[class].mb_hide{display:none !important}*[class].mb_inl{display:inline !important}*[class].d_mb_flex{display:block !important}}.d_mb_show{display:none}.d_mb_flex{display:flex}@media only screen and (max-device-width: 480px){.d_mb_hide{display:none !important}.d_mb_show{display:block !important}.d_mb_flex{display:block !important}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text h5,.mb_text h6{line-height:normal}.mb_work_text h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text h2,.mb_work_text h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text h4,.mb_work_text h5,.mb_work_text h6{font-size:14px;line-height:normal}.mb_work_text a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><body style="margin:0;padding:0;" dir="ltr" bgcolor="#ffffff"><table border="0" cellspacing="0" cellpadding="0" align="center" id="email_table" style="border-collapse:collapse;"><tr><td id="email_content" style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr style=""><td height="20" style="line-height:20px;" colspan="3">&nbsp;</td></tr><tr><td height="1" colspan="3" style="line-height:1px;"></td></tr><tr><td style=""><table border="0" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;text-align:center;html_width:100%;width:100%;"><tr><td width="16px" style="width:16px;"></td><td style="line-height:0px;max-width:600px;padding:0 0 15px 0;"><table border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="width:100%;text-align:left;height:33px;"><a href="https://www.instagram.com/_n/mainfeed?utm_campaign=ig_suspicious_login&amp;utm_medium=email&amp;target_user_id=53979291739&amp;ndid=606d5fef12d7eG24bc396c64e05bG606d648873051G9e4" style="color:#1b74e4;text-decoration:none;"><img height="30" src="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/Otjcwa2eCOF.png" style="border:0;" /></a></td><td style="line-height:18px;min-width:60px;text-align:right;"><a href="https://www.instagram.com/_n/user?utm_campaign=ig_suspicious_login&amp;utm_medium=email&amp;target_user_id=53979291739&amp;username=look_at_the_magic&amp;ndid=606d5fef12d7eG24bc396c64e05bG606d648873051G9e4" style="color:#1b74e4;text-decoration:none;"><img width="30" src="https://instagram.fadb1-2.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ad=z-m&amp;_nc_ht=instagram.fadb1-2.fna.fbcdn.net&amp;_nc_cat=1&amp;_nc_ohc=WwHvpReZgZUAX8tAQon&amp;edm=ALlQn9MBAAAA&amp;ccb=7-5&amp;ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-5&amp;oh=00_AfBn-RUBOW018jVHfYZ3JPUS2EALeu8BFjFR6vWkH1Ay6w&amp;oe=6522108F&amp;_nc_sid=e7f676" height="30" style="border:0px;border-radius:18px;vertical-align:middle;" /></a></td></tr></table></td><td width="16px" style="width:16px;"></td></tr></table></td></tr><tr><td style=""><table border="0" width="430" cellspacing="0" cellpadding="0" style="border-collapse:collapse;margin:0 auto 0 auto;"><tr><td style=""><table border="0" width="430px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;margin:0 auto 0 auto;text-align:center;"><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr><tr><table border="0" width="300px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td style="width:300px;padding:0;margin:0;text-align:center;color:#262626;font-size:18px;font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;">Мы заметили новый вход, look_at_the_magic</td></table></tr><tr style=""><td height="4" style="line-height:4px;">&nbsp;</td></tr><tr><table border="0" width="300px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td style="width:300px;padding:0;margin:0;text-align:center;color:#999999;font-size:14px;font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;">Мы заметили вход с устройства, которое вы обычно не используете.</td></table></tr><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr></table></td></tr><tr><td style=""><table border="0" width="430px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;margin:0 auto 0 auto;text-align:center;width:430px;"><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr><td align="center" style=""><img width="76" src="https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/7JLEaDkKvA7.png" height="76" style="border:0;" /></td><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr></table></td></tr><tr><td style=""><table border="0" width="430px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;margin:0 auto 0 auto;text-align:center;width:430px;"><tr><table border="0" width="300px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td align="center" style="width:300px;padding:0;margin:0;text-align:center;color:#262626;font-size:16px;font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;">2107113SG · Instagram · Minsk, Belarus</td></table></tr><tr style=""><td height="4" style="line-height:4px;">&nbsp;</td></tr><tr><table border="0" width="300px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td align="center" style="width:300px;padding:0;margin:0;text-align:center;color:#999999;font-size:14px;font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;">October 3 at 2:07 PM (PDT)</td></table></tr></table></td></tr><tr><td style=""><table border="0" width="430px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;margin:0 auto 0 auto;text-align:center;width:430px;"><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr><td style="border-top:solid 1px #DBDBDB;"></td><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr></table></td></tr><tr><td style=""><table border="0" width="430px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;margin:0 auto 0 auto;text-align:center;width:430px;"><tr style=""><td height="24" style="line-height:24px;">&nbsp;</td></tr><tr><table border="0" width="300px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td style="width:300px;padding:0;margin:0;text-align:center;color:#999999;font-size:14px;font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;">Если это были вы, некоторые настройки аккаунта и его безопасности не будут вам доступны несколько дней, но вы можете открыть их на устройстве, с которого ранее выполнялся вход.</td></table></tr></table></td></tr><tr><td style=""><table border="0" width="430px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;margin:0 auto 0 auto;text-align:center;width:430px;"><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr><tr><table border="0" width="300px" cellspacing="0" cellpadding="0" align="center" style="border-collapse:collapse;text-align:center;margin:0 auto 0 auto;"><td style="width:300px;padding:0;margin:0;text-align:center;color:#999999;font-size:14px;font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;">Если это были не вы, вы можете <a href="https://instagram.com/accounts/disavow/ospvk2j/wnci1hAk/?re=aGFsYWxlZW5rbzEzMjU0NzZAbWFpbC5ydQ&amp;ce=bG9naW5fb25fbmV3X2RldmljZQ" style="color:#1b74e4;text-decoration:none;">защитить свой аккаунт</a> на устройстве, с которого ранее выполнялся вход. <a href="https://help.instagram.com/584809789886474" style="color:#1b74e4;text-decoration:none;">Подробнее</a></td></table></tr><tr style=""><td height="16" style="line-height:16px;">&nbsp;</td></tr></table></td></tr></table></td></tr><tr><td style=""><table border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;margin:0 auto 0 auto;width:100%;max-width:600px;"><tr style=""><td height="4" style="line-height:4px;" colspan="3">&nbsp;</td></tr><tr><td width="15px" style="width:15px;"></td><td width="20" style="display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td style="text-align:center;"><div style="padding-top:10px;display:flex;"><div style="margin:auto;"><img class="img" src="https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Bqo9-L659wB.png" height="26" width="52" alt="" /></div><br /></div><div style="height:10px;"></div><div style="color:#abadae;font-size:11px;margin:0 auto 5px auto;">© Instagram. Meta Platforms, Inc., 1601 Willow Road, Menlo Park, CA 94025<br /></div><div style="color:#abadae;font-size:11px;margin:0 auto 5px auto;">Сообщение было отправлено для look_at_the_magic на адрес <a style="color:#abadae;text-decoration:underline;">halaleenko1325476&#064;mail.ru</a>. Не ваш аккаунт? <a href="https://instagram.com/accounts/remove/revoke_wrong_email/?uidb36=ospvk2j&amp;token=6eu-2713ff660b052e5dc4233e69c4f6d9d4&amp;nonce=PyQf2XSL&amp;encoded_email=aGFsYWxlZW5rbzEzMjU0NzZAbWFpbC5ydQ" style="color:#abadae;text-decoration:underline;">Удалите из него эл. адрес</a>.<br /></div></td><td width="20" style="display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td width="15px" style="width:15px;"></td></tr><tr style=""><td height="32" style="line-height:32px;" colspan="3">&nbsp;</td></tr></table></td></tr><tr style=""><td height="20" style="line-height:20px;" colspan="3">&nbsp;</td></tr></table><span style=""><img src="https://www.facebook.com/email_open_log_pic.php?mid=606d5fef12d7eG24bc396c64e05bG606d648873051G9e4" style="border:0;width:1px;height:1px;" /></span></td></tr></table></body></html>
+

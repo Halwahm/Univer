@@ -1,0 +1,90 @@
+{
+  "name": "Lab4",
+  "projectId": "17275ff4-ac89-4a38-8f9e-c78cc9b6bef0",
+  "description": "Пустой процесс",
+  "main": "3Lib\\NewActivity.xaml",
+  "dependencies": {
+    "3Lib": "[1.0.1]",
+    "4Lib": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.UIAutomation.Activities": "[23.10.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "3Lib\\NewActivity.xaml",
+      "uniqueId": "455d1d52-f48b-47f5-a5a0-0774e0329ec1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "1SimpleTryCatch.xaml",
+      "uniqueId": "fdab0566-4a64-4546-bedd-bbffb5d46f23",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "2GlobalException.xaml",
+      "uniqueId": "e1f21b2d-f575-444c-87a0-342b3f3af494",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "3OrderWithModule.xaml",
+      "uniqueId": "ac6ee3e9-5aac-4f82-8ebd-178a4917dff4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "00ExcelTryCatch.xaml",
+      "uniqueId": "97ee4656-e251-4970-83a3-ffc48e33e03d",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/владик непон.jpg"
+  },
+  "targetFramework": "Legacy"
+}

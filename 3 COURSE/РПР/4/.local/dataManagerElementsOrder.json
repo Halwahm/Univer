@@ -1,0 +1,105 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_2SimpleTryCatch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Name&TryCatch_1",
+        "Age&TryCatch_1",
+        "DtTable&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "1SimpleTryCatch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Name&TryCatch_1",
+        "Age&TryCatch_1",
+        "DtTable&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "3Lib/NewActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_CurDir"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "2GlobalException.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GlobalHandler.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "answer&Sequence_1",
+        "retry&Sequence_1",
+        "failedActivity&Sequence_1",
+        "result&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "errorInfo",
+        "result"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "3ModulAnaliz.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Payment",
+        "in_Company"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "3OrderWithModule.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DTable&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "00ExcelTryCatch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Name&TryCatch_1",
+        "Age&TryCatch_1",
+        "DtTable&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

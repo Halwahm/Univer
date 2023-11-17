@@ -1,0 +1,98 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "don't open.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "resultExamens.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "excelPath&Sequence_2",
+        "studentGradesDt&Sequence_2",
+        "failedStud&Sequence_2",
+        "passedStud&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "wordToPdf.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sourceDocument&Sequence_2",
+        "destinationDocument&Sequence_2",
+        "rawTextFromSource&Sequence_2",
+        "picturePath&Sequence_4",
+        "exportedDocToPdf&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "mystring.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Text&Sequence_1",
+        "Result1&Sequence_1",
+        "Result2&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FiltrExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DtTableString&Sequence_2",
+        "DT1&Sequence_2",
+        "DT2&Sequence_2",
+        "Grade&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "2-6.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT1&Sequence_2",
+        "i&Sequence_2",
+        "Sum&Sequence_2",
+        "MaxVal&Sequence_2",
+        "Grade&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FlowDecisionIgra/FlowDesicionIgra.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RandomNumber&Flowchart_1",
+        "GuessNumber&Flowchart_1",
+        "Message&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

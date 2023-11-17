@@ -1,0 +1,86 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ImageCSV.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "InvoiceTotal&Sequence_1",
+        "EmailAddress&Sequence_1",
+        "ResultDT&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "4ArticleEconomic.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ArticleEconomic.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "task6.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "mailUser&Sequence_2",
+        "mailPass&Sequence_2",
+        "receivedMails&Sequence_2",
+        "PwD&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FromWebToExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Number&Sequence_1",
+        "EmailToSend&Sequence_1",
+        "URL&Sequence_1",
+        "ExtractDataTable&Sequence_1",
+        "FullName&Sequence_1",
+        "Val&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FromTableToWeb.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "GeneralPriceValues&Sequence_1",
+        "Prices&Sequence_1",
+        "DtTable&Sequence_1",
+        "Company&Sequence_1",
+        "Goods&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
