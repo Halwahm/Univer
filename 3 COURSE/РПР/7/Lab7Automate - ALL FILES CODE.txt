@@ -1,0 +1,55 @@
+FromPDF
+Display.InputDialog Title: $'''Введите имя''' Message: $'''Введите имя''' InputType: Display.InputType.SingleLine IsTopMost: False UserInput=> UserInput ButtonPressed=> ButtonPressed
+Display.ShowMessageDialog.ShowMessage Title: $'''Показать сообщение''' Message: $'''Привет, %UserInput%''' Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed2
+Pdf.ExtractTextFromPDF.ExtractTextFromPage PDFFile: $'''D:\\Универ\\5 семестр\\ПИС\\лаба 4\\_ПИС_Лаб_4.pdf''' PageNumber: 1 DetectLayout: False ExtractedText=> ExtractedPDFText
+File.WriteText File: $'''D:\\Универ\\5 семестр\\РПР\\лаба 7\\TextFromPdf.txt''' TextToWrite: ExtractedPDFText AppendNewLine: True IfFileExists: File.IfFileExists.Overwrite Encoding: File.FileEncoding.Unicode
+
+ExcelExamen
+Excel.LaunchExcel.LaunchAndOpenUnderExistingProcess Path: $'''D:\\Универ\\5 семестр\\РПР\\лаба 7\\Examen.xlsx''' Visible: True ReadOnly: False Instance=> ExcelInstance
+Excel.ReadFromExcel.ReadCells Instance: ExcelInstance StartColumn: 2 StartRow: 2 EndColumn: 2 EndRow: 5 ReadAsText: False FirstLineIsHeader: False RangeValue=> ExcelData
+Display.InputDialog Title: $'''Ваше имя''' Message: $'''Введите имя''' InputType: Display.InputType.SingleLine IsTopMost: False UserInput=> UserInput ButtonPressed=> ButtonPressed
+SET NewVar TO 2
+LOOP FOREACH CurrentItem IN ExcelData
+    IF CurrentItem = UserInput THEN
+        Excel.ReadFromExcel.ReadCells Instance: ExcelInstance StartColumn: 2 StartRow: NewVar EndColumn: 3 EndRow: NewVar ReadAsText: False FirstLineIsHeader: False RangeValue=> ExcelData2
+    END
+    Variables.IncreaseVariable Value: NewVar IncrementValue: 1
+END
+Display.ShowMessageDialog.ShowMessage Title: $'''Excel''' Message: ExcelData2 Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed2
+Excel.CloseExcel.Close Instance: ExcelInstance
+
+Switch
+Display.InputDialog Title: $'''Введите четырехзначное число''' Message: $'''Введите четырехзначное число''' InputType: Display.InputType.SingleLine IsTopMost: False UserInput=> UserInput ButtonPressed=> ButtonPressed
+LOOP LoopIndex FROM 0 TO 3 STEP 1
+    Text.GetSubtext.GetSubtext Text: UserInput CharacterPosition: LoopIndex NumberOfChars: 1 Subtext=> Subtext
+    Text.ToNumber Text: Subtext Number=> TextAsNumber
+    SET NewVar TO TextAsNumber mod 2
+    SWITCH NewVar
+        CASE = 0
+            Display.ShowMessageDialog.ShowMessage Title: $'''четное-нечетное''' Message: $'''%Subtext% является четным числом''' Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed3
+        DEFAULT
+            Display.ShowMessageDialog.ShowMessage Title: $'''четное-нечетное''' Message: $'''%Subtext% является нечетным числом''' Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed2
+    END
+END
+
+OcrList
+OCR.ExtractTextWithOCR.ExtractTextFromFileWithWindowsOcr ImageFile: $'''D:\\Универ\\5 семестр\\РПР\\лаба 7\\Student.png''' WindowsOcrLanguage: OCR.WindowsOcrLanguage.English ImageWidthMultiplier: 1 ImageHeightMultiplier: 1 OcrText=> OcrText
+Text.SplitText.Split Text: OcrText StandardDelimiter: Text.StandardDelimiter.NewLine DelimiterTimes: 1 Result=> TextList
+Excel.LaunchExcel.LaunchAndOpenUnderExistingProcess Path: $'''D:\\Универ\\5 семестр\\РПР\\лаба 7\\Student.xlsx''' Visible: True ReadOnly: False Instance=> ExcelInstance
+SET i TO 0
+LOOP FOREACH CurrentItem IN TextList
+    SET NewVar TO TextList[i]
+    Variables.IncreaseVariable Value: i IncrementValue: 1
+    Excel.WriteToExcel.WriteCell Instance: ExcelInstance Value: NewVar Column: 1 Row: i
+END
+Excel.CloseExcel.CloseAndSave Instance: ExcelInstance
+
+Analiz
+Folder.GetFiles Folder: $'''D:\\Универ\\5 семестр\\РПР\\лаба 7\\Resumes''' FileFilter: $'''*txt''' IncludeSubfolders: False FailOnAccessDenied: True SortBy1: Folder.SortBy.NoSort SortDescending1: False SortBy2: Folder.SortBy.NoSort SortDescending2: False SortBy3: Folder.SortBy.NoSort SortDescending3: False Files=> Files
+Variables.CreateNewList List=> List
+LOOP FOREACH CurrentItem IN Files
+    File.ReadTextFromFile.ReadText File: CurrentItem Encoding: File.TextFileEncoding.UTF8 Content=> FileContents
+    Text.RecognizeEntitiesInText Text: FileContents Mode: Text.RecognizerMode.Email Language: Text.RecognizerLanguage.English RecognizedEntities=> RecognizedEntities
+    Variables.AddItemToList Item: RecognizedEntities List: List
+END
+Display.ShowMessageDialog.ShowMessage Title: $'''Лист''' Message: List Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed
