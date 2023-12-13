@@ -1,0 +1,6 @@
+C:\mshoad\lab10\lab10\bin\Debug\lab10.dacpac
+C:\mshoad\lab10\lab10\bin\Debug\lab10.dll
+C:\mshoad\lab10\lab10\bin\Debug\lab10.pdb
+C:\mshoad\lab10\lab10\obj\Debug\lab10.sqlproj.AssemblyReference.cache
+C:\mshoad\lab10\lab10\obj\Debug\lab10.dll
+C:\mshoad\lab10\lab10\obj\Debug\lab10.pdb
