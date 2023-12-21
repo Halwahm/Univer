@@ -1,0 +1,20 @@
+----1
+-cmd
+wmic memorychip get banklabel, capacity, speed, manufacturer
+
+-powershell
+Get-WmiObject -Class "Win32_PhysicalMemory"
+
+-cmd
+systeminfo | findstr “память”
+
+–performace monitor
+
+----6
+cat /proc/PID/maps
+pmap PID
+objdump -f ./os06_06
+
+----7
+pmap PID
+
