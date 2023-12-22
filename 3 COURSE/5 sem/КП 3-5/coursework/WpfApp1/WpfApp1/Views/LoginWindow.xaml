@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp1.loginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Icon="/Resources/images/loading_screen.png"
+        Title="authentication" Height="550" Width="700"
+        PreviewKeyDown="Window_PreviewKeyDown"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
+    
+    <Grid Background="#CCCCFF">
+        <Border MinWidth="400" Margin="15,59,14.6,59" Background="White"  VerticalAlignment="Center" Padding="30" MaxWidth="550" CornerRadius="20" Grid.ColumnSpan="2">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="50" Color="Gray" ShadowDepth="10"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Добро пожаловать в SushiHm" FontSize="25" FontWeight="ExtraBlack" HorizontalAlignment="Center" Margin="0 0 0 0"/>
+                <TextBlock Text="Введите ваши данные, чтобы войти"  FontSize="23" FontWeight="Bold" HorizontalAlignment="Center" Margin="0 0 0 0"/>
+                <TextBlock Text="или зарегистрируйте новый аккаунт"  FontSize="23" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                <Grid Margin="0 0 0 20">
+                    <Button HorizontalAlignment="Left" Content="Зарегестрироваться" Click="To_sign_up_window"/>
+                    <Button HorizontalAlignment="Right" Content="Вход" Style="{StaticResource MaterialDesignFlatButton}"/>
+                </Grid>
+                <TextBox MaxLength="30" x:Name="textBoxEmail" materialDesign:HintAssist.Hint="Введите ваш email" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <PasswordBox MaxLength="15" x:Name="passwordBox" materialDesign:HintAssist.Hint="Введите ваш пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
+                <Button Content="Войти" x:Name="signInButton" Margin="0 20" Click="Button_Sign_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

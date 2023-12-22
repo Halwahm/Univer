@@ -1,0 +1,223 @@
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Resources\Styles.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Basket.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Basket.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\SushiWindow.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\SushiWindow.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Comments.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\CourierWindow.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\MainWindow.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\OrderedPage.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Comments.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\CourierWindow.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\MainWindow.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\OrderedPage.baml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\LoginWindow.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\Views\LoginWindow.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Resources\Styles.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Basket.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Comments.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\CourierWindow.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\LoginWindow.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\MainWindow.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\OrderedPage.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\SushiWindow.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Basket.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\Comments.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\CourierWindow.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\LoginWindow.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\MainWindow.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\OrderedPage.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\Views\SushiWindow.baml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+C:\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+C:\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\WpfApp1\WpfApp1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\WpfApp1\WpfApp1\obj\Debug\Resources\Styles.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\Basket.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\Views\Comments.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\Views\CourierWindow.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\Views\LoginWindow.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\Views\MainWindow.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\Views\OrderedPage.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\Views\SushiWindow.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\Basket.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\Comments.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\CourierWindow.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\LoginWindow.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\MainWindow.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\OrderedPage.baml
+C:\WpfApp1\WpfApp1\obj\Debug\Views\SushiWindow.baml
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Options.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Collections.Immutable.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.ComponentModel.Annotations.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Options.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Collections.Immutable.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\coursework\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Options.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Collections.Immutable.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.ComponentModel.Annotations.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Options.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Buffers.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Collections.Immutable.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Memory.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\coursework\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+D:\УНИВЕР\КП 3-5\coursework\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -1,0 +1,248 @@
+﻿<Window x:Class="WpfApp1.SushiWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodel="clr-namespace:WpfApp1.viewmodel"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" d:DataContext="{d:DesignInstance Type=viewmodel:ModelMain}"
+        mc:Ignorable="d"
+        Icon="Resources/images/loading_screen.png"
+        Title="SushiWindow" Height="600" Width="820">
+    <Window.Resources>
+        <Style TargetType="ToggleButton" x:Key="StylesToogle">
+            <Style.Setters>
+                <Setter Property="Background" Value="BlueViolet"></Setter>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ToggleButton">
+                            <Border CornerRadius="1" Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style.Setters>
+
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Background" Value="BlueViolet"></Setter>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" Value="PaleVioletRed"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Border CornerRadius="10" Background="BlueViolet" Margin="8">
+                    <TextBlock Text="Категории" Foreground="White" FontSize="22" Padding="40,5,20,0"/>
+                </Border>
+
+                <ListBox Grid.Row="1" ItemsSource="{Binding CategoryList}" SelectedItem="{Binding SelectedCategory, UpdateSourceTrigger=PropertyChanged}">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top"></StackPanel>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="10" Background="MediumVioletRed" Margin="20, 0, 3, 0">
+                                <TextBlock Text="{Binding CategoryName}" Width="130" Foreground="White" FontSize="17" Padding="10, 5" VerticalAlignment="Center" TextAlignment="Center"/>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+
+            <Grid Grid.Column="1" Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Height="30" VerticalAlignment="Top">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox MaxLength="20" Text="{Binding SearchLine}"  Width="200" BorderThickness="1" BorderBrush="Orange"/>
+                        <Button Command="{Binding SearchProduct}" Content="Поиск"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,20,0">
+                    <Button Command="{Binding ShowOrdered}" Width="55" Height="35" Background="{x:Null}" BorderBrush="{x:Null}">
+                        <materialDesign:PackIcon Kind="Information" Width="25" Height="30"/>
+                    </Button>
+                    <Button Click="Changing_user" Width="35" Height="35" Background="{x:Null}" BorderBrush="{x:Null}"
+                     Padding="0" Foreground="Black">
+                        <materialDesign:PackIcon Kind="Account" Width="35" Height="40"/>
+                    </Button>
+                    <Button Command="{Binding ShowBasket}">
+                        <materialDesign:PackIcon Kind="Cart" Width="35" Height="35"/>
+                    </Button>
+                    <Button Click="Turn_off_the_program" Width="35" Height="35" Background="{x:Null}" BorderBrush="{x:Null}"
+                     Padding="0" Foreground="Red">
+                        <materialDesign:PackIcon Kind="Power" Width="35" Height="35"/>
+                    </Button>
+                </StackPanel>
+
+
+                <StackPanel Grid.Row="1" Margin="10, 15, 10, 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                    <TextBlock Text="сортировать по: " FontSize="20" Foreground="Black" VerticalAlignment="Center"/>
+                    <Button Command="{Binding SortByName}"  Content="названию" Width="70" Padding="2" Margin="2,0,2,0"/>
+                    <Button Command="{Binding SortByPrice}" Content="цене" Width="42" Padding="2" Margin="2,0,2,0"/>
+                </StackPanel>
+
+
+                <Grid Grid.Column="1" Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width= "{Binding AdminPanel , UpdateSourceTrigger=PropertyChanged}"
+                                          />
+                    </Grid.ColumnDefinitions>
+
+                    <ListBox  Grid.Column="0" ItemsSource="{Binding ProductsList}" SelectedItem="{Binding SelectedProduct, UpdateSourceTrigger=PropertyChanged}">
+                        <ListBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel VerticalAlignment="Top" HorizontalAlignment="Center" />
+                            </ItemsPanelTemplate>
+                        </ListBox.ItemsPanel>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="5">
+                                    <Grid Width="220" Height="320">
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="200"/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+
+                                        <ToggleButton Command="{Binding DataContext.ShowCommentText, RelativeSource={RelativeSource AncestorType=Window}}" Style="{DynamicResource StylesToogle}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" FontSize="24" Foreground="White" IsChecked="{Binding Path=IsSelected, Mode=TwoWay, RelativeSource={RelativeSource AncestorType={x:Type ListBoxItem}}}">
+                                            <ToggleButton.Template>
+                                                <ControlTemplate TargetType="ToggleButton">
+                                                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                                                        <Grid>
+                                                            <materialDesign:PackIcon Kind="Comment" Margin="5" Height="20" Width="20"/>
+                                                        </Grid>
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </ToggleButton.Template>
+                                        </ToggleButton>
+
+                                        <Image Grid.Column="0"  Source="{Binding ProductImage}"></Image>
+                                        <Label Grid.Row="1" Content="{Binding product_name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontSize="20" HorizontalAlignment="Center" Foreground="Gray"/>
+                                        <StackPanel  Grid.Row="2"  Orientation="Horizontal">
+                                            <Label Content="{Binding Price}" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="Gray"/>
+                                            <Label Content="руб" FontSize="14" VerticalAlignment="Bottom" Foreground="Gray" Margin="0,0,0,5"/>
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="2" Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Right">
+                                            <ToggleButton Content="В корзину"
+                                                  Style="{DynamicResource StylesToogle}"
+                                                  Command="{Binding DataContext.AddBasket, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                  IsChecked="{Binding Path=IsSelected, Mode=TwoWay, RelativeSource={RelativeSource AncestorType={x:Type ListBoxItem}}}"
+                                                  Height="30px"
+                                                  Width="65px"
+                                                  Margin="0 3 5 0"
+                                                  Background="Yellow">
+                                                <ToggleButton.Template>
+                                                    <ControlTemplate TargetType="ToggleButton">
+                                                        <Border x:Name="border"
+                                                            Background="{TemplateBinding Background}"
+                                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                                            BorderThickness="{TemplateBinding BorderThickness}"
+                                                            CornerRadius="5">
+                                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                                        </Border>
+                                                        <ControlTemplate.Triggers>
+                                                            <Trigger Property="IsMouseOver" Value="True">
+                                                                <Setter TargetName="border" Property="Background" Value="LightYellow" />
+                                                            </Trigger>
+                                                            <Trigger Property="IsPressed" Value="True">
+                                                                <Setter TargetName="border" Property="Background" Value="LightBlue" />
+                                                            </Trigger>
+                                                        </ControlTemplate.Triggers>
+                                                    </ControlTemplate>
+                                                </ToggleButton.Template>
+                                            </ToggleButton>
+                                        </StackPanel>
+
+
+                                        <Grid Grid.Row="3">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition/>
+                                            </Grid.ColumnDefinitions>
+                                            <ToggleButton Style="{StaticResource PlusMinusButtonStyle}" Grid.Column="0" Content="-" 
+                                              Command="{Binding DataContext.plus_minus, RelativeSource={RelativeSource AncestorType=Window}}"
+                                              CommandParameter="-" IsChecked="{Binding Path=IsSelected, Mode=TwoWay, RelativeSource={RelativeSource AncestorType={x:Type ListBoxItem}}}"/>
+                                                  <Label Grid.Column="1" Content="{Binding product_quantity, UpdateSourceTrigger=PropertyChanged}" 
+                                                    HorizontalAlignment="Center" FontSize="20" Foreground="Black"/>
+                                            <ToggleButton Style="{StaticResource PlusMinusButtonStyle}" Grid.Column="2" Content="+" 
+                                                    Command="{Binding DataContext.plus_minus, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                    CommandParameter="+" IsChecked="{Binding Path=IsSelected, Mode=TwoWay, RelativeSource={RelativeSource AncestorType={x:Type ListBoxItem}}}"/>
+                                        </Grid>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <Grid Grid.Column="1">
+                        <StackPanel Height="900" VerticalAlignment="Top" Background="DarkGray">
+                            <Label Content="Имя продукта:" Foreground="Black" FontSize="18" />
+                            <TextBox MaxLength="20" Text="{Binding SelectedProduct.product_name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="250" HorizontalAlignment="Left" Margin="23,0,25,0" BorderThickness="2" BorderBrush="GreenYellow"/>
+
+                            <Label Content="Цена:" Foreground="Black" FontSize="18" />
+                            <TextBox Text="{Binding SelectedProduct.price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="250" HorizontalAlignment="Left" Margin="23,0,25,0" BorderThickness="2" BorderBrush="GreenYellow"/>
+
+                            <Label Content="Категория:" Foreground="Black" FontSize="18" />
+                            <ComboBox
+                                SelectedItem="{Binding SelectedProduct.Category}"
+                                ItemsSource="{Binding DataContext.CategoryList, RelativeSource={RelativeSource AncestorType=Window}}"
+                                DisplayMemberPath="CategoryName"
+                            />
+
+                            <Label Content="Картинка:" Foreground="Black" FontSize="18" />
+                            <Button Command="{Binding ChangeImage}" HorizontalAlignment="Left"  Content="выбрать картинку" Cursor="Hand" />
+                            <StackPanel Orientation="Horizontal">
+                                <Button Command="{Binding AddProduct}" HorizontalAlignment="Left" >
+                                    <materialDesign:PackIcon Kind="Plus" Width="35" Height="25"/>
+                                </Button>
+                                <Button Command="{Binding DeleteProduct}" HorizontalAlignment="Left" >
+                                    <materialDesign:PackIcon Kind="Minus" Width="35" Height="25"/>
+                                </Button>
+                            </StackPanel>
+                            <Label Content="Категории:" Foreground="Black" FontSize="18" />
+                            <TextBox MaxLength="10" Text="{Binding SelectedCategory.CategoryName, UpdateSourceTrigger=PropertyChanged}" Width="250" HorizontalAlignment="Left" Margin="23,0,25,10" BorderThickness="2" BorderBrush="DeepSkyBlue"/>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Command="{Binding AddCategory}" HorizontalAlignment="Left" >
+                                    <materialDesign:PackIcon Kind="Plus" Width="35" Height="25"/>
+                                </Button>
+                                <Button Command="{Binding DeleteCategory}" HorizontalAlignment="Left" >
+                                    <materialDesign:PackIcon Kind="Minus" Width="35" Height="25"/>
+                                </Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Frame Background="White"  BorderThickness="2" BorderBrush="Gray" Visibility="{Binding VisibilityFrameBasket}" Source="Basket.xaml" NavigationUIVisibility="Hidden" Width="450" Height="500"/>
+        <Frame Background="White"  BorderThickness="2" BorderBrush="Gray" Visibility="{Binding VisibilityFrame}" Source="Comments.xaml" NavigationUIVisibility="Hidden" Width="350" Height="500"/>
+        <Frame Background="White"  BorderThickness="2" BorderBrush="Gray" Visibility="{Binding VisibilityFrameOrdered}" Source="OrderedPage.xaml"  NavigationUIVisibility="Hidden" Width="380" Height="500"/>
+    </Grid>
+</Window>

@@ -1,0 +1,70 @@
+﻿<Page x:Class="WpfApp1.OrderedPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:viewmodel="clr-namespace:WpfApp1.viewmodel"
+      d:DataContext="{d:DesignInstance Type=viewmodel:ModelMain}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="450"
+      Title="OrderedPage">
+
+    <Grid>
+        <ListBox ItemsSource="{Binding OrderedProducts}" SelectedItem="{Binding OrderedProduct, UpdateSourceTrigger=PropertyChanged}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel VerticalAlignment="Top" HorizontalAlignment="Center" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Grid.Column="0" Grid.Row="0" Text="Id" Foreground="Black" FontSize="16" FontWeight="Bold" Margin="5" />
+                            <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding OrderID}" Foreground="Black" FontSize="16" FontWeight="Bold" Margin="5" />
+
+                            <TextBlock Grid.Column="0" Grid.Row="1" Text="Статус" Foreground="Black" FontSize="16" FontWeight="Bold" Margin="5"/>
+                            <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding Status}" Foreground="Green" FontSize="16" Margin="5"/>
+
+                            <TextBlock Grid.Column="0" Grid.Row="2" Text="Стоимость" Foreground="Black" FontSize="16" FontWeight="Bold" Margin="5" />
+                            <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding TotalPrice, StringFormat={}{0:F2}}" Foreground="Black" FontSize="16" Margin="15 5 0 0"/>
+
+                            <TextBlock Grid.Column="0" Grid.Row="3" Text="Товары" Foreground="Black" FontSize="16" FontWeight="Bold" Margin="5" />
+                            <TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding ProductName}" Foreground="Black" FontSize="16" Margin="5"
+                                TextWrapping="Wrap" TextTrimming="CharacterEllipsis" Width="150"/>
+
+                        </Grid>
+
+                        <Button Command="{Binding DataContext.DelOrdered, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}"
+            Content="Отменить заказ"
+            CommandParameter="{Binding}"
+            Margin="25,5,5,5" 
+            Background="Orange"
+            HorizontalAlignment="Right"/>
+                    </StackPanel>
+
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Margin" Value="0,0,0,5"/>
+                    <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+    </Grid>
+</Page>

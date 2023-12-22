@@ -1,0 +1,1 @@
+delete from Comments where CommentID like ('29')
