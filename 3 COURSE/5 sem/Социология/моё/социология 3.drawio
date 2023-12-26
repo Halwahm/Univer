@@ -1,0 +1,222 @@
+<mxfile host="app.diagrams.net" modified="2023-12-08T16:13:59.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="EiPwcgbC4KLZtfSiPSIZ" version="22.1.7" type="device">
+  <diagram name="Страница — 1" id="U8JOantWjNgqsDp78zfE">
+    <mxGraphModel dx="1302" dy="1434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.978;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-1" target="UKYrtE4_NKRgBVxxTzd2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-1" target="UKYrtE4_NKRgBVxxTzd2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-1" target="UKYrtE4_NKRgBVxxTzd2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.235;exitY=-0.046;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-1" target="UKYrtE4_NKRgBVxxTzd2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Виды социологических исследований&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=#f0f0f0;gradientDirection=radial;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="258" y="72" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-3" target="UKYrtE4_NKRgBVxxTzd2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-3" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Аналитическое&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="63" y="192" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ставит целью углубленное изучение явления, когда нужно не только описать&lt;br&gt;структуру, но и узнать, что определяет его основные количественные и&lt;br&gt;качественные параметры; имеет особенно большую научную и практическую ценность;&lt;br&gt;выясняется, носит ли связь между характеристиками изучаемого явления причинный&lt;br&gt;характер&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="329" width="229" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-7" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Когортные&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="192" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="UKYrtE4_NKRgBVxxTzd2-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="258" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;изучают специфические совокупности людей в течение определенного времени, например года, переживших одновременно одно и то же событие (вступивших в брак, призванных в армию, поступивших в вуз и т.д.)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="329" width="232" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.366;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-1" target="UKYrtE4_NKRgBVxxTzd2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="256" as="sourcePoint" />
+            <mxPoint x="615" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-11" target="UKYrtE4_NKRgBVxxTzd2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-11" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Трендовые&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="192" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.66;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.02;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-1" target="UKYrtE4_NKRgBVxxTzd2-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="208" as="sourcePoint" />
+            <mxPoint x="550" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;осуществляются на аналогичных выборках или в рамках единой генеральной&lt;br/&gt;совокупности с целью изучения изменений на уровне социальных групп&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544.5" y="332" width="208" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-15" target="UKYrtE4_NKRgBVxxTzd2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-15" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Панельные&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-207.5" y="69" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;изучение одних и тех же явлений через определенные интервалы времени.&lt;br&gt;Частота повторяемости и продолжительность интервалов определяются произвольно.&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Важно лишь, чтобы&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;line-height: 115%; font-family: Calibri, sans-serif;&quot;&gt;одни и те же лица изучались по сходной методике&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-249" y="213" width="232" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-20" target="UKYrtE4_NKRgBVxxTzd2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-20" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Логитюдное&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="816.75" y="69" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;изучение индивидуальных изменений членов молодежной группы. Основным&lt;br&gt;требованием лонгитюдного исследования является единство программы,&lt;br&gt;инструментария и выборки на всем протяжении изучения объекта, которое может&lt;br&gt;длиться несколько лет&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="788" y="235" width="206.5" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-24" target="UKYrtE4_NKRgBVxxTzd2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-24" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Социальный мониторинг&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="621" y="-125" width="234" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.933;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-1" target="UKYrtE4_NKRgBVxxTzd2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;представляет собой целостную систему изучения и отслеживания тех&lt;br/&gt;изменений, которые происходят с определенными социальными объектами в ходе их&lt;br/&gt;функционирования и развития. Это отслеживание осуществляется на основе сбора,&lt;br/&gt;хранения, обработки и сравнения той информации, которая накапливается в ходе&lt;br/&gt;долгосрочного исследования изучаемого объекта&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="-436" width="251" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-28" target="UKYrtE4_NKRgBVxxTzd2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-28" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Точечное&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-96" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;исследование, которое ограничено по времени и фокусируется на определенном моменте или явлении в социальной сфере. В отличие от более обширных исследований, которые могут занимать длительное время и включать большой объем данных, точечные исследования обычно проводятся для получения непосредственной информации о конкретном аспекте социальной жизни. Они могут использоваться для изучения отдельных событий, поведения групп или отдельных индивидов, а также для проверки гипотез или исследования конкретных тенденций или проблем&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="-444" width="351" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-32" target="UKYrtE4_NKRgBVxxTzd2-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-32" target="UKYrtE4_NKRgBVxxTzd2-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Методы социологических исследований&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;gradientColor=#f0f0f0;gradientDirection=radial;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="72" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-33" target="UKYrtE4_NKRgBVxxTzd2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-33" value="Анкетирование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="223" width="145" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-34" value="опрашиваемый сам заполняет анкету в присутствии анкетера или без него;&lt;br/&gt;может быть очным и заочным; среди форм заочного анкетирования наиболее&lt;br/&gt;распространен почтовый опрос, а также прессовый (через газету, журнал);&lt;br/&gt;значимым преимуществом анкетирования является принцип анонимности, однако даже&lt;br/&gt;он не гарантирует, что ответы респондента (опрашиваемого) будут правдивыми,&lt;br/&gt;поэтому исследователь должен всегда учитывать данный фактор при анализе&lt;br/&gt;полученной информации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1562.5" y="352" width="310" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.042;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-32" target="UKYrtE4_NKRgBVxxTzd2-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1883" y="243" as="sourcePoint" />
+            <mxPoint x="1933" y="193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-38" target="UKYrtE4_NKRgBVxxTzd2-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-38" value="Интервьюирование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1940.5" y="223.66" width="145" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-39" value="предполагает личное общение с опрашиваемым, когда исследователь сам&lt;br/&gt;задает вопросы и фиксирует ответы. Оно проводится в форме либо прямого интервью&lt;br/&gt;(«лицом к лицу»), либо опосредованного (например, телефонное интервью)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1888" y="352.66" width="250" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.622;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2013" y="133" as="sourcePoint" />
+            <mxPoint x="2013" y="222.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-42" target="UKYrtE4_NKRgBVxxTzd2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-42" value="Контент-анализ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="223" width="145" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.019;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-32" target="UKYrtE4_NKRgBVxxTzd2-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2237" y="209" as="sourcePoint" />
+            <mxPoint x="2287" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-44" value="количественный анализ любого рода социологической информации, в&lt;br/&gt;частности документов- протоколов, докладов, публикаций различного рода, писем и&lt;br/&gt;т.д. Данный социологический эмпирический метод помогает уменьшить&lt;br/&gt;субъективность качественного анализа полученной в результате социологического&lt;br/&gt;исследования информации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="337" width="265" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-46" target="UKYrtE4_NKRgBVxxTzd2-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-46" value="Фокус-группа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2512" y="79.5" width="145" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-47" value="небольшая группа людей собирается для обсуждения определенной темы или проблемы. Фокус-группы предоставляют качественную информацию о мнениях, взглядах и опыте участников, а также позволяют исследователям понять общие тенденции и позиции в группе" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2469" y="223" width="231" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-50" target="UKYrtE4_NKRgBVxxTzd2-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-50" value="Ранжирование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="80.5" width="145" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-51" value="&amp;nbsp;участникам предлагается упорядочить объекты, концепции или идеи по определенным критериям или предпочтениям. Ранжирование позволяет определить относительную важность или предпочтения участников и исследовать их приоритеты" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1326" y="204" width="232" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-54" target="UKYrtE4_NKRgBVxxTzd2-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-54" value="Шкалирование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2293" y="-1" width="145" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-55" value="участникам предлагается оценить объекты или явления по определенным шкалам или категориям. Шкалирование может быть использовано для измерения мнений, уровня согласия или других аспектов социальной реальности. Это позволяет исследователям получить количественные данные и провести статистический анализ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2249" y="-248" width="233" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="UKYrtE4_NKRgBVxxTzd2-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2160" y="73" as="sourcePoint" />
+            <mxPoint x="2210" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-58" target="UKYrtE4_NKRgBVxxTzd2-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-58" value="Корреляционный анализ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1972" y="-59" width="183" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-32" target="UKYrtE4_NKRgBVxxTzd2-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2028" y="78" as="sourcePoint" />
+            <mxPoint x="2078" y="28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-60" value="Метод социологического исследования, направленный на определение связи или отношений между двумя или более переменными. Корреляционный анализ позволяет измерить степень и направление связи между переменными и определить, есть ли статистически значимая связь между ними" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1935.5" y="-252" width="256" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-62" target="UKYrtE4_NKRgBVxxTzd2-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-62" value="Регрессионный анализ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1672" y="-55" width="183" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-64" value="Метод социологического исследования, используемый для изучения влияния одной или нескольких независимых переменных на зависимую переменную. Регрессионный анализ позволяет определить, насколько сильно и каким образом изменяется зависимая переменная при изменении независимых переменных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1643" y="-252" width="241" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="UKYrtE4_NKRgBVxxTzd2-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.193;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.667;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UKYrtE4_NKRgBVxxTzd2-32" target="UKYrtE4_NKRgBVxxTzd2-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1827" y="52" as="sourcePoint" />
+            <mxPoint x="1877" y="2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
