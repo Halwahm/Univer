@@ -38,7 +38,8 @@ namespace UWSR.Pages.Cmnt
             _context.Comments.Add(Comment);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("../Lnk/Index");
+            return RedirectToPage("./Index");
         }
+
     }
 }
