@@ -12,7 +12,6 @@ void main(int argc, char *argv[])
   printf("LINES: %d\n",countlines("./OS09_05.txt"));         
 }
 
-
 int countlines(char *filename)
 {
   FILE *fp = fopen(filename,"r");
