@@ -1,0 +1,608 @@
+NTP syncronized time server started
+Sync with  NTP server
+Local UNIX time: 1707124574721 Global time: 1707124575988
+The local time is 1267 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124584793 Global time: 1707124586070
+The local time is 1277 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124594864 Global time: 1707124596137
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124604912 Global time: 1707124606180
+The local time is 1268 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124614974 Global time: 1707124616256
+The local time is 1282 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124625023 Global time: 1707124626302
+The local time is 1279 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124635105 Global time: 1707124636373
+The local time is 1268 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124645183 Global time: 1707124646441
+The local time is 1258 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124655280 Global time: 1707124656561
+The local time is 1281 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124665344 Global time: 1707124666613
+The local time is 1269 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124675407 Global time: 1707124676666
+The local time is 1259 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124685463 Global time: 1707124686732
+The local time is 1269 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124695526 Global time: 1707124696803
+The local time is 1277 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124705585 Global time: 1707124706858
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124715646 Global time: 1707124716922
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124725690 Global time: 1707124726956
+The local time is 1266 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124735743 Global time: 1707124737012
+The local time is 1269 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124745805 Global time: 1707124747081
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124755851 Global time: 1707124757118
+The local time is 1267 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124765900 Global time: 1707124767169
+The local time is 1269 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124775974 Global time: 1707124777245
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124786040 Global time: 1707124787307
+The local time is 1267 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124796090 Global time: 1707124797361
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124806252 Global time: 1707124807480
+The local time is 1228 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124816318 Global time: 1707124817597
+The local time is 1279 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124826372 Global time: 1707124827640
+The local time is 1268 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124836469 Global time: 1707124837740
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124846533 Global time: 1707124847807
+The local time is 1274 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124856583 Global time: 1707124857851
+The local time is 1268 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124866864 Global time: 1707124868028
+The local time is 1164 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124877252 Global time: 1707124878358
+The local time is 1106 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124887327 Global time: 1707124888601
+The local time is 1274 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124897399 Global time: 1707124898672
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124907500 Global time: 1707124908755
+The local time is 1255 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124917559 Global time: 1707124918834
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124927622 Global time: 1707124928895
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124937681 Global time: 1707124938951
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124947772 Global time: 1707124949028
+The local time is 1256 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124957853 Global time: 1707124959124
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124968038 Global time: 1707124969265
+The local time is 1227 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124978083 Global time: 1707124979349
+The local time is 1266 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124988186 Global time: 1707124989455
+The local time is 1269 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707124998381 Global time: 1707124999614
+The local time is 1233 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125008451 Global time: 1707125009727
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125018532 Global time: 1707125019803
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125028628 Global time: 1707125029892
+The local time is 1264 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125038717 Global time: 1707125039961
+The local time is 1244 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125048801 Global time: 1707125050084
+The local time is 1283 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125058854 Global time: 1707125060130
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125068965 Global time: 1707125070207
+The local time is 1242 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125079003 Global time: 1707125080268
+The local time is 1265 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125089063 Global time: 1707125090339
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125099129 Global time: 1707125100396
+The local time is 1267 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125109191 Global time: 1707125110448
+The local time is 1257 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125119298 Global time: 1707125120556
+The local time is 1258 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125129388 Global time: 1707125130663
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125139773 Global time: 1707125140910
+The local time is 1137 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125149861 Global time: 1707125151125
+The local time is 1264 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125160148 Global time: 1707125161304
+The local time is 1156 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125170222 Global time: 1707125171484
+The local time is 1262 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125180320 Global time: 1707125181566
+The local time is 1246 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125190410 Global time: 1707125191657
+The local time is 1247 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125200500 Global time: 1707125201773
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125210583 Global time: 1707125211846
+The local time is 1263 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125220650 Global time: 1707125221915
+The local time is 1265 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125230719 Global time: 1707125231997
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125240761 Global time: 1707125242028
+The local time is 1267 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125250845 Global time: 1707125252127
+The local time is 1282 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125260943 Global time: 1707125262245
+The local time is 1302 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125271013 Global time: 1707125272289
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125281277 Global time: 1707125282463
+The local time is 1186 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125291351 Global time: 1707125292631
+The local time is 1280 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125301421 Global time: 1707125302697
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125311488 Global time: 1707125312760
+The local time is 1272 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125321569 Global time: 1707125322850
+The local time is 1281 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125331621 Global time: 1707125332891
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125342103 Global time: 1707125343182
+The local time is 1079 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125352159 Global time: 1707125353431
+The local time is 1272 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125362230 Global time: 1707125363508
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125372303 Global time: 1707125373578
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125382380 Global time: 1707125383650
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125392441 Global time: 1707125393719
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125402524 Global time: 1707125403804
+The local time is 1280 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125412602 Global time: 1707125413871
+The local time is 1269 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125422671 Global time: 1707125423949
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125432730 Global time: 1707125434000
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125442816 Global time: 1707125444103
+The local time is 1287 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125452888 Global time: 1707125454165
+The local time is 1277 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125462959 Global time: 1707125464242
+The local time is 1283 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125473041 Global time: 1707125474324
+The local time is 1283 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125483133 Global time: 1707125484408
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125493200 Global time: 1707125494478
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125503300 Global time: 1707125504563
+The local time is 1263 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125513382 Global time: 1707125514667
+The local time is 1285 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125523445 Global time: 1707125524722
+The local time is 1277 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125533508 Global time: 1707125534775
+The local time is 1267 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125543573 Global time: 1707125544848
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125553629 Global time: 1707125554901
+The local time is 1272 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125563713 Global time: 1707125564986
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125573770 Global time: 1707125575044
+The local time is 1274 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125583855 Global time: 1707125585133
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125593907 Global time: 1707125595169
+The local time is 1262 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125603959 Global time: 1707125605234
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125614045 Global time: 1707125615317
+The local time is 1272 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125624126 Global time: 1707125625404
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125634196 Global time: 1707125635472
+The local time is 1276 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125644249 Global time: 1707125645520
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125654302 Global time: 1707125655571
+The local time is 1269 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125664374 Global time: 1707125665663
+The local time is 1289 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125674440 Global time: 1707125675720
+The local time is 1280 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125684485 Global time: 1707125685748
+The local time is 1263 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125694563 Global time: 1707125695847
+The local time is 1284 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125704648 Global time: 1707125705929
+The local time is 1281 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125714721 Global time: 1707125716000
+The local time is 1279 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125724788 Global time: 1707125726061
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125734850 Global time: 1707125736130
+The local time is 1280 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125744900 Global time: 1707125746170
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125754971 Global time: 1707125756242
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125765021 Global time: 1707125766289
+The local time is 1268 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125775079 Global time: 1707125776346
+The local time is 1267 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125785168 Global time: 1707125786449
+The local time is 1281 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125795236 Global time: 1707125796506
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125805300 Global time: 1707125806568
+The local time is 1268 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125815368 Global time: 1707125816640
+The local time is 1272 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125825444 Global time: 1707125826725
+The local time is 1281 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125835500 Global time: 1707125836763
+The local time is 1263 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125845575 Global time: 1707125846849
+The local time is 1274 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125855657 Global time: 1707125856943
+The local time is 1286 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125865741 Global time: 1707125867028
+The local time is 1287 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125875793 Global time: 1707125877054
+The local time is 1261 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125885846 Global time: 1707125887117
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125895915 Global time: 1707125897179
+The local time is 1264 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125905957 Global time: 1707125907232
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125916005 Global time: 1707125917276
+The local time is 1271 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125926059 Global time: 1707125927329
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125936133 Global time: 1707125937406
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125946199 Global time: 1707125947477
+The local time is 1278 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125956248 Global time: 1707125957521
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125966336 Global time: 1707125967608
+The local time is 1272 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125976379 Global time: 1707125977649
+The local time is 1270 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125986449 Global time: 1707125987728
+The local time is 1279 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707125996509 Global time: 1707125997786
+The local time is 1277 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126006569 Global time: 1707126007841
+The local time is 1272 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126016641 Global time: 1707126017921
+The local time is 1280 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126026708 Global time: 1707126027982
+The local time is 1274 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126036787 Global time: 1707126038062
+The local time is 1275 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126046863 Global time: 1707126048140
+The local time is 1277 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126056984 Global time: 1707126058235
+The local time is 1251 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126067041 Global time: 1707126068314
+The local time is 1273 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126077112 Global time: 1707126078392
+The local time is 1280 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126087268 Global time: 1707126088500
+The local time is 1232 behind  of the global
+
+Sync with  NTP server
+Local UNIX time: 1707126097311 Global time: 1707126098580
+The local time is 1269 behind  of the global

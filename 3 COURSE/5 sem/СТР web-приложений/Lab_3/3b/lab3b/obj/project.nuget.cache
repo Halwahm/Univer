@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1QouOYMjBTAyrVsMKt38s9FUEKRBQziL5Kn0GN2f6/qI6S0eyQ1p6JGJMkYUenE47b5okDmLLKu5+SN91vc+Kg==",
+  "dgSpecHash": "PRe6FLYUijR33Q/tEd6TDmZetag34I0ZyA2cpbBPicAlEYj49+Cdld9w1X3sFnVjcbtStW5GRY1soiqGB/omDA==",
   "success": true,
-  "projectFilePath": "D:\\УНИВЕР\\СТР web-приложений\\Lab_3\\3b\\lab3b\\lab3b.csproj",
+  "projectFilePath": "D:\\My Files\\Univer\\3 COURSE\\5 sem\\СТР web-приложений\\Lab_3\\3b\\lab3b\\lab3b.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halal\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\halal\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

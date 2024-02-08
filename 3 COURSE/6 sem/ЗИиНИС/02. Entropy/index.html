@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+</head>
+<body>
+    <h2>Li</h2>
+<div class="ct-chart ct-golden-section" id="chartLI"></div>
+<h2>MC</h2>
+<div class="ct-chart ct-golden-section" id="chartMC"></div>
+<table>
+    <tr>
+        <th/>
+        <th>Македонский</th>
+        <th>Литовский</th>
+    </tr>
+    <tr>
+        <td>Всего символов текста: </td>
+        <td id="countMC"></td>
+        <td id="countLI"></td>
+    </tr>
+    <tr>
+        <td>Энтропия алфавита:</td>
+        <td id="entropyMC"></td>
+        <td id="entropyLI"></td>
+    </tr>
+    <tr>
+        <td>Размер информации:</td>
+        <td id="infoMC"></td>
+        <td id="infoLI"></td>
+    </tr>
+    <tr>
+        <td>Размер информации ASCII:</td>
+        <td id="infoMCASCII"></td>
+        <td id="infoLIASCII"></td>
+    </tr>
+    <div id="here">Посчитаем количество потерянной информации</div>
+</table>
+</body>
+</html>
+
+<script>
+    const lithuanian = ['A', 'Ą', 'B', 'C', 'Č', 'D', 'E', 'Ę', 'Ė', 'F', 'G', 'H', 'I', 'Į', 'Y', 'J', 'K', 'L', 'M', 'N', 
+    'O', 'P', 'R', 'S', 'Š', 'T', 'U', 'Ų', 'Ū', 'V', 'Z', 'Ž'];
+    const macedonian = ['А', 'Б', 'В', 'Г', 'Д', 'Ѓ', 'Е', 'Ж', 'З', , 'И', 'Ј', 'К', 'Л', 'Љ', 'М', 'Н', 'Њ', 'О', 'П',
+     'Р', 'С', 'Т', 'Ќ', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Џ', 'Ш']
+
+    const binary = ['0', '1']
+    let probability = [];
+
+    let createBar = (labels, series) =>
+    {
+        new Chartist.Bar('#chart', {
+            labels: labels,
+            series: [series]
+        });
+    }
+
+
+    let getText = (lang) => fetch(lang, {
+        method: "get",
+        cache: "no-cache",
+        mode: "no-cors"
+    })
+        .catch(err => console.log(err))
+
+    let entropy = async (alphabet, code, bin) => {
+        let response = await getText(code);
+        let text = await response.text();
+        let length;
+        let entropy = 0;
+        console.log(code, '----------------------', text);
+        if(bin) {
+            let output = "";
+            for (let i = 0; i < text.length; i++) {
+                output += text[i].charCodeAt(0).toString(2);
+            }
+            text = output;
+        }
+        length = text.length
+        for (let i = 0; i < alphabet.length; i++) {
+            probability[i] = (text.match(new RegExp(alphabet[i], "g")) || []).length/length;
+            if (!isNaN(probability[i]) && !isNaN(Math.log2(probability[i]))) entropy += probability[i] * Math.log2(probability[i]);
+        }
+
+        
+        new Chartist.Bar('#chart'+ code.toUpperCase(), {
+            labels: alphabet,
+            series: [probability]
+        });
+        
+        document.getElementById("count" + code.toUpperCase()).innerText = text.length;
+        document.getElementById("entropy"  + code.toUpperCase()).innerText = Math.abs(entropy).toFixed(6);
+    }
+    //entropy(binary, "li", true);
+   //entropy(binary, "mc", true);
+    entropy(macedonian, "mc", false);
+    entropy(lithuanian, "li", false);
+
+
+</script>
+<script>
+    const sizeInfo = () => {
+        let initialsLI = "Mergel Karolina Andreevna".replace(/\s/gi, "").toUpperCase();
+        let initialsMC = "Мергел Каролина Андреевна".replace(/\s/gi, "").toUpperCase();
+        document.getElementById("infoLI").innerText = initialsLI.length * 5;
+        document.getElementById("infoLIASCII").innerText = initialsLI.length * 8;
+        document.getElementById("infoMC").innerText = initialsMC.length * 4.954196;
+        document.getElementById("infoMCASCII").innerText = initialsMC.length * 8;
+        let p = 0.1;
+        document.getElementById("here").innerText += `\np = 0.1 => H(x|y) =${(-p)*Math.log2(p)-(1-p)*Math.log2(1-p)}`;
+        p = 0.5;
+        document.getElementById("here").innerText += `\np = 0.1 => H(x|y) =${(-p)*Math.log2(p)-(1-p)*Math.log2(1-p)}`;
+        p = 1;
+        document.getElementById("here").innerText += `\np = 0.1 => H(x|y) =${(-p)*Math.log2(p)-(1-p)*Math.log2(1-p)}`;
+    }
+    sizeInfo()
+
+</script>

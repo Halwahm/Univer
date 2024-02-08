@@ -11121,11 +11121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\УНИВЕР\\СТР web-приложений\\Lab_3\\3b\\lab3b\\lab3b.csproj",
+      "projectUniqueName": "D:\\My Files\\Univer\\3 COURSE\\5 sem\\СТР web-приложений\\Lab_3\\3b\\lab3b\\lab3b.csproj",
       "projectName": "lab3b",
-      "projectPath": "D:\\УНИВЕР\\СТР web-приложений\\Lab_3\\3b\\lab3b\\lab3b.csproj",
+      "projectPath": "D:\\My Files\\Univer\\3 COURSE\\5 sem\\СТР web-приложений\\Lab_3\\3b\\lab3b\\lab3b.csproj",
       "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
-      "outputPath": "D:\\УНИВЕР\\СТР web-приложений\\Lab_3\\3b\\lab3b\\obj\\",
+      "outputPath": "D:\\My Files\\Univer\\3 COURSE\\5 sem\\СТР web-приложений\\Lab_3\\3b\\lab3b\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",

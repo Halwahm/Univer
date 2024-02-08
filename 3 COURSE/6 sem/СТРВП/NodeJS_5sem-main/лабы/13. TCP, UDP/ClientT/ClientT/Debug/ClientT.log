@@ -1,0 +1,20 @@
+﻿Build started 20.11.2021 8:26:29.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\User\Documents\Программирование серверных кроссплаформенных приложений\NodeJS_5sem\лабы\lab_13\ClientT\ClientT\ClientT.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ClientT.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt ClientT.cpp
+         ClientT.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Программирование серверных кроссплаформенных приложений\NodeJS_5sem\лабы\lab_13\ClientT\Debug\ClientT.exe" /INCREMENTAL /ILK:"Debug\ClientT.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\Программирование серверных кроссплаформенных приложений\NodeJS_5sem\лабы\lab_13\ClientT\Debug\ClientT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Программирование серверных кроссплаформенных приложений\NodeJS_5sem\лабы\lab_13\ClientT\Debug\ClientT.lib" /MACHINE:X86 Debug\ClientT.obj
+         ClientT.vcxproj -> C:\Users\User\Documents\Программирование серверных кроссплаформенных приложений\NodeJS_5sem\лабы\lab_13\ClientT\Debug\ClientT.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ClientT.tlog\unsuccessfulbuild".
+         Touching "Debug\ClientT.tlog\ClientT.lastbuildstate".
+     1>Done Building Project "C:\Users\User\Documents\Программирование серверных кроссплаформенных приложений\NodeJS_5sem\лабы\lab_13\ClientT\ClientT\ClientT.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.86

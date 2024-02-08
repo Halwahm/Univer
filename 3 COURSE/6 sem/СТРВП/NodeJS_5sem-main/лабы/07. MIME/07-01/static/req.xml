@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <entities>
+        <person>
+            <name>Let</name>
+            <age>me</age>
+        </person>
+        <person>
+            <name>Go</name>
+            <age>HOme</age>
+        </person>
+        <person>
+            <name>pls</name>
+            <age>pls</age>
+        </person>
+    </entities>
+</root>

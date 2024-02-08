@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  NTP_Client.cpp
+d:\3\рис\ntp\ntp_client\ntp_client.cpp(87): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+d:\3\рис\ntp\ntp_client\ntp_client.cpp(88): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  NTP_Client.vcxproj -> D:\3\РИС\NTP\Debug\NTP_Client.exe

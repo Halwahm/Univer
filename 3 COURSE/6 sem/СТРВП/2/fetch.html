@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>fetch</title>
+</head>
+<body>
+    <h1 id='fio'>FIO fetch: </h1>
+</body>
+<script>
+    let elem = document.getElementById('fio');
+    fetch('/api/name').then
+    (res => {
+        res.text().then(text => {
+            elem.append(text);
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>jquery</title>
+</head>
+<body>
+    <h1 id='fio'>FIO jquery: </h1>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+    let elem = $('#fio');
+    $.ajax({
+        method: 'GET',
+        url: '/api/name',
+        success: (data) =>
+        {
+            elem.append(data)
+        }
+    })
+</script>
+</html>

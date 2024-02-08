@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="http://localhost:5000/static/style.css"> -->
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+    <script>
+        function getJSON() {
+            let print = document.getElementById("jsonData");
+            fetch("http://localhost:5000/static/req.json", {
+                method: 'GET',
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                print.innerHTML += JSON.stringify(data);
+            });
+        }
+
+        function getXML() {
+            let print = document.getElementById("xmlData");
+            fetch("http://localhost:5000/static/req.xml", {
+                method: 'GET',
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            })
+            .then(response => response.text())
+            .then(data => {
+                console.log(data);
+                print.innerHTML += data;
+            });
+        }
+    </script>
+    <title>07-01</title>
+</head>
+<body>
+    
+    <div>
+        <button class="button-30" onclick="any()" >Start script.js</button>
+    </div>
+
+    <div>
+        <button class="button-30" onclick="getJSON()">JSON</button>
+        <p id="jsonData"></p>
+    </div>
+
+    <div>
+        <button class="button-30" onclick="getXML()">XML</button>
+        <p id="xmlData"></p>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Here should be an image from static/pic.png</legend>
+            <img src="/static/pic.png" height="200">
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Here should be a video from static/video.mp4</legend>
+            <video src="/static/video.mp4" width="500" controls="controls"></video>
+        </fieldset>
+    </div>
+
+    <div>
+        <a href="/static/word.docx">WORD.DOCX</a>
+    </div>
+</body>
+</html>
