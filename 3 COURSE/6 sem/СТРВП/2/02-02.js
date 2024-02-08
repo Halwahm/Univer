@@ -12,16 +12,16 @@ http.createServer(function (request, response) {
     {
         let jpg = null; 
 
-    fs.stat('./cat.jpg', (err, stat) => {
-        if(err){
-            console.log(`error: ${err}`);
-        }
-        else {
-            jpg = fs.readFileSync('./cat.jpg');
-            response.writeHead(200, {'Content-Type': 'image/jpeg', 'Content-Length': stat.size});
-            response.end(jpg, 'binary');
-        }
-    })
+        fs.stat('./cat.jpg', (err, stat) => {
+            if(err){
+                console.log(`error: ${err}`);
+            }
+            else {
+                jpg = fs.readFileSync('./cat.jpg');
+                response.writeHead(200, {'Content-Type': 'image/jpeg', 'Content-Length': stat.size});
+                response.end(jpg, 'binary');
+            }
+        })
     }
     if (request.url === '/api/name')
     {
