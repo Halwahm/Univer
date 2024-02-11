@@ -23,7 +23,7 @@ int main()
 	SOCKADDR_IN serv{};
 	serv.sin_family = AF_INET;
 	serv.sin_port = htons(2000);
-	serv.sin_addr.s_addr = inet_addr("192.168.100.4");
+	serv.sin_addr.s_addr = inet_addr("192.168.100.60");
 	int length_serv = sizeof(serv);
 
 	SOCKADDR_IN clnt = {};
