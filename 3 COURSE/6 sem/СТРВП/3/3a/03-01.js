@@ -11,10 +11,8 @@ let state = "norm";
 let acceptableStates = ['norm', 'idle', 'stop', 'test'];
 
 const server = http.createServer((request, response) => {
-    // Отправляем HTTP-заголовки
     response.writeHead(200, { 'Content-Type': 'text/html' });
 
-    // Генерируем HTML-разметку с текущим состоянием в теге <h1>
     const htmlContent = `
         <!DOCTYPE html>
         <html lang="en">
@@ -29,7 +27,6 @@ const server = http.createServer((request, response) => {
         </html>
     `;
 
-    // Отправляем сгенерированную HTML-разметку
     response.end(htmlContent);
 });
 

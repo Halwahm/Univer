@@ -14,12 +14,8 @@ const server = http.createServer((request,
     if (request.url.startsWith('/fact')) {
         const myUrl = new URL(`http://${host}:${port}` + request.url);
         let k = myUrl.searchParams.get('k');
-        response.writeHead(200, {'Content-Type': 'text/html', 'Access-Control-Allow-Origin' : '*'});
-        response.end(`<html lang="en"><head><title>Factorial</title></head><body><h3 id="header"></h3></body>
-            <script>
-                let header = document.querySelector('#header');
-                header.innerHTML = 'k: ' + ${k} + '; fact: ' + ${Factorial(k)};
-            </script></html>`);
+        response.writeHead(200, {'Content-Type': 'text/json'});
+        response.end(JSON.stringify({k: k, fact: Factorial(k)}));
     } else {
         response.writeHead(404);
         response.end('Not found');
@@ -27,5 +23,5 @@ const server = http.createServer((request,
 });
 
 server.listen(port, host, () => {
-    console.log(`Server is running on http://${host}:${port}/fact`);
+    console.log(`Server is running on http://${host}:${port}`);
 });
