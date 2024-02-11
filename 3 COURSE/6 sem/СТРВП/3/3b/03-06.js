@@ -25,8 +25,12 @@ function fourthPow(x) {
     })
 }
 
-let params = [1, 2, 10]
+let params = [9, 2, 10]
 let promises = [square(params[0]), cube(params[1]), fourthPow(params[2])]
+
+Promise.race(promises)
+    .then(result => console.log("result:", result))
+    .catch(error => console.log("error:", error))
 
 Promise.any(promises)
     .then(result => console.log("result:", result))

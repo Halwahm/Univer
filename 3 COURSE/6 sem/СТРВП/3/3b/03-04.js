@@ -1,59 +1,63 @@
-const { v4: uuidv4 } = require("uuid")
+const { v4: uuidv4 } = require('uuid');
 
+// Функция для проверки номера карты
 function validateCard(cardNumber) {
-    console.log("card number:", cardNumber)
-    return Boolean(Math.round(Math.random()))
+    console.log('Card number:', cardNumber);
+    if (/^\d+$/.test(cardNumber)) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 function createOrder(cardNumber) {
     return new Promise((resolve, reject) => {
-        if (validateCard(cardNumber)) {
-            reject("Card is not valid")
-        }
-        else {
+        if (!validateCard(cardNumber)) {
+            reject(new Error('Card is not valid'));
+        } else {
             setTimeout(() => {
-                resolve(uuidv4(undefined, undefined, undefined))
-            }, 5000)
+                const orderId = uuidv4();
+                resolve(orderId);
+            }, 5000);
         }
-    })
+    });
 }
 
 function proceedToPayment(orderId) {
-    console.log("order id:", orderId)
+    console.log('Order ID:', orderId);
     return new Promise((resolve, reject) => {
-        if (Math.round(Math.random())) {
-            resolve("Payment successful")
-        }
-        else {
-            reject("Payment failed")
-        }
-    })
+        setTimeout(() => {
+            if (Math.random() < 0.5) {
+                resolve('Payment successful');
+            } else {
+                reject(new Error('Payment failed'));
+            }
+        }, 3000);
+    });
 }
 
-const cardNumberParameter = 123
-
-createOrder(cardNumberParameter)
-    .then(result => {
-        proceedToPayment(result)
-            .then(proceedResult => console.log("proceed result:", proceedResult))
-            .catch(proceedError => console.log("proceed error:", proceedError))
+const cardNumber = '123456780123456'; 
+createOrder(cardNumber)
+    .then(orderId => {
+        console.log('Order created successfully. Order ID:', orderId);
+        return proceedToPayment(orderId);
     })
-    .catch(error => console.log("error:", error))
+    .then(paymentResult => {
+        console.log(paymentResult);
+    })
+    .catch(error => {
+        console.error('Error:', error.message);
+    });
 
-async function asyncCreateOrder(cardNumber) {
+async function processOrder() {
     try {
-        const result = await createOrder(cardNumber)
-        try {
-            const proceedResult = await proceedToPayment(result)
-            console.log("proceed result:", proceedResult)
-        }
-        catch (proceedError) {
-            console.log("proceed error:", proceedError)
-        }
-    }
-    catch (error) {
-        console.log("error:", error)
+        const orderId = await createOrder(cardNumber);
+        console.log('Order created successfully. Order ID:', orderId);
+        const paymentResult = await proceedToPayment(orderId);
+        console.log(paymentResult);
+    } catch (error) {
+        console.error('Error:', error.message);
     }
 }
 
-asyncCreateOrder(cardNumberParameter)
+processOrder();
