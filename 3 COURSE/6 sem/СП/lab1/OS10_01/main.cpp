@@ -8,10 +8,10 @@ int main()
 	try
 	{
 		ht = ht::create(
-			1000,	// capacity
-			1,		// seconds snapshot
-			20,		// max key length
-			256,	// max payload length
+			1000,	
+			1,	
+			20,		
+			256,	
 			L"./files/HTspace.ht"
 		);
 		if (ht)

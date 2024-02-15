@@ -8,59 +8,59 @@ namespace tests
     BOOL test1(ht::HtHandle* htHandle)
     {
         // Попытка вставить элемент
-        ht::Element* insertEl = new ht::Element("test1", 6, "test1", 6);
+        ht::Element* insertEl = new ht::Element("first", 10, "firstPayl", 10);
+        ht::insert(htHandle, insertEl);
 
+        // Попытка вставить тот же элемент снова
         BOOL insertResult = ht::insert(htHandle, insertEl);
 
-        // Ожидается, что повторная попытка вставки вернет FALSE
         if (insertResult == FALSE)
-            return TRUE; // Ошибка: повторная вставка выполнена успешно
+            return FALSE; 
 
-        return FALSE; // Негативный сценарий не произошел
+        return TRUE; 
     }
 
     BOOL test2(ht::HtHandle* htHandle)
     {
         // Попытка удалить элемент, который не существует в таблице
-        ht::Element* element = new ht::Element("test2", 6, "test2", 6);
+        ht::Element* element = new ht::Element("second", 16, "secondPayl", 16);
 
+        // Попытка удалить несуществующий элемент
         BOOL removeResult = ht::removeOne(htHandle, element);
 
-        // Ожидается, что попытка удаления несуществующего элемента вернет FALSE
         if (removeResult == FALSE)
-            return TRUE; // Ошибка: удаление выполнено, хотя не должно было быть
+            return FALSE; 
 
-        return FALSE; // Негативный сценарий не произошел
+        return TRUE; 
     }
 
     BOOL test3(ht::HtHandle* htHandle)
     {
-        // Попытка вставить элемент, который уже существует в таблице
-        ht::Element* element = new ht::Element("test3", 6, "test3", 6);
-        ht::insert(htHandle, element);
+        // Попытка обновить элемент, который не существует в таблице
+        ht::Element* element = new ht::Element("third", 2, "thirdPayl", 2);
 
-        BOOL insertResult = ht::insert(htHandle, element);
+        // Попытка обновления несуществующего элемента
+        BOOL updateResult = ht::update(htHandle, element, "newData", 7);
 
-        // Ожидается, что попытка вставить существующий элемент вернет FALSE
-        if (insertResult == FALSE)
-            return TRUE; // Ошибка: вставка выполнена успешно, хотя не должно было быть
+        if (updateResult == FALSE)
+            return FALSE;
 
-        return FALSE; // Негативный сценарий не произошел
+        return TRUE; 
     }
 
     BOOL test4(ht::HtHandle* htHandle)
     {
         // Попытка удалить элемент, который уже удален из таблицы
-        ht::Element* element = new ht::Element("test4", 6, "test4", 6);
+        ht::Element* element = new ht::Element("fourth", 33, "fourthPayl", 33);
         ht::insert(htHandle, element);
         ht::removeOne(htHandle, element);
 
+        // Попытка удалить уже удаленный элемент
         BOOL removeResult = ht::removeOne(htHandle, element);
 
-        // Ожидается, что попытка удалить уже удаленный элемент вернет FALSE
         if (removeResult == FALSE)
-            return TRUE; // Ошибка: удаление выполнено успешно, хотя не должно было быть
+            return FALSE;
 
-        return FALSE; // Негативный сценарий не произошел
+        return TRUE; 
     }
 }

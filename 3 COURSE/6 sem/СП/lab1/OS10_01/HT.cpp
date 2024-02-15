@@ -99,7 +99,7 @@ namespace ht
 
 	HtHandle* open
 	(
-		const wchar_t* fileName)         // имя файла
+		const wchar_t* fileName)        
 	{
 		HtHandle* htHandle = openHtFromFile(fileName);
 		if (htHandle == NULL)

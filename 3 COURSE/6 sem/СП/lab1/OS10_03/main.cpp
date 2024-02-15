@@ -49,9 +49,9 @@ int main()
 		cout << "\n### ht2 ###" << endl;
 		ht2 = ht::open(L"./files/HTspace.ht", true);
 		if (ht2)
-			cout << "-- create: success" << endl;
+			cout << "-- open: success" << endl;
 		else
-			throw "-- create: error";
+			throw "-- open: error";
 
 		cout << "ht2: " << ht2->addr << endl;
 
