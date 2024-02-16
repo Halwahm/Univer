@@ -19,7 +19,7 @@ function fourthPow(x) {
     })
 }
 
-let params = [1, '2', 10]
+let params = [1, '8', 10]
 let promises = [square(params[0]), cube(params[1]), fourthPow(params[2])]
 
 Promise.all(promises)

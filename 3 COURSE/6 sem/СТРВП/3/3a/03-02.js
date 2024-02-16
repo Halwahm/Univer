@@ -23,5 +23,5 @@ const server = http.createServer((request,
 });
 
 server.listen(port, host, () => {
-    console.log(`Server is running on http://${host}:${port}`);
+    console.log(`Server is running on http://${host}:${port}/fact?k=5`);
 });

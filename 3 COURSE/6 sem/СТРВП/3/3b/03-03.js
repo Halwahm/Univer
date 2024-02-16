@@ -18,7 +18,7 @@ function thirdJob(data) {
     })
 }
 
-const param = "2"
+const param = '2'
 
 thirdJob(param)
     .then(result => console.log("result:", result))

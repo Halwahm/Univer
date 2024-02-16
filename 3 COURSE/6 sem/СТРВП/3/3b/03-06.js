@@ -25,7 +25,7 @@ function fourthPow(x) {
     })
 }
 
-let params = [9, 2, 10]
+let params = ['0', 2, 10]
 let promises = [square(params[0]), cube(params[1]), fourthPow(params[2])]
 
 Promise.race(promises)
