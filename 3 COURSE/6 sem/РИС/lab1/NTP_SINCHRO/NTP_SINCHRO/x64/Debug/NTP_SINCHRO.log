@@ -1,0 +1,10 @@
+﻿  NTP_SINCHRO.cpp
+D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO.cpp(80,23): warning C4244: =: преобразование "SOCKET" в "int", возможна потеря данных
+D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO.cpp(102,22): warning C4244: инициализация: преобразование "_Rep" в "unsigned long", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO.cpp(73,22): warning C4101: proto: неиспользованная локальная переменная
+D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO.cpp(60): warning C4715: getAddrByHost: значение возвращается не при всех путях выполнения
+  NTP_SINCHRO.vcxproj -> D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\NTP_SINCHRO\x64\Debug\NTP_SINCHRO.exe

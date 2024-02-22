@@ -23,7 +23,7 @@ int main()
 	SOCKADDR_IN serv{};
 	serv.sin_family = AF_INET;
 	serv.sin_port = htons(2000);
-	serv.sin_addr.s_addr = inet_addr("192.168.51.218");
+	serv.sin_addr.s_addr = inet_addr("192.168.51.184");
 	int length_serv = sizeof(serv);
 
 	SOCKADDR_IN clnt = {};
@@ -51,7 +51,7 @@ int main()
 			{
 				cout << "Client opened\n";
 				try {
-					string file_name = "\\\\HALWA\\lab2\\output.txt";
+					string file_name = "Z:\\output.txt";
 					ofstream fout(file_name, ios::app);
 					if (!fout.is_open())
 						throw "Error while opening file";

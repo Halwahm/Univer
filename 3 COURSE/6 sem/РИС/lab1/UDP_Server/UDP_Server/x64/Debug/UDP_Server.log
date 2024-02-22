@@ -1,0 +1,7 @@
+﻿  UDP_Server.cpp
+D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\UDP_Server\UDP_Server\stringList.h(47,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\UDP_Server\UDP_Server\stringList.h(58,14): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\UDP_Server\UDP_Server\stringList.h(101,13): warning C4018: <: несоответствие типов со знаком и без знака
+  WSAErrors.cpp
+  Создание кода...
+  UDP_Server.vcxproj -> D:\Downloads\РИС\RIS_1.2\UDP_SINCHRO\UDP_Server\x64\Debug\UDP_Server.exe

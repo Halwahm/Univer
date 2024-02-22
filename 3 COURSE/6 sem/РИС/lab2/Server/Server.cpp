@@ -34,7 +34,7 @@ int main()
 		if (bind(sS, (LPSOCKADDR)&serv, sizeof(serv)) == SOCKET_ERROR)
 			throw set_error_msg_text("bind: ", WSAGetLastError());
 
-		CA ca = InitCA("192.168.51.218", "\\\\HALWA\\lab2\\output.txt");
+		CA ca = InitCA("192.168.51.218", "Z:\\output.txt");
 
 		while (true)
 		{

@@ -1,0 +1,3 @@
+﻿  NTP_SINCHRO.cpp
+D:\3kr_6sem\РИС\RIS_1.2\UDP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO\NTP_SINCHRO.cpp(60): warning C4715: getAddrByHost: значение возвращается не при всех путях выполнения
+  NTP_SINCHRO.vcxproj -> D:\3kr_6sem\РИС\RIS_1.2\UDP_SINCHRO\NTP_SINCHRO\Debug\NTP_SINCHRO.exe
