@@ -1,14 +1,13 @@
 var util = require('util')
 var ev = require('events');
-//const { parse } = require('querystring');
 
 var db_data = [
-    {id: 1, name: 'John', bday:'1990-05-15'},
-    {id: 2, name: 'Alice', bday:'1988-09-20'},
-    {id: 3, name: 'Michael', bday:'1975-03-10'},
-    {id: 4, name: 'Emma', bday:'1995-11-30'},
-    {id: 5, name: 'David', bday:'1983-07-25'},
-    {id: 6, name: 'Sophia', bday:'1978-12-05'}
+    {id: 0, name: 'John', bday:'1990-05-15'},
+    {id: 1, name: 'Alice', bday:'1988-09-20'},
+    {id: 2, name: 'Michael', bday:'1975-03-10'},
+    {id: 3, name: 'Emma', bday:'1995-11-30'},
+    {id: 4, name: 'David', bday:'1983-07-25'},
+    {id: 5, name: 'Sophia', bday:'1978-12-05'}
 ];
 
 
@@ -33,7 +32,6 @@ function DB()
 
     this.delete = (index) => {
         if (db_data.findIndex(i => i.id == index) > -1){
-            
             return db_data.splice(db_data.findIndex(i => i.id == index), 1)
         }
         else {

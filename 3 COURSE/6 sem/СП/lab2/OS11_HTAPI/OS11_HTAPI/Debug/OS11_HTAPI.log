@@ -1,9 +1,4 @@
-﻿  pch.cpp
-  HT.cpp
-D:\6sem\SP\Labs\LAB03\OS11_HTAPI\OS11_HTAPI\HT.cpp(662,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "const void *const "
-D:\6sem\SP\Labs\LAB03\OS11_HTAPI\OS11_HTAPI\HT.cpp(662,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "2" имеет тип "const void *const "
-  HTSupport.cpp
-  OS11_HTAPI.cpp
-  dllmain.cpp
-  Создание кода...
-  OS11_HTAPI.vcxproj -> D:\6sem\SP\Labs\LAB03\OS11_HTAPI\Debug\OS11HTAPI.dll
+﻿  HT.cpp
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab2\OS11_HTAPI\OS11_HTAPI\HT.cpp(661,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "const void *const "
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab2\OS11_HTAPI\OS11_HTAPI\HT.cpp(661,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "2" имеет тип "const void *const "
+  OS11_HTAPI.vcxproj -> D:\My Files\Univer\3 COURSE\6 sem\СП\lab2\OS11_HTAPI\Debug\OS11HTAPI.dll

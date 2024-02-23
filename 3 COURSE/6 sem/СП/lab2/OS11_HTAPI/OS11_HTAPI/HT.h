@@ -52,7 +52,7 @@ struct HTHANDLE    // блок управления HT
 		this->htc.SecSnapshotInterval = 10; // секунд
 		this->htc.MaxKeyLength = 4;
 		this->htc.MaxPayloadLength = 10;
-		strcpy(this->FileName, "D:\\6sem\\SP\\Labs\\LAB03\\temp\\HTspace.dat");
+		strcpy(this->FileName, ".\\temp\\HTspace.dat");
 	}
 	HTHANDLE(int Capacity, int SecSnapshotInterval, int MaxKeyLength, int MaxPayloadLength, const char FileName[512])
 	{

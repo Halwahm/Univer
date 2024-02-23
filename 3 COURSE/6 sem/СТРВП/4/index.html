@@ -37,24 +37,23 @@
 <script>
     function Get() {
             fetch('http://localhost:5000/api/db')
-            .then(resp => {console.log('here')
-                 return resp.json();
-             })
-            .then(pdata => {
-                console.log('pdata', pdata);
-                let get = document.getElementById("get");
-                get.innerHTML = '';
-                pdata.forEach(element => {
-                	get.innerHTML += (element.id + '.  ' + element.name +
-                             ' ' + element.bday + '<br/>');
+                .then(resp => {console.log('here')
+                    return resp.json();
+                })
+                .then(pdata => {
+                    console.log('pdata', pdata);
+                    let get = document.getElementById("get");
+                    get.innerHTML = '';
+                    pdata.forEach(element => {
+                        get.innerHTML += (element.id + '.  ' + element.name +
+                                ' ' + element.bday + '<br/>');
+                    });
                 });
-            });
         }
 
         function Post() {
             let Name = document.getElementById("Name");
             let BDay = document.getElementById("Bday");
-            let test = document.getElementById("get")
             if (Name.value && BDay.value) {
                 fetch(`http://localhost:5000/api/db`, {
                     method: 'POST',
@@ -80,8 +79,8 @@
 
         function Put() {
             let Name = document.getElementById("uName");
-                let BDay = document.getElementById("uBday");
-                let Id = document.getElementById('uId');
+            let BDay = document.getElementById("uBday");
+            let Id = document.getElementById('uId');
     
                 if (Name.value && BDay.value && Id.value) {
                     fetch(`http://localhost:5000/api/db`, {
@@ -106,22 +105,21 @@
         }
 
         function Delete() {
-            let Id = document.getElementById("dId");
-    
-                if (Id.value) {
-                    fetch(`http://localhost:5000/api/db?id=${Id.value}`, {
-                        method: 'DELETE'
-                    })
-                    .then(resp => { Get()
-                         return resp.json(); })
-                    .then(pdata => {
-                        console.log('DELETE', pdata);
-                    });
-                }
-                else {
-                    let get = document.getElementById("err");
-                    get.innerHTML = 'error del';
-                }
+        let Id = document.getElementById("dId");
+            if (Id.value) {
+                fetch(`http://localhost:5000/api/db?id=${Id.value}`, {
+                    method: 'DELETE'
+                })
+                .then(resp => { Get()
+                        return resp.json(); })
+                .then(pdata => {
+                    console.log('DELETE', pdata);
+                });
+            }
+            else {
+                let get = document.getElementById("err");
+                get.innerHTML = 'error del';
+            }
         }
 </script>
 </html>

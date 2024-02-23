@@ -4,11 +4,9 @@ var fs = require('fs')
 var data = require('./index.js')
 
 var db = new data.DB()
-let reqCount = 0;
-let comCount = 0;
+
 
 db.on('GET', (req, resp)=>{
-    reqCount++;
     console.log('GET'); 
     resp.writeHead(200, {'Content-Type': 'application/json; charset = utf-8', "Access-Control-Allow-Origin": "*" });
     resp.end(JSON.stringify(db.select()))
@@ -16,7 +14,6 @@ db.on('GET', (req, resp)=>{
 
 db.on('POST',  (req, resp)=>{
     console.log('POST'); 
-    reqCount++;
     req.on('data', data => {
         let row = JSON.parse(data);
         row.id = db.getIndex();
@@ -28,7 +25,6 @@ db.on('POST',  (req, resp)=>{
 
 db.on('PUT', (req, resp)=>{
     console.log('PUT')
-    reqCount++;
     req.on('data', data => {
         let row = JSON.parse(data);
         db.update(row);
@@ -39,7 +35,6 @@ db.on('PUT', (req, resp)=>{
 
 db.on('DELETE', (req, resp)=>{
     console.log('DELETE')
-    reqCount++;
     if (url.parse(req.url, true).query.id !== null)
     {
         let index = url.parse(req.url, true).query.id
@@ -48,12 +43,7 @@ db.on('DELETE', (req, resp)=>{
     }
 })
 
-db.on('COMMIT', () => {
-    comCount++;
-    db.commit();
-});
-
-let server = http.createServer((req, resp) => {
+http.createServer((req, resp) => {
 	if(url.parse(req.url).pathname === '/api/db') {
 		db.emit(req.method, req, resp);
 	}

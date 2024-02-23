@@ -1,6 +1,6 @@
 ﻿// HT-Storage Start filename=xxxxx, snapshotinterval=xx capacity = xxxx, maxkeylength = xxx, maxdatalength = xxx
 
-#pragma comment(lib, "D:\\6sem\\SP\\Labs\\LAB03\\OS11_START\\OS11_START\\OS11HTAPI.lib")
+#pragma comment(lib, "D:\\My Files\\Univer\\3 COURSE\\6 sem\\СП\\lab2\\OS11_START\\OS11_START\\OS11HTAPI.lib")
 
 #include <iostream>
 #include <conio.h>
@@ -31,9 +31,6 @@ int main(int argc, char * argv[])
 
 	try
 	{
-		
-
-		
 		HANDLE f = CreateFile(argv[1],
 			GENERIC_READ,
 			FILE_SHARE_READ | FILE_SHARE_WRITE,
