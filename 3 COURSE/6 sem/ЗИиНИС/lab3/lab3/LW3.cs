@@ -45,27 +45,4 @@ public static class LW3
         }
         return ans;
     }
-    public static byte[] myXOR(byte[] buf1, byte[] buf2)
-    {
-        byte[] ans = new byte[buf1.Length];
-        if (buf1.Length == buf2.Length)
-        {
-            for (int i = 0; i < buf1.Length; i++)
-            {
-                string buf1In2 = Convert.ToString(buf1[i], 2);
-                string buf2In2 = Convert.ToString(buf2[i], 2);
-                string bitAns = "";
-                for (int j = 0; j < buf2In2.Length; j++)
-                {
-                    if (buf1In2[j] == '0' && buf2In2[j] == '0'
-                       || buf1In2[j] == '1' && buf2In2[j] == '1')
-                        bitAns += '0';
-                    else
-                        bitAns += '1';
-                }
-                ans[i] = (byte)Convert.ToInt32(bitAns, 2);
-            }
-        }
-        return ans;
-    }
 }

@@ -1,7 +1,5 @@
-import sklearn
-import mglearn
 import matplotlib.pyplot as plt
-import matplotlib
+import mglearn
 import numpy as np
 
 X, y = mglearn.datasets.make_forge()

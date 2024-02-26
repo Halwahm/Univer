@@ -1,3 +1,0 @@
-﻿  OS11_04.cpp
-D:\6sem\SP\Labs\LAB03\OS11_04\OS11_04\OS11_04.cpp(25,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  OS11_04.vcxproj -> D:\6sem\SP\Labs\LAB03\OS11_04\Debug\OS11_04.exe
