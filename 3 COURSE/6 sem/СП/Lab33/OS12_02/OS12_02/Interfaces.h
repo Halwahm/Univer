@@ -1,0 +1,29 @@
+#pragma once
+#include <iostream>
+#include <objbase.h>  
+
+// {3B9617F5-2CD4-4E45-A35B-8BC9B369E076}
+DEFINE_GUID(CLSID_OS12,
+	0x3b9617f5, 0x2cd4, 0x4e45, 0xa3, 0x5b, 0x8b, 0xc9, 0xb3, 0x69, 0xe0, 0x76);
+
+// {59582FB9-764C-4577-A802-6AF18439C6DB}
+DEFINE_GUID(IID_IAdder,
+	0x59582fb9, 0x764c, 0x4577, 0xa8, 0x2, 0x6a, 0xf1, 0x84, 0x39, 0xc6, 0xdb);
+
+// {5FCD5094-05FB-48D6-91BD-62A79FD93283}
+DEFINE_GUID(IID_IMultiplier,
+	0x5fcd5094, 0x5fb, 0x48d6, 0x91, 0xbd, 0x62, 0xa7, 0x9f, 0xd9, 0x32, 0x83);
+
+interface IAdder : public IUnknown
+{
+public:
+	virtual HRESULT __stdcall Add(const double x, const double y, double& z) = 0;
+	virtual HRESULT __stdcall Sub(const double x, const double y, double& z) = 0;
+};
+
+interface IMultiplier : public IUnknown
+{
+public:
+	virtual HRESULT __stdcall Mul(const double x, const double y, double& z) = 0;
+	virtual HRESULT __stdcall Div(const double x, const double y, double& z) = 0;
+};

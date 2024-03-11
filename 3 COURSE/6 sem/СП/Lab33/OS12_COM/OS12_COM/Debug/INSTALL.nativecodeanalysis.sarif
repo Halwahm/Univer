@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/install.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "fcce6fe7c7bc1e9f11ec1e30972ce3a9605866f5f2d4eb5c5556fe1a3bcbce4f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/pch.h"
+          },
+          "hashes": {
+            "sha-256": "02fa2c8926bb0255c1e716ec2fb4510cbc8b5762ba3f6d104f60ae049fc3f970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/framework.h"
+          },
+          "hashes": {
+            "sha-256": "4f0302ff1a4a85f099f0375625268cc6e76a190676ee7ac8cb179318b570def6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/install.h"
+          },
+          "hashes": {
+            "sha-256": "4158e8b4df1ff5b68c4c02b3645b6bfb647a3e55ad3d418a32ac4c67f10e820a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/interface.h"
+          },
+          "hashes": {
+            "sha-256": "cc314d0a0e696575599867c29b907251f5ab48fecaf04dc261513157ff5584be"
+          }
+        }
+      ]
+    }
+  ]
+}

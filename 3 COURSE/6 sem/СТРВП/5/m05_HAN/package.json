@@ -1,0 +1,17 @@
+{
+  "name": "m05_tds",
+  "version": "1.0.1",
+  "description": "",
+  "main": "m05_TDS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Halaleenko Andrew",
+  "license": "ISC",
+
+  "dependencies": {
+    "nodemailer": "^6.9.6",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}

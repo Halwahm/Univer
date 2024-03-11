@@ -1,4 +1,4 @@
 ﻿  main.cpp
-D:\My Files\Univer\3 COURSE\6 sem\СП\lr2\OS11_HTAPI\Element.h(17,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::Element", когда ни одна переменная не объявлена
-D:\My Files\Univer\3 COURSE\6 sem\СП\lr2\OS11_HTAPI\HT.h(41,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::HtHandle", когда ни одна переменная не объявлена
-LINK : fatal error LNK1104: не удается открыть файл "../x64/debug/OS11_HTAPI.lib"
+D:\Универ\6 семестр\СП\лаба 2\OS11_DLL\OS11_HTAPI\Element.h(17,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::Element", когда ни одна переменная не объявлена
+D:\Универ\6 семестр\СП\лаба 2\OS11_DLL\OS11_HTAPI\HT.h(44,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::HtHandle", когда ни одна переменная не объявлена
+  OS11_CREATE.vcxproj -> D:\Универ\6 семестр\СП\лаба 2\OS11_DLL\x64\Debug\OS11_CREATE.exe

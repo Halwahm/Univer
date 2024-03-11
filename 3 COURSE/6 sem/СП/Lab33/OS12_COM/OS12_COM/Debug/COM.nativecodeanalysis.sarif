@@ -1,0 +1,192 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Несогласованная аннотация для \"DllCanUnloadNow\": данный экземпляр содержит нет аннотаций. См. c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\um\\combaseapi.h(1379). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/6sem/SP/Labs/LAB04/OS12_COM/OS12_COM/COM.h"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 19,
+                  "endLine": 4,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DllCanUnloadNow",
+                  "decoratedName": "DllCanUnloadNow@0",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Несогласованная аннотация для \"DllGetClassObject\": данный экземпляр содержит нет аннотаций. См. c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\um\\combaseapi.h(1376). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/6sem/SP/Labs/LAB04/OS12_COM/OS12_COM/COM.h"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 19,
+                  "endLine": 5,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DllGetClassObject",
+                  "decoratedName": "DllGetClassObject@12",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Несогласованная аннотация для \"DllCanUnloadNow\": данный экземпляр содержит нет аннотаций. См. c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\um\\combaseapi.h(1379). Примечание. Для данной функции имеется несколько прототипов. Это предупреждение сравнивает первый прототип с номером экземпляра 3. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/6sem/SP/Labs/LAB04/OS12_COM/OS12_COM/COM.cpp"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 8,
+                  "endLine": 9,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DllCanUnloadNow",
+                  "decoratedName": "DllCanUnloadNow@0",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Несогласованная аннотация для \"DllGetClassObject\": данный экземпляр содержит нет аннотаций. См. c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\um\\combaseapi.h(1376). Примечание. Для данной функции имеется несколько прототипов. Это предупреждение сравнивает первый прототип с номером экземпляра 3. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/6sem/SP/Labs/LAB04/OS12_COM/OS12_COM/COM.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 8,
+                  "endLine": 18,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DllGetClassObject",
+                  "decoratedName": "DllGetClassObject@12",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/6sem/SP/Labs/LAB04/OS12_COM/OS12_COM/COM.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8203ec4afddffbed3131e91c7f405669ff4bc1e3635466b395d6058475e9fb35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/6sem/SP/Labs/LAB04/OS12_COM/OS12_COM/COM.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9477f2f5d5aa456b8531e5e7503d4e5d4d0fb99306deda92ad7af1f941ad466c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/pch.h"
+          },
+          "hashes": {
+            "sha-256": "02fa2c8926bb0255c1e716ec2fb4510cbc8b5762ba3f6d104f60ae049fc3f970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/framework.h"
+          },
+          "hashes": {
+            "sha-256": "4f0302ff1a4a85f099f0375625268cc6e76a190676ee7ac8cb179318b570def6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/interface.h"
+          },
+          "hashes": {
+            "sha-256": "cc314d0a0e696575599867c29b907251f5ab48fecaf04dc261513157ff5584be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/6sem/sp/labs/lab04/os12_com/os12_com/cfactory.h"
+          },
+          "hashes": {
+            "sha-256": "0673b90136a064cb7a805139a399712ed98b80e9a597101bb1bba9842e8b82fb"
+          }
+        }
+      ]
+    }
+  ]
+}

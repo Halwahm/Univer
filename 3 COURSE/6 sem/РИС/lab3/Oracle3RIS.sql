@@ -27,92 +27,67 @@ select * from dba_sys_privs where grantee like '%C##RL_HAN';
  GRANT CREATE DATABASE LINK TO C##HAN;
 
     select * from all_users where username like '%HAN%';
---   alter user C##HAN identified by qwe; 
 
 GRANT C##RL_HAN TO C##HAN;
 GRANT ALL PRIVILEGES TO C##HAN;
 ---------------------------------------------------
-CREATE DATABASE LINK COFFE
-CONNECT TO GUS IDENTIFIED BY "12345"
-USING 'COFFEE';
-drop database link COFFE;
+CREATE DATABASE LINK TEA
+CONNECT TO C##SAI IDENTIFIED BY "12345"
+USING '192.168.229.155/FREE';
+
+
+drop database link TEA;
 ---------------------------------------
 ---------------------------------------
 ---------------------------------------
 
-create table RIS(id int primary key,str varchar(20), numb NUMBER GENERATED ALWAYS AS IDENTITY);
---drop table RIS@COFFE;
-select * from RIS@COFFE;
+create table RIS(
+    id int primary key,
+    str varchar(20), 
+    numb NUMBER GENERATED ALWAYS AS IDENTITY
+);
+--drop table RIS;
+select * from RIS@TEA;
 select * from RIS;
---delete RIS@COFFE;
+--delete RIS@TEA;
 --delete RIS;
 commit;
-rollback;---����� �����
---������� 1
+rollback;
+
 begin
-    insert into RIS(id,str) values(1,'222');
-    insert into RIS@COFFE(id,str) values(2,'222');
+    insert into RIS(id,str) values(2,'ars');
+    insert into RIS@TEA(id,str) values(2,'tanya');
 commit;
 end;
 
-select * from RIS@COFFE;
+select * from RIS@TEA;
 select * from RIS;
 
 begin
-    insert into RIS(id,str) values(4,'222');
-    update RIS@COFFE set str='23454' where str ='222';
+    insert into RIS(id,str) values(3,'nastya');
+    update RIS@TEA set str='tanya123' where str ='tanya';
 commit;
 end;
 
 begin
-    update RIS set str='23454' where str ='222';
-    insert into RIS@COFFE(id,str) values(19,'222');
+    update RIS set str='nastya321' where str ='nastya';
+    insert into RIS@TEA(id,str) values(6,'kasper');
 commit;
 end;
 
---������� 2 (��������� ����������� ����������� �� ������� ���������� �������)
-insert into RIS@COFFE(id,str) values(2,'222', 45);
-commit;
-
---������� 3
-
-select * from RIS@COFFE;
---2
-begin
-delete RIS@COFFE where ID=2;
-end;
-
---3
-begin
-
-
-
-commit;
-end;
-
+select * from RIS@TEA;
+select * from RIS;
 
 begin
-
-
-
-lock table RIS@COFFE in share mode;
-SLEEP(30000);
+    insert into RIS@TEA(id,str) values(21,'rexd');
 commit;
 end;
 
---������� RIS � ��������� ���� ������ ����������� � ������ ������ �������, ����� ����������� ����� �� 30000 ����������� (30 ������), � ����� ���������� �����������. 
---���� ������ ���������� �������� �������� ������ � ������� RIS �� ����� ���� �����, ��� ����� ������������� � ����� ������� ������������ �������.
+select * from RIS@TEA;
+select * from RIS;
 
+begin
+    delete from RIS where id = 2;
+end;
 
-
-
-
-
-
-
-
-
---��������� ��������
-create or replace procedure SLEEP(P_MILLI_SECONDS IN NUMBER)
-AS LANGUAGE JAVA NAME 'java.lang.Thread.sleep(long)';
-
+commit;

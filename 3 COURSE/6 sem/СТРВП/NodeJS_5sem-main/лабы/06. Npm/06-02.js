@@ -40,7 +40,7 @@ server.on("request", (req, res) => {
       const options = {
         from: params.sender,
         to: params.reciver,
-        subject: "Lab6 mail",
+        subject: "Lab5 mail",
         text: params.message,
       };
 

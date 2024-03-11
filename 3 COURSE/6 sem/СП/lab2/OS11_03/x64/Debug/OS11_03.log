@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\Универ\6 семестр\СП\лаба 2\OS11_DLL\OS11_HTAPI\Element.h(17,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::Element", когда ни одна переменная не объявлена
+D:\Универ\6 семестр\СП\лаба 2\OS11_DLL\OS11_HTAPI\HT.h(44,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::HtHandle", когда ни одна переменная не объявлена
+D:\Универ\6 семестр\СП\лаба 2\OS11_DLL\OS11_03\main.cpp(125,62): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  OS11_03.vcxproj -> D:\Универ\6 семестр\СП\лаба 2\OS11_DLL\x64\Debug\OS11_03.exe
