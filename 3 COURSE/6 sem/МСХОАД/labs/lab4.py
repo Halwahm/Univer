@@ -5,21 +5,25 @@ import numpy as np
 mglearn.plots.plot_linear_regression_wave()
 plt.show()
 from sklearn.linear_model import LinearRegression
+
 X, y = mglearn.datasets.make_wave(n_samples=60)
 from sklearn.model_selection import train_test_split
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
 lr = LinearRegression().fit(X_train, y_train)
-print("lr.coef_: {}".format(lr.coef_)) #коэфф наклона - w
-print("lr.intercept_: {}".format(lr.intercept_)) #свободный член - b
-print("Правильность на обучающем наборе: {:.2f}".format(lr.score(X_train, y_train))) #оцениваем качество модели
-print("Правильность на тестовом наборе: {:.2f}".format(lr.score(X_test, y_test))) #возвращая коэфф детерминации R^2
+print("lr.coef_: {}".format(lr.coef_))  # коэфф наклона - w
+print("lr.intercept_: {}".format(lr.intercept_))  # свободный член - b
+print("Правильность на обучающем наборе: {:.2f}".format(lr.score(X_train, y_train)))  # оцениваем качество модели
+print("Правильность на тестовом наборе: {:.2f}".format(lr.score(X_test, y_test)))  # возвращая коэфф детерминации R^2
 X, y = mglearn.datasets.load_extended_boston()
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
-lr = LinearRegression().fit(X_train, y_train) #обучение объекта линейной регрессии
+lr = LinearRegression().fit(X_train, y_train)  # обучение объекта линейной регрессии
 print("Правильность на обучающем наборе: {:.2f}".format(lr.score(X_train, y_train)))
 print("Правильность на тестовом наборе: {:.2f}".format(lr.score(X_test, y_test)))
+
 from sklearn.linear_model import Ridge
-ridge = Ridge().fit(X_train, y_train) #гребневая регрессия
+
+ridge = Ridge().fit(X_train, y_train)  # гребневая регрессия
 print("Правильность на обучающем наборе: {:.2f}".format(ridge.score(X_train, y_train)))
 print("Правильность на тестовом наборе: {:.2f}".format(ridge.score(X_test, y_test)))
 ridge10 = Ridge(alpha=10).fit(X_train, y_train)
@@ -34,13 +38,15 @@ plt.plot(ridge01.coef_, 'v', label="Гребневая регрессия alpha=
 plt.plot(lr.coef_, 'o', label="Линейная регрессия")
 plt.xlabel("Индекс коэффициента")
 plt.ylabel("Оценка коэффициента")
-plt.hlines(0, 0, len(lr.coef_)) #горизонтальные линии на графике
-plt.ylim(-25, 25) #установка пределов по вертикальной оси
-plt.legend() #ассоциация меток с элементами графика
+plt.hlines(0, 0, len(lr.coef_))  # горизонтальные линии на графике
+plt.ylim(-25, 25)  # установка пределов по вертикальной оси
+plt.legend()  # ассоциация меток с элементами графика
 plt.show()
-mglearn.plots.plot_ridge_n_samples() #зависимость гребневой регрессии от количества примеров
+mglearn.plots.plot_ridge_n_samples()  # зависимость гребневой регрессии от количества примеров
 plt.show()
+
 from sklearn.linear_model import Lasso
+
 lasso = Lasso().fit(X_train, y_train)
 print("Правильность на обучающем наборе: {:.2f}".format(lasso.score(X_train, y_train)))
 print("Правильность на контрольном наборе: {:.2f}".format(lasso.score(X_test, y_test)))

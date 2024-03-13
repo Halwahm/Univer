@@ -1,0 +1,26 @@
+1.DllGetClassObject rc = 0
+2.DllCanUploadNow hr = 0
+1.SP02()
+3.SP02::AddRef counter = 2
+2.SP02::QueryInterface hr = 0
+4.SP02::Release counter = 1
+5.SP02::AddRef counter = 2
+6.SP02::Release counter = 1
+8.SP02::AddRef counter = 2
+7.SP02::QueryInterface hr = 0
+9.SP02::Release counter = 1
+11.SP02::AddRef counter = 2
+10.SP02::QueryInterface hr = 0
+12.SP02::Release counter = 1
+14.SP02::AddRef counter = 2
+13.SP02::QueryInterface hr = 0
+15.SP02::Release counter = 1
+16.SP02::Release counter = 0
+17.~SP02()
+1.MathFactory()
+3.MathFactory::AddRef m_lRef = 2
+2.MathFactory::QueryInterface rc = 0
+4.MathFactory::Release m_lRef = 1
+5.MathFactory::CreateInstance hr = 0
+6.MathFactory::Release m_lRef = 0
+7.~MathFactory()
