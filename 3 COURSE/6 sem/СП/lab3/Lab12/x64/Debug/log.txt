@@ -1,2 +1,0 @@
-1:DllInstall uninstall
-2:DllUnRegisterServer rc = 0
