@@ -42,8 +42,8 @@ class TurtleService {
             const turtles = await prisma.turtles.findMany({
                 where: {
                     OR: [
-                        { favouritePizzaId: pizza.id },
-                        { secondFavouritePizzaId: pizza.id }
+                        { favoritePizzaId: pizza.id },
+                        { secondFavoritePizzaId: pizza.id }
                     ]
                 }
             });
@@ -59,8 +59,8 @@ class TurtleService {
     }
 
     async postNewTurtle(data) {
+        console.log(data)
         try {
-            console.log(data);
             if (!data.name || !data.color) {
                 throw new Error("Name and color are required fields");
             }
@@ -70,9 +70,9 @@ class TurtleService {
             if (data.weaponId && !weapon) {
                 throw new Error("Weapon with this id not found");}
 
-            if (data.favouritePizzaId) {
+            if (data.favoritePizzaId) {
                 const pizza = await prisma.pizzas.findUnique({
-                    where: { id: data.favouritePizzaId }
+                    where: { id: data.favoritePizzaId }
                 });
                 if (!pizza) {
                     throw new Error("Favorite pizza with this id not found");
@@ -83,8 +83,8 @@ class TurtleService {
                 data: {
                     name: data.name,
                     color: data.color,
-                    weapon: { connect: { id: data.weaponId } }, // Подключение по id оружия
-                    favoritePizza: { connect: { id: data.favouritePizzaId } }, // Подключение по id любимой пиццы
+                    weapon: { connect: { id: data.weaponId } }, 
+                    favoritePizza: { connect: { id: data.favoritePizzaId } }, 
                     image: data.image
                 }
             });
@@ -109,7 +109,6 @@ class TurtleService {
 
             if(isUsedTurtleName) throw new Error('Turtle with this name already exist');
 
-
             const existingTurtle = await prisma.turtles.findUnique({
                 where: { id: parseInt(id) }
             });
@@ -126,7 +125,7 @@ class TurtleService {
                         name: newData?.name || existingTurtle.name,
                         color: newData?.color || existingTurtle.color,
                         weapon: newData?.weaponId ? { connect: { id: newData.weaponId } } : undefined,
-                        favoritePizza: newData.favouritePizzaId ? { connect: { id: newData.favouritePizzaId } } : undefined,
+                        favoritePizza: newData.favoritePizzaId ? { connect: { id: newData.favoritePizzaId } } : undefined,
 
                     }
             });
@@ -184,7 +183,7 @@ class TurtleService {
                 throw new Error("Pizza with this id not found")
             }
 
-            turtle.favouritePizzaId = pizzaId;
+            turtle.favoritePizzaId = pizzaId;
             await prisma.turtles.update({
                 where: { id: parseInt(turtleId) },
                 data: {
@@ -212,11 +211,11 @@ class TurtleService {
                 throw new Error("Turtle with this id not found")
             }
 
-            turtle.secondFavouritePizzaId = pizzaId;
+            turtle.secondFavoritePizzaId = pizzaId;
             await prisma.turtles.update({
                 where: { id: parseInt(turtleId) },
                 data: {
-                    secondFavouritePizzaId: pizzaId
+                    secondFavoritePizzaId: pizzaId
                 }
             });
 
@@ -323,7 +322,7 @@ class TurtleService {
             await prisma.turtles.update({
                 where: { id: parseInt(turtleId) },
                 data: {
-                    secondFavouritePizzaId: null
+                    secondFavoritePizzaId: null
                 }
             });
 

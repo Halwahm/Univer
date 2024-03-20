@@ -77,7 +77,6 @@ class WeaponService {
             });
             if (!weapon) {
                 throw new Error('Weapon with this Id is not found');
-
             }
 
             if (!newData.name && !newData.dps) {

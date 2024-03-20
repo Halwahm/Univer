@@ -1,4 +1,4 @@
 {
-  "mainServer": "172.20.10.3",
-  "localServer": "172.20.10.3s"
+  "mainServer": "192.168.240.218",
+  "localServer": "192.168.240.218s"
 }

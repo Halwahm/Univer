@@ -80,7 +80,7 @@ class PizzaService {
                 throw new Error("Calories can not be greater than 2000");
             }
 
-            const  isUsedPizzaName = await prisma.pizzas.findUnique({
+            const isUsedPizzaName = await prisma.pizzas.findUnique({
                 where: {
                     name: data.name
                 }
@@ -101,7 +101,6 @@ class PizzaService {
             throw new Error('Unable to create new pizza: ' + error.message);
         }
     }
-
 
     async updatePizzaById(id, newData) {
         try {

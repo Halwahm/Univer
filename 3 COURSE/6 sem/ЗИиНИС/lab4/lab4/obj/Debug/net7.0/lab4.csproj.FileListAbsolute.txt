@@ -12,3 +12,4 @@ D:\My Files\Univer\3 COURSE\6 sem\ЗИиНИС\lab4\lab4\obj\Debug\net7.0\refint
 D:\My Files\Univer\3 COURSE\6 sem\ЗИиНИС\lab4\lab4\obj\Debug\net7.0\lab4.pdb
 D:\My Files\Univer\3 COURSE\6 sem\ЗИиНИС\lab4\lab4\obj\Debug\net7.0\lab4.genruntimeconfig.cache
 D:\My Files\Univer\3 COURSE\6 sem\ЗИиНИС\lab4\lab4\obj\Debug\net7.0\ref\lab4.dll
+D:\My Files\Univer\3 COURSE\6 sem\ЗИиНИС\lab4\lab4\obj\Debug\net7.0\lab4.sourcelink.json

@@ -41,7 +41,6 @@ export const getPizzasByCalories = async (req, res) => {
 
         console.log("Число:", num);
 
-
         if (!n) throw new Error("Missing calories value");
 
         const pizzas = (caloryOperatore === 'gt') ?

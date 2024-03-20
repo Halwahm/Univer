@@ -14,7 +14,6 @@ let coordinator = null;
 let timerWaitRejects;
 let timerWaitPong;
 let timerIntervalPing;
-
 server.on("message", (msg, info) => {
   if (info.address === config.localServer) {
     return;
@@ -218,7 +217,7 @@ setInterval(() => {
   console.log("Find servers");
   const params = JSON.stringify({ command: Commands.hello });
 
-  server.send(params, 0, params.length, 5555, "172.20.10.3", (error) => {
+  server.send(params, 0, params.length, 5555, "192.168.240.218", (error) => {
     if (error) {
       console.log(`Sent broadcast error`);
     }

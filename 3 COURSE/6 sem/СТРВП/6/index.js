@@ -8,6 +8,7 @@ import turtleRoutes from "./routes/turtleRoutes.js";
 import { fileURLToPath } from 'url';
 import pizzaRoutes from "./routes/pizzaRoutes.js";
 import weaponRoutes from "./routes/weaponRoutes.js";
+import { updateHighCaloriePizzas } from './transaction.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -53,7 +54,6 @@ app.post('/upload', upload.single('image'), async (req, res) => {
             data: { image: imageFileName }
         });
         
-
         res.send('Изображение успешно загружено и данные обновлены!');
     } catch (err) {
         res.status(400).send(err.message);
@@ -75,6 +75,7 @@ app.use('/images', (req, res, next) => {
 const main = async ()=>{
     try {
         await prisma.$connect();
+        await updateHighCaloriePizzas();
         app.listen(3000, () => {
             console.log('Server is running on port 3000');
         });
@@ -87,6 +88,3 @@ const main = async ()=>{
 }
 
 main();
-
-
-

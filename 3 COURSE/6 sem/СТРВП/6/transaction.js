@@ -2,7 +2,7 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-async function updateHighCaloriePizzas() {
+export async function updateHighCaloriePizzas() {
     let transaction;
     try {
 
@@ -15,7 +15,6 @@ async function updateHighCaloriePizzas() {
                 }
             });
 
-
             const modifiedPizzas = highCaloriePizzas.map((pizza) => {
                 return prisma.pizzas.update({
                     where: {
@@ -27,19 +26,16 @@ async function updateHighCaloriePizzas() {
                 });
             });
 
-
             await Promise.all(modifiedPizzas);
         });
-
+        await client.query('COMMIT');
         console.log('Транзакция выполнена успешно');
     } catch (error) {
-
         if (transaction) {
             await prisma.$queryRaw('ROLLBACK');
         }
         console.error('Ошибка транзакции:', error);
     } finally {
-
         await prisma.$disconnect();
     }
 }

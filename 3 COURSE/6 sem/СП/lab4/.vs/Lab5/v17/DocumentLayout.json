@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{166FE156-1B91-43D5-8929-11654E20235D}|OS_0404\\OS_0404.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0404\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{166FE156-1B91-43D5-8929-11654E20235D}|OS_0404\\OS_0404.vcxproj|solutionrelative:OS_0404\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF645E90-2AB8-46B1-8027-1A5267F66D82}|OS_0403\\OS_0403.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0403\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DF645E90-2AB8-46B1-8027-1A5267F66D82}|OS_0403\\OS_0403.vcxproj|solutionrelative:OS_0403\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FAD171-DD10-4DDF-8436-93AC7D5D29E6}|OS_0402\\OS_0402.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0402\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19FAD171-DD10-4DDF-8436-93AC7D5D29E6}|OS_0402\\OS_0402.vcxproj|solutionrelative:OS_0402\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A06F77E-59E7-45B3-93DA-7914296058FE}|OS13_START\\OS13_START.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_START\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5A06F77E-59E7-45B3-93DA-7914296058FE}|OS13_START\\OS13_START.vcxproj|solutionrelative:OS13_START\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59D5F13-51C4-44D8-861E-EE70CA106DD4}|OS13_STOP\\OS13_STOP.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_STOP\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D59D5F13-51C4-44D8-861E-EE70CA106DD4}|OS13_STOP\\OS13_STOP.vcxproj|solutionrelative:OS13_STOP\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61318A62-DB3E-46BC-989E-866A9CF434F7}|OS13_CREATE\\OS13_CREATE.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_CREATE\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61318A62-DB3E-46BC-989E-866A9CF434F7}|OS13_CREATE\\OS13_CREATE.vcxproj|solutionrelative:OS13_CREATE\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AAA04C-B81B-45C0-BC1C-80FE4D07A55A}|OS13_HTCOM_LIB\\OS13_HTCOM_LIB.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM_LIB\\OS13_HTCOM_LIB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20AAA04C-B81B-45C0-BC1C-80FE4D07A55A}|OS13_HTCOM_LIB\\OS13_HTCOM_LIB.vcxproj|solutionrelative:OS13_HTCOM_LIB\\OS13_HTCOM_LIB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9803F-650B-4E7D-BA42-219C8EF9AFE4}|OS13_HTCOM\\OS13_HTCOM.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\ComponentHT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7C9803F-650B-4E7D-BA42-219C8EF9AFE4}|OS13_HTCOM\\OS13_HTCOM.vcxproj|solutionrelative:OS13_HTCOM\\ComponentHT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9803F-650B-4E7D-BA42-219C8EF9AFE4}|OS13_HTCOM\\OS13_HTCOM.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7C9803F-650B-4E7D-BA42-219C8EF9AFE4}|OS13_HTCOM\\OS13_HTCOM.vcxproj|solutionrelative:OS13_HTCOM\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9803F-650B-4E7D-BA42-219C8EF9AFE4}|OS13_HTCOM\\OS13_HTCOM.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\ExportFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7C9803F-650B-4E7D-BA42-219C8EF9AFE4}|OS13_HTCOM\\OS13_HTCOM.vcxproj|solutionrelative:OS13_HTCOM\\ExportFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0404\\main.cpp",
+              "RelativeDocumentMoniker": "OS_0404\\main.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0404\\main.cpp",
+              "RelativeToolTip": "OS_0404\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:12:51.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0403\\main.cpp",
+              "RelativeDocumentMoniker": "OS_0403\\main.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0403\\main.cpp",
+              "RelativeToolTip": "OS_0403\\main.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:12:45.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0402\\main.cpp",
+              "RelativeDocumentMoniker": "OS_0402\\main.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS_0402\\main.cpp",
+              "RelativeToolTip": "OS_0402\\main.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:12:38.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_START\\main.cpp",
+              "RelativeDocumentMoniker": "OS13_START\\main.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_START\\main.cpp",
+              "RelativeToolTip": "OS13_START\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:12:27.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_STOP\\main.cpp",
+              "RelativeDocumentMoniker": "OS13_STOP\\main.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_STOP\\main.cpp",
+              "RelativeToolTip": "OS13_STOP\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:12:20.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OS13_HTCOM_LIB.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM_LIB\\OS13_HTCOM_LIB.cpp",
+              "RelativeDocumentMoniker": "OS13_HTCOM_LIB\\OS13_HTCOM_LIB.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM_LIB\\OS13_HTCOM_LIB.cpp",
+              "RelativeToolTip": "OS13_HTCOM_LIB\\OS13_HTCOM_LIB.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:11:45.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_CREATE\\main.cpp",
+              "RelativeDocumentMoniker": "OS13_CREATE\\main.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_CREATE\\main.cpp",
+              "RelativeToolTip": "OS13_CREATE\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:11:04.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComponentHT.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\ComponentHT.cpp",
+              "RelativeDocumentMoniker": "OS13_HTCOM\\ComponentHT.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\ComponentHT.cpp",
+              "RelativeToolTip": "OS13_HTCOM\\ComponentHT.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:10:26.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\dllmain.cpp",
+              "RelativeDocumentMoniker": "OS13_HTCOM\\dllmain.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\dllmain.cpp",
+              "RelativeToolTip": "OS13_HTCOM\\dllmain.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:10:15.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExportFunctions.cpp",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\ExportFunctions.cpp",
+              "RelativeDocumentMoniker": "OS13_HTCOM\\ExportFunctions.cpp",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab4\\OS13_HTCOM\\ExportFunctions.cpp",
+              "RelativeToolTip": "OS13_HTCOM\\ExportFunctions.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:10:03.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
