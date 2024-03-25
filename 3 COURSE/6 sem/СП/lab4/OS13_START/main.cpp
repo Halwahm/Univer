@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
 	HANDLE hStopEvent = CreateEvent(NULL,
 		TRUE, //FALSE - автоматический сброс; TRUE - ручной
 		FALSE,
-		L"Stop");
+		getWC(argv[2]));
 
 	setlocale(LC_ALL, "Russian");
 

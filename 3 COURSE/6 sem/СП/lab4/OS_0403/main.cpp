@@ -17,13 +17,14 @@
 using namespace std;
 
 string intToString(int number);
+wchar_t* getWC(const char* c);
 
 int main(int argc, char* argv[])
 {
 	HANDLE hStopEvent = CreateEvent(NULL,
 		TRUE, //FALSE - автоматический сброс; TRUE - ручной
 		FALSE,
-		L"Stop");
+		getWC(argv[2]));
 	setlocale(LC_ALL, "Russian");
 
 	try
@@ -31,7 +32,7 @@ int main(int argc, char* argv[])
 		cout << "Инициализация компонента:" << endl;
 		OS13_HTCOM_HANDEL h = OS13_HTCOM::Init();
 
-		ht::HtHandle* ht = OS13_HTCOM::HT::open(h, L"HTspace.ht", true);
+		ht::HtHandle* ht = OS13_HTCOM::HT::open(h, getWC(argv[1]), true);
 		if (ht)
 			cout << "-- open: success" << endl;
 		else
@@ -69,4 +70,12 @@ string intToString(int number)
 	convert << number;
 
 	return convert.str();
+}
+
+wchar_t* getWC(const char* c)
+{
+	wchar_t* wc = new wchar_t[strlen(c) + 1];
+	mbstowcs(wc, c, strlen(c) + 1);
+
+	return wc;
 }

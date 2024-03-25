@@ -9,6 +9,11 @@ void CLSIDtochar(const CLSID& clsid,            // Convert a CLSID into a char s
 	WCHAR* szCLSID,                             // smw:char* szCLSID,
 	int length);
 
+HRESULT __stdcall DllInstall(char* s)
+{
+	return S_OK;
+}
+
 LONG recursiveDeleteKey(HKEY hKeyParent, const WCHAR* szKeyChild); // Delete szKeyChild and all of its descendents.
 
 const int CLSID_STRING_SIZE = 39;
@@ -64,7 +69,6 @@ HRESULT UnregisterServer(const CLSID& clsid,
 
 	return S_OK;
 }
-
 
 
 void CLSIDtochar(const CLSID& clsid,      // Convert a CLSID to a char string.   

@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Универ\6 семестр\СП\лаба 3\lab3\Lab12\OS12_COM\SEQLOG.h" />
     <ClInclude Include="ClassFactory.h" />
     <ClInclude Include="ComponentHT.h" />
     <ClInclude Include="ExportFunctions.h" />

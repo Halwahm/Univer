@@ -36,6 +36,9 @@
     <ClInclude Include="Interface.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Универ\6 семестр\СП\лаба 3\lab3\Lab12\OS12_COM\SEQLOG.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">

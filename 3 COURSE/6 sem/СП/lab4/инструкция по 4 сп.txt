@@ -1,0 +1,21 @@
+рекомендую лабу кинуть в D:\My Files\Univer\3 COURSE\6 sem\СП
+1) регаем в cmd от админа
+cd /d D:
+cd D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug
+regsvr32 OS13_HTCOM.dll
+
+билдим HTCOM, HTCOM_LIB
+
+2) D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_CREATE 2000 3 4 4 HTSpace.ht
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_START HTSpace.ht Stop
+
+3) запускаем 2-4 задания 
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS_0402 HTSpace12.ht Stop
+
+4) стопим 
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_STOP Stop
+
+5) запускаем делаем 
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>regsvr32 /u OS13_HTCOM.dll
+
+и проверяем что выскочила ошибка

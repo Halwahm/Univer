@@ -7,9 +7,9 @@
 #include "../OS13_HTCOM_LIB/OS13_HTCOM_LIB.h"
 
 #ifdef _WIN64
-#pragma comment(lib, "../x64/Debug/OS13_HTCOM_LIB.lib")
+#pragma comment(lib, "D:/My Files/Univer/3 COURSE/6 sem/СП/lab4/x64/Debug/OS13_HTCOM_LIB.lib")
 #else
-#pragma comment(lib, "../Debug/OS13_HTCOM_LIB.lib")
+#pragma comment(lib, "D:/My Files/Univer/3 COURSE/6 sem/СП/lab4/Debug/OS13_HTCOM_LIB.lib")
 #endif
 
 using namespace std;
