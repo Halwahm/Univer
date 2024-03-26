@@ -171,10 +171,10 @@ const ping = (info) => {
 const pong = (info) => {
   console.log("pong");
   clearTimeout(timerWaitPong);
-  /*    if (servers.has(info.address) !== true && info.address !== config.localServer) {
+    if (servers.has(info.address) !== true && info.address !== config.localServer) {
         servers.add(info.address);
         voting();
-    }*/
+    }
 };
 
 let setCoordinator = (ip) => {
@@ -217,7 +217,7 @@ setInterval(() => {
   console.log("Find servers");
   const params = JSON.stringify({ command: Commands.hello });
 
-  server.send(params, 0, params.length, 5555, "192.168.240.218", (error) => {
+  server.send(params, 0, params.length, 5555, "192.168.51.218", (error) => {
     if (error) {
       console.log(`Sent broadcast error`);
     }

@@ -4,7 +4,7 @@ const config = require("./config.json");
 const Commands = require("./commands");
 const port = 9999;
 
-client.bind(port, "192.168.240.218");
+client.bind(port, "192.168.51.218");
 
 client.on("message", (msg, info) => {
   console.log("Data received from server : " + msg.toString());
