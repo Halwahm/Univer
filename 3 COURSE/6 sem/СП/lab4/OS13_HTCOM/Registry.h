@@ -11,5 +11,3 @@ HRESULT RegisterServer(HMODULE hModule,            // DLL module handle
 HRESULT UnregisterServer(const CLSID& clsid,
 	const WCHAR* szVerIndProgID,
 	const WCHAR* szProgID);
-
-HRESULT __stdcall DllInstall(char* s);

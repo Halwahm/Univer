@@ -29,7 +29,11 @@ class WeaponService {
     async getWeaponsByGreaterDps(n) {
         try {
             const weapons = await prisma.weapons.findMany({
-                where: { dps: { gt: parseInt(n) } }
+                where: {
+                    dps: {
+                        gt: parseInt(n)
+                    }
+                }
             });
             return weapons;
         } catch (error) {
@@ -40,7 +44,11 @@ class WeaponService {
     async getWeaponsByLessDps(n) {
         try {
             const weapons = await prisma.weapons.findMany({
-                where: { dps: { lt: parseInt(n) } }
+                where: {
+                    dps: {
+                        lt: parseInt(n)
+                    }
+                }
             });
             return weapons;
         } catch (error) {

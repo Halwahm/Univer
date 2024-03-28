@@ -68,11 +68,8 @@ export const deleteTurtleById = async (req, res) => {
 
 export const bindFavoritePizzaTurtle = async (req, res) => {
     try {
-
         console.log("work")
         const  { id } = req.params;
-
-
         const pizzaId = req?.body?.pizzaId;
        console.log(pizzaId)
         console.log(pizzaId+"pizza id")

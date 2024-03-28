@@ -6,7 +6,7 @@ wchar_t* getWC(const char* c);
 int main(int argc, char* argv[])
 {
 	HANDLE hStopEvent = CreateEvent(NULL,
-		TRUE, //FALSE - автоматический сброс; TRUE - ручной
+		TRUE, 
 		FALSE,
 		getWC(argv[1]));
 	SetEvent(hStopEvent);

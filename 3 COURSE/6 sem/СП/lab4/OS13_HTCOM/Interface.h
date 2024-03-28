@@ -1,7 +1,7 @@
 ﻿#pragma once
 
-#include "D:/My Files/Univer/3 COURSE/6 sem/СП/lab1/OS10_HTAPI/pch.h"
-#include "D:/My Files/Univer/3 COURSE/6 sem/СП/lab1/OS10_HTAPI/HT.h"
+#include "D:\My Files\Univer\3 COURSE\6 sem\СП\lab1\OS10_HTAPI\pch.h"
+#include "D:\My Files\Univer\3 COURSE\6 sem\СП\lab1\OS10_HTAPI\HT.h"
 
 static const GUID IID_IHT =
 { 0xe5c68a2d, 0x67f, 0x4240, { 0x9d, 0xbd, 0xfe, 0x4e, 0x4a, 0xa, 0xa6, 0x6c } };

@@ -23,13 +23,17 @@ export async function getWeaponsById(req, res) {
 export async function getWeaponsByDps(req, res) {
     try {
         const { dps } = req.query;
-        let [dpsOperator, n] = dps.split(" ");
+        const match = dps.match(/(\d+)/);
 
-        if (!n) throw new Error("Missing dps value");
+        const num = match[0];
+        const matchе = dps.match(/(gt|lt)(\d+)/);
+        const dpsOperatore = matchе[1];
 
-        const weapons = (dpsOperator === 'gt') ?
-            await weaponService.getWeaponsByGreaterDps(n) :
-            await weaponService.getWeaponsByLessDps(n);
+        const weapons = (dpsOperatore === 'gt') 
+            ?
+                await weaponService.getWeaponsByGreaterDps(num) 
+            :
+                await weaponService.getWeaponsByLessDps(num);
 
         res.json(weapons);
     } catch (error) {

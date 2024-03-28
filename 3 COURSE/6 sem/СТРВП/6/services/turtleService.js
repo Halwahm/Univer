@@ -40,12 +40,7 @@ class TurtleService {
             }
 
             const turtles = await prisma.turtles.findMany({
-                where: {
-                    OR: [
-                        { favoritePizzaId: pizza.id },
-                        { secondFavoritePizzaId: pizza.id }
-                    ]
-                }
+                where: { favoritePizzaId: pizza.id }
             });
 
             if (!turtles || turtles.length === 0) {
@@ -54,6 +49,7 @@ class TurtleService {
 
             return turtles;
         } catch (error) {
+            console.error(error.stack);
             throw new Error('Unable to find turtles');
         }
     }
@@ -269,6 +265,9 @@ class TurtleService {
             turtle.weaponId = null;
             await prisma.turtles.update({
                 where: { id: parseInt(turtleId) },
+                data: {
+
+                }
             });
 
             return turtle;
@@ -291,6 +290,7 @@ class TurtleService {
                 throw new Error("Turtle with this id not found")
             }
 
+            turtle.favoritePizzaId = null;
             await prisma.turtles.update({
                 where: { id: parseInt(turtleId) },
                 data: {

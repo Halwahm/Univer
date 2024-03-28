@@ -9,11 +9,6 @@ void CLSIDtochar(const CLSID& clsid,            // Convert a CLSID into a char s
 	WCHAR* szCLSID,                             // smw:char* szCLSID,
 	int length);
 
-HRESULT __stdcall DllInstall(char* s)
-{
-	return S_OK;
-}
-
 LONG recursiveDeleteKey(HKEY hKeyParent, const WCHAR* szKeyChild); // Delete szKeyChild and all of its descendents.
 
 const int CLSID_STRING_SIZE = 39;
@@ -67,8 +62,9 @@ HRESULT UnregisterServer(const CLSID& clsid,
 	lResult = recursiveDeleteKey(HKEY_CLASSES_ROOT, szProgID);
 	assert((lResult == ERROR_SUCCESS) || (lResult == ERROR_FILE_NOT_FOUND)); // Subkey may not exist.
 
-	return S_OK;
+	return S_FALSE;
 }
+
 
 
 void CLSIDtochar(const CLSID& clsid,      // Convert a CLSID to a char string.   
