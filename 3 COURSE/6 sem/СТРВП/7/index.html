@@ -4,88 +4,90 @@
     <meta charset="UTF-8">
     <title>Chat</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        .container {
-            width: 500px;
-            border: 2px solid #ccc;
-            border-radius: 5px;
-            padding: 20px;
-            background-color: #fff;
-        }
+.container {
+    width: 600px;
+    border: 2px solid #3498db; 
+    border-radius: 10px; 
+    padding: 30px; 
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
 
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db; 
+}
 
-        main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
 
-        #username {
-            flex-grow: 1;
-            margin-right: 10px;
-            padding: 5px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            font-size: 16px;
-        }
+#username {
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border: 2px solid #3498db; 
+    border-radius: 5px;
+    font-size: 18px;
+}
 
-        button {
-            padding: 5px 10px;
-            border: none;
-            border-radius: 3px;
-            background-color: #007bff;
-            color: #fff;
-            cursor: pointer;
-            font-size: 16px;
-        }
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px; 
+    transition: background-color 0.3s ease;
+}
 
-        button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
 
-        #messages-container {
-            height: 200px;
-            overflow-y: auto;
-            border-bottom: 1px solid #ccc;
-            margin-bottom: 10px;
-        }
+#messages-container {
+    height: 300px; 
+    overflow-y: auto;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 20px;
+}
 
-        #messages {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
+#messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
-        li {
-            margin-bottom: 5px;
-            padding: 5px;
-            border-radius: 3px;
-            background-color: #f0f0f0;
-        }
+li {
+    margin-bottom: 10px;
+    padding: 10px; 
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
 
-        #message {
-            width: calc(100% - 40px);
-            padding: 5px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            font-size: 16px;
-        }
+#message {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 2px solid #3498db; 
+    border-radius: 5px;
+    font-size: 18px;
+}
+
     </style>
 </head>
 <body>
@@ -132,6 +134,7 @@
 
                 messageListener = (data) => {
                     console.log('Message from the server:', data);
+
                     let messages = document.getElementById('messages');
                     messages.innerHTML += `<li>${data.user}: ${data.text}</li>`;
                     messages.scrollTop = messages.scrollHeight; 

@@ -21,7 +21,6 @@ const checkStartRequested = (req, res, next) => {
     if (req.path === "/start" && req.method === "GET") {
         next();
     } else {
-        //console.log("Bad request");
         res.status(400).send("Bad request");
     }
 };
