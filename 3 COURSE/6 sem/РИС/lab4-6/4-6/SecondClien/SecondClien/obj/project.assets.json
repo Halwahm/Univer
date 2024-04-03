@@ -1118,11 +1118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
+      "projectUniqueName": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4-6\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
       "projectName": "SecondClient",
-      "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
+      "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4-6\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
       "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
-      "outputPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\SecondClien\\SecondClien\\obj\\",
+      "outputPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4-6\\4-6\\SecondClien\\SecondClien\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1139,8 +1139,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
-              "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj"
+            "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
+              "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj"
             }
           }
         }
@@ -1149,6 +1149,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1170,7 +1175,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

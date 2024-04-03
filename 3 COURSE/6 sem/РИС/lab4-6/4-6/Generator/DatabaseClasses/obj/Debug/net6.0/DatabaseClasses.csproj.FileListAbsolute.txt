@@ -15,3 +15,6 @@ D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\Generator\DatabaseClasses\obj\
 D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\Generator\DatabaseClasses\obj\Debug\net6.0\DatabaseClasses.pdb
 D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\Generator\DatabaseClasses\obj\Debug\net6.0\DatabaseClasses.genruntimeconfig.cache
 D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\Generator\DatabaseClasses\obj\Debug\net6.0\ref\DatabaseClasses.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4-6\4-6\Generator\DatabaseClasses\obj\Debug\net6.0\DatabaseClasses.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4-6\4-6\Generator\DatabaseClasses\obj\Debug\net6.0\refint\DatabaseClasses.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4-6\4-6\Generator\DatabaseClasses\obj\Debug\net6.0\DatabaseClasses.pdb

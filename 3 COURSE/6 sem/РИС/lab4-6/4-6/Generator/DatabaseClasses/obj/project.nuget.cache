@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h4GTmvAs+wpoWyk65fXYzjMvYQC8968vs8/X+HQiCAJC+CXTPdv5o1PgZdTTQF2EMlu3nH5k7j4OVi8JP0PpLQ==",
+  "dgSpecHash": "ZgsNWBiyqUL14uis5N8Eukg75WefZHAe9b+hIa5Bw16PGqFp8bcMTX1UDVk89lotJuV+LA3LSpLWs6Z9kSet3w==",
   "success": true,
-  "projectFilePath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
+  "projectFilePath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halal\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\halal\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

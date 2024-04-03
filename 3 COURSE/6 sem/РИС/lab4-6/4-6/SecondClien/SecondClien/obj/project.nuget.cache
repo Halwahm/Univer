@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e1Xgl/TVPDRozjX/WqjedVUomhdSF8yX1+/frP1u9pdtYnKOvSOr9oYH5ZK9SXGx4ItrWFgYlC75ibm8sEWr8A==",
+  "dgSpecHash": "5iGx9HLgOEAg4FMLw1akuIeSyC6bNkjVV+cSFJwnGsIi1D0mXC3jTOiAoPcasTwutnZJtnSt55E3qeN5eYX1mA==",
   "success": true,
-  "projectFilePath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
+  "projectFilePath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4-6\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halal\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\halal\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

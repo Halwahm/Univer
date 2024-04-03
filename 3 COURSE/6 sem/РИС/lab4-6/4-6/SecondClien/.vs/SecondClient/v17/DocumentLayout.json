@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:1:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|d:\\my files\\univer\\3 course\\6 sem\\\u0440\u0438\u0441\\lab4-6\\4-6\\secondclien\\secondclien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|solutionrelative:secondclien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|d:\\my files\\univer\\3 course\\6 sem\\\u0440\u0438\u0441\\lab4-6\\4-6\\secondclien\\secondclien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:2:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|solutionrelative:secondclien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|d:\\my files\\univer\\3 course\\6 sem\\\u0440\u0438\u0441\\lab4-6\\4-6\\secondclien\\secondclien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|solutionrelative:secondclien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|d:\\my files\\univer\\3 course\\6 sem\\\u0440\u0438\u0441\\lab4-6\\4-6\\secondclien\\secondclien\\secondlistwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|solutionrelative:secondclien\\secondlistwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|d:\\my files\\univer\\3 course\\6 sem\\\u0440\u0438\u0441\\lab4-6\\4-6\\secondclien\\secondclien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:1:0:{68894585-B7B3-4D96-B0A0-ECD9016B78D0}|SecondClien\\SecondClient.csproj|solutionrelative:secondclien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59D03B93-AD9C-4D75-8227-EDD3EA99DA0C}|..\\Generator\\DatabaseClasses\\DatabaseClasses.csproj|d:\\my files\\univer\\3 course\\6 sem\\\u0440\u0438\u0441\\lab4-6\\4-6\\generator\\databaseclasses\\pattern\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59D03B93-AD9C-4D75-8227-EDD3EA99DA0C}|..\\Generator\\DatabaseClasses\\DatabaseClasses.csproj|d:\\my files\\univer\\3 course\\6 sem\\\u0440\u0438\u0441\\lab4-6\\4-6\\generator\\databaseclasses\\pattern\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\App.config",
+              "RelativeDocumentMoniker": "SecondClien\\App.config",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\App.config",
+              "RelativeToolTip": "SecondClien\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-02T05:14:15.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\Generator\\DatabaseClasses\\Pattern\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\Generator\\DatabaseClasses\\Pattern\\IRepository.cs",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\Generator\\DatabaseClasses\\Pattern\\IRepository.cs",
+              "RelativeToolTip": "..\\Generator\\DatabaseClasses\\Pattern\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T05:14:15.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataRepository.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\Generator\\DatabaseClasses\\Pattern\\DataRepository.cs",
+              "RelativeDocumentMoniker": "..\\Generator\\DatabaseClasses\\Pattern\\DataRepository.cs",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\Generator\\DatabaseClasses\\Pattern\\DataRepository.cs",
+              "RelativeToolTip": "..\\Generator\\DatabaseClasses\\Pattern\\DataRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T05:14:15.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\App.config",
+              "RelativeDocumentMoniker": "SecondClien\\App.config",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\App.config",
+              "RelativeToolTip": "SecondClien\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-02T05:14:15.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\Program.cs",
+              "RelativeDocumentMoniker": "SecondClien\\Program.cs",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\Program.cs",
+              "RelativeToolTip": "SecondClien\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T05:14:15.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SecondListWork.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\SecondListWork.cs",
+              "RelativeDocumentMoniker": "SecondClien\\SecondListWork.cs",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\SecondListWork.cs",
+              "RelativeToolTip": "SecondClien\\SecondListWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T05:14:15.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\Program.cs",
+              "RelativeDocumentMoniker": "SecondClien\\Program.cs",
+              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0420\u0418\u0421\\lab4-6\\4-6\\SecondClien\\SecondClien\\Program.cs",
+              "RelativeToolTip": "SecondClien\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T05:14:15.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
