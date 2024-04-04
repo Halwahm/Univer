@@ -11,7 +11,6 @@ http.createServer(function (request, response) {
     if(request.url === '/png')
     {
         let jpg = null; 
-
         fs.stat('./cat.jpg', (err, stat) => {
             if(err){
                 console.log(`error: ${err}`);

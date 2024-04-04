@@ -1,0 +1,27 @@
+﻿  pch.cpp
+  OS13_HTCOM_LIB.cpp
+D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM_LIB\HT_LIB.h(10,10): warning C4099: IHT: имя типа, ранее отображенное с помощью "struct", теперь отображено с помощью "class"
+D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM\IHT.h(9,11): message : см. объявление "IHT"
+D:\Apps\Visual Studio\VC\Tools\MSVC\14.36.32532\include\xstring(2765,53): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ]
+D:\Apps\Visual Studio\VC\Tools\MSVC\14.36.32532\include\xstring(2621,17): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM_LIB\OS13_HTCOM_LIB.cpp(455,32): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM_LIB\OS13_HTCOM_LIB.cpp(455,19): message : см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "HT_LIB::HT::RecordingWork"
+D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM_LIB\OS13_HTCOM_LIB.cpp(357): warning C4172: возвращение адреса локальной или временной переменной : num
+  OS13_HTCOM_LIB.vcxproj -> D:\6sem\SP\Labs\OS14_HTCOMUserGroup\x64\Debug\OS14_HTCOM_LIB.lib

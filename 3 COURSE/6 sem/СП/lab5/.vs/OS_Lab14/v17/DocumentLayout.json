@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BA9DA36-11D5-43EB-BB91-9829BE13A8A7}|OS14_HTAPI\\OS14_HTAPI.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS14_HTAPI\\Auth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9BA9DA36-11D5-43EB-BB91-9829BE13A8A7}|OS14_HTAPI\\OS14_HTAPI.vcxproj|solutionrelative:OS14_HTAPI\\Auth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E3BE4AD-15EB-4A85-86A5-36057E553D45}|OS14_HTCOM\\OS14_HTCOM.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS14_HTCOM\\Registry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4E3BE4AD-15EB-4A85-86A5-36057E553D45}|OS14_HTCOM\\OS14_HTCOM.vcxproj|solutionrelative:OS14_HTCOM\\Registry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA9DA36-11D5-43EB-BB91-9829BE13A8A7}|OS14_HTAPI\\OS14_HTAPI.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS14_HTAPI\\Auth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BA9DA36-11D5-43EB-BB91-9829BE13A8A7}|OS14_HTAPI\\OS14_HTAPI.vcxproj|solutionrelative:OS14_HTAPI\\Auth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Auth.h",
               "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS14_HTAPI\\Auth.h",
               "RelativeDocumentMoniker": "OS14_HTAPI\\Auth.h",
               "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS14_HTAPI\\Auth.h",
               "RelativeToolTip": "OS14_HTAPI\\Auth.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-28T10:49:20.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Registry.cpp",
               "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS14_HTCOM\\Registry.cpp",
               "RelativeDocumentMoniker": "OS14_HTCOM\\Registry.cpp",
               "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS14_HTCOM\\Registry.cpp",
               "RelativeToolTip": "OS14_HTCOM\\Registry.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-28T10:48:51.523Z",
               "EditorCaption": ""
