@@ -5,7 +5,6 @@ const prisma = new PrismaClient();
 class UserService {
     async getAllUsers(){
         const users = await prisma.users.findMany();
-        console.log(users)
         return users;
     }
     async getUserById(id){

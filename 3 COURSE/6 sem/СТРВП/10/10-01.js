@@ -6,6 +6,7 @@ const session = require('express-session');
 const userRouter = require('./routers/user.router');
 const reposRouter = require('./routers/repos.router');
 const { PrismaClient } = require('@prisma/client');
+const { AbilityBuilder, Ability } = require('@casl/ability');
 const prisma = new PrismaClient();
 const app = express();
 
@@ -21,18 +22,27 @@ const generateAccessToken = (user) => {
   return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '10m' });
 }
 
-// Middleware для проверки ролей пользователей и ограничения доступа к маршрутам
 const accessControlMiddleware = (req, res, next) => {
   try {
     const userRole = req.session.user ? req.session.user.role : 'guest';
+    const ability = defineAbilitiesFor(userRole);
+    req.ability = ability;
 
     const allowedRoutes = {
-      admin: ['/api/repos', '/logout', '/profile'],
-      user: ['/api/user', '/logout', '/profile'],
-      guest: ['/login', '/register']
+      admin: ['/api/repos', '/api/repos/:id', '/api/repos/:id/commits', '/api/repos/:id/commits/:commitId', 
+      '/api/user', '/api/user/:id', '/api/repos/commits/:id',
+      '/logout', '/profile', '/api/ability'],
+      user: ['/api/user', '/logout', '/profile', '/api/ability'],
+      guest: ['/login', '/register', '/api/ability']
     };
 
-    if (!allowedRoutes[userRole].includes(req.path)) {
+    const allowedPaths = allowedRoutes[userRole];
+    const isAllowed = allowedPaths.some(route => {
+      const pattern = new RegExp(`^${route.replace(/\/:[^/]+/g, '/[^/]+')}$`);
+      return pattern.test(req.path);
+    });
+
+    if (!isAllowed) {
       return res.status(403).send('Доступ запрещен');
     }
 
@@ -42,6 +52,7 @@ const accessControlMiddleware = (req, res, next) => {
     res.status(500).json({ error: error.message });
   }
 };
+
 
 app.use(accessControlMiddleware);
 app.use("/api/user", userRouter);
@@ -120,6 +131,22 @@ app.post('/login', async (req, res) => {
   }
 });
 
+app.get('/api/ability', async (req, res) => {
+  try {
+    const user = req.session.user || { role: 'guest' }; 
+    const ability = req.ability;
+    if (!ability) 
+      return res.status(401).send('Не удалось определить набор привилегий');
+
+    const userAbilities = defineAbilitiesFor(user);
+
+    res.json({ permissions: userAbilities.rules });
+  } catch (error) {
+    console.error('Ошибка при получении набора привилегий:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
 const authenticateSession = (req, res, next) => {
   if (req.session && req.session.user) {
     next();
@@ -140,6 +167,39 @@ app.get('/logout', (req, res) => {
 app.all('*', (req, res) => {
   res.status(404).send('404 Not Found');
 });
+
+const defineAbilitiesFor = (user) => {
+  const { can, rules } = new AbilityBuilder(Ability);
+
+  if (user.role === 'guest') {
+      can('read', 'ability');
+      can('read', 'commit');
+      can('read', 'repository');
+  }
+
+  if (user.role === 'user') {
+      can('read', 'ability');
+      can('read', 'commit');
+      can('read', 'repository');
+      can('create', 'repository');
+      can('create', 'commit');
+      can('update', 'repository', { authorId: user.id });
+      can('update', 'commit', { repo: { authorId: user.id } });
+  }
+
+  if (user.role === 'admin') {
+      can('read', 'ability');
+      can('read', 'commit');
+      can('read', 'repository');
+      can('read', 'user');
+      can('create', 'repository');
+      can('create', 'commit');
+      can('update', ['repository', 'commit']);
+      can('delete', ['repository', 'commit']);
+  }
+
+  return new Ability(rules);
+};
 
 const main = () => {
   try {

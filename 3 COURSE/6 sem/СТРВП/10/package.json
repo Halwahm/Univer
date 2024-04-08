@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@casl/ability": "^6.7.0",
+    "@casl/ability": "^6.7.1",
     "@prisma/client": "^5.10.2",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",

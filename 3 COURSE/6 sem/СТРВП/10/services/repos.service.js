@@ -1,8 +1,6 @@
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
-
-
 class ReposService {
     async getAllRepos(){
         const repos = await prisma.repos.findMany();
@@ -44,7 +42,6 @@ class ReposService {
 
     async updateRepoById(id, newData) {
         try {
-
             if (!id) throw new Error('Missing repo id');
 
             const repo = await prisma.repos.findUnique({
@@ -130,30 +127,26 @@ class ReposService {
     }
     async updateCommitById(id, newData) {
         try {
-
             if (!id) throw new Error('Missing commit id');
 
-
             console.log(id)
-            console.log("testtstets")
             console.log(newData)
             const commit = await prisma.commits.findUnique({
                 where: { id: parseInt(id) }
             });
-            if (!commit) {
+            if (!commit) 
                 throw new Error('Commit with this Id is not found');
-
-            }
-
-            if (!newData.message && !newData.repoId) {
+            
+            if (!newData.message && !newData.repoId) 
                 throw new Error('Missing data');
-            }
+            
 
             const isCommitExist = await prisma.commits.findMany({
                 where: { message: newData.message }
             });
 
-            if(isCommitExist.length) throw new Error('Commit already exist');
+            if(isCommitExist.length) 
+                throw new Error('Commit already exist');
 
             const updatedCommit = await prisma.commits.update({
                 where: { id: parseInt(id) },

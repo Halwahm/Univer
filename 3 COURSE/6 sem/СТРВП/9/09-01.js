@@ -74,7 +74,7 @@ app.all('*', (req, res) => {
 const main = ()=>{
     try {
         app.listen(port, () => {
-            console.log(`Server is running on port ${port}`);
+            console.log(`Server is listening at http://localhost:${port}`);
         });
     }
     catch (err) {

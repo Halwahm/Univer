@@ -70,9 +70,9 @@ class ReposController {
     }
 
     async getReposByIdIncludeCommit(req, res) {
-        const { id } = req.params;
+        const {id, commitId} = req.params;
         try {
-            const repo = await ReposService.getReposByIdIncludeCommit(id);
+            const repo = await ReposService.getReposByIdIncludeCommit(id, commitId);
             if (!repo) {
                 res.status(404).json({ error: 'Repo not found' });
             } else {

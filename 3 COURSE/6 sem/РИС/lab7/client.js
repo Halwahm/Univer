@@ -1,29 +1,8 @@
-const udp = require("dgram");
-const client = udp.createSocket("udp4");
-const config = require("./config.json");
-const Commands = require("./commands");
-const port = 9999;
+const dgram = require('dgram');
+const client = dgram.createSocket('udp4');
 
-client.bind(port, "192.168.51.218");
-
-client.on("message", (msg, info) => {
-  console.log("Data received from server : " + msg.toString());
-  console.log(
-    "Received %d bytes from %s:%d\n",
-    msg.length,
-    info.address,
-    info.port
-  );
+client.on('message',message => {
+    console.log('Received time: ' + message.toString());
 });
 
-setInterval(() => {
-  const params = JSON.stringify({ command: Commands.get });
-
-  client.send(params, 7777, config.mainServer, (error) => {
-    if (error) {
-      client.close();
-    } else {
-      console.log("get time");
-    }
-  });
-}, 3000);
+client.send('time', 5555, '127.0.0.1');

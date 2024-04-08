@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Downloads\\ЗИиНИС\\LR\\Защита инфы Урбанович\\lab6\\lab6\\lab6.csproj": {}
+    "D:\\My Files\\Univer\\3 COURSE\\6 sem\\ЗИиНИС\\lab6\\lab6\\lab6.csproj": {}
   },
   "projects": {
-    "D:\\Downloads\\ЗИиНИС\\LR\\Защита инфы Урбанович\\lab6\\lab6\\lab6.csproj": {
+    "D:\\My Files\\Univer\\3 COURSE\\6 sem\\ЗИиНИС\\lab6\\lab6\\lab6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\ЗИиНИС\\LR\\Защита инфы Урбанович\\lab6\\lab6\\lab6.csproj",
+        "projectUniqueName": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\ЗИиНИС\\lab6\\lab6\\lab6.csproj",
         "projectName": "lab6",
-        "projectPath": "D:\\Downloads\\ЗИиНИС\\LR\\Защита инфы Урбанович\\lab6\\lab6\\lab6.csproj",
+        "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\ЗИиНИС\\lab6\\lab6\\lab6.csproj",
         "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\ЗИиНИС\\LR\\Защита инфы Урбанович\\lab6\\lab6\\obj\\",
+        "outputPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\ЗИиНИС\\lab6\\lab6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
