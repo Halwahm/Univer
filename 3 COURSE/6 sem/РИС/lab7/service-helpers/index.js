@@ -36,14 +36,11 @@ const self = module.exports = {
             const address = server.address();
             console.log(`Server-${count} is listening to ${address.address}:${address.port}`);
 
-            // 3 is a highest rang for now
-            if (timeServerConfig.rang === 3) {
-                server.ready = true;
-                self.setCoordinator(address.address, address.port);
-                setTimeout(() => {
-                    server.send('init-coordinator', config.timeService.port, config.timeService.broadcastHost);
-                }, 1000);
-            }
+            server.ready = true;
+            self.setCoordinator(address.address, address.port);
+            setTimeout(() => {
+                server.send('init-coordinator', config.timeService.port, config.timeService.broadcastHost);
+            }, 1000);
         });
 
         server.bind(config.timeService.port, timeServerConfig.host);
@@ -123,15 +120,24 @@ function initCoordinator(server, client) {
 function reInitCoordinator(server, client) {
     if (!server.coordinatorReady) {
         console.log('New coordinator suggestion');
-        const myRang = config.timeService[server.address().address].rang;
-        const clientRang = config.timeService[client.address].rang;
-        if (myRang > clientRang) {
-            console.log('My rang is higher');
-            server.send('re-init-coordinator', config.timeService.port, config.timeService.broadcastHost);
-        } else {
-            console.log('Agree with a new coordinator');
-            server.coordinatorReady = true;
-            self.setCoordinator(client.address, client.port);
-        }
+        const myAddress = server.address().address.split('.').map(Number);
+        const clientAddress = client.address.split('.').map(Number);
+
+        for (let i = 0; i < Math.min(myAddress.length, clientAddress.length); i++) {
+            if (clientAddress[i] > myAddress[i]) {
+                console.log('Higher address suggested');
+                server.coordinatorReady = true;
+                self.setCoordinator(client.address, client.port);
+        
+                const message = JSON.stringify({ host: client.address, port: client.port });
+                server.send(message, config.timeService.port, client.address);
+                return;
+            } else if (clientAddress[i] < myAddress[i]) {
+                break;
+            }
+        }        
+
+        console.log('Lower or equal address suggested, ignoring');
     }
 }
+
