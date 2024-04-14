@@ -72,9 +72,9 @@ namespace lab7
             int errorLenght;
             try
             {
-                Console.WriteLine("\n\nВведите место ошибки");
+                Console.WriteLine("\n\"Место ошибки 2");
                 error = 2/*Convert.ToInt32(Console.ReadLine())*/;
-                Console.WriteLine("Введите длину ошибки");
+                Console.WriteLine("Длина ошибки 3");
                 errorLenght = 3/*Convert.ToInt32(Console.ReadLine())*/;
                 for (int i = error; i < (error + errorLenght); i++)
                 {
@@ -340,11 +340,9 @@ namespace lab7
                 //Перебираем элементы строки, но только до k-элемента
                 for (int j = i + 1; j < k; j++)
                 {
-
                     //если мы нашли единицу в строке, то...
                     if (generationMatrix[i, j] == 1)
                     {
-
                         //перебираем этот столбец, пока не найдем единицу
                         for (; i2 < k; i2++)
                         {
@@ -362,7 +360,7 @@ namespace lab7
                                 }
                                 if (repeat)
                                     continue;
-                                Console.WriteLine(i + " " + i2);
+                                //Console.WriteLine(i + " " + i2);
                                 AddingLinesMatrixMod2(generationMatrix, i, i2, n);
                                 i2++;
                                 break;
@@ -374,7 +372,6 @@ namespace lab7
 
             return generationMatrix;
         }
-
         //Преобразование канонической матрицы в проверочную
         static int[,] CreateCheckMatrix(int[,] checkMatrix, int[,] generationMatrix, int k, int n)
         {

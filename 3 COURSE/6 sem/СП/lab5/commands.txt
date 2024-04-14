@@ -5,7 +5,7 @@ runas /user:HTUser01 cmd
 
 cd /d D:\6sem\SP\Labs\OS14_HTCOMUserGroup\x64\Debug
 OS14_CREATE.exe 30 4 4 4 "../HT/test.ht"
-1) OS14_CREATE.exe 30 4 4 4 test.ht
+1) OS14_CREATE.exe 30 4 4 4 test.ht HT
 2) OS14_START.exe test.ht
 3) OS14_02.exe test.ht
 4) OS14_03.exe test.ht

@@ -48,7 +48,8 @@ var Program = /** @class */ (function () {
         console.log("--------------------------------------------------------------------------------");
         try {
             console.log("Введите место первой ошибки");
-            error = parseInt(prompt() || "0") - 1;
+            error = 1;
+            // error = parseInt(prompt() || "0") - 1;
             if (masXn[error] === 1)
                 masXn[error] = 0;
             else
@@ -61,13 +62,15 @@ var Program = /** @class */ (function () {
         console.log("--------------------------------------------------------------------------------");
         try {
             console.log("Место первой ошибки: ");
-            error = parseInt(prompt() || "0") - 1;
+            error = 2;
+            //error = parseInt(prompt() || "0") - 1;
             if (masXn[error] === 1)
                 masXn[error] = 0;
             else
                 masXn[error] = 1;
             console.log("Место второй ошибки: ");
-            error = parseInt(prompt() || "0") - 1;
+            error = 3;
+            //error = parseInt(prompt() || "0") - 1;
             if (masXn[error] === 1)
                 masXn[error] = 0;
             else

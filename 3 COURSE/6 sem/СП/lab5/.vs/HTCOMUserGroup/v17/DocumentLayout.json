@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4BA5FB2-7F16-4B59-B348-79C203CE8651}|OS13_HTCOM\\OS13_HTCOM.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B4BA5FB2-7F16-4B59-B348-79C203CE8651}|OS13_HTCOM\\OS13_HTCOM.vcxproj|solutionrelative:OS13_HTCOM\\HT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4BA5FB2-7F16-4B59-B348-79C203CE8651}|OS13_HTCOM\\OS13_HTCOM.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HTFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B4BA5FB2-7F16-4B59-B348-79C203CE8651}|OS13_HTCOM\\OS13_HTCOM.vcxproj|solutionrelative:OS13_HTCOM\\HTFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4BA5FB2-7F16-4B59-B348-79C203CE8651}|OS13_HTCOM\\OS13_HTCOM.vcxproj|D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HTHandle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B4BA5FB2-7F16-4B59-B348-79C203CE8651}|OS13_HTCOM\\OS13_HTCOM.vcxproj|solutionrelative:OS13_HTCOM\\HTHandle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +24,9 @@
               "RelativeDocumentMoniker": "OS13_HTCOM\\HT.cpp",
               "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HT.cpp",
               "RelativeToolTip": "OS13_HTCOM\\HT.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAJ0CAAAAAAAAAAAAAKwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-06T09:11:49.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HTFactory.cpp",
-              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HTFactory.cpp",
-              "RelativeDocumentMoniker": "OS13_HTCOM\\HTFactory.cpp",
-              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HTFactory.cpp",
-              "RelativeToolTip": "OS13_HTCOM\\HTFactory.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-06T09:11:47.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HTHandle.cpp",
-              "DocumentMoniker": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HTHandle.cpp",
-              "RelativeDocumentMoniker": "OS13_HTCOM\\HTHandle.cpp",
-              "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0421\u041F\\lab5\\OS13_HTCOM\\HTHandle.cpp",
-              "RelativeToolTip": "OS13_HTCOM\\HTHandle.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-06T09:11:45.703Z",
+              "WhenOpened": "2024-04-10T18:21:48.078Z",
               "EditorCaption": ""
             }
           ]

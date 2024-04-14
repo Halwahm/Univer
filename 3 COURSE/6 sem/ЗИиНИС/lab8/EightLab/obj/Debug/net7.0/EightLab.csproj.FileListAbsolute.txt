@@ -1,0 +1,14 @@
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\bin\Debug\net7.0\EightLab.exe
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\bin\Debug\net7.0\EightLab.deps.json
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\bin\Debug\net7.0\EightLab.runtimeconfig.json
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\bin\Debug\net7.0\EightLab.dll
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\bin\Debug\net7.0\EightLab.pdb
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\EightLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\EightLab.AssemblyInfoInputs.cache
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\EightLab.AssemblyInfo.cs
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\EightLab.csproj.CoreCompileInputs.cache
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\EightLab.dll
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\refint\EightLab.dll
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\EightLab.pdb
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\EightLab.genruntimeconfig.cache
+D:\Downloads\ЗИиНИС\LR\Lab8\EightLab\obj\Debug\net7.0\ref\EightLab.dll

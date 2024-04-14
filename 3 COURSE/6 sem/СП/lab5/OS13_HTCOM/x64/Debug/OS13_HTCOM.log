@@ -1,16 +1,19 @@
-﻿  pch.cpp
-  dllmain.cpp
-  HT.cpp
-D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM\HT.cpp(602,90): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM\HT.cpp(610,110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM\HT.cpp(635,20): warning C4018: <: несоответствие типов со знаком и без знака
-D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM\HT.cpp(660,22): warning C4018: <: несоответствие типов со знаком и без знака
-D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM\HT.cpp(686,21): warning C4018: <: несоответствие типов со знаком и без знака
-  HTFactory.cpp
-  HTHandle.cpp
-  Registry.cpp
-D:\6sem\SP\Labs\OS14_HTCOMUserGroup\OS13_HTCOM\Registry.cpp(141,24): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
-  Создание кода...
+﻿  HT.cpp
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\OS13_HTCOM\HT.cpp(602,90): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/HT.cpp")
+  
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\OS13_HTCOM\HT.cpp(610,110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/HT.cpp")
+  
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\OS13_HTCOM\HT.cpp(635,20): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "/HT.cpp")
+  
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\OS13_HTCOM\HT.cpp(660,22): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "/HT.cpp")
+  
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\OS13_HTCOM\HT.cpp(686,21): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "/HT.cpp")
+  
 OS13_HTCOM.def(1): warning LNK4017: оператор LIBARY не поддерживается на конечной платформе; пропущен
-     Создается библиотека D:\6sem\SP\Labs\OS14_HTCOMUserGroup\x64\Debug\OS14_HTCOM.lib и объект D:\6sem\SP\Labs\OS14_HTCOMUserGroup\x64\Debug\OS14_HTCOM.exp
-  OS13_HTCOM.vcxproj -> D:\6sem\SP\Labs\OS14_HTCOMUserGroup\x64\Debug\OS14_HTCOM.dll
+     Создается библиотека D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\x64\Debug\OS14_HTCOM.lib и объект D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\x64\Debug\OS14_HTCOM.exp
+  OS13_HTCOM.vcxproj -> D:\My Files\Univer\3 COURSE\6 sem\СП\lab5\x64\Debug\OS14_HTCOM.dll

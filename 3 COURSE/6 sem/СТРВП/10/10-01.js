@@ -32,7 +32,9 @@ const accessControlMiddleware = (req, res, next) => {
       admin: ['/api/repos', '/api/repos/:id', '/api/repos/:id/commits', '/api/repos/:id/commits/:commitId', 
       '/api/user', '/api/user/:id', '/api/repos/commits/:id',
       '/logout', '/profile', '/api/ability'],
-      user: ['/api/user', '/logout', '/profile', '/api/ability'],
+      user: ['/api/repos', '/api/repos/:id', '/api/repos/:id/commits', '/api/repos/:id/commits/:commitId', 
+      '/api/user/:id', '/api/repos/commits/:id',
+      '/logout', '/profile', '/api/ability'],
       guest: ['/login', '/register', '/api/ability']
     };
 
@@ -52,7 +54,6 @@ const accessControlMiddleware = (req, res, next) => {
     res.status(500).json({ error: error.message });
   }
 };
-
 
 app.use(accessControlMiddleware);
 app.use("/api/user", userRouter);
@@ -123,7 +124,8 @@ app.post('/login', async (req, res) => {
   const { username, password } = req.body;
   const user = await prisma.users.findUnique({ where: { username: username } });
   if (user && user.password === password) {
-    req.session.user = user; // Устанавливаем пользовательские данные в сессию
+    req.session.user = user; 
+    console.log (req.session.user)
     const token = generateAccessToken(user);
     res.send('Вы успешно вошли в систему ' + token);
   } else {
@@ -181,10 +183,12 @@ const defineAbilitiesFor = (user) => {
       can('read', 'ability');
       can('read', 'commit');
       can('read', 'repository');
-      can('create', 'repository');
-      can('create', 'commit');
+      can('create', 'repository', {authorId: user.id});
+      can('create', 'commit', {repo: {authorId: user.id}});
       can('update', 'repository', { authorId: user.id });
       can('update', 'commit', { repo: { authorId: user.id } });
+      can('delete', 'repository', {authorId: user.id});
+      can('delete', 'commit', {repo: {authorId: user.id}});
   }
 
   if (user.role === 'admin') {

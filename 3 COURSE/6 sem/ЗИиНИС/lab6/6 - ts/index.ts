@@ -42,7 +42,6 @@ class Program {
         Operations.PrintMatrix(checkMatrix, n, r);
 
         // Task 1.2
-
         const masXn: number[] = new Array(n);
         Operations.ShiftR(masXn, masXk, r);
 
@@ -62,8 +61,9 @@ class Program {
 
         console.log("--------------------------------------------------------------------------------");
         try {
-            console.log("Введите место первой ошибки");
-            error = parseInt(prompt() || "0") - 1;
+            //console.log("Введите место первой ошибки");
+            error = 1
+            // error = parseInt(prompt() || "0") - 1;
             if (masXn[error] === 1) masXn[error] = 0;
             else masXn[error] = 1;
         } catch { }
@@ -75,14 +75,16 @@ class Program {
 
         console.log("--------------------------------------------------------------------------------");
         try {
-            console.log("Место первой ошибки: ");
-            error = parseInt(prompt() || "0") - 1;
+            error = 2
+            console.log(`Место первой ошибки: ${error}`);
+            //error = parseInt(prompt() || "0") - 1;
             if (masXn[error] === 1)
                 masXn[error] = 0;
             else masXn[error] = 1;
 
-            console.log("Место второй ошибки: ");
-            error = parseInt(prompt() || "0") - 1;
+            error = 3
+            console.log(`Место второй ошибки: ${error}`);
+            //error = parseInt(prompt() || "0") - 1;
             if (masXn[error] === 1)
                 masXn[error] = 0;
             else masXn[error] = 1;
