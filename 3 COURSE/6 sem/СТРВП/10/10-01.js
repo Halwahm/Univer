@@ -83,9 +83,7 @@ app.post('/register', async (req, res) => {
     if (!username || !password) {
       return res.status(400).send('Не указаны все необходимые данные для регистрации');
     }
-
     const user = await prisma.users.findUnique({ where: { username: username } });
-
     if (user) {
       return res.status(400).send('Пользователь с таким именем уже существует');
     } else {
@@ -96,8 +94,7 @@ app.post('/register', async (req, res) => {
           role: "user"
         }
       });
-      const token = generateAccessToken(user);
-      return res.status(201).send('Пользователь успешно создан' + token);
+      return res.status(201).send('Пользователь успешно создан');
     }
   } catch (e) {
     console.log(e);
