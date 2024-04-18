@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  ClassFactory.cpp
+  ComponentHT.cpp
+  dllmain.cpp
+  ExportFunctions.cpp
+  Registry.cpp
+D:\Course-3\СП\SERVICES\OS15_HTCOM\Registry.cpp(144,24): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+     Создается библиотека D:\Course-3\СП\SERVICES\x64\Release\OS15_HTCOM.lib и объект D:\Course-3\СП\SERVICES\x64\Release\OS15_HTCOM.exp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 175 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  OS15_HTCOM.vcxproj -> D:\Course-3\СП\SERVICES\x64\Release\OS15_HTCOM.dll
