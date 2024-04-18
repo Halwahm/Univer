@@ -217,6 +217,9 @@ class ReposService {
         if (userRole === 'admin') {
             return true; 
         }
+        if (userRole === 'guest') {
+            return true;
+        }
         if (repoId) {
             // Проверяем доступ к репозиторию
             const repo = await prisma.repos.findUnique({

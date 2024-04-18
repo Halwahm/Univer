@@ -62,8 +62,8 @@ class ReposController {
 
     async getReposByIdIncludeCommits(req, res) {
         const { id } = req.params;
-        const userId = req.session.user.id;
-        const userRole = req.session.user.role;
+        const userId = req.session.user?.id;
+        const userRole = req.session.user ? req.session.user.role || 'guest' : 'guest';
         try {
             const repo = await ReposService.getReposByIdIncludeCommits(id, userId, userRole);
             if (!repo) {

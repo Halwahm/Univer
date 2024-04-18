@@ -35,7 +35,7 @@ const accessControlMiddleware = (req, res, next) => {
       user: ['/api/repos', '/api/repos/:id', '/api/repos/:id/commits', '/api/repos/:id/commits/:commitId', 
       '/api/user/:id', '/api/repos/commits/:id',
       '/logout', '/profile', '/api/ability'],
-      guest: ['/login', '/register', '/api/ability']
+      guest: ['/login', '/register', '/api/ability', '/api/repos', '/api/repos/:id/commits']
     };
 
     const allowedPaths = allowedRoutes[userRole];
