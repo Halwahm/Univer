@@ -68,21 +68,29 @@ class ReposService {
             throw new Error('Unable to update repo: ' + error.message);
         }
     }
+
     async deleteRepoById(id, userId) {
         try {
             if (!id) throw new Error('Missing repo id');
-            // Проверяем, что пользователь удаляет свой репозиторий
+    
+            const repo = await prisma.repos.findUnique({
+                where: { id: parseInt(id) }
+            });
+    
             if (parseInt(userId) !== parseInt(repo.authorId)) {
                 throw new Error('User is not allowed to delete this repo');
             }
-            const repo = await prisma.repos.delete({
+    
+            const deletedRepo = await prisma.repos.delete({
                 where: { id: parseInt(id) }
             });
-            return repo;
+    
+            return deletedRepo;
         } catch (error) {
             throw new Error('Unable to delete repo: ' + error.message);
         }
     }
+    
 
     async getReposByIdIncludeCommits(id, userId, userRole){
         try {
