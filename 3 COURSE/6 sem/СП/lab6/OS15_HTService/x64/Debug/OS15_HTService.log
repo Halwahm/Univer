@@ -1,9 +1,4 @@
 ﻿  OS15_HTService.cpp
-D:\My Files\Univer\3 COURSE\6 sem\СП\lab6\OS15_HTService\OS15_HTService.cpp(15,37): warning C4129: s: неизвестная escape-последовательность
-D:\My Files\Univer\3 COURSE\6 sem\СП\lab6\OS15_HTService\OS15_HTService.cpp(15,37): warning C4129: H: неизвестная escape-последовательность
-D:\My Files\Univer\3 COURSE\6 sem\СП\lab6\OS15_HTService\OS15_HTService.cpp(100,46): warning C4129: s: неизвестная escape-последовательность
-D:\My Files\Univer\3 COURSE\6 sem\СП\lab6\OS15_HTService\OS15_HTService.cpp(100,46): warning C4129: H: неизвестная escape-последовательность
-D:\My Files\Univer\3 COURSE\6 sem\СП\lab6\OS15_HTService\OS15_HTService.cpp(168,11): warning C4129: s: неизвестная escape-последовательность
   main.cpp
   Создание кода...
-  OS15_HTService.vcxproj -> D:\My Files\Univer\3 COURSE\6 sem\СП\lab6\x64\Debug\OS15_HTService.exe
+LINK : fatal error LNK1168: не удается открыть D:\Course3\SP\SERVICES\x64\Debug\OS15_HTService.exe для записи

@@ -57,3 +57,7 @@ def plot_feature_importances_cancer(model):
  plt.ylabel("Признак")
  plt.show()
 plot_feature_importances_cancer(gbrt)
+
+
+
+# для метода градиентного бустинга используется функиця потерь (наименьших квадратов (исп альфа) из 4 лабы)
