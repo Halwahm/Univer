@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EightLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+398f1c79a7cc7eac50fedc2ee080a9f36ffcda4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bc3df307c182106ce3b178df64db5f6dbdd375e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EightLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EightLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +28,7 @@
               "RelativeDocumentMoniker": "EightLab\\Program.cs",
               "ToolTip": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\\u0417\u0418\u0438\u041D\u0418\u0421\\lab8\\EightLab\\Program.cs",
               "RelativeToolTip": "EightLab\\Program.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAwJEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T08:28:24.974Z",
               "EditorCaption": ""

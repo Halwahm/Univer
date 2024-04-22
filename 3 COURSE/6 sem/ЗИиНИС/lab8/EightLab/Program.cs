@@ -16,7 +16,6 @@ namespace _8
                 messageMatrix[i] = message;
                 message = message.Substring(1) + message[0];
             }
-
             return messageMatrix;
         }
 
