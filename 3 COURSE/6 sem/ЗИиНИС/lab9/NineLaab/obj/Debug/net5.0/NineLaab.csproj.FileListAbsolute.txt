@@ -1,0 +1,63 @@
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfoInputs.cache
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfo.cs
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.csproj.CoreCompileInputs.cache
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.exe
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.deps.json
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.json
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.dev.json
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.dll
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\bin\Debug\net5.0\ref\NineLaab.dll
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.pdb
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.dll
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\ref\NineLaab.dll
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.pdb
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.genruntimeconfig.cache
+C:\Users\Helen\Desktop\Защита\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.csproj.AssemblyReference.cache
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.exe
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.deps.json
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.json
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.dev.json
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.dll
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.pdb
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.csproj.AssemblyReference.cache
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.GeneratedMSBuildEditorConfig.editorconfig
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfoInputs.cache
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfo.cs
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.csproj.CoreCompileInputs.cache
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.dll
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\refint\NineLaab.dll
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.pdb
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.genruntimeconfig.cache
+D:\3\Защита инфы Урбанович\NineLaab\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\ref\NineLaab.dll
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.exe
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.deps.json
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.json
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.dev.json
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.dll
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.pdb
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.csproj.AssemblyReference.cache
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.GeneratedMSBuildEditorConfig.editorconfig
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfoInputs.cache
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfo.cs
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.csproj.CoreCompileInputs.cache
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.dll
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\refint\NineLaab.dll
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.pdb
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.genruntimeconfig.cache
+D:\5sem\ЗИиНИС\LR\юля\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\ref\NineLaab.dll
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.exe
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.deps.json
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.json
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.runtimeconfig.dev.json
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.dll
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\bin\Debug\net5.0\NineLaab.pdb
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfoInputs.cache
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.AssemblyInfo.cs
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.csproj.CoreCompileInputs.cache
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.dll
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\refint\NineLaab.dll
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.pdb
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\NineLaab.genruntimeconfig.cache
+D:\Downloads\ЗИиНИС\LR\Lab9\lab9\NineLaab\NineLaab\NineLaab\obj\Debug\net5.0\ref\NineLaab.dll
