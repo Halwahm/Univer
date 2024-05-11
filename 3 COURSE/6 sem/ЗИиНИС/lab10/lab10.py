@@ -10,8 +10,8 @@ with open('source.txt',  encoding='utf8') as file:
 
 dictionary_size = int(input('Длина буфера словаря: '))
 lookahead_size = int(input('Длина буфера кодирования:' ))
-print(compress_lz77('ACAGAATAGAGA', dictionary_size, lookahead_size))
-print(decompress_lz77(compress_lz77('ACAGAATAGAGA', dictionary_size, lookahead_size)))
+print(compress_lz77('halaleenko', dictionary_size, lookahead_size))
+print(decompress_lz77(compress_lz77('halaleenko', dictionary_size, lookahead_size)))
 
 # 3. Изменяя размеры окон, оценить скорость и эффективность
 # (используя соотношения на с. 76) выполнения операций сжатия/ распаковки.
