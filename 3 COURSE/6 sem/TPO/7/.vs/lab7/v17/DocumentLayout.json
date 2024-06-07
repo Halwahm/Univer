@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Files\\TPO\\7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61D1D0BC-9243-4239-8111-05E908DFDE60}|CalculatorTests\\CalculatorTests.csproj|d:\\my files\\tpo\\7\\calculatortests\\calctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D1D0BC-9243-4239-8111-05E908DFDE60}|CalculatorTests\\CalculatorTests.csproj|solutionrelative:calculatortests\\calctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1223A5C6-17D1-4367-8CF6-A8A941A6A171}|lab7\\lab7.csproj|d:\\my files\\tpo\\7\\lab7\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1223A5C6-17D1-4367-8CF6-A8A941A6A171}|lab7\\lab7.csproj|solutionrelative:lab7\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D1D0BC-9243-4239-8111-05E908DFDE60}|CalculatorTests\\CalculatorTests.csproj|d:\\my files\\tpo\\7\\calculatortests\\testresults\\a01d2bef-005d-4883-843a-066e652925c8\\coverage.cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{61D1D0BC-9243-4239-8111-05E908DFDE60}|CalculatorTests\\CalculatorTests.csproj|solutionrelative:calculatortests\\testresults\\a01d2bef-005d-4883-843a-066e652925c8\\coverage.cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "coverage.cobertura.xml",
+              "DocumentMoniker": "D:\\My Files\\TPO\\7\\CalculatorTests\\TestResults\\a01d2bef-005d-4883-843a-066e652925c8\\coverage.cobertura.xml",
+              "RelativeDocumentMoniker": "CalculatorTests\\TestResults\\a01d2bef-005d-4883-843a-066e652925c8\\coverage.cobertura.xml",
+              "ToolTip": "D:\\My Files\\TPO\\7\\CalculatorTests\\TestResults\\a01d2bef-005d-4883-843a-066e652925c8\\coverage.cobertura.xml",
+              "RelativeToolTip": "CalculatorTests\\TestResults\\a01d2bef-005d-4883-843a-066e652925c8\\coverage.cobertura.xml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-25T11:44:57.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalcTests.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\7\\CalculatorTests\\CalcTests.cs",
+              "RelativeDocumentMoniker": "CalculatorTests\\CalcTests.cs",
+              "ToolTip": "D:\\My Files\\TPO\\7\\CalculatorTests\\CalcTests.cs",
+              "RelativeToolTip": "CalculatorTests\\CalcTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T10:25:12.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\7\\lab7\\Calculator.cs",
+              "RelativeDocumentMoniker": "lab7\\Calculator.cs",
+              "ToolTip": "D:\\My Files\\TPO\\7\\lab7\\Calculator.cs",
+              "RelativeToolTip": "lab7\\Calculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T10:25:12.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

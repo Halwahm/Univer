@@ -1,0 +1,44 @@
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\bin\Debug\net6.0\lab7.exe
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\bin\Debug\net6.0\lab7.deps.json
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\bin\Debug\net6.0\lab7.runtimeconfig.json
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\bin\Debug\net6.0\lab7.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\bin\Debug\net6.0\lab7.pdb
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.csproj.AssemblyReference.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.GeneratedMSBuildEditorConfig.editorconfig
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.AssemblyInfoInputs.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.AssemblyInfo.cs
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.csproj.CoreCompileInputs.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\refint\lab7.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.pdb
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\lab7.genruntimeconfig.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\lab7\obj\Debug\net6.0\ref\lab7.dll
+D:\Downloads\Perkq TestingQA main lab7\lab7\bin\Debug\net6.0\lab7.exe
+D:\Downloads\Perkq TestingQA main lab7\lab7\bin\Debug\net6.0\lab7.deps.json
+D:\Downloads\Perkq TestingQA main lab7\lab7\bin\Debug\net6.0\lab7.runtimeconfig.json
+D:\Downloads\Perkq TestingQA main lab7\lab7\bin\Debug\net6.0\lab7.dll
+D:\Downloads\Perkq TestingQA main lab7\lab7\bin\Debug\net6.0\lab7.pdb
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\lab7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\lab7.AssemblyInfoInputs.cache
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\lab7.AssemblyInfo.cs
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\lab7.csproj.CoreCompileInputs.cache
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\lab7.dll
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\refint\lab7.dll
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\lab7.pdb
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\lab7.genruntimeconfig.cache
+D:\Downloads\Perkq TestingQA main lab7\lab7\obj\Debug\net6.0\ref\lab7.dll
+D:\My Files\TPO\7\lab7\bin\Debug\net6.0\lab7.exe
+D:\My Files\TPO\7\lab7\bin\Debug\net6.0\lab7.deps.json
+D:\My Files\TPO\7\lab7\bin\Debug\net6.0\lab7.runtimeconfig.json
+D:\My Files\TPO\7\lab7\bin\Debug\net6.0\lab7.dll
+D:\My Files\TPO\7\lab7\bin\Debug\net6.0\lab7.pdb
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.AssemblyInfoInputs.cache
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.AssemblyInfo.cs
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.csproj.CoreCompileInputs.cache
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.sourcelink.json
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.dll
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\refint\lab7.dll
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.pdb
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\lab7.genruntimeconfig.cache
+D:\My Files\TPO\7\lab7\obj\Debug\net6.0\ref\lab7.dll

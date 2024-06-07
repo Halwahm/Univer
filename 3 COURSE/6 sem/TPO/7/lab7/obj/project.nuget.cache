@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "gIbLCLaXp1V9Kbal61pjKmleW7zr28fPEyNZu6pckqhRtHSybJBgTiLOkotVd3K9j3iaSTnr2kQ59jskV4Dm1g==",
+  "success": true,
+  "projectFilePath": "D:\\My Files\\TPO\\7\\lab7\\lab7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\halal\\.nuget\\packages\\nunit.console\\3.16.3\\nunit.console.3.16.3.nupkg.sha512",
+    "C:\\Users\\halal\\.nuget\\packages\\nunit.consolerunner\\3.16.3\\nunit.consolerunner.3.16.3.nupkg.sha512",
+    "C:\\Users\\halal\\.nuget\\packages\\nunit.extension.nunitprojectloader\\3.6.0\\nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512",
+    "C:\\Users\\halal\\.nuget\\packages\\nunit.extension.nunitv2driver\\3.8.0\\nunit.extension.nunitv2driver.3.8.0.nupkg.sha512",
+    "C:\\Users\\halal\\.nuget\\packages\\nunit.extension.nunitv2resultwriter\\3.6.0\\nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512",
+    "C:\\Users\\halal\\.nuget\\packages\\nunit.extension.teamcityeventlistener\\1.0.7\\nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512",
+    "C:\\Users\\halal\\.nuget\\packages\\nunit.extension.vsprojectloader\\3.8.0\\nunit.extension.vsprojectloader.3.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

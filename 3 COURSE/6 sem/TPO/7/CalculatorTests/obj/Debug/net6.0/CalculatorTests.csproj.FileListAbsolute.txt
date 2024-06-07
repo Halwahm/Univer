@@ -1,0 +1,316 @@
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.AssemblyReference.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.GeneratedMSBuildEditorConfig.editorconfig
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfoInputs.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfo.cs
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.CoreCompileInputs.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\testhost.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\testhost.exe
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\nunit.engine.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\nunit.engine.api.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\nunit.engine.core.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\testcentric.engine.metadata.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.deps.json
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.runtimeconfig.json
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.pdb
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\nunit.framework.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.CopyComplete
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\refint\CalculatorTests.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.pdb
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.genruntimeconfig.cache
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\obj\Debug\net6.0\ref\CalculatorTests.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\lab7.deps.json
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\lab7.runtimeconfig.json
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\lab7.exe
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\lab7.dll
+F:\BGTU\Course3\Sem1\TestingQA\lab7\CalculatorTests\bin\Debug\net6.0\lab7.pdb
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\testhost.exe
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\testhost.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\nunit.engine.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\nunit.engine.api.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\nunit.engine.core.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\lab7.deps.json
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\lab7.runtimeconfig.json
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\lab7.exe
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.deps.json
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.runtimeconfig.json
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.pdb
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\nunit.framework.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\lab7.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\bin\Debug\net6.0\lab7.pdb
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.AssemblyReference.cache
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfoInputs.cache
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfo.cs
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.CoreCompileInputs.cache
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\Calculat.2798ECFA.Up2Date
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\refint\CalculatorTests.dll
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.pdb
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.genruntimeconfig.cache
+D:\Downloads\Perkq TestingQA main lab7\CalculatorTests\obj\Debug\net6.0\ref\CalculatorTests.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\testhost.exe
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\testhost.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\nunit.engine.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\nunit.engine.api.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\nunit.engine.core.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\lab7.deps.json
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\lab7.runtimeconfig.json
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\lab7.exe
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.deps.json
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.runtimeconfig.json
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\CalculatorTests.pdb
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\nunit.framework.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\lab7.dll
+D:\My Files\TPO\7\CalculatorTests\bin\Debug\net6.0\lab7.pdb
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.AssemblyReference.cache
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfoInputs.cache
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.AssemblyInfo.cs
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.csproj.CoreCompileInputs.cache
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.sourcelink.json
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\Calculat.2798ECFA.Up2Date
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.dll
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\refint\CalculatorTests.dll
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.pdb
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\CalculatorTests.genruntimeconfig.cache
+D:\My Files\TPO\7\CalculatorTests\obj\Debug\net6.0\ref\CalculatorTests.dll

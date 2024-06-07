@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.031" tests="5" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\My Files\TPO\5\vitalliuss helloci master Java\target\test-classes;D:\My Files\TPO\5\vitalliuss helloci master Java\target\classes;C:\Users\halal\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\halal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="D:\Program Files (x86)\jdk-21.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\halal\AppData\Local\Temp\surefire4157051524688991192\surefirebooter18165747510256812759.jar C:\Users\halal\AppData\Local\Temp\surefire4157051524688991192 2024-02-27T21-05-57_969-jvmRun1 surefire10346984032204713716tmp surefire_09299903262119048809tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\My Files\TPO\5\vitalliuss helloci master Java\target\test-classes;D:\My Files\TPO\5\vitalliuss helloci master Java\target\classes;C:\Users\halal\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\halal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\halal"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="D:\Program Files (x86)\jdk-21.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\My Files\TPO\5\vitalliuss helloci master Java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\halal\AppData\Local\Temp\surefire4157051524688991192\surefirebooter18165747510256812759.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="halal"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\halal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\halal\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="D:\My Files\TPO\5\vitalliuss helloci master Java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="D:\Program Files (x86)\jdk-21.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Docker\Docker\resources\bin;D:\Program Files (x86)\Git\cmd;D:\Program Files (x86)\PuTTY\;D:\Program Files (x86)\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;D:\Program Files (x86)\jdk-21.0.2\bin;C:\Users\halal\AppData\Local\Programs\Python\Launcher\;C:\Users\halal\AppData\Local\Microsoft\WindowsApps;C:\Users\halal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\halal\AppData\Roaming\npm;C:\Users\halal\AppData\Local\GitHubDesktop\bin;C:\Users\halal\.dotnet\tools;D:\Program Files (x86)\Azure Data Studio\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.016">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
+</failure>
+  </testcase>
+  <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="testShouldBeSKipped" classname="com.github.vitalliuss.helloci.AppTest" time="0">
+    <skipped message="Not implemented yet"/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Files\\TPO\\11\\SeleniumTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\pages\\comparepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:pages\\comparepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\pages\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:pages\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\driver\\driverinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:driver\\driverinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\steps\\steps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:steps\\steps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\tests\\smoketests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:tests\\smoketests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\pages\\basketpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:pages\\basketpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\pages\\catalogpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:pages\\catalogpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|d:\\my files\\tpo\\11\\seleniumtests\\utils\\randomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641366B0-084B-421D-857B-5A5554CFE996}|SeleniumTests.csproj|solutionrelative:utils\\randomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RandomGenerator.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Utils\\RandomGenerator.cs",
+              "RelativeDocumentMoniker": "Utils\\RandomGenerator.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Utils\\RandomGenerator.cs",
+              "RelativeToolTip": "Utils\\RandomGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:35:33.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Steps.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Steps\\Steps.cs",
+              "RelativeDocumentMoniker": "Steps\\Steps.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Steps\\Steps.cs",
+              "RelativeToolTip": "Steps\\Steps.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAUwJ4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:31:24.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DriverInstance.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Driver\\DriverInstance.cs",
+              "RelativeDocumentMoniker": "Driver\\DriverInstance.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Driver\\DriverInstance.cs",
+              "RelativeToolTip": "Driver\\DriverInstance.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:24:47.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductPage.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\ProductPage.cs",
+              "RelativeDocumentMoniker": "Pages\\ProductPage.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\ProductPage.cs",
+              "RelativeToolTip": "Pages\\ProductPage.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAhwGoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:24:24.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\MainPage.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\MainPage.cs",
+              "RelativeToolTip": "Pages\\MainPage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:24:06.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComparePage.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\ComparePage.cs",
+              "RelativeDocumentMoniker": "Pages\\ComparePage.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\ComparePage.cs",
+              "RelativeToolTip": "Pages\\ComparePage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:24:01.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CatalogPage.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\CatalogPage.cs",
+              "RelativeDocumentMoniker": "Pages\\CatalogPage.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\CatalogPage.cs",
+              "RelativeToolTip": "Pages\\CatalogPage.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAQwAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:23:26.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasketPage.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\BasketPage.cs",
+              "RelativeDocumentMoniker": "Pages\\BasketPage.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Pages\\BasketPage.cs",
+              "RelativeToolTip": "Pages\\BasketPage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:23:17.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SmokeTests.cs",
+              "DocumentMoniker": "D:\\My Files\\TPO\\11\\SeleniumTests\\Tests\\SmokeTests.cs",
+              "RelativeDocumentMoniker": "Tests\\SmokeTests.cs",
+              "ToolTip": "D:\\My Files\\TPO\\11\\SeleniumTests\\Tests\\SmokeTests.cs",
+              "RelativeToolTip": "Tests\\SmokeTests.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAIA+wCwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:21:43.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
