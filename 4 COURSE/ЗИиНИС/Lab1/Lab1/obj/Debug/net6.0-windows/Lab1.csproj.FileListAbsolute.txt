@@ -1,0 +1,42 @@
+D:\6 сем\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.exe
+D:\6 сем\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.deps.json
+D:\6 сем\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.runtimeconfig.json
+D:\6 сем\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.dll
+D:\6 сем\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\ref\Lab1.dll
+D:\6 сем\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.pdb
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.AssemblyReference.cache
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\App.g.cs
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1_MarkupCompile.cache
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1_MarkupCompile.lref
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.g.resources
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfoInputs.cache
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfo.cs
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.CoreCompileInputs.cache
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.dll
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\ref\Lab1.dll
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.pdb
+D:\6 сем\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.genruntimeconfig.cache
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.exe
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.deps.json
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.runtimeconfig.json
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.dll
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.pdb
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\App.g.cs
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1_MarkupCompile.cache
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1_MarkupCompile.lref
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.g.resources
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfoInputs.cache
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfo.cs
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.sourcelink.json
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.dll
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\refint\Lab1.dll
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.pdb
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.genruntimeconfig.cache
+D:\My Files\Univer\4 COURSE\ЗИиНИС\Lab1\Lab1\obj\Debug\net6.0-windows\ref\Lab1.dll
