@@ -1,0 +1,7 @@
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.exe
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.deps.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.runtimeconfig.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.pdb

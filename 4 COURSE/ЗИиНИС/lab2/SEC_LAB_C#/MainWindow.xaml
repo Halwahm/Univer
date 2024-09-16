@@ -1,0 +1,120 @@
+﻿<Window x:Class="SEC_LAB_C.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SEC_LAB_C"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="620" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <TabControl>
+            <TabItem Header="Affine Cheaper">
+                <StackPanel>
+                    <Border Width="200" Height="82" HorizontalAlignment="Left" Margin="10 10 0 0" BorderThickness="1" BorderBrush="Gray" Background="#FFF7F7F7">
+                        <StackPanel>
+                            <Label Content="Ключ a: " Width="60" HorizontalAlignment="Left"></Label>
+                            <TextBox Width="136" Margin="10 -23 -30 0" x:Name="input_key_a"/>
+                            <Label Content="Ключ b: "></Label>
+                            <TextBox Width="136" Margin="10 -23 -30 0" x:Name="input_key_b"/>
+                            <Label Content="Открыть файл:" Width="90" HorizontalAlignment="Left"></Label>
+                            <Button Content="Press" Width="70" Margin="10 -23 -65 0" Click="Button_Click"></Button>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="200" Height="82" HorizontalAlignment="Left" Margin="230 -83 0 0" BorderThickness="1" BorderBrush="Gray" Background="#FFF7F7F7">
+                        <StackPanel Margin="5 5 5 5">
+                            <RadioButton Content="Русский язык" HorizontalAlignment="Left" Margin="0,0,2,13" x:Name="russia_rb"></RadioButton>
+                            <RadioButton Content="Английский язык" HorizontalAlignment="Left" Margin="0,0,2,13" x:Name="english_rb"></RadioButton>
+                            <RadioButton Content="Немецкий язык" HorizontalAlignment="Left" Margin="0,0,2,13" x:Name="deut_rb"></RadioButton>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="310" Height="82" HorizontalAlignment="Left" Margin="450 -83 0 0" BorderThickness="1" BorderBrush="Gray" Background="#FFF7F7F7">
+                        <StackPanel>
+                            <Label Content="Время зашифрования:" HorizontalAlignment="Left"></Label>
+                            <Label HorizontalAlignment="Left" Content="NaN" Margin="130 -25 0 0" x:Name="time_encr"></Label>
+                            <Label Content="Время дешифрования:" HorizontalAlignment="Left"></Label>
+                            <Label HorizontalAlignment="Left" Content="NaN" Margin="130 -25 0 0" x:Name="time_decr"></Label>
+                            <Label Content="Колчиество символов:" HorizontalAlignment="Left"></Label>
+                            <Label HorizontalAlignment="Left" Content="NaN" Margin="130 -25 0 0" x:Name="num_of_symb"></Label>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="200" Height="410" Margin="-570 15 0 0" BorderThickness="1" BorderBrush="Gray">
+                        <StackPanel>
+                            <Label Content="Исходное сообщение:" Background="#FFF7F7F7"></Label>
+                            <TextBox Height="381" x:Name="textbox_orginal_txt"></TextBox>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="335" Height="410" Margin="0 -410 0 0" BorderThickness="1" BorderBrush="Gray">
+                        <StackPanel>
+                            <Label Content="Зашифрованное сообщение:" Background="#FFF7F7F7"></Label>
+                            <TextBox Height="381" x:Name="textbox_encrypted_txt"></TextBox>
+                        </StackPanel>
+                    </Border>
+                    
+                    <Border Width="200" Height="410" Margin="550 -410 0 0" BorderThickness="1" BorderBrush="Gray">
+                        <StackPanel>
+                            <Label Content="Расшифрованное сообщение:" Background="#FFF7F7F7"></Label>
+                            <TextBox Height="381" x:Name="textbox_decrypted_txt"></TextBox>
+                        </StackPanel>
+                    </Border>
+                    
+                    <Button Width="100" Height="25" Content="Выполнить" Margin="650 10 0 0" Click="Button_Click_1"></Button>
+                </StackPanel>
+
+            </TabItem>
+
+            <TabItem Header="Viziner Cheaper">
+                <StackPanel>
+                    <Border Width="200" Height="59" HorizontalAlignment="Left" Margin="10 10 0 0" BorderThickness="1" BorderBrush="Gray" Background="#FFF7F7F7">
+                        <StackPanel>
+                            <Label Content="Ключ a: " Width="60" HorizontalAlignment="Left"></Label>
+                            <TextBox Width="136" Margin="10 -23 -30 0" x:Name="input_key_secondname"/>
+                            <Label Content="Открыть файл:" Width="90" HorizontalAlignment="Left"></Label>
+                            <Button Content="Press" Width="70" Margin="10 -23 -65 0" Click="Button_Click_2"></Button>
+                        </StackPanel>
+                    </Border>
+                    
+                    <Border Width="310" Height="82" HorizontalAlignment="Left" Margin="450,-59,0,0" BorderThickness="1" BorderBrush="Gray" Background="#FFF7F7F7">
+                        <StackPanel>
+                            <Label Content="Время зашифрования:" HorizontalAlignment="Left"></Label>
+                            <Label HorizontalAlignment="Left" Content="NaN" Margin="130 -25 0 0" x:Name="time_encr_viz"></Label>
+                            <Label Content="Время дешифрования:" HorizontalAlignment="Left"></Label>
+                            <Label HorizontalAlignment="Left" Content="NaN" Margin="130 -25 0 0" x:Name="time_decr_viz"></Label>
+                            <Label Content="Колчиество символов:" HorizontalAlignment="Left"></Label>
+                            <Label HorizontalAlignment="Left" Content="NaN" Margin="130 -25 0 0" x:Name="num_of_symb_viz"></Label>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="200" Height="410" Margin="-570 15 0 0" BorderThickness="1" BorderBrush="Gray">
+                        <StackPanel>
+                            <Label Content="Исходное сообщение:" Background="#FFF7F7F7"></Label>
+                            <TextBox Height="381" x:Name="textbox_orginal_txt_viz"></TextBox>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="335" Height="410" Margin="0 -410 0 0" BorderThickness="1" BorderBrush="Gray">
+                        <StackPanel>
+                            <Label Content="Зашифрованное сообщение:" Background="#FFF7F7F7"></Label>
+                            <TextBox Height="381" x:Name="textbox_encrypted_txt_viz"></TextBox>
+                        </StackPanel>
+                    </Border>
+
+
+
+                    <Border Width="200" Height="410" Margin="550 -410 0 0" BorderThickness="1" BorderBrush="Gray">
+                        <StackPanel>
+                            <Label Content="Расшифрованное сообщение:" Background="#FFF7F7F7"></Label>
+                            <TextBox Height="381" x:Name="textbox_decrypted_txt_viz"></TextBox>
+                        </StackPanel>
+                    </Border>
+
+                    <Button Width="100" Height="25" Content="Выполнить" Margin="650 10 0 0" Click="Button_Click_3"></Button>
+                    
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

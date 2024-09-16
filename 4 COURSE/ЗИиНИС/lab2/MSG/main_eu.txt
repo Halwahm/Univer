@@ -1,0 +1,55 @@
+Chosen plaintext attack.
+The cryptanalyst possesses some plaintexts and corresponding ciphertexts. In addition, it has the ability to encrypt several pre-selected plaintexts (before the attack starts).
+fivfv:
+• an attack based on obtaining a temporary non-confidential
+access to the encryption device to obtain open pairs
+and secret texts (there are known cases of implementation of such attacks by special services);
+• an attack based on the use of information about the structure of messages or standard phrases - cryptanalysts from Bletchley Park (Bletchley Park) could determine the plaintext of messages
+"Enigma" (see further laboratory work No. 4), depending on
+when these messages were sent and how they were signed;
+• enumeration of keys in a dictionary (dictionary attack) - a cryptanalyst encrypts words and phrases, the presence of which is expected
+in a cipher, using different keys; coincidence
+encrypted words and phrases with parts of the ciphertext may indicate a key breach.
+Adaptive Plaintext Choice Attack
+chosen plain text attack). The cryptanalyst has the ability to choose new plaintexts, taking into account the fact that he knows some information from previous messages - he can get
+pairs "open message - ciphertext", including after
+the start of the attack.Varieties:
+• provoking the enemy to use in messages
+certain words or phrases; invented by the British: Royal
+air force receiving temporary non-confidential
+access to the encryption device to obtain open pairs
+and secret texts (there are known cases of implementation of such attacks by special services);
+• an attack based on the use of information about the structure of messages or standard phrases - cryptanalysts from Bletchley Park (Bletchley Park) could determine the plaintext of messages
+"Enigma" (see further laboratory work No. 4), depending on
+when these messages were sent and how they were signed;
+• enumeration of keys in a dictionary (dictionary attack) - a cryptanalyst encrypts words and phrases, the presence of which is expected
+in a cipher, using different keys; coincidence
+encrypted words and phrases with parts of the ciphertext may indicate a key breach.
+Adaptive Plaintext Choice Attack
+chosen plain text attack). The cryptanalyst has the ability to choose new plaintexts, taking into account the fact that he knows some information from previous messages - he can get
+pairs "open message - ciphertext", including after
+the start of the attack.Varieties:
+• provoking the enemy to use in messages
+certain words or phrases; invented by the British: Royal
+air force receiving temporary non-confidential
+access to the encryption device to obtain open pairs
+and secret texts (there are known cases of implementation of such attacks by special services);
+• an attack based on the use of information about the structure of messages or standard phrases - cryptanalysts from Bletchley Park (Bletchley Park) could determine the plaintext of messages
+"Enigma" (see further laboratory work No. 4), depending on
+when these messages were sent and how they were signed;
+• enumeration of keys in a dictionary (dictionary attack) - a cryptanalyst encrypts words and phrases, the presence of which is expected
+in a cipher, using different keys; coincidence
+encrypted words and phrases with parts of the ciphertext may indicate a key breach.
+Adaptive Plaintext Choice Attack
+chosen plain text attack). The cryptanalyst has the ability to choose new plaintexts, taking into account the fact that he knows some information from previous messages - he can get
+pairs "open message - ciphertext", including after
+the start of the attack.Varieties:
+• provoking the enemy to use in messages
+certain words or phrases; invented by the British: Royal
+air force receiving temporary non-confidential
+access to the encryption device to obtain open pairs
+and secret texts (there are known cases of implementation of such attacks by special services);
+• an attack based on the use of information about the structure of messages or standard phrases - cryptanalysts from Bletchley Park (Bletchley Park) could determine the plaintext of messages
+"Enigma" (see further laboratory work No. 4), depending on
+when these messages were sent and how they were signed;
+• enumeration of keys in a dictionary (dictionary attack) - a cryptanalyst encrypts words and phrases, the presence of which is expected

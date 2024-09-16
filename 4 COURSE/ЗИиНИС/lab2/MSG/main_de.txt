@@ -1,0 +1,55 @@
+Ausgewählter Klartextangriff.
+Der Kryptoanalytiker besitzt einige Klartexte und entsprechende Geheimtexte. Darüber hinaus hat es die Fähigkeit, mehrere vorab ausgewählte Klartexte zu verschlüsseln (bevor der Angriff beginnt).
+fivfiv:
+• ein Angriff, der darauf basiert, vorübergehend eine nicht vertrauliche Information zu erhalten
+Zugriff auf das Verschlüsselungsgerät, um offene Paare zu erhalten
+und geheime Texte (es gibt bekannte Fälle der Durchführung solcher Angriffe durch spezielle Dienste);
+• ein Angriff, der auf der Verwendung von Informationen über die Struktur von Nachrichten oder Standardphrasen basiert – Kryptoanalytiker von Bletchley Park (Bletchley Park) könnten den Klartext von Nachrichten bestimmen
+„Enigma“ (siehe weitere Laborarbeit Nr. 4), je nach
+wann diese Nachrichten gesendet und wie sie signiert wurden;
+• Wörterbuchangriff – ein Kryptoanalytiker verschlüsselt Wörter und Sätze, die vorhanden sein sollen
+in einer Chiffre mit unterschiedlichen Schlüsseln; Zufall
+verschlüsselte Wörter und Phrasen mit Teilen des Geheimtextes können auf eine Schlüsselverletzung hinweisen.
+Adaptiver Plaintext-Choice-Angriff
+gewählter Klartextangriff). Der Kryptoanalytiker hat die Möglichkeit, neue Klartexte auszuwählen, wobei er berücksichtigt, dass er einige Informationen aus früheren Nachrichten kennt - er kann sie bekommen
+Paare "offene Nachricht - Chiffretext", einschließlich nachher
+der Beginn des Angriffs.Sorten:
+• den Feind zur Verwendung in Nachrichten provozieren
+bestimmte Wörter oder Sätze; erfunden von den Briten: Royal
+Luftwaffe, die vorübergehend nicht vertraulich behandelt wird
+Zugriff auf das Verschlüsselungsgerät, um offene Paare zu erhalten
+und geheime Texte (es gibt bekannte Fälle der Durchführung solcher Angriffe durch spezielle Dienste);
+• ein Angriff, der auf der Verwendung von Informationen über die Struktur von Nachrichten oder Standardphrasen basiert – Kryptoanalytiker von Bletchley Park (Bletchley Park) könnten den Klartext von Nachrichten bestimmen
+„Enigma“ (siehe weitere Laborarbeit Nr. 4), je nach
+wann diese Nachrichten gesendet und wie sie signiert wurden;
+• Wörterbuchangriff – ein Kryptoanalytiker verschlüsselt Wörter und Sätze, die vorhanden sein sollen
+in einer Chiffre mit unterschiedlichen Schlüsseln; Zufall
+verschlüsselte Wörter und Phrasen mit Teilen des Geheimtextes können auf eine Schlüsselverletzung hinweisen.
+Adaptiver Plaintext-Choice-Angriff
+gewählter Klartextangriff). Der Kryptoanalytiker hat die Möglichkeit, neue Klartexte auszuwählen, wobei er berücksichtigt, dass er einige Informationen aus früheren Nachrichten kennt - er kann sie bekommen
+Paare "offene Nachricht - Chiffretext", einschließlich nachher
+der Beginn des Angriffs.Sorten:
+• den Feind zur Verwendung in Nachrichten provozieren
+bestimmte Wörter oder Sätze; erfunden von den Briten: Royal
+Luftwaffe, die vorübergehend nicht vertraulich behandelt wird
+Zugriff auf das Verschlüsselungsgerät, um offene Paare zu erhalten
+und geheime Texte (es gibt bekannte Fälle der Durchführung solcher Angriffe durch spezielle Dienste);
+• ein Angriff, der auf der Verwendung von Informationen über die Struktur von Nachrichten oder Standardphrasen basiert – Kryptoanalytiker von Bletchley Park (Bletchley Park) könnten den Klartext von Nachrichten bestimmen
+„Enigma“ (siehe weitere Laborarbeit Nr. 4), je nach
+wann diese Nachrichten gesendet und wie sie signiert wurden;
+• Wörterbuchangriff – ein Kryptoanalytiker verschlüsselt Wörter und Sätze, die vorhanden sein sollen
+in einer Chiffre mit unterschiedlichen Schlüsseln; Zufall
+verschlüsselte Wörter und Phrasen mit Teilen des Geheimtextes können auf eine Schlüsselverletzung hinweisen.
+Adaptiver Plaintext-Choice-Angriff
+gewählter Klartextangriff). Der Kryptoanalytiker hat die Möglichkeit, neue Klartexte auszuwählen, wobei er berücksichtigt, dass er einige Informationen aus früheren Nachrichten kennt - er kann sie bekommen
+Paare "offene Nachricht - Chiffretext", einschließlich nachher
+der Beginn des Angriffs.Sorten:
+• den Feind zur Verwendung in Nachrichten provozieren
+bestimmte Wörter oder Sätze; erfunden von den Briten: Royal
+Luftwaffe, die vorübergehend nicht vertraulich behandelt wird
+Zugriff auf das Verschlüsselungsgerät, um offene Paare zu erhalten
+und geheime Texte (es gibt bekannte Fälle der Durchführung solcher Angriffe durch spezielle Dienste);
+• ein Angriff, der auf der Verwendung von Informationen über die Struktur von Nachrichten oder Standardphrasen basiert – Kryptoanalytiker von Bletchley Park (Bletchley Park) könnten den Klartext von Nachrichten bestimmen
+„Enigma“ (siehe weitere Laborarbeit Nr. 4), je nach
+wann diese Nachrichten gesendet und wie sie signiert wurden;
+• Wörterbuchangriff – ein Kryptoanalytiker verschlüsselt Wörter und Sätze, die vorhanden sein sollen

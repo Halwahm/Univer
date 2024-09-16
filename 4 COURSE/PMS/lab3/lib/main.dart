@@ -11,6 +11,7 @@ void main() async {
 
   List<Worker> workersList = [worker1, manager1, engineer1];
   OfficeWorker officeWorker = OfficeWorker(workersList);
+  print('Office worker length: ${officeWorker.length}');
 
   OfficeWorkerIterator iterator = OfficeWorkerIterator(workersList);
   while (iterator.moveNext()) {
@@ -45,7 +46,7 @@ void main() async {
 Future<void> performAsyncTask() async {
   print('Starting async task...');
   await Future.delayed(Duration(seconds: 2));
-  print('Async task completed.');
+  print('Async task completed (after 2 seconds).');
 }
 
 Future<double> calculateSalaryAsync() async {
