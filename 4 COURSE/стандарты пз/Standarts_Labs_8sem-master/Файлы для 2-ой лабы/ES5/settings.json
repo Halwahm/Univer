@@ -1,0 +1,15 @@
+{
+  "SimpleWolf": {
+    "name": "SimpleWolf",
+    "lvl": 2,
+    "attackStrength": 2,
+    "attackSpeed": 4
+  },
+
+  "HardWolf": {
+    "name": "HardWolf",
+    "lvl": 4,
+    "attackStrength": 4,
+    "attackSpeed": 8
+  }
+}
