@@ -280,7 +280,7 @@ class ProductCard extends StatelessWidget {
                         Row(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(left: 8.0), // Отступ для цены
+                              padding: const EdgeInsets.only(left: 8.0),
                               child: Text(
                                 price,
                                 style: const TextStyle(
@@ -306,7 +306,7 @@ class ProductCard extends StatelessWidget {
                   ),
                   if (isOnSale)
                     Positioned(
-                      top: 50,
+                      top: 60,
                       left: 0,
                       child: Container(
                         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
