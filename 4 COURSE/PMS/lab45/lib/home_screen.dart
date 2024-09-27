@@ -1,7 +1,72 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
 import 'details_screen.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+  @override
+  _HomeScreenState createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  static const platform = MethodChannel('com.example.lab45/wifi');
+  static const batteryChannel = MethodChannel('com.example.lab45/battery');
+
+  String _wifiSSID = 'Unknown';
+  String _alarmMessage = 'No alarm set';
+  String _batteryLevel = 'Unknown battery level';
+
+  @override
+  void initState() {
+    super.initState();
+    _getWifiSSID();
+    _getBatteryLevel();
+  }
+
+  // Метод для получения SSID через Platform Channel
+  Future<void> _getWifiSSID() async {
+    String wifiSSID;
+    try {
+      final String result = await platform.invokeMethod('getSSID');
+      wifiSSID = result;
+    } on PlatformException catch (e) {
+      wifiSSID = "Failed to get Wi-Fi SSID: '${e.message}'.";
+    }
+
+    setState(() {
+      _wifiSSID = wifiSSID; // Обновляем состояние SSID
+    });
+  }
+
+  // Получение уровня заряда батареи через Platform Channel
+  Future<void> _getBatteryLevel() async {
+    String batteryLevel;
+    try {
+      final int result = await batteryChannel.invokeMethod('getBatteryLevel');
+      batteryLevel = '$result%';
+    } on PlatformException catch (e) {
+      batteryLevel = "Failed to get battery level: '${e.message}'";
+    }
+
+    setState(() {
+      _batteryLevel = batteryLevel;
+    });
+  }
+
+  // Метод для установки будильника через Platform Channel
+  Future<void> _setAlarm(int hour, int minute) async {
+    try {
+      await platform.invokeMethod('setAlarm', {'hour': hour, 'minute': minute});
+      setState(() {
+        // Форматируем отображение минут с ведущим нулём
+        String formattedMinute = minute.toString().padLeft(2, '0');
+        _alarmMessage = 'Alarm set for $hour:$formattedMinute';
+      });
+    } on PlatformException catch (e) {
+      print("Failed to set alarm: ${e.message}");
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +100,6 @@ class HomeScreen extends StatelessWidget {
           SizedBox(width: 16),
         ],
       ),
-
       body: Stack(
         children: [
           Positioned(
@@ -73,7 +137,8 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                   child: const Row(
                     children: [
                       Expanded(
@@ -81,7 +146,8 @@ class HomeScreen extends StatelessWidget {
                           decoration: InputDecoration(
                             border: InputBorder.none,
                             hintText: "Shoes",
-                            hintStyle: TextStyle(color: Colors.blue, fontSize: 20),
+                            hintStyle:
+                                TextStyle(color: Colors.blue, fontSize: 20),
                           ),
                         ),
                       ),
@@ -120,33 +186,27 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 10),
-                const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "On Trend",
-                      style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xFF1D1E3C),
-                      ),
-                    ),
-                    Text(
-                      "1/10",
-                      style: TextStyle(
-                        fontSize: 16,
-                        color: Color(0xFF1D1E3C), fontWeight: FontWeight.bold
-                      ),
-                    ),
-                  ],
+                Text(
+                  'Connected Wi-Fi: $_wifiSSID',
+                  style:
+                      const TextStyle(fontSize: 18, color: Color(0xFF1D1E3C)),
                 ),
                 const SizedBox(height: 10),
-                Container(
-                  height: 2,
-                  color: Colors.grey[300],
-                  margin: const EdgeInsets.only(right: 50),
+                ElevatedButton(
+                  onPressed: () => _setAlarm(6, 19),
+                  child: const Text('Set Alarm'),
                 ),
-                const SizedBox(height: 10),
+                Text(
+                  _alarmMessage,
+                  style:
+                      const TextStyle(fontSize: 18, color: Color(0xFF1D1E3C)),
+                ),
+                Text(
+                  'Battery Level: $_batteryLevel',
+                  style:
+                      const TextStyle(fontSize: 18, color: Color(0xFF1D1E3C)),
+                ),
+                const SizedBox(height: 20),
                 Expanded(
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
@@ -164,7 +224,10 @@ class HomeScreen extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => const DetailsScreen(
-                                  image: 'assets/images/gtx2.png',
+                                  images: [
+                                    'assets/images/gtx2.png',
+                                    'assets/images/gtx.png'
+                                  ],
                                   title: 'Nike GTX 2',
                                   price: '\$329',
                                 ),
@@ -185,7 +248,10 @@ class HomeScreen extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => const DetailsScreen(
-                                  image: 'assets/images/gtx.png',
+                                  images: [
+                                    'assets/images/gtx.png',
+                                    'assets/images/gtx2.png'
+                                  ],
                                   title: 'Nike GTX',
                                   price: '\$100',
                                 ),
@@ -205,7 +271,10 @@ class HomeScreen extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => const DetailsScreen(
-                                  image: 'assets/images/shoe_3.png',
+                                  images: [
+                                    'assets/images/shoe_3.png',
+                                    'assets/images/gtx2.png'
+                                  ],
                                   title: 'Nike Air Zoom',
                                   price: '\$150',
                                 ),
@@ -293,7 +362,9 @@ class ProductCard extends StatelessWidget {
                             const Spacer(),
                             IconButton(
                               icon: Icon(
-                                isFavorite ? Icons.favorite : Icons.favorite_border,
+                                isFavorite
+                                    ? Icons.favorite
+                                    : Icons.favorite_border,
                                 color: isFavorite ? Colors.red : Colors.white,
                                 size: 18,
                               ),
@@ -309,7 +380,8 @@ class ProductCard extends StatelessWidget {
                       top: 60,
                       left: 0,
                       child: Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 8, vertical: 4),
                         decoration: BoxDecoration(
                           color: Colors.yellow,
                           borderRadius: BorderRadius.circular(8),
@@ -332,10 +404,9 @@ class ProductCard extends StatelessWidget {
             title,
             textAlign: TextAlign.center,
             style: const TextStyle(
-              fontSize: 16,
-              color: Color(0xFF1D1E3C),
-                fontWeight: FontWeight.bold
-            ),
+                fontSize: 16,
+                color: Color(0xFF1D1E3C),
+                fontWeight: FontWeight.bold),
           ),
         ],
       ),

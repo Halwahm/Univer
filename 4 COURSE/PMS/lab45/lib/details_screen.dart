@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class DetailsScreen extends StatefulWidget {
-  final String image;
+  final List<String> images;
   final String title;
   final String price;
 
   const DetailsScreen({
     Key? key,
-    required this.image,
+    required this.images,
     required this.title,
     required this.price,
   }) : super(key: key);
@@ -18,6 +18,7 @@ class DetailsScreen extends StatefulWidget {
 
 class _DetailsScreenState extends State<DetailsScreen> {
   String selectedSize = '6.5';
+  int currentPage = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +49,20 @@ class _DetailsScreenState extends State<DetailsScreen> {
               Center(
                 child: Stack(
                   children: [
-                    Image.asset(widget.image, height: 250, fit: BoxFit.contain),
+                    SizedBox(
+                      height: 250,
+                      child: PageView.builder(
+                        itemCount: widget.images.length,
+                        onPageChanged: (index) {
+                          setState(() {
+                            currentPage = index;
+                          });
+                        },
+                        itemBuilder: (context, index) {
+                          return Image.asset(widget.images[index], fit: BoxFit.contain);
+                        },
+                      ),
+                    ),
                     const Positioned(
                       top: 10,
                       left: 10,
@@ -72,6 +86,24 @@ class _DetailsScreenState extends State<DetailsScreen> {
                       ),
                     ),
                   ],
+                ),
+              ),
+              const SizedBox(height: 20),
+              Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: List.generate(
+                    widget.images.length,
+                        (index) => Container(
+                      margin: const EdgeInsets.symmetric(horizontal: 4),
+                      width: 10,
+                      height: 10,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: currentPage == index ? Colors.black : Colors.grey,
+                      ),
+                    ),
+                  ),
                 ),
               ),
               const SizedBox(height: 20),
