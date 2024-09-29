@@ -1,12 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-public class CustomHttpHandler
+﻿public class CustomHttpHandler
 {
     private readonly RequestDelegate _next;
-    private static int Result = 0; 
-    private static Stack<int> Stack = new Stack<int>();
 
     public CustomHttpHandler(RequestDelegate next)
     {
@@ -15,9 +9,21 @@ public class CustomHttpHandler
 
     public async Task InvokeAsync(HttpContext context)
     {
+        await context.Session.LoadAsync(); // Загружаем данные сессии
+
+        if (!context.Session.Keys.Contains("Result"))
+        {
+            context.Session.SetInt32("Result", 0);
+        }
+
+        if (!context.Session.Keys.Contains("Stack"))
+        {
+            context.Session.Set("Stack", System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(new Stack<int>()));
+        }
+
         var request = context.Request;
 
-        if (request.Path.StartsWithSegments("/han")) 
+        if (request.Path.StartsWithSegments("/han"))
         {
             switch (request.Method)
             {
@@ -34,7 +40,7 @@ public class CustomHttpHandler
                     await HandleDeleteRequest(context);
                     break;
                 default:
-                    context.Response.StatusCode = 405; 
+                    context.Response.StatusCode = 405;
                     break;
             }
         }
@@ -49,16 +55,17 @@ public class CustomHttpHandler
 
     private async Task HandleGetRequest(HttpContext context)
     {
+        int? result = context.Session.GetInt32("Result");
         context.Response.ContentType = "application/json";
-        await context.Response.WriteAsync($"{{ \"result\": {Result} }}");
+        await context.Response.WriteAsync($"{{ \"result\": {result} }}");
     }
 
     private async Task HandlePostRequest(HttpContext context)
     {
         if (int.TryParse(context.Request.Query["RESULT"], out int newResult))
         {
-            Result = newResult;
-            await context.Response.WriteAsync($"RESULT изменен на: {Result}");
+            context.Session.SetInt32("Result", newResult);
+            await context.Response.WriteAsync($"RESULT изменен на: {newResult}");
         }
         else
         {
@@ -71,7 +78,9 @@ public class CustomHttpHandler
     {
         if (int.TryParse(context.Request.Query["ADD"], out int addValue))
         {
-            Stack.Push(addValue);
+            Stack<int> stack = GetStackFromSession(context);
+            stack.Push(addValue);
+            SetStackToSession(context, stack);
             await context.Response.WriteAsync($"Значение {addValue} добавлено в стек.");
         }
         else
@@ -83,16 +92,32 @@ public class CustomHttpHandler
 
     private async Task HandleDeleteRequest(HttpContext context)
     {
-        if (Stack.Count > 0)
+        Stack<int> stack = GetStackFromSession(context);
+
+        if (stack.Count > 0)
         {
-            int popValue = Stack.Pop();
-            Result += popValue;
-            await context.Response.WriteAsync($"Значение {popValue} удалено из стека. RESULT = {Result}");
+            int popValue = stack.Pop();
+            int? result = context.Session.GetInt32("Result");
+            result += popValue;
+            context.Session.SetInt32("Result", result.Value);
+            SetStackToSession(context, stack);
+            await context.Response.WriteAsync($"Значение {popValue} удалено из стека. RESULT = {result}");
         }
         else
         {
             context.Response.StatusCode = 400;
             await context.Response.WriteAsync("Стек пуст.");
         }
+    }
+
+    private Stack<int> GetStackFromSession(HttpContext context)
+    {
+        byte[] stackBytes = context.Session.Get("Stack");
+        return System.Text.Json.JsonSerializer.Deserialize<Stack<int>>(stackBytes);
+    }
+
+    private void SetStackToSession(HttpContext context, Stack<int> stack)
+    {
+        context.Session.Set("Stack", System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(stack));
     }
 }

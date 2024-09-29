@@ -29,3 +29,6 @@ D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Debug\
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Debug\net8.0\lab1.pdb
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Debug\net8.0\lab1.genruntimeconfig.cache
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Debug\net8.0\ref\lab1.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Debug\net8.0\lab1.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Debug\net8.0\lab1.csproj.Up2Date

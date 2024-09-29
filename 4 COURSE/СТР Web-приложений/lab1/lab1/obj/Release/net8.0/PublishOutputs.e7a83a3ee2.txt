@@ -5,3 +5,4 @@ D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Releas
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.deps.json
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.runtimeconfig.json
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\lab1.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab1\lab1\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll

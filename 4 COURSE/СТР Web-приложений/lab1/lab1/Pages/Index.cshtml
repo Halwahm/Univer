@@ -1,10 +1,36 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Главная страница";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h2>REST сервис на ASP.NET Core</h2>
+
+<div>
+    <label>RESULT:</label>
+    <input type="number" id="resultInput">
+    <button onclick="sendRequest('POST', 'RESULT', document.getElementById('resultInput').value)">Изменить RESULT</button>
 </div>
+<div>
+    <label>ADD:</label>
+    <input type="number" id="addInput">
+    <button onclick="sendRequest('PUT', 'ADD', document.getElementById('addInput').value)">Добавить в стек</button>
+</div>
+<div>
+    <button onclick="sendRequest('GET')">Получить RESULT</button>
+    <button onclick="sendRequest('DELETE')">Удалить из стека</button>
+</div>
+<div id="result" style="margin-top: 20px;">Результат операций появится здесь.</div>
+
+<script>
+    async function sendRequest(method, param, value) {
+        let url = '/han';
+        if (param && value) {
+            url += `?${param}=${value}`;
+        }
+
+        const response = await fetch(url, { method });
+        const result = await response.text();
+        document.getElementById("result").innerText = result;
+    }
+</script>
