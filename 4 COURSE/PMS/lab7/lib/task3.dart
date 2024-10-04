@@ -45,12 +45,12 @@ class _Task3State extends State<Task3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 222, 220, 228),
-        title: Text('Задание 3'),
+        backgroundColor: const Color.fromARGB(255, 222, 220, 228),
+        title: const Text('Задание 3'),
         centerTitle: true,
       ),
       body: Padding(
-        padding: EdgeInsets.all(16),
+        padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -70,15 +70,16 @@ class _Task3State extends State<Task3> {
                 fillColor: Colors.white,
                 filled: true,
               ),
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.black,
               ),
-              keyboardType: TextInputType.numberWithOptions(decimal: true),
+              keyboardType:
+                  const TextInputType.numberWithOptions(decimal: true),
               inputFormatters: [
                 FilteringTextInputFormatter.allow(RegExp(r'[0-9.]')),
               ],
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             TextField(
               controller: _valueController,
               decoration: const InputDecoration(
@@ -96,7 +97,7 @@ class _Task3State extends State<Task3> {
                 filled: true,
               ),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -108,7 +109,7 @@ class _Task3State extends State<Task3> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: Text(
+                  child: const Text(
                     'Create',
                     style: TextStyle(color: Colors.white),
                   ),
@@ -121,7 +122,7 @@ class _Task3State extends State<Task3> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: Text(
+                  child: const Text(
                     'Read',
                     style: TextStyle(color: Colors.white),
                   ),
@@ -134,23 +135,30 @@ class _Task3State extends State<Task3> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: Text(
+                  child: const Text(
                     'Delete',
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
               ],
             ),
-            SizedBox(height: 16),
-            Text('Пары:',
+            const SizedBox(height: 16),
+            const Text('Пары:',
                 style: TextStyle(
-                  fontSize: 20, // Размер шрифта
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 )),
-            SizedBox(height: 10,),
+            const SizedBox(
+              height: 10,
+            ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: _keyValuePairs.map((pair) => Text(pair, style: TextStyle(fontSize: 20),)).toList(),
+              children: _keyValuePairs
+                  .map((pair) => Text(
+                        pair,
+                        style: const TextStyle(fontSize: 20),
+                      ))
+                  .toList(),
             ),
           ],
         ),

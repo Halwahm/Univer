@@ -1,6 +1,6 @@
 import 'dart:async';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -56,7 +56,7 @@ class DatabaseHelper {
           name TEXT,
           specialty TEXT
         )
-''');
+    ''');
   }
 
   Future<int> createWorker(Worker worker) async {
@@ -97,8 +97,8 @@ class _Task2State extends State<Task2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 222, 220, 228),
-        title: Text('Задание 2'),
+        backgroundColor: const Color.fromARGB(255, 222, 220, 228),
+        title: const Text('Задание 2'),
         centerTitle: true,
       ),
       body: FutureBuilder<List<Worker>>(
@@ -110,7 +110,8 @@ class _Task2State extends State<Task2> {
               itemBuilder: (BuildContext context, int index) {
                 final worker = snapshot.data![index];
                 return Container(
-                  margin: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                  margin:
+                      const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
                   child: ListTile(
                     tileColor: Colors.white,
                     title: Text('Имя: ${worker.name!}'),
@@ -131,7 +132,7 @@ class _Task2State extends State<Task2> {
                                     borderRadius: BorderRadius.circular(10.0),
                                   ),
                                   backgroundColor: Colors.blue,
-                                  title: Text(
+                                  title: const Text(
                                     'Изменить рабочего',
                                     style: TextStyle(color: Colors.white),
                                   ),
@@ -156,11 +157,11 @@ class _Task2State extends State<Task2> {
                                           fillColor: Colors.blue,
                                           filled: true,
                                         ),
-                                        style: TextStyle(
+                                        style: const TextStyle(
                                           color: Colors.white,
                                         ),
                                       ),
-                                      SizedBox(height: 20),
+                                      const SizedBox(height: 20),
                                       TextField(
                                         controller: _specialtyController,
                                         decoration: const InputDecoration(
@@ -179,7 +180,7 @@ class _Task2State extends State<Task2> {
                                           fillColor: Colors.blue,
                                           filled: true,
                                         ),
-                                        style: TextStyle(
+                                        style: const TextStyle(
                                           color: Colors.white,
                                         ),
                                       ),
@@ -187,7 +188,7 @@ class _Task2State extends State<Task2> {
                                   ),
                                   actions: [
                                     TextButton(
-                                      child: Text(
+                                      child: const Text(
                                         'Закрыть',
                                         style: TextStyle(color: Colors.white60),
                                       ),
@@ -196,7 +197,7 @@ class _Task2State extends State<Task2> {
                                       },
                                     ),
                                     TextButton(
-                                      child: Text(
+                                      child: const Text(
                                         'Изменить',
                                         style: TextStyle(color: Colors.white60),
                                       ),
@@ -237,14 +238,14 @@ class _Task2State extends State<Task2> {
               },
             );
           } else {
-            return Center(
+            return const Center(
               child: CircularProgressIndicator(),
             );
           }
         },
       ),
       bottomNavigationBar: Padding(
-        padding: EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(8.0),
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.blue,
@@ -261,7 +262,7 @@ class _Task2State extends State<Task2> {
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                   backgroundColor: Colors.blue,
-                  title: Text(
+                  title: const Text(
                     'Добавить рабочего',
                     style: TextStyle(color: Colors.white),
                   ),
@@ -284,11 +285,11 @@ class _Task2State extends State<Task2> {
                           fillColor: Colors.blue,
                           filled: true,
                         ),
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colors.white,
                         ),
                       ),
-                      SizedBox(height: 20),
+                      const SizedBox(height: 20),
                       TextField(
                         controller: _specialtyController,
                         decoration: const InputDecoration(
@@ -305,7 +306,7 @@ class _Task2State extends State<Task2> {
                           fillColor: Colors.blue,
                           filled: true,
                         ),
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colors.white,
                         ),
                       ),
@@ -313,7 +314,7 @@ class _Task2State extends State<Task2> {
                   ),
                   actions: [
                     TextButton(
-                      child: Text(
+                      child: const Text(
                         'Закрыть',
                         style: TextStyle(color: Colors.white60),
                       ),
@@ -322,7 +323,7 @@ class _Task2State extends State<Task2> {
                       },
                     ),
                     TextButton(
-                      child: Text(
+                      child: const Text(
                         'Добавить',
                         style: TextStyle(color: Colors.white60),
                       ),
@@ -330,8 +331,8 @@ class _Task2State extends State<Task2> {
                         final name = _nameController.text;
                         final specialty = _specialtyController.text;
 
-                        await DatabaseHelper.instance
-                            .createWorker(Worker(name: name, specialty: specialty));
+                        await DatabaseHelper.instance.createWorker(
+                            Worker(name: name, specialty: specialty));
 
                         setState(() {});
 
@@ -343,7 +344,7 @@ class _Task2State extends State<Task2> {
               },
             );
           },
-          child: Text('Добавить рабочего'),
+          child: const Text('Добавить рабочего'),
         ),
       ),
     );

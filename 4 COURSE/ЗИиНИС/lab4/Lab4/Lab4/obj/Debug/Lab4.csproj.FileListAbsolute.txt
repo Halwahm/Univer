@@ -1,0 +1,50 @@
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe.config
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\bin\Debug\Lab4.pdb
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\obj\Debug\Lab4.exe
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\obj\Debug\Lab4.pdb
+D:\Учеба\ЗИНИС\2 сем\Lab4\Lab4\Lab4\obj\Debug\Lab4.Form1.resources
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.Form1.resources
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.pdb
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\obj\Debug\Lab4.Form1.resources
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\Users\bestb\OneDrive\Рабочий стол\University\1ЗИНИС\4lab\Lab4\Lab4\obj\Debug\Lab4.pdb
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\bin\Debug\Lab4.exe.config
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\bin\Debug\Lab4.exe
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\bin\Debug\Lab4.pdb
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.csproj.AssemblyReference.cache
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.csproj.SuggestedBindingRedirects.cache
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.Form1.resources
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.exe
+D:\Miwoder\Protection-of-information-and-reliability-of-information-systems\4lab2s\Lab4\Lab4\obj\Debug\Lab4.pdb
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe.config
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\bin\Debug\Lab4.pdb
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.AssemblyReference.cache
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.Form1.resources
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.exe
+D:\Downloads\6sem-main\ЗИиНИС\Lab4\Lab4\Lab4\obj\Debug\Lab4.pdb

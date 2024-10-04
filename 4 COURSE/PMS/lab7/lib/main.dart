@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          scaffoldBackgroundColor: Color.fromARGB(255, 222, 220, 228),
+          scaffoldBackgroundColor: const Color.fromARGB(255, 222, 220, 228),
           fontFamily: "Bahnschrift"),
       debugShowCheckedModeBanner: false,
       title: 'Lab_07',
@@ -38,11 +38,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0; // Индекс для отслеживания выбранного элемента
 
-  // Список виджетов, которые будут отображаться на каждой странице
   final List<Widget> _widgetOptions = [
-    Task2(),
-    Task3(),
-    Task4(),
+    const Task2(),
+    const Task3(),
+    const Task4(),
   ];
 
   void _onItemTapped(int index) {

@@ -1,6 +1,8 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:lab1/task2.dart';
 import 'package:path_provider/path_provider.dart';
 
 class Task4 extends StatefulWidget {
@@ -13,13 +15,13 @@ class Task4 extends StatefulWidget {
 class _Task4State extends State<Task4> {
   String _content = '';
   String _selectedDirectory = '';
-  TextEditingController _textEditingController = TextEditingController();
+  TextEditingController _nameController = TextEditingController();
+  TextEditingController _specialtyController = TextEditingController();
 
   Future<File> _getFile(String directory) async {
     Directory appDirectory;
 
     if (Platform.isIOS) {
-      // iOS директории
       switch (directory) {
         case 'TemporaryDirectory':
           appDirectory = await getTemporaryDirectory();
@@ -34,14 +36,12 @@ class _Task4State extends State<Task4> {
           appDirectory = await getLibraryDirectory();
           break;
         case 'CacheDirectory':
-          appDirectory =
-              await getTemporaryDirectory(); // iOS Cache maps to Temporary
+          appDirectory = await getTemporaryDirectory();
           break;
         default:
           throw Exception('Directory not supported on iOS platform!');
       }
     } else if (Platform.isAndroid) {
-      // Android директории
       switch (directory) {
         case 'TemporaryDirectory':
           appDirectory = await getTemporaryDirectory();
@@ -65,8 +65,7 @@ class _Task4State extends State<Task4> {
           appDirectory = (await getDownloadsDirectory())!;
           break;
         case 'CacheDirectory':
-          appDirectory =
-              await getTemporaryDirectory(); // Cache mapping to Temporary
+          appDirectory = await getTemporaryDirectory();
           break;
         default:
           throw Exception('Directory not supported on Android platform!');
@@ -75,23 +74,30 @@ class _Task4State extends State<Task4> {
       throw Exception('Unsupported platform');
     }
 
-    return File('${appDirectory.path}/example.txt');
+    return File('${appDirectory.path}/worker.json');
   }
 
   Future<String> _readFile(String directory) async {
     try {
       final file = await _getFile(directory);
       final contents = await file.readAsString();
-      return contents;
+
+      // Преобразуем JSON-строку обратно в объект Worker
+      final workerMap = jsonDecode(contents);
+      Worker worker = Worker.fromMap(workerMap);
+
+      return 'Имя: ${worker.name}, Специальность: ${worker.specialty}';
     } catch (e) {
       return 'Error reading file: $e';
     }
   }
 
-  Future<void> _writeFile(String directory, String content) async {
+  Future<void> _writeFile(String directory, Worker worker) async {
     try {
       final file = await _getFile(directory);
-      await file.writeAsString(content);
+      // Конвертируем объект Worker в строку JSON
+      final workerJson = jsonEncode(worker.toMap());
+      await file.writeAsString(workerJson);
     } catch (e) {
       setState(() {
         _content = 'Error writing to file: $e';
@@ -101,7 +107,8 @@ class _Task4State extends State<Task4> {
 
   @override
   void dispose() {
-    _textEditingController.dispose();
+    _nameController.dispose();
+    _specialtyController.dispose();
     super.dispose();
   }
 
@@ -109,12 +116,11 @@ class _Task4State extends State<Task4> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 222, 220, 228),
-          title: Text('Задание 4'),
+          backgroundColor: const Color.fromARGB(255, 222, 220, 228),
+          title: const Text('Задание 4'),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
-          // Добавлен SingleChildScrollView
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -133,23 +139,33 @@ class _Task4State extends State<Task4> {
                 _buildDirectoryButton('ExternalStorageDirectories',
                     'External Storage Directories'),
                 _buildDirectoryButton('Downloads', 'Downloads'),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
                 Text('Директория: $_selectedDirectory',
-                    style: TextStyle(
-                      fontSize: 15, // Размер шрифта
+                    style: const TextStyle(
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     )),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 25.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 25.0),
                   child: TextField(
-                    controller: _textEditingController,
-                    decoration: InputDecoration(
-                      labelText: 'Вводимая информация',
+                    controller: _nameController,
+                    decoration: const InputDecoration(
+                      labelText: 'Имя',
                     ),
                   ),
                 ),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                  child: TextField(
+                    controller: _specialtyController,
+                    decoration: const InputDecoration(
+                      labelText: 'Специальность',
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 16),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -166,17 +182,20 @@ class _Task4State extends State<Task4> {
                           borderRadius: BorderRadius.circular(10),
                         ),
                       ),
-                      child: Text(
-                        'Read File',
+                      child: const Text(
+                        'Читать файл',
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
                     ElevatedButton(
                       onPressed: () async {
-                        final text = _textEditingController.text;
-                        if (text.isNotEmpty) {
-                          await _writeFile(_selectedDirectory, text);
-                        }
+                        final worker = Worker(
+                          name: _nameController.text,
+                          specialty: _specialtyController.text,
+                        );
+
+                        await _writeFile(_selectedDirectory, worker);
+                        setState(() {});
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.blue,
@@ -184,18 +203,18 @@ class _Task4State extends State<Task4> {
                           borderRadius: BorderRadius.circular(10),
                         ),
                       ),
-                      child: Text(
-                        'Write File',
+                      child: const Text(
+                        'Записать файл',
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
                   ],
                 ),
-                SizedBox(height: 16),
-                Text('Содержимое файла:'),
-                SizedBox(height: 8),
-                Text('$_content'),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
+                const Text('Содержимое файла:'),
+                const SizedBox(height: 8),
+                Text(_content),
+                const SizedBox(height: 16),
               ],
             ),
           ),
@@ -216,11 +235,11 @@ class _Task4State extends State<Task4> {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),
-          minimumSize: Size(300, 40),
+          minimumSize: const Size(300, 40),
         ),
         child: Text(
           label,
-          style: TextStyle(color: Colors.white, fontSize: 18),
+          style: const TextStyle(color: Colors.white, fontSize: 18),
         ),
       ),
     );
