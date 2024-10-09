@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>PWS-2</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>PWS-2</h2>
+        <button onclick="sendGetRequest()" class="btn btn-info">GET</button>
+        <button onclick="sendPostRequest()" class="btn btn-success">POST</button>
+        <button onclick="sendPutRequest()" class="btn btn-danger">PUT</button>
+        <button onclick="sendDeleteRequest()" class="btn btn-primary">DELETE</button>
+        <pre id="result" class="mt-2"></pre>
+    </div>
+    
+
+    <script>
+        const resultElement = $('#result');
+
+        function sendGetRequest() {
+            $.ajax({
+                type: 'GET',
+                url: 'http://localhost:1945/api/pws',      // localhost:1945 — адрес сайта в IIS
+                success: function (data) {
+                    resultElement.text(JSON.stringify(data, null, 2));
+                },
+                error: function (error) {
+                    resultElement.text(error.responseJSON.Message);
+                    console.error('GET Request Error:', error);
+                }
+            });
+        }
+
+        function sendPostRequest() {
+            const resultParameter = prompt('Enter integer parameter RESULT:');
+            if (resultParameter !== null) {
+                $.ajax({
+                    type: 'POST',
+                    url: `http://localhost:1945/api/pws?result=${resultParameter}`,
+                    success: function () {
+                        resultElement.text('POST Request Successful');
+                    },
+                    error: function (error) {
+                        resultElement.text(error.responseJSON.Message);
+                        console.error('POST Request Error:', error);
+                    }
+                });
+            }
+        }
+
+        function sendPutRequest() {
+            const addParameter = prompt('Enter integer parameter ADD:');
+            if (addParameter !== null) {
+                $.ajax({
+                    type: 'PUT',
+                    url: `http://localhost:1945/api/pws?add=${addParameter}`,
+                    success: function () {
+                        resultElement.text('PUT Request Successful');
+                    },
+                    error: function (error) {
+                        resultElement.text(error.responseJSON.Message);
+                        console.error('PUT Request Error:', error);
+                    }
+                });
+            }
+        }
+
+        function sendDeleteRequest() {
+            $.ajax({
+                type: 'DELETE',
+                url: 'http://localhost:1945/api/pws',
+                success: function () {
+                    resultElement.text('DELETE Request Successful');
+                },
+                error: function (error) {
+                    resultElement.text(error.responseJSON.Message);
+                    console.error('DELETE Request Error:', error);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
