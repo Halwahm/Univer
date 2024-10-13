@@ -1,0 +1,136 @@
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Lab-02.dll.config
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Lab-02.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Lab-02.pdb
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\csc.exe
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\csc.exe.config
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\csc.rsp
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\csi.exe
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\csi.exe.config
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\csi.rsp
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Buffers.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Memory.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\vbc.exe
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\vbc.exe.config
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\vbc.rsp
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\VBCSCompiler.exe
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Antlr3.Runtime.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Newtonsoft.Json.Bson.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Newtonsoft.Json.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Buffers.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Memory.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Net.Http.Formatting.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Numerics.Vectors.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Web.Http.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Web.Http.WebHost.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Newtonsoft.Json.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Newtonsoft.Json.Bson.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Buffers.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Memory.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Net.Http.Formatting.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Numerics.Vectors.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Web.Http.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Web.Http.WebHost.xml
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\Antlr3.Runtime.pdb
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\obj\Release\Lab-02.csproj.AssemblyReference.cache
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\obj\Release\Lab-02.csproj.CoreCompileInputs.cache
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\obj\Release\Lab-02.csproj.Up2Date
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\obj\Release\Lab-02.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\obj\Release\Lab-02.pdb
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Web.Cors.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Web.Http.Cors.dll
+C:\Users\demid\OneDrive\Рабочий стол\ASP\Lab-02\bin\System.Web.Http.Cors.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Lab-02.dll.config
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Lab-02.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Lab-02.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\csc.exe
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\csc.exe.config
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\csc.rsp
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\csi.exe
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\csi.exe.config
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\csi.rsp
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Buffers.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Collections.Immutable.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Memory.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Numerics.Vectors.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Reflection.Metadata.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\vbc.exe
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\vbc.exe.config
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\vbc.rsp
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\VBCSCompiler.exe
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\roslyn\VBCSCompiler.exe.config
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Antlr3.Runtime.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Microsoft.Web.Infrastructure.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Newtonsoft.Json.Bson.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Newtonsoft.Json.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Buffers.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Memory.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Net.Http.Formatting.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Numerics.Vectors.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Threading.Tasks.Extensions.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Web.Cors.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Web.Http.Cors.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Web.Http.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Web.Http.WebHost.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Newtonsoft.Json.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Newtonsoft.Json.Bson.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Newtonsoft.Json.Bson.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Buffers.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Memory.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Net.Http.Formatting.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Numerics.Vectors.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Threading.Tasks.Extensions.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Web.Http.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Web.Http.Cors.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\System.Web.Http.WebHost.xml
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\bin\Antlr3.Runtime.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\obj\Release\Lab-02.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\obj\Release\Lab-02.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\obj\Release\Lab-02.csproj.Up2Date
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\obj\Release\Lab-02.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab2\obj\Release\Lab-02.pdb

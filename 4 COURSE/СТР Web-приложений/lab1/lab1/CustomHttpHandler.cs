@@ -9,7 +9,7 @@
 
     public async Task InvokeAsync(HttpContext context)
     {
-        await context.Session.LoadAsync(); // Загружаем данные сессии
+        await context.Session.LoadAsync();
 
         if (!context.Session.Keys.Contains("Result"))
         {
