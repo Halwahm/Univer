@@ -25,7 +25,7 @@ namespace WebClients.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:80/rest.dea")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:81/rest.vvs")]
         public string Lab_01_Url {
             get {
                 return ((string)(this["Lab_01_Url"]));

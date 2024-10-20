@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\webclients\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\webclients\\labviews\\lab-02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\webclients\\labviews\\lab-02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\labviews\\lab-02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\labviews\\lab-04a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-04a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\labviews\\lab-04.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-04.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\webclients\\services\\lab-04\\simplexinterfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:services\\lab-04\\simplexinterfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\services\\lab-04\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:services\\lab-04\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\labviews\\lab-01.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-01.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,102 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lab-02.aspx.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx.cs",
-              "RelativeDocumentMoniker": "LabViews\\Lab-02.aspx.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx.cs",
-              "RelativeToolTip": "LabViews\\Lab-02.aspx.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAIwHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T05:51:14.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lab-02.aspx",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx",
-              "RelativeDocumentMoniker": "LabViews\\Lab-02.aspx",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx*",
-              "RelativeToolTip": "LabViews\\Lab-02.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-12T05:51:12.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Lab-04a.cshtml",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-04a.cshtml",
-              "RelativeDocumentMoniker": "LabViews\\Lab-04a.cshtml",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-04a.cshtml",
-              "RelativeToolTip": "LabViews\\Lab-04a.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T18:15:13.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ViewSwitcher.ascx",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\ViewSwitcher.ascx",
-              "RelativeDocumentMoniker": "ViewSwitcher.ascx",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\ViewSwitcher.ascx",
-              "RelativeToolTip": "ViewSwitcher.ascx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-10-04T18:10:16.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Lab-04.aspx",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-04.aspx",
-              "RelativeDocumentMoniker": "LabViews\\Lab-04.aspx",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-04.aspx",
-              "RelativeToolTip": "LabViews\\Lab-04.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-04T18:10:09.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SimplexInterfaces.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Services\\Lab-04\\SimplexInterfaces.cs",
-              "RelativeDocumentMoniker": "Services\\Lab-04\\SimplexInterfaces.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Services\\Lab-04\\SimplexInterfaces.cs",
-              "RelativeToolTip": "Services\\Lab-04\\SimplexInterfaces.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T18:07:54.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Simplex.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Services\\Lab-04\\Simplex.cs",
-              "RelativeDocumentMoniker": "Services\\Lab-04\\Simplex.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Services\\Lab-04\\Simplex.cs",
-              "RelativeToolTip": "Services\\Lab-04\\Simplex.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T18:07:53.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Site.Master",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Site.Master",
               "RelativeDocumentMoniker": "Site.Master",
@@ -157,46 +34,32 @@
               "RelativeToolTip": "Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-20T12:39:16.851Z",
+              "WhenOpened": "2024-10-19T05:25:57.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Site.Master.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Site.Master.cs",
-              "RelativeDocumentMoniker": "Site.Master.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Site.Master.cs",
-              "RelativeToolTip": "Site.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Lab-02.aspx.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx.cs",
+              "RelativeDocumentMoniker": "LabViews\\Lab-02.aspx.cs",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx.cs",
+              "RelativeToolTip": "LabViews\\Lab-02.aspx.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAuwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T12:39:21.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T16:29:31.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Site.Master.designer.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Site.Master.designer.cs",
-              "RelativeDocumentMoniker": "Site.Master.designer.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\Site.Master.designer.cs",
-              "RelativeToolTip": "Site.Master.designer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T12:39:20.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Lab-01.aspx.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-01.aspx.cs",
-              "RelativeDocumentMoniker": "LabViews\\Lab-01.aspx.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-01.aspx.cs",
-              "RelativeToolTip": "LabViews\\Lab-01.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T06:41:06.057Z",
+              "DocumentIndex": 1,
+              "Title": "Lab-02.aspx",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx",
+              "RelativeDocumentMoniker": "LabViews\\Lab-02.aspx",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx",
+              "RelativeToolTip": "LabViews\\Lab-02.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-18T16:28:21.844Z",
               "EditorCaption": ""
             }
           ]

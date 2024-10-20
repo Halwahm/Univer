@@ -13,12 +13,5 @@ namespace Lab_02
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
-        protected void Application_PostAuthorizeRequest()
-        {
-            if (HttpContext.Current.Request.AppRelativeCurrentExecutionFilePath.StartsWith("~/api"))
-            {
-                HttpContext.Current.SetSessionStateBehavior(System.Web.SessionState.SessionStateBehavior.Required);
-            }
-        }
     }
 }

@@ -1,9 +1,15 @@
 ﻿using System;
-using System.IO;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
-using System.Text;
+using System.Web;
 using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.IO;
 using Newtonsoft.Json;
+using WebClients.Helpers;
+using System.Text;
+using System.Web.Services;
 
 namespace WebClients.LabViews
 {
@@ -11,112 +17,115 @@ namespace WebClients.LabViews
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if(!IsPostBack)
             {
-                // Дополнительная логика при первом загрузке страницы
+                Context.Session.Add("cookies", new CookieContainer());
             }
         }
 
-        // Обработчик для кнопки POST
+        [WebMethod]
         protected void POSTBtn_Click(object sender, EventArgs e)
         {
-            try
+            customerr1.Visible = false;
+            customerr2.Visible = false;
+            HttpWebRequest myReq = (HttpWebRequest)WebRequest.Create("http://localhost:82/api/Values/");
+            myReq.Method = "POST";
+            myReq.CookieContainer = (CookieContainer)Context.Session["cookies"];
+            myReq.ContentType = "application/x-www-form-urlencoded";
+            if (Result.Text.Length > 0)
             {
-                int resultValue = int.Parse(Result.Text);
-                var response = SendRequest("POST", $"http://localhost:88/api/Values?result={resultValue}", null);
-
-                var jsonResponse = JsonConvert.DeserializeObject<dynamic>(response);
-                customerr1.Visible = jsonResponse.Message == null;
-                customerr1.Text = jsonResponse.Message;
+                byte[] param = Encoding.UTF8.GetBytes($"result={int.Parse(Result.Text)}");
+                myReq.GetRequestStream().Write(param, 0, param.Length);
+            } else
+            {
+                myReq.ContentLength = 0;
             }
-            catch (Exception ex)
+
+            HttpWebResponse myRes = (HttpWebResponse)myReq.GetResponse();
+            Response json_response = null;
+            using (StreamReader reader = new StreamReader(myRes.GetResponseStream()))
             {
+                string body = reader.ReadToEnd();
+                json_response = JsonConvert.DeserializeObject<Response>(body);
+            }
+            if (json_response.status != "Success")
+            {
+                customerr1.Text = json_response.message;
                 customerr1.Visible = true;
-                customerr1.Text = "Ошибка: " + ex.Message;
             }
         }
 
-        // Обработчик для кнопки GET
+        [WebMethod]
         protected void GETBtn_Click(object sender, EventArgs e)
         {
-            try
+            customerr1.Visible = false;
+            customerr2.Visible = false;
+            HttpWebRequest myReq = (HttpWebRequest)WebRequest.Create("http://localhost:82/api/Values/");
+            myReq.Method = "GET";
+            myReq.CookieContainer = (CookieContainer)Context.Session["cookies"];
+            HttpWebResponse myRes = (HttpWebResponse)myReq.GetResponse();
+            if (myRes.StatusCode == HttpStatusCode.OK)
             {
-                var response = SendRequest("GET", "http://localhost:88/api/Values", null);
-
-                var jsonResponse = JsonConvert.DeserializeObject<dynamic>(response);
-                GetResult.Text = jsonResponse.Result.ToString();
-            }
-            catch (Exception ex)
-            {
-                customerr1.Visible = true;
-                customerr1.Text = "Ошибка: " + ex.Message;
-            }
-        }
-
-        // Обработчик для кнопки PUT
-        protected void PUTBtn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                int addValue = int.Parse(Add.Text);
-                var response = SendRequest("PUT", $"http://localhost:88/api/Values?add={addValue}", null);
-
-                var jsonResponse = JsonConvert.DeserializeObject<dynamic>(response);
-                customerr2.Visible = jsonResponse.Message == null;
-                customerr2.Text = jsonResponse.Message;
-            }
-            catch (Exception ex)
-            {
-                customerr2.Visible = true;
-                customerr2.Text = "Ошибка: " + ex.Message;
-            }
-        }
-
-        // Обработчик для кнопки DELETE
-        protected void DELETEBtn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                var response = SendRequest("DELETE", "http://localhost:88/api/Values", null);
-
-                var jsonResponse = JsonConvert.DeserializeObject<dynamic>(response);
-                customerr2.Visible = jsonResponse.Message == null;
-                customerr2.Text = jsonResponse.Message;
-            }
-            catch (Exception ex)
-            {
-                customerr2.Visible = true;
-                customerr2.Text = "Ошибка: " + ex.Message;
-            }
-        }
-
-        // Метод для отправки запросов
-        private string SendRequest(string method, string url, string data)
-        {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.Method = method;
-            request.ContentType = "application/json";
-
-            // Если запрос POST или PUT, нужно установить Content-Length
-            if (method != "GET" && !string.IsNullOrEmpty(data))
-            {
-                byte[] postData = Encoding.UTF8.GetBytes(data);
-                request.ContentLength = postData.Length;
-
-                using (Stream stream = request.GetRequestStream())
+                using (StreamReader reader = new StreamReader(myRes.GetResponseStream()))
                 {
-                    stream.Write(postData, 0, postData.Length);
+                    string body = reader.ReadToEnd();
+                    Response json_response = JsonConvert.DeserializeObject<Response>(body);
+                    GetResult.Text = json_response.result.Value.ToString();
                 }
             }
-            else
+        }
+
+        [WebMethod]
+        protected void PUTBtn_Click(object sender, EventArgs e)
+        {
+            customerr1.Visible = false;
+            customerr2.Visible = false;
+            HttpWebRequest myReq = (HttpWebRequest)WebRequest.Create("http://localhost:82/api/Values/");
+            myReq.Method = "PUT";
+            myReq.CookieContainer = (CookieContainer)Context.Session["cookies"];
+            myReq.ContentType = "application/x-www-form-urlencoded";
+            if (Add.Text.Length > 0)
             {
-                request.ContentLength = 0; // Если нет данных, Content-Length должен быть 0
+                byte[] param = Encoding.UTF8.GetBytes($"add={int.Parse(Add.Text)}");
+                myReq.GetRequestStream().Write(param, 0, param.Length);
+            } else
+            {
+                myReq.ContentLength = 0;
             }
 
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+            HttpWebResponse myRes = (HttpWebResponse)myReq.GetResponse();
+            Response json_response = null;
+            using (StreamReader reader = new StreamReader(myRes.GetResponseStream()))
             {
-                return reader.ReadToEnd();
+                string body = reader.ReadToEnd();
+                json_response = JsonConvert.DeserializeObject<Response>(body);
+            }
+            if (json_response.status != "Success")
+            {
+                customerr2.Text = json_response.message;
+                customerr2.Visible = true;
+            }
+        }
+
+        [WebMethod]
+        protected void DELETEBtn_Click(object sender, EventArgs e)
+        {
+            customerr1.Visible = false;
+            customerr2.Visible = false;
+            HttpWebRequest myReq = (HttpWebRequest)WebRequest.Create("http://localhost:82/api/Values/");
+            myReq.Method = "DELETE";
+            myReq.CookieContainer = (CookieContainer)Context.Session["cookies"];
+            HttpWebResponse myRes = (HttpWebResponse)myReq.GetResponse();
+            Response json_response = null;
+            using (StreamReader reader = new StreamReader(myRes.GetResponseStream()))
+            {
+                string body = reader.ReadToEnd();
+                json_response = JsonConvert.DeserializeObject<Response>(body);
+            }
+            if (json_response.status != "Success")
+            {
+                customerr2.Text = json_response.message;
+                customerr2.Visible = true;
             }
         }
     }

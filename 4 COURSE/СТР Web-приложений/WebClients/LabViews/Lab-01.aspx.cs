@@ -17,7 +17,8 @@ namespace WebClients.LabViews
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            // выполняется только при первом запросе страницы
+            if (!IsPostBack)
             {
                 Context.Session.Add("cookies", new CookieContainer());
             }
@@ -32,6 +33,7 @@ namespace WebClients.LabViews
             myReq.ContentType = "application/x-www-form-urlencoded";
             if (Result.Text.Length > 0)
             {
+                //  из поля post добавляются в тело запроса в виде параметра result
                 byte[] param = Encoding.UTF8.GetBytes($"result={int.Parse(Result.Text)}");
                 myReq.GetRequestStream().Write(param, 0, param.Length);
             } else
@@ -39,6 +41,7 @@ namespace WebClients.LabViews
                 myReq.ContentLength = 0;
             }
 
+            // ответ от сервера
             HttpWebResponse myRes = (HttpWebResponse)myReq.GetResponse();
             Response json_response = null;
             using (StreamReader reader = new StreamReader(myRes.GetResponseStream()))
@@ -56,6 +59,7 @@ namespace WebClients.LabViews
 
         protected void GETBtn_Click(object sender, EventArgs e)
         {
+            // поле для ошибок
             customerr1.Visible = false;
             customerr2.Visible = false;
             HttpWebRequest myReq = (HttpWebRequest)WebRequest.Create(Settings.Default.Lab_01_Url);

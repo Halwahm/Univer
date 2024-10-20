@@ -12,6 +12,7 @@ namespace Lab_02
 
             config.MapHttpAttributeRoutes();
 
+            // {controllers} с клиента придет Values -> ValuesController (соглосование имен)
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

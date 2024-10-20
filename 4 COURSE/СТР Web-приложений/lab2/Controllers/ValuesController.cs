@@ -1,77 +1,104 @@
-﻿using System;
+﻿using Lab_02.Helpers;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
-namespace WebClients.Controllers
+namespace Lab_02.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class ValuesController : ApiController
     {
-        // GET api/values
+        private int Result;
+        private Stack<int> vs;
+
+        public ValuesController()
+        {
+            if (HttpContext.Current.Application["Result"] == null)
+            {
+                HttpContext.Current.Application.Add("Result", 0);
+            }
+            this.Result = (int)HttpContext.Current.Application["Result"];
+
+            if (HttpContext.Current.Application["Stack"] == null)
+            {
+                HttpContext.Current.Application.Add("Stack", new Stack<int>());
+            }
+            this.vs = (Stack<int>)HttpContext.Current.Application["Stack"];
+        }
+
+        ~ValuesController()
+        {
+            HttpContext.Current.Application.Set("Result", this.Result);
+            HttpContext.Current.Application.Set("Stack", this.vs);
+        }
+
         [HttpGet]
         public HttpResponseMessage Get()
         {
-            // Проверяем наличие значения "Result" в сессии
-            int result = HttpContext.Current.Session["Result"] != null
-                ? (int)HttpContext.Current.Session["Result"]
-                : 0;
-
-            // Возвращаем результат в формате JSON
-            return Request.CreateResponse(HttpStatusCode.OK, new { Result = result });
+            HttpResponseMessage response = Request.CreateResponse();
+            var result = this.Result + (this.vs.Count > 0 ? this.vs.Peek() : 0);
+            response.Content = new StringContent($@"{{ ""Status"":""Success"", ""Result"":{result} }}", Encoding.UTF8, "application/json");
+            this.Result = result;
+            HttpContext.Current.Application.Set("Result", this.Result);
+            response.StatusCode = HttpStatusCode.OK;
+            return response;
         }
 
-        // POST api/values
-        [HttpPost]
-        public HttpResponseMessage Post([FromUri] int result)
+        public HttpResponseMessage Post([FromBody] Parameters param)
         {
-            // Устанавливаем новое значение "Result" в сессии
-            HttpContext.Current.Session["Result"] = result;
-            return Request.CreateResponse(HttpStatusCode.OK, new { Message = $"Result изменен на: {result}" });
-        }
-
-        // PUT api/values
-        [HttpPut]
-        public HttpResponseMessage Put([FromUri] int add)
-        {
-            // Проверяем наличие стека в сессии и инициализируем его, если нужно
-            Stack<int> stack = HttpContext.Current.Session["Stack"] as Stack<int> ?? new Stack<int>();
-            stack.Push(add);
-
-            // Сохраняем стек в сессии
-            HttpContext.Current.Session["Stack"] = stack;
-
-            return Request.CreateResponse(HttpStatusCode.OK, new { Message = $"Значение {add} добавлено в стек." });
-        }
-
-        // DELETE api/values
-        [HttpDelete]
-        public HttpResponseMessage Delete()
-        {
-            // Получаем стек из сессии
-            Stack<int> stack = HttpContext.Current.Session["Stack"] as Stack<int> ?? new Stack<int>();
-
-            // Проверяем, не пуст ли стек
-            if (stack.Count == 0)
+            HttpResponseMessage response = Request.CreateResponse();
+            response.StatusCode = HttpStatusCode.OK;
+            if (param.Result.HasValue)
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, new { Message = "Стек пуст." });
+                this.Result = param.Result.Value;
+                HttpContext.Current.Application.Set("Result", this.Result);
+                response.Content = new StringContent($@"{{ ""Status"":""Success"" }}", Encoding.UTF8, "application/json");
+            }
+            else
+            {
+                response.Content = new StringContent($@"{{ ""Status"":""Error"", ""Message"":""Missing Result parameter!""  }}", Encoding.UTF8, "application/json");
             }
 
-            // Удаляем значение из стека и обновляем Result
-            int popValue = stack.Pop();
+            return response;
+        }
+       public HttpResponseMessage Put([FromBody] Parameters param)
+        {
+            HttpResponseMessage response = Request.CreateResponse();
+            response.StatusCode = HttpStatusCode.OK;
+            if (param.Add.HasValue)
+            {
+                this.vs.Push(param.Add.Value);
+                response.Content = new StringContent($@"{{ ""Status"":""Success"" }}", Encoding.UTF8, "application/json");
+            }
+            else
+            {
+                response.Content = new StringContent($@"{{ ""Status"":""Error"", ""Message"":""Missing Add parameter!""  }}", Encoding.UTF8, "application/json");
+            }
 
-            // Получаем текущее значение Result из сессии
-            int result = HttpContext.Current.Session["Result"] != null
-                ? (int)HttpContext.Current.Session["Result"]
-                : 0;
+            return response;
+        }
 
-            // Обновляем значение Result
-            result += popValue;
-            HttpContext.Current.Session["Result"] = result;
-            HttpContext.Current.Session["Stack"] = stack;
+        public HttpResponseMessage Delete()
+        {
+            HttpResponseMessage response = Request.CreateResponse();
+            response.StatusCode = HttpStatusCode.OK;
+            if (this.vs.Count > 0)
+            {
+                _ = this.vs.Pop();
+                response.Content = new StringContent($@"{{ ""Status"":""Success"" }}", Encoding.UTF8, "application/json");
+            }
+            else
+            {
+                response.Content = new StringContent($@"{{ ""Status"":""Error"", ""Message"":""Stack already empty!""  }}", Encoding.UTF8, "application/json");
+            }
 
-            return Request.CreateResponse(HttpStatusCode.OK, new { Message = $"Значение {popValue} удалено из стека. Result = {result}" });
+            return response;
         }
     }
 }

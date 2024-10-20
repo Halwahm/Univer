@@ -11,9 +11,12 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
+     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/styles.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -51,13 +54,11 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/LabViews/Lab-01">Lab-01</a></li>
+<%--                        <li><a runat="server" href="~/LabViews/Lab-01">Lab-01</a></li>--%>
                         <li><a runat="server" href="~/LabViews/Lab-02">Lab-02</a></li>
-                        <li><a runat="server" href="~/Contact">Lab-03 (WiP)</a></li>
+                        <%--<li><a runat="server" href="~">Lab-03 (WiP)</a></li>
                         <li><a runat="server" href="~/LabViews/Lab-04">Lab-04</a></li>
-                        <li><a runat="server" href="~/LabViews/Lab-04a.cshtml">Lab-04a</a></li>
+                        <li><a runat="server" href="~/LabViews/Lab-04a.cshtml">Lab-04a</a></li>--%>
                     </ul>
                 </div>
             </div>
@@ -66,9 +67,6 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
         </div>
 
     </form>
