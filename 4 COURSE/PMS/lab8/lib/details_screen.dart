@@ -223,9 +223,9 @@ class _DetailsScreenState extends State<DetailsScreen> {
                 }).toList(),
               ),
               const SizedBox(height: 24),
-              Row(
+              const Row(
                 children: [
-                  const Text(
+                  Text(
                     "Отзывы 39",
                     style: TextStyle(
                       fontSize: 22,
@@ -233,7 +233,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                       color: Color(0xFF1D1E3C),
                     ),
                   ),
-                  const SizedBox(width: 40),
+                  SizedBox(width: 40),
                   Row(
                     children: [
                       CircleAvatar(
