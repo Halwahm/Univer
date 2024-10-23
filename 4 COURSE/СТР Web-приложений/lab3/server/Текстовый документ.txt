@@ -1,0 +1,148 @@
+using lab3.Context;
+using lab3.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Web;
+using System.Web.Http;
+using System.Web.Mvc;
+using HttpDeleteAttribute = System.Web.Http.HttpDeleteAttribute;
+using HttpGetAttribute = System.Web.Http.HttpGetAttribute;
+using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
+using HttpPutAttribute = System.Web.Http.HttpPutAttribute;
+using RouteAttribute = System.Web.Http.RouteAttribute;
+using RoutePrefixAttribute = System.Web.Http.RoutePrefixAttribute;
+
+namespace lab3.Controllers
+{
+    [RoutePrefix("api/students")]
+    public class StudentsController : ApiController
+    {
+        private StudentDbContext db = new StudentDbContext();
+
+        // GET: api/students?limit=10&sort=NAME&offset=0&minid=1&maxid=100&like=Ivan&columns=ID,PHONE
+        [HttpGet]
+        [Route("")]
+        public IHttpActionResult GetStudents(int limit = 10, string sort = null, int offset = 0, int? minid = null, int? maxid = null, string like = null, string columns = null)
+        {
+            try
+            {
+                var students = db.Students.AsQueryable();
+
+                // Фильтрация по minid и maxid
+                if (minid.HasValue) students = students.Where(s => s.ID >= minid.Value);
+                if (maxid.HasValue) students = students.Where(s => s.ID <= maxid.Value);
+
+                // Фильтрация по like
+                if (!string.IsNullOrEmpty(like)) students = students.Where(s => s.Name.Contains(like));
+
+                // Сортировка
+                if (!string.IsNullOrEmpty(sort) && sort.ToUpper() == "NAME")
+                    students = students.OrderBy(s => s.Name);
+                else
+                    students = students.OrderBy(s => s.ID);
+
+                // Применение offset и limit
+                students = students.Skip(offset).Take(limit);
+
+                // Создание HATEOAS ссылок для каждого студента
+                var studentList = students.ToList().Select(s => new
+                {
+                    ID = s.ID,
+                    Name = s.Name,
+                    Phone = s.Phone,
+                    links = new
+                    {
+                        // ссылка на сам ресурс (DefaultApi - имя маршрута)
+                        self = Url.Link("DefaultApi", new { controller = "students", id = s.ID })
+
+                        // ссылка на изменение ресурса
+                        //edit = Url.Link("DefaultApi", new { controller = "students", id = s.ID }), // PUT запрос
+                        // ссылка на удаление ресурса
+                        //delete = Url.Link("DefaultApi", new { controller = "students", id = s.ID })  // DELETE запрос
+                    }
+                });
+
+                return Ok(studentList);
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
+
+        [HttpGet]
+        [Route("{id:int}")]
+        public IHttpActionResult GetStudent(int id)
+        {
+            var student = db.Students.Find(id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            var response = new
+            {
+                data = student,
+                links = new
+                {
+                    self = $"/api/students/{id}",
+                    all_students = "/api/students"
+                }
+            };
+
+            return Ok(response);
+        }
+
+        [HttpPost]
+        [Route("")]
+        public IHttpActionResult CreateStudent(Student student)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            db.Students.Add(student);
+            db.SaveChanges();
+
+            return Created("api/students", student);
+        }
+
+
+        [HttpPut]
+        [Route("{id:int}")]
+        public IHttpActionResult UpdateStudent(int id, Student student)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var existingStudent = db.Students.Find(id);
+            if (existingStudent == null)
+            {
+                return NotFound();
+            }
+            existingStudent.Name = student.Name;
+            existingStudent.Phone = student.Phone;
+            db.SaveChanges();
+            return StatusCode(HttpStatusCode.NoContent);
+        }
+
+        [HttpDelete]
+        [Route("{id:int}")]
+        public IHttpActionResult DeleteStudent(int id)
+        {
+            var student = db.Students.Find(id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+            db.Students.Remove(student);
+            db.SaveChanges();
+            return StatusCode(HttpStatusCode.NoContent);
+        }
+    }
+
+}
