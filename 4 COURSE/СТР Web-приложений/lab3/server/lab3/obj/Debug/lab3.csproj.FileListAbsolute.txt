@@ -343,9 +343,9 @@ D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\bin
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\bin\ru\System.Web.WebPages.Razor.resources.dll
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\bin\ru\System.Web.Optimization.resources.dll
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.csproj.AssemblyReference.cache
-D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.Migrations.InitialCreate.resources
-D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.csproj.GenerateResource.cache
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.csproj.Up2Date
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.dll
 D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.Migrations.InitialCreate.resources
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab3\server\lab3\obj\Debug\lab3.csproj.GenerateResource.cache
