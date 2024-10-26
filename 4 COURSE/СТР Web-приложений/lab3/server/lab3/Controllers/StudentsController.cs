@@ -73,7 +73,9 @@ namespace lab3.Controllers
                 s.Phone,
                 links = new
                 {
-                    self = Url.Link("DefaultApi", new { controller = "students", id = s.ID })
+                    self = Url.Link("DefaultApi", new { controller = "students", id = s.ID }),
+                    edit = Url.Link("DefaultApi", new { controller = "students", id = s.ID }),
+                    delete = Url.Link("DefaultApi", new { controller = "students", id = s.ID })
                 }
             });
         }
