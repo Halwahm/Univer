@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\labviews\\lab-02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\labviews\\lab-02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\webclients\\labviews\\lab-02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-02.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\webclients\\labviews\\lab-02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2621F52-BF06-4E7E-9162-F9D85153AB3E}|WebClients.csproj|solutionrelative:labviews\\lab-02.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Lab-02.aspx.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx.cs",
               "RelativeDocumentMoniker": "LabViews\\Lab-02.aspx.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx.cs",
               "RelativeToolTip": "LabViews\\Lab-02.aspx.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T16:29:31.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Lab-02.aspx",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\WebClients\\LabViews\\Lab-02.aspx",
               "RelativeDocumentMoniker": "LabViews\\Lab-02.aspx",

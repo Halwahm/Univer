@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Web.Http;
-using System.Web.Mvc;
+using System.Xml.Linq;
 using HttpDeleteAttribute = System.Web.Http.HttpDeleteAttribute;
 using HttpGetAttribute = System.Web.Http.HttpGetAttribute;
 using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
@@ -22,7 +22,7 @@ namespace lab3.Controllers
 
         [HttpGet]
         [Route("")]
-        public IHttpActionResult FetchStudents(int limit = 10, string sort = null, int offset = 0, 
+        public IHttpActionResult FetchStudents(int limit = 10, string sort = null, int offset = 0,
             int? minid = null, int? maxid = null, string like = null, string columns = null)
         {
             try
@@ -36,11 +36,28 @@ namespace lab3.Controllers
                 var students = query.ToList();
                 var studentList = CreateHateoasLinks(students);
 
+                if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
+                {
+                    return Ok(new XElement("Students",
+                        students.Select(s => new XElement("Student",
+                            new XElement("ID", s.ID),
+                            new XElement("Name", s.Name),
+                            new XElement("Phone", s.Phone),
+                            new XElement("Links",
+                                new XElement("Self", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{s.ID}"),
+                                new XElement("Edit", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{s.ID}"),
+                                new XElement("Delete", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{s.ID}"),
+                                new XElement("AllStudents", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students")
+                            )
+                        ))
+                    ));
+                }
+
                 return Ok(studentList);
             }
             catch (Exception ex)
             {
-                return InternalServerError(ex);
+                return CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
 
@@ -66,6 +83,8 @@ namespace lab3.Controllers
 
         private IEnumerable<object> CreateHateoasLinks(List<Student> students)
         {
+            var baseUri = new Uri($"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students");
+
             return students.Select(s => new
             {
                 s.ID,
@@ -73,9 +92,10 @@ namespace lab3.Controllers
                 s.Phone,
                 links = new
                 {
-                    self = Url.Link("DefaultApi", new { controller = "students", id = s.ID }),
-                    edit = Url.Link("DefaultApi", new { controller = "students", id = s.ID }),
-                    delete = Url.Link("DefaultApi", new { controller = "students", id = s.ID })
+                    self = $"{baseUri}/{s.ID}",
+                    edit = $"{baseUri}/{s.ID}",
+                    delete = $"{baseUri}/{s.ID}",
+                    all_students = $"{baseUri}"
                 }
             });
         }
@@ -85,17 +105,36 @@ namespace lab3.Controllers
         public IHttpActionResult GetStudentById(int id)
         {
             var student = _dbContext.Students.Find(id);
-            if (student == null) return NotFound();
+            if (student == null) return CreateErrorResponse(HttpStatusCode.NotFound, "Student not found");
+
+            var baseUri = new Uri($"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students");
 
             var response = new
             {
                 data = student,
                 links = new
                 {
-                    self = Url.Link("DefaultApi", new { controller = "students", id }),
-                    all_students = Url.Link("DefaultApi", new { controller = "students" })
+                    self = $"{baseUri}/{id}",
+                    edit = $"{baseUri}/{id}",
+                    delete = $"{baseUri}/{id}",
+                    all_students = $"{baseUri}"
                 }
             };
+
+            if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
+            {
+                return Ok(new XElement("Student",
+                    new XElement("ID", student.ID),
+                    new XElement("Name", student.Name),
+                    new XElement("Phone", student.Phone),
+                    new XElement("Links",
+                        new XElement("Self", $"{baseUri}/{id}"),
+                        new XElement("Edit", $"{baseUri}/{id}"),
+                        new XElement("Delete", $"{baseUri}/{id}"),
+                        new XElement("AllStudents", $"{baseUri}")
+                    )
+                ));
+            }
 
             return Ok(response);
         }
@@ -104,10 +143,19 @@ namespace lab3.Controllers
         [Route("")]
         public IHttpActionResult CreateNewStudent(Student student)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid) return CreateErrorResponse(HttpStatusCode.BadRequest, "Invalid data provided.");
 
             _dbContext.Students.Add(student);
             _dbContext.SaveChanges();
+
+            if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
+            {
+                return Created("api/students", new XElement("Student",
+                    new XElement("ID", student.ID),
+                    new XElement("Name", student.Name),
+                    new XElement("Phone", student.Phone)
+                ));
+            }
 
             return Created("api/students", student);
         }
@@ -116,14 +164,19 @@ namespace lab3.Controllers
         [Route("{id:int}")]
         public IHttpActionResult ModifyStudent(int id, Student student)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid) return CreateErrorResponse(HttpStatusCode.BadRequest, "Invalid data provided.");
 
             var existingStudent = _dbContext.Students.Find(id);
-            if (existingStudent == null) return NotFound();
+            if (existingStudent == null) return CreateErrorResponse(HttpStatusCode.NotFound, "Student not found");
 
             existingStudent.Name = student.Name;
             existingStudent.Phone = student.Phone;
             _dbContext.SaveChanges();
+
+            if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
+            {
+                return Ok(new XElement("Message", "Student updated successfully"));
+            }
 
             return StatusCode(HttpStatusCode.NoContent);
         }
@@ -133,12 +186,37 @@ namespace lab3.Controllers
         public IHttpActionResult RemoveStudent(int id)
         {
             var student = _dbContext.Students.Find(id);
-            if (student == null) return NotFound();
+            if (student == null) return CreateErrorResponse(HttpStatusCode.NotFound, "Student not found");
 
             _dbContext.Students.Remove(student);
             _dbContext.SaveChanges();
 
+            if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
+            {
+                return Ok(new XElement("Message", "Student deleted successfully"));
+            }
+
             return StatusCode(HttpStatusCode.NoContent);
+        }
+
+        private IHttpActionResult CreateErrorResponse(HttpStatusCode statusCode, string message)
+        {
+            if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
+            {
+                return Content(statusCode, new XElement("Error",
+                    new XElement("Message", message),
+                    new XElement("Link", Url.Link("DefaultApi", new { controller = "errors", action = "GetErrorDetails", id = (int)statusCode }))
+                ));
+            }
+
+            return Content(statusCode, new
+            {
+                error = message,
+                links = new
+                {
+                    self = Url.Link("DefaultApi", new { controller = "errors", action = "GetErrorDetails", id = (int)statusCode })
+                }
+            });
         }
     }
 }

@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,33 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "lab3\\Migrations\\Configuration.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "lab3\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T05:54:49.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "lab3\\App_Start\\WebApiConfig.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "lab3\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:51:36.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:51:36.44Z"
             },
             {
               "$type": "Document",
@@ -66,14 +48,14 @@
               "RelativeDocumentMoniker": "lab3\\Controllers\\StudentsController.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "lab3\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwE0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T16:29:29.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Web.config",
               "RelativeDocumentMoniker": "lab3\\Web.config",
@@ -94,8 +76,7 @@
               "RelativeToolTip": "lab3\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:19:08.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:19:08.693Z"
             }
           ]
         }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,12 +28,6 @@
             text-align: center;
         }
 
-        h2 {
-            color: #34495e;
-            margin-bottom: 15px;
-            font-size: 1.5rem;
-        }
-
         .form-container {
             background-color: #fff;
             border-radius: 10px;
@@ -43,50 +36,6 @@
             margin-bottom: 20px;
             width: 100%;
             max-width: 800px;
-        }
-
-        form {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        label {
-            font-weight: bold;
-            color: #2c3e50;
-            width: 100%;
-        }
-
-        input[type="text"],
-        input[type="number"] {
-            padding: 10px;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            width: calc(50% - 10px);
-            transition: border 0.3s ease;
-        }
-
-        input[type="text"]:focus,
-        input[type="number"]:focus {
-            border-color: #3498db;
-            outline: none;
-        }
-
-        button {
-            background-color: #3498db;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            width: 100%;
-            max-width: 200px;
-            margin-top: 10px;
-        }
-
-        button:hover {
-            background-color: #2980b9;
         }
 
         table {
@@ -110,46 +59,6 @@
             background-color: #2c3e50;
             color: #fff;
         }
-
-        td {
-            background-color: #f9f9f9;
-            transition: background-color 0.3s ease;
-        }
-
-        td button {
-            padding: 8px 15px;
-            font-size: 0.9rem;
-            margin-right: 5px;
-            border-radius: 5px;
-        }
-
-        td button:first-child {
-            background-color: #27ae60;
-        }
-
-        td button:first-child:hover {
-            background-color: #2ecc71;
-        }
-
-        td button:last-child {
-            background-color: #e74c3c;
-        }
-
-        td button:last-child:hover {
-            background-color: #c0392b;
-        }
-
-        @media (max-width: 600px) {
-
-            input[type="text"],
-            input[type="number"] {
-                width: 100%;
-            }
-
-            form {
-                flex-direction: column;
-            }
-        }
     </style>
 </head>
 
@@ -172,6 +81,11 @@
     <div class="form-container">
         <h2>Filter and Sort Students</h2>
         <form id="filter-form">
+            <label for="format">Format:</label>
+            <select id="format">
+                <option value="json">JSON</option>
+                <option value="xml">XML</option>
+            </select>
             <label for="limit">Limit:</label>
             <input type="number" id="limit" min="1" value="10" />
             <label for="sort">Sort by:</label>
@@ -204,43 +118,70 @@
     <script>
         const baseUrl = 'https://localhost:44367/api/students';
 
-        async function getStudents(limit = 10, sort = 'ID', offset = 0, like = '') {
-            let url = `${baseUrl}?limit=${limit}&sort=${sort}&offset=${offset}`;
-            if (like) {
-                url += `&like=${like}`;
-            }
+        function getAcceptHeader() {
+            const format = document.getElementById('format').value;
+            return format === 'xml' ? 'application/xml' : 'application/json';
+        }
 
+        async function getStudents(limit = 10, sort = 'ID', offset = 0, like = '') {
+            const url = `${baseUrl}?limit=${limit}&sort=${sort}&offset=${offset}&like=${like}`;
             try {
-                const response = await fetch(url, { headers: { 'Accept': 'application/json' } });
+                const response = await fetch(url, { headers: { 'Accept': getAcceptHeader() } });
                 if (response.ok) {
-                    const students = await response.json();
-                    displayStudents(students);
+                    const format = document.getElementById('format').value;
+                    const students = format === 'json' ? await response.json() : await response.text();
+                    displayStudents(students, format);
                 } else {
-                    console.log('Error:', response.status, await response.json());
+                    displayError(await response.json());
                 }
             } catch (error) {
                 console.error('Request error:', error);
             }
         }
 
-        function displayStudents(students) {
+        function displayStudents(students, format) {
             const tableBody = document.querySelector('#students-table tbody');
             tableBody.innerHTML = '';
-            students.forEach(student => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-            <td>${student.ID}</td>
-            <td>${student.Name}</td>
-            <td>${student.Phone}</td>
-            <td>
-                <button onclick="editStudent('${student.links.edit}')">Edit</button>
-                <button onclick="deleteStudent('${student.links.delete}')">Delete</button>
-            </td>
-        `;
-                tableBody.appendChild(row);
-            });
+
+            if (format === 'json') {
+                students.forEach(student => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${student.ID}</td>
+                        <td>${student.Name}</td>
+                        <td>${student.Phone}</td>
+                        <td>
+                            <button onclick="editStudent('${student.ID}')">Edit</button>
+                            <button onclick="deleteStudent('${student.ID}')">Delete</button>
+                        </td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            } else {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(students, "application/xml");
+                const studentElements = xmlDoc.getElementsByTagName("Student");
+
+                Array.from(studentElements).forEach(student => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${student.getElementsByTagName("ID")[0].textContent}</td>
+                        <td>${student.getElementsByTagName("Name")[0].textContent}</td>
+                        <td>${student.getElementsByTagName("Phone")[0].textContent}</td>
+                        <td>
+                            <button onclick="editStudent('${student.getElementsByTagName("ID")[0].textContent}')">Edit</button>
+                            <button onclick="deleteStudent('${student.getElementsByTagName("ID")[0].textContent}')">Delete</button>
+                        </td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            }
         }
 
+        function displayError(error) {
+            console.error("Error:", error);
+            alert(`Error: ${error.error}. See ${error.links.self} for more details.`);
+        }
 
         async function saveStudent(event) {
             event.preventDefault();
@@ -255,40 +196,42 @@
             try {
                 const response = await fetch(url, {
                     method,
-                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                    headers: { 'Content-Type': 'application/json', 'Accept': getAcceptHeader() },
                     body: JSON.stringify(studentData)
                 });
                 if (response.ok) {
                     clearForm();
                     getStudents();
                 } else {
-                    console.log('Error:', response.status, await response.json());
+                    displayError(await response.json());
                 }
             } catch (error) {
                 console.error('Request error:', error);
             }
         }
 
-        async function deleteStudent(link) {
+        async function deleteStudent(id) {
+            const url = `${baseUrl}/${id}`;
             if (!confirm('Are you sure you want to delete this student?')) return;
 
             try {
-                const response = await fetch(link, {
+                const response = await fetch(url, {
                     method: 'DELETE',
-                    headers: { 'Accept': 'application/json' }
+                    headers: { 'Accept': getAcceptHeader() }
                 });
                 if (response.ok) {
                     getStudents();
                 } else {
-                    console.log('Error:', response.status, await response.json());
+                    displayError(await response.json());
                 }
             } catch (error) {
                 console.error('Request error:', error);
             }
         }
 
-        function editStudent(link) {
-            fetch(link)
+        function editStudent(id) {
+            const url = `${baseUrl}/${id}`;
+            fetch(url, { headers: { 'Accept': getAcceptHeader() } })
                 .then(response => response.json())
                 .then(student => {
                     document.getElementById('student-id').value = student.data.ID;
@@ -317,5 +260,4 @@
         getStudents();
     </script>
 </body>
-
 </html>
