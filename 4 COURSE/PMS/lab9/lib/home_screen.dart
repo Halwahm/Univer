@@ -141,7 +141,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => DetailsScreen(
+                              builder: (context) => const DetailsScreen(
                                 images: [
                                   'assets/images/gtx2.png',
                                   'assets/images/gtx.png',
@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => DetailsScreen(
+                              builder: (context) => const DetailsScreen(
                                 images: [
                                   'assets/images/gtx.png',
                                   'assets/images/gtx2.png',
@@ -181,7 +181,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => DetailsScreen(
+                              builder: (context) => const DetailsScreen(
                                 images: [
                                   'assets/images/shoe_3.png',
                                   'assets/images/gtx2.png',

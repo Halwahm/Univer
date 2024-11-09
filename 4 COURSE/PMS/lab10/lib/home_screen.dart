@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
                 Expanded(
                   child: StreamBuilder<Map<String, bool>>(
                     stream: productBloc.favoritesStream,
-                    initialData: {},
+                    initialData: const {},
                     builder: (context, snapshot) {
                       final favorites = snapshot.data ?? {};
 
@@ -98,7 +98,7 @@ class HomeScreen extends StatelessWidget {
                               title: 'Nike GTX 2',
                               price: '\$329',
                               isFavorite: favorites['Nike GTX 2'] ?? false,
-                              isOnSale: false, // Не на распродаже
+                              isOnSale: false,
                               onFavoriteToggle: () {
                                 productBloc.toggleFavorite('Nike GTX 2');
                               },
@@ -107,7 +107,7 @@ class HomeScreen extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) => DetailsScreen(
-                                      images: [
+                                      images: const [
                                         'assets/images/gtx2.png',
                                         'assets/images/gtx.png'
                                       ],
@@ -126,7 +126,7 @@ class HomeScreen extends StatelessWidget {
                               title: 'Nike GTX',
                               price: '\$100',
                               isFavorite: favorites['Nike GTX'] ?? false,
-                              isOnSale: true, // На распродаже
+                              isOnSale: true,
                               onFavoriteToggle: () {
                                 productBloc.toggleFavorite('Nike GTX');
                               },
@@ -135,7 +135,7 @@ class HomeScreen extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) => DetailsScreen(
-                                      images: [
+                                      images: const [
                                         'assets/images/gtx.png',
                                         'assets/images/gtx2.png'
                                       ],
@@ -153,7 +153,7 @@ class HomeScreen extends StatelessWidget {
                               title: 'Nike Air Zoom',
                               price: '\$150',
                               isFavorite: favorites['Nike Air Zoom'] ?? false,
-                              isOnSale: false, // Не на распродаже
+                              isOnSale: false,
                               onFavoriteToggle: () {
                                 productBloc.toggleFavorite('Nike Air Zoom');
                               },
@@ -162,7 +162,7 @@ class HomeScreen extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) => DetailsScreen(
-                                      images: [
+                                      images: const [
                                         'assets/images/shoe_3.png',
                                         'assets/images/gtx2.png'
                                       ],
