@@ -1,8 +1,7 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+
 import '../pages/home_page.dart';
 import 'auth_service.dart';
-
 
 class CreateAccount extends StatefulWidget {
   const CreateAccount({Key? key}) : super(key: key);
@@ -29,6 +28,7 @@ class _CreateAccountState extends State<CreateAccount> {
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
+                key: Key('registrationEmailField'), // Добавлен ключ
                 controller: _emailController,
                 decoration: const InputDecoration(hintText: 'Email'),
               ),
@@ -39,6 +39,7 @@ class _CreateAccountState extends State<CreateAccount> {
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
+                key: Key('registrationPasswordField'), // Добавлен ключ
                 controller: _passwordController,
                 obscureText: true,
                 decoration: const InputDecoration(
@@ -50,14 +51,15 @@ class _CreateAccountState extends State<CreateAccount> {
               height: 30.0,
             ),
             ElevatedButton(
+              key: Key('registerButton'), // Добавлен ключ
               onPressed: () async {
                 final message = await AuthService().registration(
                   email: _emailController.text,
                   password: _passwordController.text,
                 );
                 if (message!.contains('Success')) {
-                  Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (context) => const MyHomePage()));
+                  Navigator.of(context).pushReplacement(MaterialPageRoute(
+                      builder: (context) => const MyHomePage()));
                 }
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(

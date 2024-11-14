@@ -1,30 +1,89 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:lab11/main.dart';
+import 'package:lab11/auth/home.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  testWidgets('Enter text into field and verify', (WidgetTester tester) async {
+    await tester.pumpWidget(MaterialApp(home: MyHomePage()));
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    final textFieldFinder = find.byKey(Key("addField"));
+    await tester.enterText(textFieldFinder, 'New Worker');
+    await tester.pumpAndSettle();
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    // Проверяем, что текст "New Worker" отобразился
+    expect(find.text('New Worker'), findsOneWidget);
+  });
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+  testWidgets('Tap on add button and check list item appears',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(MaterialApp(home: MyHomePage()));
+
+    final textFieldFinder = find.byKey(Key("addField"));
+    await tester.enterText(textFieldFinder, 'New Worker');
+
+    // Проверяем наличие кнопки добавления
+    final addButtonFinder = find.byKey(Key("addButton"));
+    expect(addButtonFinder, findsOneWidget, reason: 'Add button not found');
+
+    await tester.tap(addButtonFinder);
+    await tester.pumpAndSettle();
+
+    // Проверяем, что элемент добавлен в список
+    expect(find.text('New Worker'), findsOneWidget);
+  });
+
+  testWidgets('Drag worker card to new position', (WidgetTester tester) async {
+    await tester.pumpWidget(MaterialApp(home: MyHomePage()));
+
+    final textFieldFinder = find.byKey(Key("addField"));
+    await tester.enterText(textFieldFinder, 'Test Worker');
+
+    final addButtonFinder = find.byKey(Key("addButton"));
+    await tester.tap(addButtonFinder);
+    await tester.pumpAndSettle();
+
+    // Поиск draggable виджета
+    final draggableFinder = find.byType(Draggable);
+    expect(draggableFinder, findsWidgets, reason: 'No draggable widgets found');
+
+    // Перетаскивание виджета
+    await tester.drag(draggableFinder.first, Offset(0, 100));
+    await tester.pumpAndSettle();
+
+    // Проверяем, что элемент все еще существует
+    expect(find.text('Test Worker'), findsOneWidget);
+  });
+
+  testWidgets('Enter text, tap add, and verify multiple items',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(MaterialApp(home: MyHomePage()));
+
+    await tester.enterText(find.byKey(Key("addField")), 'Worker 1');
+    await tester.tap(find.byKey(Key("addButton")));
+    await tester.pumpAndSettle();
+
+    await tester.enterText(find.byKey(Key("addField")), 'Worker 2');
+    await tester.tap(find.byKey(Key("addButton")));
+    await tester.pumpAndSettle();
+
+    // Проверяем, что оба элемента добавлены в список
+    expect(find.text('Worker 1'), findsOneWidget);
+    expect(find.text('Worker 2'), findsOneWidget);
+  });
+
+  testWidgets('Ensure no duplicate entries on add',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(MaterialApp(home: MyHomePage()));
+
+    await tester.enterText(find.byKey(Key("addField")), 'Unique Worker');
+    await tester.tap(find.byKey(Key("addButton")));
+    await tester.pumpAndSettle();
+
+    await tester.enterText(find.byKey(Key("addField")), 'Unique Worker');
+    await tester.tap(find.byKey(Key("addButton")));
+    await tester.pumpAndSettle();
+
+    // Проверяем, что элемент "Unique Worker" добавлен только один раз
+    expect(find.text('Unique Worker'), findsOneWidget);
   });
 }

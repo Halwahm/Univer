@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -13,16 +12,15 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: Key('taskScreen'),
       appBar: AppBar(
-        title: Text("List App"),
+        title: const Text("List App"),
         centerTitle: true,
       ),
       body: Column(
         children: <Widget>[
-          SizedBox(
-            height: 20,
-          ),
-          Text(
+          const SizedBox(height: 20),
+          const Text(
             "Add Todo Here:",
             style: TextStyle(
               fontSize: 20,
@@ -30,42 +28,38 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Card(
-            margin: EdgeInsets.all(20),
+            margin: const EdgeInsets.all(20),
             child: Padding(
               padding: const EdgeInsets.all(10.0),
               child: Row(
                 children: [
                   Expanded(
                     child: TextFormField(
-                      key: Key("addField"),
+                      key: const Key("addField"),
                       controller: _todoController,
+                      decoration: const InputDecoration(
+                        hintText: "Enter your task",
+                      ),
                     ),
                   ),
                   IconButton(
-                    key: Key("addButton"),
-                    icon: Icon(Icons.add),
+                    key: const Key("addButton"),
+                    icon: const Icon(Icons.add),
                     onPressed: () {
-                      if (_todoController.text != "") {
+                      if (_todoController.text.isNotEmpty) {
                         listController
                             .addTodo(TodoModel(_todoController.text, false));
-                        //Database()
-                        //.addTodo(_todoController.text, controller.user.uid);
                         _todoController.clear();
                         setState(() {});
                       }
                     },
-                  )
+                  ),
                 ],
               ),
             ),
           ),
-          SizedBox(
-            height: 20,
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Text(
+          const SizedBox(height: 20),
+          const Text(
             "Your Todos",
             style: TextStyle(
               fontSize: 20,
@@ -79,22 +73,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 return TodoCard(index: index, listController: listController);
               },
             ),
-          )
+          ),
         ],
       ),
     );
   }
 }
 
-
 class TodoModel {
   String content;
   bool done;
 
-  TodoModel(
-      this.content,
-      this.done,
-      );
+  TodoModel(this.content, this.done);
 }
 
 class ListController {
@@ -104,7 +94,10 @@ class ListController {
   ListController({required this.database});
 
   void addTodo(TodoModel todo) {
-    todoList.add(todo);
+    // Добавляем только уникальные задачи
+    if (!todoList.any((existingTodo) => existingTodo.content == todo.content)) {
+      todoList.add(todo);
+    }
   }
 
   void checkboxSelected(bool newValue, int index) {
@@ -123,7 +116,7 @@ class ListController {
 class Database {
   Future<TodoModel> loadDatabase() async {
     try {
-      await Future.delayed(Duration(seconds: 1));
+      await Future.delayed(const Duration(seconds: 1));
       return TodoModel("From Database", true);
     } catch (e) {
       print(e);
@@ -136,7 +129,7 @@ class TodoCard extends StatefulWidget {
   final int index;
   final ListController listController;
 
-  const TodoCard({ required this.index, required this.listController});
+  const TodoCard({required this.index, required this.listController});
 
   @override
   _TodoCardState createState() => _TodoCardState();
@@ -146,21 +139,24 @@ class _TodoCardState extends State<TodoCard> {
   @override
   Widget build(BuildContext context) {
     return Draggable(
+      data: widget.listController.todoList[widget.index]
+          .content, // Добавлено для перетаскивания
       feedback: Card(
-        margin: EdgeInsets.all(20),
+        margin: const EdgeInsets.all(20),
         child: Padding(
           padding: const EdgeInsets.all(10.0),
           child: Text(
             widget.listController.todoList[widget.index].content,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 15,
               fontWeight: FontWeight.bold,
             ),
           ),
         ),
       ),
+      childWhenDragging: Container(), // Виджет при перетаскивании
       child: Card(
-        margin: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+        margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
         child: Padding(
           padding: const EdgeInsets.all(10.0),
           child: Row(
@@ -168,17 +164,19 @@ class _TodoCardState extends State<TodoCard> {
               Expanded(
                 child: Text(
                   widget.listController.todoList[widget.index].content,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
               Checkbox(
-                key: Key("checkbox" + widget.index.toString()),
+                key: Key(
+                    "checkbox_${widget.index}"), // Ключи для каждого checkbox
                 value: widget.listController.todoList[widget.index].done,
                 onChanged: (newValue) {
-                  widget.listController.checkboxSelected(newValue!, widget.index);
+                  widget.listController
+                      .checkboxSelected(newValue!, widget.index);
                   setState(() {});
                 },
               ),

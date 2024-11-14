@@ -25,9 +25,9 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: _appBar(),
       body: _buildUI(),
       floatingActionButton: FloatingActionButton(
-        key: ValueKey('addButton'),
+        key: const ValueKey('addButton'),
         backgroundColor: Colors.blue,
-        child: Icon(
+        child: const Icon(
           Icons.add,
           color: Colors.white,
         ),
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
         builder: (context, snapshot) {
           List workers = snapshot.data?.docs ?? [];
           if (workers.isEmpty) {
-            return Center(
+            return const Center(
               child: Text('Add a Worker!'),
             );
           }
@@ -90,9 +90,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: ListTile(
                       tileColor: Colors.blue[300],
                       title: Text("Имя: ${worker.name}",
-                          style: TextStyle(color: Colors.white)),
+                          style: const TextStyle(color: Colors.white)),
                       subtitle: Text("Специальность: ${worker.specialization}",
-                          style: TextStyle(color: Colors.white)),
+                          style: const TextStyle(color: Colors.white)),
                       trailing: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 childWhenDragging: Container(),
-                feedbackOffset: Offset(0, -20),
+                feedbackOffset: const Offset(0, -20),
                 child: Card(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
@@ -124,11 +124,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     tileColor: Colors.blue[300],
                     title: Text(
                       "Имя: ${worker.name}",
-                      style: TextStyle(color: Colors.white),
+                      style: const TextStyle(color: Colors.white),
                     ),
                     subtitle: Text(
                       "Специальность: ${worker.specialization}",
-                      style: TextStyle(color: Colors.white),
+                      style: const TextStyle(color: Colors.white),
                     ),
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -170,12 +170,12 @@ class _MyHomePageState extends State<MyHomePage> {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(0),
             ),
-            title: Text('Изменить'),
+            title: const Text('Изменить'),
             content: SingleChildScrollView(
               child: Column(
                 children: [
                   TextFormField(
-                    key: ValueKey('addField'),
+                    key: const ValueKey('addField'),
                     controller: nameController,
                     decoration: const InputDecoration(labelText: 'Имя'),
                   ),
@@ -208,7 +208,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     specializationController.clear();
                     Navigator.pop(context);
                   },
-                  child: Text('Изменить')),
+                  child: const Text('Изменить')),
             ],
           );
         });
@@ -259,7 +259,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                     Navigator.pop(context);
                   },
-                  child: Text('Добавить')),
+                  child: const Text('Добавить')),
             ],
           );
         });

@@ -1,8 +1,8 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'signup_page.dart';
+
 import '../pages/home_page.dart';
 import 'auth_service.dart';
+import 'signup_page.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -14,6 +14,7 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,6 +29,7 @@ class _LoginScreenState extends State<LoginScreen> {
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
+                key: Key('loginEmailField'), // Добавлен ключ
                 controller: _emailController,
                 decoration: const InputDecoration(hintText: 'Email'),
               ),
@@ -38,6 +40,7 @@ class _LoginScreenState extends State<LoginScreen> {
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
+                key: Key('loginPasswordField'), // Добавлен ключ
                 controller: _passwordController,
                 obscureText: true,
                 decoration: const InputDecoration(
@@ -49,6 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 30.0,
             ),
             ElevatedButton(
+              key: Key('loginButton'), // Добавлен ключ
               onPressed: () async {
                 final message = await AuthService().login(
                   email: _emailController.text,
@@ -73,6 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 30.0,
             ),
             TextButton(
+              key: Key('createAccountButton'), // Добавлен ключ
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(

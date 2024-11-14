@@ -146,10 +146,10 @@ packages:
     dependency: transitive
     description:
       name: coverage
-      sha256: "88b0fddbe4c92910fefc09cc0248f5e7f0cd23e450ded4c28f16ab8ee8f83268"
+      sha256: "4b03e11f6d5b8f6e5bb5e9f7889a56fe6c5cbe942da5378ea4d4d7f73ef9dfe5"
       url: "https://pub.dev"
     source: hosted
-    version: "1.10.0"
+    version: "1.11.0"
   crypto:
     dependency: transitive
     description:
@@ -202,10 +202,10 @@ packages:
     dependency: transitive
     description:
       name: file
-      sha256: a3b4f84adafef897088c160faf7dfffb7696046cb13ae90b508c2cbc95d3b8d4
+      sha256: "5fc22d7c25582e38ad9a8515372cd9a93834027aacf1801cf01164dac0ffa08c"
       url: "https://pub.dev"
     source: hosted
-    version: "7.0.1"
+    version: "7.0.0"
   firebase_auth:
     dependency: "direct main"
     description:
@@ -291,6 +291,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_driver:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -341,6 +346,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.0"
+  fuchsia_remote_debug_protocol:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   glob:
     dependency: transitive
     description:
@@ -365,6 +375,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.1"
+  integration_test:
+    dependency: "direct dev"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   io:
     dependency: transitive
     description:
@@ -501,6 +516,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.2"
+  platform:
+    dependency: transitive
+    description:
+      name: platform
+      sha256: "9b71283fc13df574056616011fb138fd3b793ea47cc509c189a6c3fa5f8a1a65"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.5"
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -517,6 +540,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+  process:
+    dependency: transitive
+    description:
+      name: process
+      sha256: "21e54fd2faf1b5bdd5102afd25012184a6793927648ea81eea80552ac9405b32"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.2"
   pub_semver:
     dependency: transitive
     description:
@@ -618,6 +649,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.0"
+  sync_http:
+    dependency: transitive
+    description:
+      name: sync_http
+      sha256: "7f0cd72eca000d2e026bcd6f990b81d0ca06022ef4e32fb257b30d3d1014a961"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.1"
   term_glyph:
     dependency: transitive
     description:
@@ -627,7 +666,7 @@ packages:
     source: hosted
     version: "1.2.1"
   test:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: test
       sha256: "713a8789d62f3233c46b4a90b174737b2c04cb6ae4500f2aa8b1be8f03f5e67f"
@@ -714,6 +753,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  webdriver:
+    dependency: transitive
+    description:
+      name: webdriver
+      sha256: "003d7da9519e1e5f329422b36c4dcdf18d7d2978d1ba099ea4e45ba490ed845e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.3"
   webkit_inspection_protocol:
     dependency: transitive
     description:
@@ -747,5 +794,5 @@ packages:
     source: hosted
     version: "3.1.2"
 sdks:
-  dart: ">=3.6.0-198.0.dev <4.0.0"
+  dart: ">=3.5.0 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
