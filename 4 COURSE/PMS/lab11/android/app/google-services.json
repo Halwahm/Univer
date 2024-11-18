@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "376500888959",
-    "project_id": "lab10-82d9d",
-    "storage_bucket": "lab10-82d9d.appspot.com"
+    "project_number": "341276401350",
+    "project_id": "lab11-e4d16",
+    "storage_bucket": "lab11-e4d16.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:376500888959:android:0d3a0840ea214781afa64a",
+        "mobilesdk_app_id": "1:341276401350:android:eca757b3c34982c9a741c7",
         "android_client_info": {
           "package_name": "com.example.lab11"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBdWRjK2PacsRplLDWKKlCZr89_TYiT3SE"
+          "current_key": "AIzaSyB5iRTFlOQbb0HXgvTPrcXuMmt1R6zV3xQ"
         }
       ],
       "services": {

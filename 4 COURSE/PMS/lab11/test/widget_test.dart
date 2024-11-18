@@ -21,37 +21,40 @@ void main() {
     final textFieldFinder = find.byKey(Key("addField"));
     await tester.enterText(textFieldFinder, 'New Worker');
 
-    // Проверяем наличие кнопки добавления
     final addButtonFinder = find.byKey(Key("addButton"));
     expect(addButtonFinder, findsOneWidget, reason: 'Add button not found');
 
     await tester.tap(addButtonFinder);
     await tester.pumpAndSettle();
 
-    // Проверяем, что элемент добавлен в список
     expect(find.text('New Worker'), findsOneWidget);
   });
 
-  testWidgets('Drag worker card to new position', (WidgetTester tester) async {
+  testWidgets('Add a todo item and drag it to a new position',
+      (WidgetTester tester) async {
     await tester.pumpWidget(MaterialApp(home: MyHomePage()));
 
-    final textFieldFinder = find.byKey(Key("addField"));
-    await tester.enterText(textFieldFinder, 'Test Worker');
+    // Добавляем задачу
+    final textFieldFinder = find.byKey(const Key("addField"));
+    final addButtonFinder = find.byKey(const Key("addButton"));
 
-    final addButtonFinder = find.byKey(Key("addButton"));
+    await tester.enterText(textFieldFinder, 'Draggable Task');
     await tester.tap(addButtonFinder);
     await tester.pumpAndSettle();
 
-    // Поиск draggable виджета
-    final draggableFinder = find.byType(Draggable);
-    expect(draggableFinder, findsWidgets, reason: 'No draggable widgets found');
+    // Проверяем, что Draggable появился
+    final draggableFinder = find.byType(Draggable<String>);
+    expect(draggableFinder, findsOneWidget,
+        reason: 'Draggable widget not found');
 
-    // Перетаскивание виджета
-    await tester.drag(draggableFinder.first, Offset(0, 100));
+    // Перетаскиваем элемент
+    final draggable = draggableFinder.first;
+    await tester.drag(draggable, const Offset(0, 100));
     await tester.pumpAndSettle();
 
     // Проверяем, что элемент все еще существует
-    expect(find.text('Test Worker'), findsOneWidget);
+    expect(find.text('Draggable Task'), findsOneWidget,
+        reason: 'Dragged task is no longer visible');
   });
 
   testWidgets('Enter text, tap add, and verify multiple items',

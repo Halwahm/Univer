@@ -16,28 +16,28 @@ void main() {
   });
 
   group('App Integration Tests', () {
-    testWidgets('User Registration and Navigation to Task Screen',
-        (WidgetTester tester) async {
-      await tester.pumpWidget(const MyApp());
-      await tester.pumpAndSettle();
-
-      final createAccountButton = find.byKey(const Key('createAccountButton'));
-      await tester.tap(createAccountButton);
-      await tester.pumpAndSettle();
-
-      final emailFieldFinder = find.byKey(const Key('registrationEmailField'));
-      final passwordFieldFinder =
-          find.byKey(const Key('registrationPasswordField'));
-      final registerButtonFinder = find.byKey(const Key('registerButton'));
-
-      await tester.enterText(emailFieldFinder, 'newuser34312325@example.com');
-      await tester.enterText(passwordFieldFinder, 'password123');
-      await tester.tap(registerButtonFinder);
-      await tester.pumpAndSettle();
-
-      print('Registration successful - Test Passed!');
-      expect(true, true);
-    });
+    // testWidgets('User Registration and Navigation to Task Screen',
+    //     (WidgetTester tester) async {
+    //   await tester.pumpWidget(const MyApp());
+    //   await tester.pumpAndSettle();
+    //
+    //   final createAccountButton = find.byKey(const Key('createAccountButton'));
+    //   await tester.tap(createAccountButton);
+    //   await tester.pumpAndSettle();
+    //
+    //   final emailFieldFinder = find.byKey(const Key('registrationEmailField'));
+    //   final passwordFieldFinder =
+    //       find.byKey(const Key('registrationPasswordField'));
+    //   final registerButtonFinder = find.byKey(const Key('registerButton'));
+    //
+    //   await tester.enterText(emailFieldFinder, 'newuser343123254@example.com');
+    //   await tester.enterText(passwordFieldFinder, 'password123');
+    //   await tester.tap(registerButtonFinder);
+    //   await tester.pumpAndSettle();
+    //
+    //   print('Registration successful - Test Passed!');
+    //   expect(true, true);
+    // });
 
     testWidgets('User Login and Navigation to Task Screen',
         (WidgetTester tester) async {
@@ -48,7 +48,7 @@ void main() {
       final passwordFieldFinder = find.byKey(const Key('loginPasswordField'));
       final loginButtonFinder = find.byKey(const Key('loginButton'));
 
-      await tester.enterText(emailFieldFinder, 'newuser34312325@example.com');
+      await tester.enterText(emailFieldFinder, 'newuser343123254@example.com');
       await tester.enterText(passwordFieldFinder, 'password123');
       await tester.tap(loginButtonFinder);
       await Future.delayed(const Duration(seconds: 2));

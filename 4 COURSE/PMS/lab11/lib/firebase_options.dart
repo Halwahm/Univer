@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,37 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDwP0f3dGMEsH4t5AWlg0OAUj0vd0d5mlU',
-    appId: '1:376500888959:web:cfc2a545bb9ca962afa64a',
-    messagingSenderId: '376500888959',
-    projectId: 'lab10-82d9d',
-    authDomain: 'lab10-82d9d.firebaseapp.com',
-    storageBucket: 'lab10-82d9d.appspot.com',
+    apiKey: 'AIzaSyBMNrNH4w3GbO1HeyngKnn5CDmNd2Hzk6E',
+    appId: '1:341276401350:web:ee07409511d66afda741c7',
+    messagingSenderId: '341276401350',
+    projectId: 'lab11-e4d16',
+    authDomain: 'lab11-e4d16.firebaseapp.com',
+    storageBucket: 'lab11-e4d16.firebasestorage.app',
+    measurementId: 'G-RQZ6GLXD64',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBdWRjK2PacsRplLDWKKlCZr89_TYiT3SE',
-    appId: '1:376500888959:android:0d3a0840ea214781afa64a',
-    messagingSenderId: '376500888959',
-    projectId: 'lab10-82d9d',
-    storageBucket: 'lab10-82d9d.appspot.com',
+    apiKey: 'AIzaSyB5iRTFlOQbb0HXgvTPrcXuMmt1R6zV3xQ',
+    appId: '1:341276401350:android:eca757b3c34982c9a741c7',
+    messagingSenderId: '341276401350',
+    projectId: 'lab11-e4d16',
+    storageBucket: 'lab11-e4d16.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDpY51BpNGY7AT1LxiTRHQYxo3rdOEcQN8',
-    appId: '1:376500888959:ios:cd9957440a819d37afa64a',
-    messagingSenderId: '376500888959',
-    projectId: 'lab10-82d9d',
-    storageBucket: 'lab10-82d9d.appspot.com',
-    iosBundleId: 'com.example.flutterApplication1',
+    apiKey: 'AIzaSyC1rmDl1FIBYYA3TPTZt5OQbvk5KbLJf-s',
+    appId: '1:341276401350:ios:9a40d43dbf05dbc1a741c7',
+    messagingSenderId: '341276401350',
+    projectId: 'lab11-e4d16',
+    storageBucket: 'lab11-e4d16.firebasestorage.app',
+    iosBundleId: 'com.example.lab11',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDpY51BpNGY7AT1LxiTRHQYxo3rdOEcQN8',
-    appId: '1:376500888959:ios:7546fa8e286a6579afa64a',
-    messagingSenderId: '376500888959',
-    projectId: 'lab10-82d9d',
-    storageBucket: 'lab10-82d9d.appspot.com',
-    iosBundleId: 'com.example.flutterApplication1.RunnerTests',
+    apiKey: 'AIzaSyC1rmDl1FIBYYA3TPTZt5OQbvk5KbLJf-s',
+    appId: '1:341276401350:ios:9a40d43dbf05dbc1a741c7',
+    messagingSenderId: '341276401350',
+    projectId: 'lab11-e4d16',
+    storageBucket: 'lab11-e4d16.firebasestorage.app',
+    iosBundleId: 'com.example.lab11',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBMNrNH4w3GbO1HeyngKnn5CDmNd2Hzk6E',
+    appId: '1:341276401350:web:928d22d704ff33e1a741c7',
+    messagingSenderId: '341276401350',
+    projectId: 'lab11-e4d16',
+    authDomain: 'lab11-e4d16.firebaseapp.com',
+    storageBucket: 'lab11-e4d16.firebasestorage.app',
+    measurementId: 'G-CTRQ1S98XB',
+  );
+
 }
