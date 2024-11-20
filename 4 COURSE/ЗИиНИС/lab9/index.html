@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHA-256 Hashing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .output {
+            margin-top: 20px;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SHA-256 Hashing</h1>
+        <input type="text" id="inputText" placeholder="Enter text to hash">
+        <button onclick="hashInput()">Hash</button>
+        <div id="hashResult" class="output"></div>
+        <div id="timeResult" class="output"></div>
+    </div>
+
+    <script>
+        async function hashInput() {
+            const inputText = document.getElementById('inputText').value;
+
+            if (!inputText) {
+                alert('Please enter text to hash!');
+                return;
+            }
+
+            const encoder = new TextEncoder();
+            const data = encoder.encode(inputText);
+
+            const startTime = performance.now();
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            const endTime = performance.now();
+
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(byte => byte.toString(16).padStart(2, '0')).join('');
+
+            document.getElementById('hashResult').innerText = `Hash: ${hashHex}`;
+            document.getElementById('timeResult').innerText = `Time taken: ${(endTime - startTime).toFixed(2)} ms`;
+        }
+    </script>
+</body>
+</html>
