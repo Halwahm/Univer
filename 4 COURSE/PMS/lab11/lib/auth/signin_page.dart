@@ -29,18 +29,16 @@ class _LoginScreenState extends State<LoginScreen> {
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
-                key: Key('loginEmailField'), // Добавлен ключ
+                key: Key('loginEmailField'),
                 controller: _emailController,
                 decoration: const InputDecoration(hintText: 'Email'),
               ),
             ),
-            const SizedBox(
-              height: 30.0,
-            ),
+            const SizedBox(height: 30.0),
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
-                key: Key('loginPasswordField'), // Добавлен ключ
+                key: Key('loginPasswordField'),
                 controller: _passwordController,
                 obscureText: true,
                 decoration: const InputDecoration(
@@ -48,11 +46,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
             ),
-            const SizedBox(
-              height: 30.0,
-            ),
+            const SizedBox(height: 30.0),
             ElevatedButton(
-              key: Key('loginButton'), // Добавлен ключ
+              key: Key('loginButton'),
               onPressed: () async {
                 final message = await AuthService().login(
                   email: _emailController.text,
@@ -73,11 +69,29 @@ class _LoginScreenState extends State<LoginScreen> {
               },
               child: const Text('Login'),
             ),
-            const SizedBox(
-              height: 30.0,
+            const SizedBox(height: 20),
+            ElevatedButton.icon(
+              onPressed: () async {
+                final message = await AuthService().googleSignIn();
+                if (message!.contains('Success')) {
+                  Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(
+                      builder: (context) => const MyHomePage(),
+                    ),
+                  );
+                }
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(message),
+                  ),
+                );
+              },
+              icon: const Icon(Icons.login),
+              label: const Text('Sign in with Google'),
             ),
+            const SizedBox(height: 30.0),
             TextButton(
-              key: Key('createAccountButton'), // Добавлен ключ
+              key: Key('createAccountButton'),
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(

@@ -23,43 +23,78 @@ namespace lab3.Controllers
         [HttpGet]
         [Route("")]
         public IHttpActionResult FetchStudents(int limit = 10, string sort = null, int offset = 0,
-            int? minid = null, int? maxid = null, string like = null, string columns = null)
+            int? minid = null, int? maxid = null, string like = null, string columns = null, string globalike = null)
         {
             try
             {
+                string[] columnsArray;
+                if (columns == null || columns.Length == 0) columnsArray = new[] { "ID", "Name", "Phone" };
+                else columnsArray = columns.Split(',');
+
                 var query = _dbContext.Students.AsQueryable();
 
                 query = ApplyFilters(query, minid, maxid, like);
+                query = ApplyFiltersGlobal(query, globalike);
                 query = ApplySorting(query, sort);
                 query = ApplyPagination(query, offset, limit);
 
                 var students = query.ToList();
-                var studentList = CreateHateoasLinks(students);
+                var selectedData = students.Select(s => FilterColumns(s, columnsArray)).ToList();
 
                 if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
                 {
                     return Ok(new XElement("Students",
-                        students.Select(s => new XElement("Student",
-                            new XElement("ID", s.ID),
-                            new XElement("Name", s.Name),
-                            new XElement("Phone", s.Phone),
-                            new XElement("Links",
-                                new XElement("Self", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{s.ID}"),
-                                new XElement("Edit", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{s.ID}"),
-                                new XElement("Delete", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{s.ID}"),
+                        selectedData.Select(data =>
+                        {
+                            var studentElement = new XElement("Student");
+                            foreach (var keyValue in data)
+                            {
+                                studentElement.Add(new XElement(keyValue.Key, keyValue.Value));
+                            }
+                            var uniqueID = data.ContainsKey("ID") ? data["ID"] : data.ContainsKey("Name") ? data["Name"] : data["Phone"];
+                            studentElement.Add(new XElement("Links",
+                                new XElement("Self", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{uniqueID}"),
+                                new XElement("Edit", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{uniqueID}"),
+                                new XElement("Delete", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students/{uniqueID}"),
                                 new XElement("AllStudents", $"{Request.RequestUri.Scheme}://{Request.RequestUri.Host}:{Request.RequestUri.Port}/api/students")
-                            )
-                        ))
+                            ));
+                            return studentElement;
+                        })
                     ));
                 }
 
-                return Ok(studentList);
+                return Ok(new
+                {
+                    data = selectedData,
+                    links = new
+                    {
+                        self = Request.RequestUri.ToString(),
+                        edit = Request.RequestUri.ToString(),
+                        delete = Request.RequestUri.ToString()
+                    }
+                });
             }
             catch (Exception ex)
             {
                 return CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
+
         }
+
+        private Dictionary<string, object> FilterColumns(Student student, string[] columns)
+        {
+            var result = new Dictionary<string, object>();
+
+            if (columns.Contains("ID", StringComparer.OrdinalIgnoreCase))
+                result["ID"] = student.ID;
+            if (columns.Contains("Name", StringComparer.OrdinalIgnoreCase))
+                result["Name"] = student.Name;
+            if (columns.Contains("Phone", StringComparer.OrdinalIgnoreCase))
+                result["Phone"] = student.Phone;
+
+            return result;
+        }
+
 
         private IQueryable<Student> ApplyFilters(IQueryable<Student> query, int? minid, int? maxid, string like)
         {
@@ -68,6 +103,18 @@ namespace lab3.Controllers
             if (!string.IsNullOrEmpty(like)) query = query.Where(s => s.Name.Contains(like));
             return query;
         }
+
+        private IQueryable<Student> ApplyFiltersGlobal(IQueryable<Student> query, string globalLike)
+        {
+            if (!string.IsNullOrEmpty(globalLike))
+            {
+                query = query.Where(s =>
+                    (s.ID.ToString() + s.Name + s.Phone).Contains(globalLike));
+            }
+
+            return query;
+        }
+
 
         private IQueryable<Student> ApplySorting(IQueryable<Student> query, string sort)
         {
@@ -201,11 +248,19 @@ namespace lab3.Controllers
 
         private IHttpActionResult CreateErrorResponse(HttpStatusCode statusCode, string message)
         {
+            var errorDetailsLink = Url.Link("DefaultApi", new
+            {
+                controller = "errors",
+                action = "GetErrorDetails",
+                id = (int)statusCode,
+                errorMessage = Uri.EscapeDataString(message)
+            });
+
             if (Request.Headers.Accept.Any(a => a.MediaType == "application/xml"))
             {
                 return Content(statusCode, new XElement("Error",
                     new XElement("Message", message),
-                    new XElement("Link", Url.Link("DefaultApi", new { controller = "errors", action = "GetErrorDetails", id = (int)statusCode }))
+                    new XElement("Link", errorDetailsLink)
                 ));
             }
 
@@ -214,9 +269,10 @@ namespace lab3.Controllers
                 error = message,
                 links = new
                 {
-                    self = Url.Link("DefaultApi", new { controller = "errors", action = "GetErrorDetails", id = (int)statusCode })
+                    self = errorDetailsLink
                 }
             });
         }
+
     }
 }

@@ -41,6 +41,7 @@ dependencies:
   flutter_local_notifications: ^17.0.0
   firebase_messaging: ^14.8.1
   mockito: ^5.4.4
+  google_sign_in: ^6.1.5
 
 dev_dependencies:
   flutter_test:

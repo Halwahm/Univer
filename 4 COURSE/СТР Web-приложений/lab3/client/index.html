@@ -1,20 +1,22 @@
+<!-- TODO: edit, global like -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student REST API Client</title>
     <style>
         * {
-            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
-            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to bottom, #e3f2fd, #90caf9);
+            color: #212121;
             padding: 20px;
             display: flex;
             flex-direction: column;
@@ -22,42 +24,148 @@
         }
 
         h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0d47a1;
             margin-bottom: 20px;
-            color: #2c3e50;
-            font-size: 2.5rem;
-            text-align: center;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
         }
 
         .form-container {
-            background-color: #fff;
-            border-radius: 10px;
+            background: #ffffff;
+            border: 1px solid #42a5f5;
+            border-radius: 8px;
             padding: 20px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        label {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #1565c0;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select {
+            font-size: 0.9rem;
+            padding: 8px;
+            border: 1px solid #42a5f5;
+            border-radius: 5px;
+            outline: none;
             width: 100%;
-            max-width: 800px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #0d47a1;
+            box-shadow: 0px 0px 5px rgba(13, 71, 161, 0.3);
+        }
+
+        button {
+            background: #0d47a1;
+            color: #fff;
+            font-size: 0.9rem;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #0a357a;
         }
 
         table {
-            width: 100%;
+            width: 90%;
+            max-width: 800px;
             border-collapse: collapse;
             margin-top: 20px;
-            background-color: #fff;
+            background: #ffffff;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
         }
 
         th,
         td {
-            padding: 15px;
+            padding: 10px;
             text-align: left;
-            border-bottom: 1px solid #ecf0f1;
+            border-bottom: 1px solid #e0e0e0;
         }
 
         th {
-            background-color: #2c3e50;
-            color: #fff;
+            background-color: #1565c0;
+            color: #ffffff;
+            font-size: 1rem;
+        }
+
+        td {
+            color: #424242;
+        }
+
+        td:last-child {
+            display: flex;
+            gap: 5px;
+        }
+
+        td button {
+            font-size: 0.8rem;
+            padding: 5px;
+            border-radius: 4px;
+            background: #ef5350;
+        }
+
+        td button:hover {
+            background: #c62828;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .filter-group label {
+            font-size: 0.8rem;
+            color: #0d47a1;
+        }
+
+        .filter-group input,
+        .filter-group select {
+            flex: 1 1 auto;
+            font-size: 0.8rem;
+        }
+
+        .min-max-row {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .min-max-row label {
+            flex: 1 1 auto;
+        }
+
+        .min-max-row input {
+            flex: 1 1 50%;
         }
     </style>
 </head>
@@ -73,30 +181,48 @@
             <input type="text" id="student-name" required />
             <label for="student-phone">Phone:</label>
             <input type="text" id="student-phone" required />
-            <button type="submit">Save</button>
-            <button type="button" onclick="clearForm()">Clear</button>
+            <div class="filter-row">
+                <button type="submit">Save</button>
+                <button type="button" onclick="clearForm()">Clear</button>
+            </div>
         </form>
     </div>
 
     <div class="form-container">
         <h2>Filter and Sort Students</h2>
         <form id="filter-form">
-            <label for="format">Format:</label>
-            <select id="format">
-                <option value="json">JSON</option>
-                <option value="xml">XML</option>
-            </select>
-            <label for="limit">Limit:</label>
-            <input type="number" id="limit" min="1" value="10" />
-            <label for="sort">Sort by:</label>
-            <select id="sort">
-                <option value="ID">ID</option>
-                <option value="NAME">Name</option>
-            </select>
-            <label for="offset">Offset:</label>
-            <input type="number" id="offset" min="0" value="0" />
-            <label for="like">Filter by Name:</label>
-            <input type="text" id="like" />
+            <div class="filter-group">
+                <label for="format">Format:</label>
+                <select id="format">
+                    <option value="json">JSON</option>
+                    <option value="xml">XML</option>
+                </select>
+                <label for="limit">Limit:</label>
+                <input type="number" id="limit" min="1" value="10" />
+                <label for="offset">Offset:</label>
+                <input type="number" id="offset" min="0" value="0" />
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="ID">ID</option>
+                    <option value="NAME">Name</option>
+                </select>
+                <label>Columns:</label>
+                <div id="columns">
+                    <label><input type="checkbox" value="ID" checked /> ID</label>
+                    <label><input type="checkbox" value="Name" checked /> Name</label>
+                    <label><input type="checkbox" value="Phone" checked /> Phone</label>
+                </div>
+                <div class="min-max-row">
+                    <label for="min-id">Min ID:</label>
+                    <input type="number" id="min-id" />
+                    <label for="max-id">Max ID:</label>
+                    <input type="number" id="max-id" />
+                </div>
+                <label for="like">Filter by Name:</label>
+                <input type="text" id="like" />
+                <label for="globalike">Global Search:</label>
+                <input type="text" id="globalike" placeholder="e.g., part of ID or Name" />
+            </div>
             <button type="submit">Apply</button>
         </form>
     </div>
@@ -118,13 +244,20 @@
     <script>
         const baseUrl = 'https://localhost:44367/api/students';
 
+        function displayError(error) {
+            console.error("Error:", error);
+            prompt(`Error details (copy and paste) ${error.error}:`, `${error.links.self}`);
+        }
+
+
         function getAcceptHeader() {
             const format = document.getElementById('format').value;
             return format === 'xml' ? 'application/xml' : 'application/json';
         }
 
-        async function getStudents(limit = 10, sort = 'ID', offset = 0, like = '') {
-            const url = `${baseUrl}?limit=${limit}&sort=${sort}&offset=${offset}&like=${like}`;
+        async function getStudents(params) {
+            const query = new URLSearchParams(params).toString();
+            const url = `${baseUrl}?${query}`;
             try {
                 const response = await fetch(url, { headers: { 'Accept': getAcceptHeader() } });
                 if (response.ok) {
@@ -144,12 +277,12 @@
             tableBody.innerHTML = '';
 
             if (format === 'json') {
-                students.forEach(student => {
+                students?.data?.forEach(student => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td>${student.ID}</td>
-                        <td>${student.Name}</td>
-                        <td>${student.Phone}</td>
+                        <td>${student.ID || '-'}</td>
+                        <td>${student.Name || '-'}</td>
+                        <td>${student.Phone || '-'}</td>
                         <td>
                             <button onclick="editStudent('${student.ID}')">Edit</button>
                             <button onclick="deleteStudent('${student.ID}')">Delete</button>
@@ -165,22 +298,17 @@
                 Array.from(studentElements).forEach(student => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td>${student.getElementsByTagName("ID")[0].textContent}</td>
-                        <td>${student.getElementsByTagName("Name")[0].textContent}</td>
-                        <td>${student.getElementsByTagName("Phone")[0].textContent}</td>
+                        <td>${student.getElementsByTagName("ID")[0]?.textContent || '-'}</td>
+                        <td>${student.getElementsByTagName("Name")[0]?.textContent || '-'}</td>
+                        <td>${student.getElementsByTagName("Phone")[0]?.textContent || '-'}</td>
                         <td>
-                            <button onclick="editStudent('${student.getElementsByTagName("ID")[0].textContent}')">Edit</button>
-                            <button onclick="deleteStudent('${student.getElementsByTagName("ID")[0].textContent}')">Delete</button>
+                            <button onclick="editStudent('${student.getElementsByTagName("ID")[0]?.textContent}')">Edit</button>
+                            <button onclick="deleteStudent('${student.getElementsByTagName("ID")[0]?.textContent}')">Delete</button>
                         </td>
                     `;
                     tableBody.appendChild(row);
                 });
             }
-        }
-
-        function displayError(error) {
-            console.error("Error:", error);
-            alert(`Error: ${error.error}. See ${error.links.self} for more details.`);
         }
 
         async function saveStudent(event) {
@@ -201,7 +329,7 @@
                 });
                 if (response.ok) {
                     clearForm();
-                    getStudents();
+                    applyFilters();
                 } else {
                     displayError(await response.json());
                 }
@@ -220,7 +348,7 @@
                     headers: { 'Accept': getAcceptHeader() }
                 });
                 if (response.ok) {
-                    getStudents();
+                    applyFilters();
                 } else {
                     displayError(await response.json());
                 }
@@ -230,15 +358,35 @@
         }
 
         function editStudent(id) {
-            const url = `${baseUrl}/${id}`;
-            fetch(url, { headers: { 'Accept': getAcceptHeader() } })
-                .then(response => response.json())
-                .then(student => {
-                    document.getElementById('student-id').value = student.data.ID;
-                    document.getElementById('student-name').value = student.data.Name;
-                    document.getElementById('student-phone').value = student.data.Phone;
+            const format = document.getElementById('format').value;
+            fetch(`${baseUrl}/${id}`, { headers: { 'Accept': getAcceptHeader() } })
+                .then(response => {
+                    if (format === 'json') {
+                        return response.json();
+                    } else if (format === 'xml') {
+                        return response.text();
+                    }
+                })
+                .then(data => {
+                    if (format === 'json') {
+                        const student = data.data;
+                        document.getElementById('student-id').value = student.ID;
+                        document.getElementById('student-name').value = student.Name;
+                        document.getElementById('student-phone').value = student.Phone;
+                    } else if (format === 'xml') {
+                        const parser = new DOMParser();
+                        const xmlDoc = parser.parseFromString(data, "application/xml");
+                        const student = xmlDoc.getElementsByTagName("Student")[0];
+                        document.getElementById('student-id').value = student.getElementsByTagName("ID")[0].textContent;
+                        document.getElementById('student-name').value = student.getElementsByTagName("Name")[0].textContent;
+                        document.getElementById('student-phone').value = student.getElementsByTagName("Phone")[0].textContent;
+                    }
+                })
+                .catch(error => {
+                    console.error('Request error:', error);
                 });
         }
+
 
         function clearForm() {
             document.getElementById('student-id').value = '';
@@ -246,18 +394,33 @@
             document.getElementById('student-phone').value = '';
         }
 
-        document.getElementById('filter-form').addEventListener('submit', function (event) {
-            event.preventDefault();
-            const limit = document.getElementById('limit').value;
-            const sort = document.getElementById('sort').value;
-            const offset = document.getElementById('offset').value;
-            const like = document.getElementById('like').value;
-            getStudents(limit, sort, offset, like);
-        });
+        function getSelectedColumns() {
+            const checkboxes = document.querySelectorAll('#columns input[type="checkbox"]:checked');
+            return Array.from(checkboxes).map(checkbox => checkbox.value).join(',');
+        }
+
+        function applyFilters() {
+            const params = {
+                limit: document.getElementById('limit').value,
+                offset: document.getElementById('offset').value,
+                sort: document.getElementById('sort').value,
+                like: document.getElementById('like').value,
+                minid: document.getElementById('min-id').value,
+                maxid: document.getElementById('max-id').value,
+                columns: getSelectedColumns(),
+                globalike: document.getElementById('globalike').value
+            };
+            getStudents(params);
+        }
 
         document.getElementById('student-form').addEventListener('submit', saveStudent);
+        document.getElementById('filter-form').addEventListener('submit', event => {
+            event.preventDefault();
+            applyFilters();
+        });
 
-        getStudents();
+        applyFilters(); // Initial fetch
     </script>
 </body>
+
 </html>
