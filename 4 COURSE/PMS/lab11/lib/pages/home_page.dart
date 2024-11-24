@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../auth/auth_service.dart';
+import '../auth/signin_page.dart';
 import '../models/worker.dart';
 import './../db_services.dart';
 
@@ -48,6 +50,19 @@ class _MyHomePageState extends State<MyHomePage> {
           color: Colors.white,
         ),
       ),
+      actions: [
+        IconButton(
+          icon: const Icon(Icons.logout),
+          onPressed: () async {
+            // Выполняем logout
+            await AuthService().logout();
+            // Возвращаемся на экран авторизации
+            Navigator.of(context).pushReplacement(
+              MaterialPageRoute(builder: (context) => const LoginScreen()),
+            );
+          },
+        ),
+      ],
     );
   }
 

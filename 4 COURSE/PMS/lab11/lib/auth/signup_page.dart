@@ -28,7 +28,7 @@ class _CreateAccountState extends State<CreateAccount> {
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
-                key: Key('registrationEmailField'), // Добавлен ключ
+                key: Key('registrationEmailField'),
                 controller: _emailController,
                 decoration: const InputDecoration(hintText: 'Email'),
               ),
@@ -39,7 +39,7 @@ class _CreateAccountState extends State<CreateAccount> {
             SizedBox(
               width: MediaQuery.of(context).size.width / 2,
               child: TextField(
-                key: Key('registrationPasswordField'), // Добавлен ключ
+                key: Key('registrationPasswordField'),
                 controller: _passwordController,
                 obscureText: true,
                 decoration: const InputDecoration(
@@ -51,7 +51,7 @@ class _CreateAccountState extends State<CreateAccount> {
               height: 30.0,
             ),
             ElevatedButton(
-              key: Key('registerButton'), // Добавлен ключ
+              key: Key('registerButton'),
               onPressed: () async {
                 final message = await AuthService().registration(
                   email: _emailController.text,

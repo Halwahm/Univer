@@ -1,9 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 
 class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
 
   Future<String?> registration({
     required String email,
@@ -51,30 +49,52 @@ class AuthService {
     }
   }
 
-  Future<String?> googleSignIn() async {
+  Future<String> signInAnonymously() async {
     try {
-      final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
-      if (googleUser == null) {
-        return 'Google sign-in aborted';
-      }
-
-      final GoogleSignInAuthentication googleAuth =
-          await googleUser.authentication;
-
-      final AuthCredential credential = GoogleAuthProvider.credential(
-        accessToken: googleAuth.accessToken,
-        idToken: googleAuth.idToken,
-      );
-
-      await _auth.signInWithCredential(credential);
+      await _auth.signInAnonymously();
       return 'Success';
     } catch (e) {
-      return e.toString();
+      return 'Failed to sign in anonymously: $e';
     }
   }
 
-  Future<void> signOut() async {
-    await _auth.signOut();
-    await _googleSignIn.signOut();
+  Future<void> logout() async {
+    try {
+      await FirebaseAuth.instance.signOut();
+    } catch (e) {
+      print("Logout failed: $e");
+    }
+  }
+
+  // Авторизация через GitHub
+  Future<String> signInWithGitHub() async {
+    try {
+      final GithubAuthProvider githubProvider = GithubAuthProvider();
+
+      await _auth.signInWithProvider(githubProvider);
+
+      return 'Success';
+    } on FirebaseAuthException catch (e) {
+      print('FirebaseAuthException: ${e.code} - ${e.message}');
+      return 'GitHub Sign-In failed: ${e.message}';
+    } catch (e) {
+      print('Error: $e');
+      return 'An error occurred: $e';
+    }
+  }
+
+  Future<String?> resetPassword(String email) async {
+    try {
+      await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
+      return 'A password reset link has been sent to $email';
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'user-not-found') {
+        return 'No user found with that email.';
+      } else {
+        return 'Failed to send password reset link: ${e.message}';
+      }
+    } catch (e) {
+      return 'An error occurred: $e';
+    }
   }
 }
