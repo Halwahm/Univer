@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button, Modal, Form, Alert } from "react-bootstrap";
+import Select from "react-select";
 import { editBook, uploadFile, fetchGanre, fetchTags } from "../../http/bookAPI";
 
 const EditBook = ({ show, onHide, bookData = {}, onEditComplete }) => {
@@ -12,8 +13,8 @@ const EditBook = ({ show, onHide, bookData = {}, onEditComplete }) => {
     const [chapters, setChapters] = useState("");
     const [genres, setGenres] = useState([]);
     const [tags, setTags] = useState([]);
-    const [selectedGenre, setSelectedGenre] = useState("");
-    const [selectedTag, setSelectedTag] = useState("");
+    const [selectedGenre, setSelectedGenre] = useState([]);
+    const [selectedTag, setSelectedTag] = useState([]);    
 
     const [alertShow, setAlertShow] = useState(false);
     const [variant, setVariant] = useState("success");
@@ -24,17 +25,17 @@ const EditBook = ({ show, onHide, bookData = {}, onEditComplete }) => {
         const loadGenresAndTags = async () => {
             try {
                 const genresData = await fetchGanre(0);
-                setGenres(genresData || []);
-
+                setGenres(genresData || []); // Гарантируем, что это массив
+    
                 const tagsData = await fetchTags(0);
-                setTags(tagsData || []);
+                setTags(tagsData || []); // Гарантируем, что это массив
             } catch (error) {
                 console.error("Ошибка при загрузке жанров и тегов:", error);
             }
         };
-
+    
         loadGenresAndTags();
-    }, []);
+    }, []);    
 
     useEffect(() => {
         if (bookData && bookData.ID) {
@@ -43,8 +44,16 @@ const EditBook = ({ show, onHide, bookData = {}, onEditComplete }) => {
             setSeries(bookData.BOOK_SERIES || "");
             setYear(bookData.DATA_RELEASE || "");
             setChapters(bookData.CHAPTERS || "");
-            setSelectedGenre(bookData.GENRES || []);
-            setSelectedTag(bookData.TAGS || []);
+            setSelectedGenre(
+                Array.isArray(bookData.GENRES)
+                    ? bookData.GENRES.map((genre) => genre.ID)
+                    : []
+            );
+            setSelectedTag(
+                Array.isArray(bookData.TAGS)
+                    ? bookData.TAGS.map((tag) => tag.ID)
+                    : []
+            );
         }
     }, [bookData]);
 
@@ -54,17 +63,14 @@ const EditBook = ({ show, onHide, bookData = {}, onEditComplete }) => {
             info.trim() !== "" &&
             series.trim() !== "" &&
             !isNaN(year) &&
-            year.toString().trim() !== "" &&
+            year !== "" &&
             !isNaN(chapters) &&
             chapters.toString().trim() !== "" &&
-            file !== null &&
-            file.type === "application/epub+zip" &&
-            fimg !== null &&
-            fimg.type === "image/jpeg" &&
-            selectedGenre !== "" &&
-            selectedTag !== ""
+            selectedGenre.length > 0 &&
+            selectedTag.length > 0
         );
-    }, [name, info, series, year, chapters, file, fimg, selectedGenre, selectedTag]);
+    }, [name, info, series, year, chapters, selectedGenre, selectedTag]);
+    
 
     const handleFileSelect = (e) => setFile(e.target.files[0]);
     const handleImageSelect = (e) => setFimg(e.target.files[0]);
@@ -81,7 +87,7 @@ const EditBook = ({ show, onHide, bookData = {}, onEditComplete }) => {
             BOOK_NAME: name,
             BOOK_DESCRIPTION: info,
             BOOK_SERIES: series,
-            DATA_RELEASE: parseInt(year),
+            DATA_RELEASE: year ? parseInt(year, 10) : null,
             CHAPTERS: parseInt(chapters),
             GENRES: selectedGenre,
             TAGS: selectedTag,
@@ -176,34 +182,36 @@ const EditBook = ({ show, onHide, bookData = {}, onEditComplete }) => {
                         className="mt-3"
                         placeholder="Количество глав"
                     />
-<Form.Group className="mb-3">
-                        <Form.Label>Выберите жанр:</Form.Label>
-                        <Form.Select
-                            value={selectedGenre}
-                            onChange={(e) => setSelectedGenre(e.target.value)}
-                        >
-                            <option value="">Выберите жанр</option>
-                            {genres.map((genre) => (
-                                <option key={genre.ID} value={genre.ID}>
-                                    {genre.GENRE_NAME}
-                                </option>
-                            ))}
-                        </Form.Select>
+                    <Form.Group className="mb-3">
+                        <Form.Label>Выберите жанры:</Form.Label>
+                        <Select
+                            isMulti
+                            options={(genres || []).map((genre) => ({
+                                value: genre.ID,
+                                label: genre.GENRE_NAME,
+                            }))}
+                            value={Array.isArray(selectedGenre) ? selectedGenre.map((genre) => ({
+                                value: genre,
+                                label: (genres || []).find((g) => g.ID === genre)?.GENRE_NAME,
+                            })) : []}
+                            onChange={(selected) => setSelectedGenre(selected.map((option) => option.value))}
+                        />
                     </Form.Group>
 
                     <Form.Group className="mb-3">
-                        <Form.Label>Выберите тег:</Form.Label>
-                        <Form.Select
-                            value={selectedTag}
-                            onChange={(e) => setSelectedTag(e.target.value)}
-                        >
-                            <option value="">Выберите тег</option>
-                            {tags.map((tag) => (
-                                <option key={tag.ID} value={tag.ID}>
-                                    {tag.TAG_NAME}
-                                </option>
-                            ))}
-                        </Form.Select>
+                        <Form.Label>Выберите теги:</Form.Label>
+                        <Select
+                            isMulti
+                            options={(tags || []).map((tag) => ({
+                                value: tag.ID,
+                                label: tag.TAG_NAME,
+                            }))}
+                            value={Array.isArray(selectedTag) ? selectedTag.map((tag) => ({
+                                value: tag,
+                                label: (tags || []).find((t) => t.ID === tag)?.TAG_NAME,
+                            })) : []}
+                            onChange={(selected) => setSelectedTag(selected.map((option) => option.value))}
+                        />
                     </Form.Group>
                     <Button
                         variant="outline-success"

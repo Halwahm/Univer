@@ -40,10 +40,6 @@ const BookController = {
             const page = parseInt(req.params.page, 10) || 1;
             const search = req.body.searchTerm || '';
             const filtr = req.body.filterParams || {};
-    
-            console.log("Received Search Term:", search);
-            console.log("Received Filter Params:", JSON.stringify(filtr, null, 2));
-    
             const books = await Book.getBooks(page, search, filtr);
             res.json(books);
         } catch (error) {
@@ -153,13 +149,10 @@ const BookController = {
             const bookId = parseInt(req.params.id);
             const { BOOK_NAME, BOOK_DESCRIPTION, BOOK_SERIES, DATA_RELEASE, CHAPTERS, GENRES, TAGS } = req.body;
     
-            // Проверяем существование книги
             const existingBook = await Book.getBooksById(bookId);
             if (!existingBook) {
                 return next(ApiError.badRequest("Книга не найдена"));
-            }
-    
-            // Обновляем основную информацию о книге
+            }    
             const updatedBook = await Book.updateBook(bookId, {
                 BOOK_NAME,
                 BOOK_DESCRIPTION,
@@ -168,23 +161,17 @@ const BookController = {
                 CHAPTERS: parseInt(CHAPTERS),
             });
     
-            // Обновляем связи с жанрами
             if (GENRES) {
-                // Удаляем старые жанры
                 await Book.deleteGenresFromBook(bookId);
     
-                // Добавляем новые жанры
                 for (const genreId of GENRES) {
                     await Book.addGenreToBook(bookId, genreId);
                 }
             }
     
-            // Обновляем связи с тегами
             if (TAGS) {
-                // Удаляем старые теги
                 await Book.deleteTagsFromBook(bookId);
     
-                // Добавляем новые теги
                 for (const tagId of TAGS) {
                     await Book.addTagToBook(bookId, tagId);
                 }

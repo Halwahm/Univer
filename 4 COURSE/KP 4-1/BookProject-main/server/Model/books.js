@@ -94,7 +94,7 @@ async function getBooks(page, searchTerm, filterParams) {
 async function getBooksById(id) {
     return await prisma.books.findUnique({
         where: {
-            ID: parseInt(id), // Преобразуем ID в число
+            ID: parseInt(id),
         },
     });
 }
@@ -143,8 +143,7 @@ async function createBook(book) {
 
 
 async function updateBook(id, book) {
-    const chapters = parseInt(book.CHAPTERS);
-    const year = parseInt(book.BOOK_RELEASE);
+    console.log("book: ", book, id)
     return await prisma.books.update({
         where: { ID: id },
         data: {
@@ -287,30 +286,30 @@ async function getBooksByAuthor(userId, page) {
 
 async function deleteGenresFromBook(bookId) {
     return await prisma.book_genre.deleteMany({
-        where: { BOOKID: bookId },
+        where: { BOOKID: parseInt(bookId) },
     });
 }
 
 async function addGenreToBook(bookId, genreId) {
     return await prisma.book_genre.create({
         data: {
-            BOOKID: bookId,
-            GENREID: genreId,
+            BOOKID: parseInt(bookId),
+            GENREID: parseInt(genreId),
         },
     });
 }
 
 async function deleteTagsFromBook(bookId) {
     return await prisma.book_tag.deleteMany({
-        where: { BOOKID: bookId },
+        where: { BOOKID: parseInt(bookId) },
     });
 }
 
 async function addTagToBook(bookId, tagId) {
     return await prisma.book_tag.create({
         data: {
-            BOOKID: bookId,
-            TAGID: tagId,
+            BOOKID: parseInt(bookId),
+            TAGID: parseInt(tagId),
         },
     });
 }

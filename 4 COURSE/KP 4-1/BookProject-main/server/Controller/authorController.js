@@ -9,7 +9,6 @@ const AuthorController = {
         try {
             const id = parseInt(req.params.id);
             const author = req.body;
-            console.log(author);
             const result = await Author.addAuthorforBook(id, author);
             res.json(result);
         } catch (error) {
