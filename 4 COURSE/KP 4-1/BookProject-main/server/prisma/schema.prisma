@@ -1,0 +1,118 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model authors {
+  ID          Int           @id @default(autoincrement())
+  AUTHOR_NAME String        @unique(map: "AUTHOR_NAME") @db.VarChar(25)
+  ID_USER     Int           @unique
+  user        users         @relation(fields: [ID_USER], references: [ID])
+  book_author book_author[]
+}
+
+model book_author {
+  BOOKID   Int
+  AUTHORID Int
+  ID       Int     @id @default(autoincrement())
+  books    books   @relation(fields: [BOOKID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "book_author_ibfk_1")
+  authors  authors @relation(fields: [AUTHORID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "book_author_ibfk_2")
+
+  @@index([AUTHORID], map: "AUTHORID")
+  @@index([BOOKID], map: "BOOKID")
+}
+
+model book_genre {
+  BOOKID  Int
+  GENREID Int
+  ID      Int   @id @default(autoincrement())
+  books   books @relation(fields: [BOOKID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "book_genre_ibfk_1")
+  genre   genre @relation(fields: [GENREID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "book_genre_ibfk_2")
+
+  @@index([BOOKID], map: "BOOKID")
+  @@index([GENREID], map: "GENREID")
+}
+
+model book_tag {
+  BOOKID Int
+  TAGID  Int
+  ID     Int   @id @default(autoincrement())
+  books  books @relation(fields: [BOOKID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "book_tag_ibfk_1")
+  tag    tag   @relation(fields: [TAGID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "book_tag_ibfk_2")
+
+  @@index([BOOKID], map: "BOOKID")
+  @@index([TAGID], map: "TAGID")
+}
+
+model books {
+  ID               Int              @id @default(autoincrement())
+  BOOK_NAME        String           @db.Text
+  BOOK_SERIES      String?          @db.Text
+  BOOK_DESCRIPTION String?          @db.Text
+  CHAPTERS         Int?
+  DATA_RELEASE     Int?
+  DATA_ADD         DateTime         @default(now()) @db.DateTime(0)
+  book_author      book_author[]
+  book_genre       book_genre[]
+  book_tag         book_tag[]
+  feedback         feedback[]
+  user_bookmarks   user_bookmarks[]
+}
+
+model feedback {
+  ID       Int      @id @default(autoincrement())
+  ID_USER  Int
+  ID_BOOK  Int
+  FEEDBACK String?  @db.Text
+  RATING   Float    @db.Float
+  DATE     DateTime @default(now()) @db.DateTime(0)
+  users    users    @relation(fields: [ID_USER], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "feedback_ibfk_1")
+  books    books    @relation(fields: [ID_BOOK], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "feedback_ibfk_2")
+
+  @@index([ID_BOOK], map: "ID_BOOK")
+  @@index([ID_USER], map: "ID_USER")
+}
+
+model genre {
+  ID         Int          @id @default(autoincrement())
+  GENRE_NAME String       @unique(map: "GENRE_NAME") @db.VarChar(50)
+  book_genre book_genre[]
+}
+
+model tag {
+  ID       Int        @id @default(autoincrement())
+  TAG_NAME String     @unique(map: "TAG_NAME") @db.VarChar(50)
+  book_tag book_tag[]
+}
+
+model user_bookmarks {
+  USERID         Int
+  BOOKID         Int
+  STATUS_READING String    @db.VarChar(25)
+  DATA_READING   DateTime? @db.DateTime(0)
+  DATA_ADD       DateTime  @default(now()) @db.Timestamp(0)
+  MARKS          String?   @db.VarChar(1000)
+  ID             Int       @id @default(autoincrement())
+  users          users     @relation(fields: [USERID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "user_bookmarks_ibfk_1")
+  books          books     @relation(fields: [BOOKID], references: [ID], onDelete: NoAction, onUpdate: NoAction, map: "user_bookmarks_ibfk_2")
+
+  @@index([BOOKID], map: "BOOKID")
+  @@index([USERID], map: "USERID")
+}
+
+model users {
+  ID             Int              @id @default(autoincrement())
+  EMAIL          String           @unique(map: "EMAIL") @db.VarChar(50)
+  pass           String           @db.VarChar(500)
+  USER_NAME      String           @db.VarChar(20)
+  USER_INFO      String?          @db.Text
+  ACCESS_LEVEL   String           @db.VarChar(20)
+  DATA_CREATE    DateTime         @default(now()) @db.DateTime(0)
+  feedback       feedback[]
+  user_bookmarks user_bookmarks[]
+  authors        authors[]
+}
