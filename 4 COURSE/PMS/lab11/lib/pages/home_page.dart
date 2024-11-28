@@ -242,6 +242,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 children: [
                   TextFormField(
+                    key: const Key('nameField'),
                     controller: nameController2,
                     decoration: const InputDecoration(labelText: 'Имя'),
                   ),
@@ -249,6 +250,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 20,
                   ),
                   TextFormField(
+                    key: const Key('specializationField'),
                     controller: specializationController2,
                     decoration:
                         const InputDecoration(labelText: 'Специальность'),

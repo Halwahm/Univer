@@ -30,7 +30,7 @@ void main() {
     //       find.byKey(const Key('registrationPasswordField'));
     //   final registerButtonFinder = find.byKey(const Key('registerButton'));
     //
-    //   await tester.enterText(emailFieldFinder, 'newuser343123254@example.com');
+    //   await tester.enterText(emailFieldFinder, 'newuser343h@example.com');
     //   await tester.enterText(passwordFieldFinder, 'password123');
     //   await tester.tap(registerButtonFinder);
     //   await tester.pumpAndSettle();
@@ -48,12 +48,12 @@ void main() {
       final passwordFieldFinder = find.byKey(const Key('loginPasswordField'));
       final loginButtonFinder = find.byKey(const Key('loginButton'));
 
-      await tester.enterText(emailFieldFinder, 'newuser343123254@example.com');
+      await tester.enterText(emailFieldFinder, 'newuser343h@example.com');
       await tester.enterText(passwordFieldFinder, 'password123');
       await tester.tap(loginButtonFinder);
       await Future.delayed(const Duration(seconds: 2));
       await tester.pumpAndSettle();
-
+      await Future.delayed(const Duration(seconds: 2));
       final workersTextFinder = find.text('Workers');
       print('Looking for Workers text: $workersTextFinder');
 

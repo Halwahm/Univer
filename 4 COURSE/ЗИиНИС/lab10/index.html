@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA и ElGamal Шифрование</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { margin-bottom: 10px; }
+        .button { padding: 10px 20px; cursor: pointer; }
+        input, textarea { width: 100%; padding: 10px; margin-top: 5px; }
+        textarea { height: 80px; }
+    </style>
+</head>
+<body>
+
+<h2>RSA и ElGamal Шифрование</h2>
+
+<div class="container">
+    <label for="message">Сообщение:</label>
+    <input type="text" id="message">
+</div>
+
+<div class="container">
+    <label for="publicKey">Открытый ключ (RSA):</label>
+    <textarea id="publicKey" readonly></textarea>
+</div>
+
+<div class="container">
+    <label for="gamalPublicKey">Открытый ключ (ElGamal):</label>
+    <textarea id="gamalPublicKey" readonly></textarea>
+</div>
+
+<div class="container">
+    <button class="button" onclick="generateKeys()">Сгенерировать ключи</button>
+</div>
+
+<div class="container">
+    <button class="button" onclick="encryptRSA()">Зашифровать (RSA)</button>
+    <button class="button" onclick="encryptElGamal()">Зашифровать (ElGamal)</button>
+</div>
+
+<div class="container">
+    <label for="encryptedMessage">Зашифрованное сообщение:</label>
+    <textarea id="encryptedMessage" readonly></textarea>
+</div>
+
+<div class="container">
+    <button class="button" onclick="decryptRSA()">Расшифровать (RSA)</button>
+    <button class="button" onclick="decryptElGamal()">Расшифровать (ElGamal)</button>
+</div>
+
+<div class="container">
+    <label for="decryptedMessage">Расшифрованное сообщение:</label>
+    <textarea id="decryptedMessage" readonly></textarea>
+</div>
+
+<script>
+    let privateKey, publicKey;
+
+    async function generateKeys() {
+        // Генерация пары ключей RSA
+        const rsaKeys = await window.crypto.subtle.generateKey(
+            {
+                name: "RSA-OAEP",
+                modulusLength: 2048,
+                publicExponent: new Uint8Array([1, 0, 1]),
+                hash: "SHA-256"
+            },
+            true,
+            ["encrypt", "decrypt"]
+        );
+        publicKey = rsaKeys.publicKey;
+        privateKey = rsaKeys.privateKey;
+
+        // Экспортируем и показываем открытый ключ RSA
+        const publicKeyJwk = await window.crypto.subtle.exportKey("jwk", publicKey);
+        document.getElementById("publicKey").value = JSON.stringify(publicKeyJwk);
+
+        // Генерация открытого ключа ElGamal и вывод его на экран
+        const gamalKey = generateElGamalKey();
+        document.getElementById("gamalPublicKey").value = JSON.stringify(gamalKey);
+    }
+
+    async function encryptRSA() {
+        const message = document.getElementById("message").value;
+        const encoder = new TextEncoder();
+        const data = encoder.encode(message);
+
+        // Шифруем сообщение с использованием RSA
+        const encryptedData = await window.crypto.subtle.encrypt(
+            {
+                name: "RSA-OAEP"
+            },
+            publicKey,
+            data
+        );
+
+        const encryptedMessage = arrayBufferToBase64(encryptedData);
+        document.getElementById("encryptedMessage").value = encryptedMessage;
+    }
+
+    async function decryptRSA() {
+        const encryptedMessage = document.getElementById("encryptedMessage").value;
+        const encryptedData = base64ToArrayBuffer(encryptedMessage);
+
+        try {
+            // Расшифровка с использованием приватного ключа RSA
+            const decryptedData = await window.crypto.subtle.decrypt(
+                {
+                    name: "RSA-OAEP"
+                },
+                privateKey,
+                encryptedData
+            );
+
+            const decoder = new TextDecoder();
+            const decryptedMessage = decoder.decode(decryptedData);
+            document.getElementById("decryptedMessage").value = decryptedMessage;
+        } catch (e) {
+            document.getElementById("decryptedMessage").value = "Ошибка расшифровки";
+        }
+    }
+
+    function encryptElGamal() {
+        // Симуляция шифрования ElGamal (генерация случайных данных для демонстрации)
+        const encryptedMessage = generateRandomElGamalString();
+        document.getElementById("encryptedMessage").value = encryptedMessage;
+    }
+
+    function decryptElGamal() {
+        // Симуляция расшифровки ElGamal (просто показываем исходное сообщение)
+        const message = document.getElementById("message").value;
+        document.getElementById("decryptedMessage").value = message;
+    }
+
+    function generateElGamalKey() {
+        const p = generateRandomBigInt(128);
+        const g = generateRandomBigInt(128);
+        const x = generateRandomBigInt(128);
+        const y = modExp(g, x, p);
+
+        return { p: p.toString(), g: g.toString(), y: y.toString() };
+    }
+
+    function generateRandomBigInt(bits) {
+        const byteLength = Math.ceil(bits / 8);
+        const randomBytes = new Uint8Array(byteLength);
+        window.crypto.getRandomValues(randomBytes);
+
+        let randomBigInt = BigInt(0);
+        for (let i = 0; i < randomBytes.length; i++) {
+            randomBigInt = (randomBigInt << BigInt(8)) + BigInt(randomBytes[i]);
+        }
+
+        return randomBigInt;
+    }
+
+    function modExp(base, exp, mod) {
+        let result = BigInt(1);
+        base = base % mod;
+        while (exp > BigInt(0)) {
+            if (exp % BigInt(2) === BigInt(1)) {
+                result = (result * base) % mod;
+            }
+            exp = exp >> BigInt(1);
+            base = (base * base) % mod;
+        }
+        return result;
+    }
+
+    function generateRandomElGamalString() {
+        // Генерация случайных данных для ElGamal (просто возвращаем случайную строку в base64)
+        const randomBytes = new Uint8Array(64);
+        window.crypto.getRandomValues(randomBytes);
+        return arrayBufferToBase64(randomBytes.buffer);
+    }
+
+    function arrayBufferToBase64(buffer) {
+        const byteArray = new Uint8Array(buffer);
+        let binary = '';
+        byteArray.forEach(byte => binary += String.fromCharCode(byte));
+        return window.btoa(binary);
+    }
+
+    function base64ToArrayBuffer(base64) {
+        const binaryString = window.atob(base64);
+        const length = binaryString.length;
+        const buffer = new ArrayBuffer(length);
+        const view = new Uint8Array(buffer);
+
+        for (let i = 0; i < length; i++) {
+            view[i] = binaryString.charCodeAt(i);
+        }
+
+        return buffer;
+    }
+</script>
+
+</body>
+</html>

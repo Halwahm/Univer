@@ -1,60 +1,62 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lab11/auth/home.dart';
+import 'package:lab11/db_services.dart';
+import 'package:mockito/mockito.dart';
+
+class MockDatabaseService extends Mock implements DatabaseService {}
 
 void main() {
   testWidgets('Enter text into field and verify', (WidgetTester tester) async {
     await tester.pumpWidget(MaterialApp(home: MyHomePage()));
 
-    final textFieldFinder = find.byKey(Key("addField"));
+    await tester.tap(find.byKey(const Key("addButton")));
+    await tester.pumpAndSettle();
+
+    final textFieldFinder = find.byType(TextFormField).first;
     await tester.enterText(textFieldFinder, 'New Worker');
     await tester.pumpAndSettle();
 
-    // Проверяем, что текст "New Worker" отобразился
-    expect(find.text('New Worker'), findsOneWidget);
+    // Проверяем, что текст "New Worker" отобразился в поле ввода
+    expect(find.widgetWithText(TextFormField, 'New Worker'), findsOneWidget);
   });
 
   testWidgets('Tap on add button and check list item appears',
       (WidgetTester tester) async {
     await tester.pumpWidget(MaterialApp(home: MyHomePage()));
 
-    final textFieldFinder = find.byKey(Key("addField"));
-    await tester.enterText(textFieldFinder, 'New Worker');
-
-    final addButtonFinder = find.byKey(Key("addButton"));
-    expect(addButtonFinder, findsOneWidget, reason: 'Add button not found');
-
-    await tester.tap(addButtonFinder);
+    // Находим поле ввода и вводим данные
+    await tester.enterText(find.byKey(const Key("addField")), 'New Worker');
+    await tester.tap(find.byKey(const Key("addButton")));
     await tester.pumpAndSettle();
 
+    // Проверяем, что элемент появился в списке
     expect(find.text('New Worker'), findsOneWidget);
   });
 
-  testWidgets('Add a todo item and drag it to a new position',
-      (WidgetTester tester) async {
+  testWidgets('Testing Draggable interaction', (WidgetTester tester) async {
+    // Отрисовываем MyHomePage
     await tester.pumpWidget(MaterialApp(home: MyHomePage()));
 
-    // Добавляем задачу
-    final textFieldFinder = find.byKey(const Key("addField"));
-    final addButtonFinder = find.byKey(const Key("addButton"));
-
-    await tester.enterText(textFieldFinder, 'Draggable Task');
-    await tester.tap(addButtonFinder);
+    // Ждем загрузки UI
     await tester.pumpAndSettle();
 
-    // Проверяем, что Draggable появился
-    final draggableFinder = find.byType(Draggable<String>);
-    expect(draggableFinder, findsOneWidget,
-        reason: 'Draggable widget not found');
+    // Проверяем, что есть хотя бы один Draggable
+    expect(find.byType(Draggable), findsOneWidget);
 
-    // Перетаскиваем элемент
-    final draggable = draggableFinder.first;
-    await tester.drag(draggable, const Offset(0, 100));
+    // Найдем первый Draggable
+    final draggableFinder = find.byType(Draggable).first;
+
+    // Получаем начальную позицию
+    final initialPosition = tester.getTopLeft(draggableFinder);
+
+    // Выполняем перетаскивание
+    await tester.drag(draggableFinder, const Offset(100, 100));
     await tester.pumpAndSettle();
 
-    // Проверяем, что элемент все еще существует
-    expect(find.text('Draggable Task'), findsOneWidget,
-        reason: 'Dragged task is no longer visible');
+    // Проверяем, что позиция изменилась
+    final newPosition = tester.getTopLeft(draggableFinder);
+    expect(newPosition, isNot(initialPosition));
   });
 
   testWidgets('Enter text, tap add, and verify multiple items',
