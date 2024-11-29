@@ -1,0 +1,126 @@
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.Development.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.staticwebassets.runtime.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.exe
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.deps.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.runtimeconfig.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.dll
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.pdb
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfoInputs.cache
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfo.cs
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.csproj.CoreCompileInputs.cache
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cache
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cs
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.build.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.development.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.lab4.AjaxMVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.lab4.AjaxMVC.props
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.lab4.AjaxMVC.props
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.lab4.AjaxMVC.props
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.pack.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\bundle\lab4.AjaxMVC.styles.css
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\projectbundle\lab4.AjaxMVC.bundle.scp.css
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.dll
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\refint\lab4.AjaxMVC.dll
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.pdb
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.genruntimeconfig.cache
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Debug\net6.0\ref\lab4.AjaxMVC.dll
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.Development.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.staticwebassets.runtime.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.exe
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.deps.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.runtimeconfig.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.dll
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.pdb
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.csproj.AssemblyReference.cache
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfoInputs.cache
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfo.cs
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.csproj.CoreCompileInputs.cache
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.MvcApplicationPartsAssemblyInfo.cache
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cache
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cs
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.lab4.AjaxMVC.Microsoft.AspNetCore.StaticWebAssets.props
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.lab4.AjaxMVC.props
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.lab4.AjaxMVC.props
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.lab4.AjaxMVC.props
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.pack.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.build.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.development.json
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\bundle\lab4.AjaxMVC.styles.css
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\projectbundle\lab4.AjaxMVC.bundle.scp.css
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.dll
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\refint\lab4.AjaxMVC.dll
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.pdb
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.genruntimeconfig.cache
+E:\student\learn\4_course\1_sem\STRPW\lab4\lab4.AjaxMVC\obj\Debug\net6.0\ref\lab4.AjaxMVC.dll
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.Development.json
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.json
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.staticwebassets.runtime.json
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.staticwebassets.endpoints.json
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.exe
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.deps.json
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.runtimeconfig.json
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.dll
+D:\WEB\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.pdb
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfoInputs.cache
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfo.cs
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.csproj.CoreCompileInputs.cache
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cache
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cs
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\bundle\lab4.AjaxMVC.styles.css
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\projectbundle\lab4.AjaxMVC.bundle.scp.css
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.build.json
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.development.json
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.lab4.AjaxMVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.lab4.AjaxMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.lab4.AjaxMVC.props
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.lab4.AjaxMVC.props
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.lab4.AjaxMVC.props
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.pack.json
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.dll
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\refint\lab4.AjaxMVC.dll
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.pdb
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.genruntimeconfig.cache
+D:\WEB\lab4\lab4.AjaxMVC\obj\Debug\net6.0\ref\lab4.AjaxMVC.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.Development.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\appsettings.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.staticwebassets.runtime.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.exe
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.deps.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.runtimeconfig.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\bin\Debug\net6.0\lab4.AjaxMVC.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfoInputs.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.AssemblyInfo.cs
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.RazorAssemblyInfo.cs
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.sourcelink.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.build.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.development.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.lab4.AjaxMVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.lab4.AjaxMVC.props
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.lab4.AjaxMVC.props
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.lab4.AjaxMVC.props
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\staticwebassets.pack.json
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\bundle\lab4.AjaxMVC.styles.css
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\scopedcss\projectbundle\lab4.AjaxMVC.bundle.scp.css
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\refint\lab4.AjaxMVC.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\lab4.AjaxMVC.genruntimeconfig.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab4\lab4.AjaxMVC\obj\Debug\net6.0\ref\lab4.AjaxMVC.dll

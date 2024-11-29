@@ -1,0 +1,15 @@
+D:\6 сем\ЗИиНИС\Lab11\22\bin\Debug\22.exe.config
+D:\6 сем\ЗИиНИС\Lab11\22\bin\Debug\22.exe
+D:\6 сем\ЗИиНИС\Lab11\22\bin\Debug\22.pdb
+D:\6 сем\ЗИиНИС\Lab11\22\obj\Debug\22.csproj.AssemblyReference.cache
+D:\6 сем\ЗИиНИС\Lab11\22\obj\Debug\22.csproj.SuggestedBindingRedirects.cache
+D:\6 сем\ЗИиНИС\Lab11\22\obj\Debug\22.csproj.CoreCompileInputs.cache
+D:\6 сем\ЗИиНИС\Lab11\22\obj\Debug\22.exe
+D:\6 сем\ЗИиНИС\Lab11\22\obj\Debug\22.pdb
+D:\Downloads\6sem-main\ЗИиНИС\Lab11\22\bin\Debug\22.exe.config
+D:\Downloads\6sem-main\ЗИиНИС\Lab11\22\bin\Debug\22.exe
+D:\Downloads\6sem-main\ЗИиНИС\Lab11\22\bin\Debug\22.pdb
+D:\Downloads\6sem-main\ЗИиНИС\Lab11\22\obj\Debug\22.csproj.AssemblyReference.cache
+D:\Downloads\6sem-main\ЗИиНИС\Lab11\22\obj\Debug\22.csproj.CoreCompileInputs.cache
+D:\Downloads\6sem-main\ЗИиНИС\Lab11\22\obj\Debug\22.exe
+D:\Downloads\6sem-main\ЗИиНИС\Lab11\22\obj\Debug\22.pdb
