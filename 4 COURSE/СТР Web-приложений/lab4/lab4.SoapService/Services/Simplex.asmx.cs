@@ -12,11 +12,12 @@ namespace lab4.SoapService.Services
     /// <summary>
     /// Сводное описание для Simplex
     /// </summary>
+    /// wsdl out:SimplexProxy.cs Services/Simplex.asmx
+    /// 
     [WebService(Namespace = "http://HAN/", Description = "Это SOAP-сервис для выполнения арифметических операций и обработки объектов")]
     // compability standart
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
-    // Чтобы разрешить вызывать веб-службу из скрипта с помощью ASP.NET AJAX, раскомментируйте следующую строку. 
     [System.Web.Script.Services.ScriptService]
     public class Simplex : System.Web.Services.WebService
     {
@@ -28,7 +29,6 @@ namespace lab4.SoapService.Services
         }
 
         [WebMethod(Description = "Возвращает сумму двух чисел для AJAX запроса")]
-        // json format
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public int AddS(int x, int y)
         {

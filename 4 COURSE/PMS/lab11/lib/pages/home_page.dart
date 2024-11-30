@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../auth/auth_service.dart';
-import '../auth/signin_page.dart';
 import '../models/worker.dart';
 import './../db_services.dart';
 
@@ -50,19 +48,6 @@ class _MyHomePageState extends State<MyHomePage> {
           color: Colors.white,
         ),
       ),
-      actions: [
-        IconButton(
-          icon: const Icon(Icons.logout),
-          onPressed: () async {
-            // Выполняем logout
-            await AuthService().logout();
-            // Возвращаемся на экран авторизации
-            Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (context) => const LoginScreen()),
-            );
-          },
-        ),
-      ],
     );
   }
 
@@ -242,7 +227,6 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 children: [
                   TextFormField(
-                    key: const Key('nameField'),
                     controller: nameController2,
                     decoration: const InputDecoration(labelText: 'Имя'),
                   ),
@@ -250,7 +234,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 20,
                   ),
                   TextFormField(
-                    key: const Key('specializationField'),
                     controller: specializationController2,
                     decoration:
                         const InputDecoration(labelText: 'Специальность'),

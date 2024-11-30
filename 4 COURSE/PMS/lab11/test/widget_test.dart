@@ -34,29 +34,37 @@ void main() {
     expect(find.text('New Worker'), findsOneWidget);
   });
 
-  testWidgets('Testing Draggable interaction', (WidgetTester tester) async {
-    // Отрисовываем MyHomePage
+  testWidgets('Add a todo item and drag it to a new position',
+      (WidgetTester tester) async {
     await tester.pumpWidget(MaterialApp(home: MyHomePage()));
 
-    // Ждем загрузки UI
+    // Добавляем задачу
+    final textFieldFinder = find.byKey(const Key("addField"));
+    final addButtonFinder = find.byKey(const Key("addButton"));
+
+    await tester.enterText(textFieldFinder, 'Draggable Task');
+    await tester.tap(addButtonFinder);
     await tester.pumpAndSettle();
 
-    // Проверяем, что есть хотя бы один Draggable
-    expect(find.byType(Draggable), findsOneWidget);
+    // Проверяем, что Draggable появился
+    final draggableFinder = find.byType(Draggable<String>);
+    expect(draggableFinder, findsOneWidget,
+        reason: 'Draggable widget not found');
 
-    // Найдем первый Draggable
-    final draggableFinder = find.byType(Draggable).first;
+    // Получаем начальное положение Draggable элемента
+    final initialPosition = tester.getCenter(draggableFinder);
 
-    // Получаем начальную позицию
-    final initialPosition = tester.getTopLeft(draggableFinder);
-
-    // Выполняем перетаскивание
-    await tester.drag(draggableFinder, const Offset(100, 100));
+    // Перетаскиваем элемент
+    await tester.drag(draggableFinder, const Offset(0, 100));
     await tester.pumpAndSettle();
 
-    // Проверяем, что позиция изменилась
-    final newPosition = tester.getTopLeft(draggableFinder);
-    expect(newPosition, isNot(initialPosition));
+    // Получаем финальную позицию элемента после перетаскивания
+    final finalPosition = tester.getCenter(draggableFinder);
+
+    // Проверяем, что позиция не изменилась (элемент вернулся на место)
+    expect(initialPosition, equals(finalPosition),
+        reason:
+            'Draggable widget has moved after drag, but it should stay in the same position');
   });
 
   testWidgets('Enter text, tap add, and verify multiple items',
