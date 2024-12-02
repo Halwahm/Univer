@@ -54,6 +54,7 @@ void main() {
       await Future.delayed(const Duration(seconds: 2));
       await tester.pumpAndSettle();
       await Future.delayed(const Duration(seconds: 2));
+      await tester.pumpAndSettle();
       final workersTextFinder = find.text('Workers');
       print('Looking for Workers text: $workersTextFinder');
 

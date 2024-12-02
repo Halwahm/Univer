@@ -95,37 +95,37 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             const SizedBox(height: 30.0),
             // GitHub Login Button
-            ElevatedButton.icon(
-              onPressed: () async {
-                final message = await AuthService().signInWithGitHub();
-                if (message.contains('Success')) {
-                  Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(
-                      builder: (context) => const MyHomePage(),
-                    ),
-                  );
-                } else {
-                  _showMessage(message);
-                }
-              },
-              icon: const Icon(Icons.code),
-              label: const Text('Sign in with GitHub'),
-            ),
-            const SizedBox(height: 30.0),
-            // Reset password button
-            TextButton(
-              onPressed: () async {
-                if (_emailController.text.isEmpty) {
-                  _showMessage('Please enter your email.');
-                  return;
-                }
-                final message = await AuthService().resetPassword(
-                  _emailController.text,
-                );
-                _showMessage(message!);
-              },
-              child: const Text('Forgot Password? Reset here'),
-            ),
+            // ElevatedButton.icon(
+            //   onPressed: () async {
+            //     final message = await AuthService().signInWithGitHub();
+            //     if (message.contains('Success')) {
+            //       Navigator.of(context).pushReplacement(
+            //         MaterialPageRoute(
+            //           builder: (context) => const MyHomePage(),
+            //         ),
+            //       );
+            //     } else {
+            //       _showMessage(message);
+            //     }
+            //   },
+            //   icon: const Icon(Icons.code),
+            //   label: const Text('Sign in with GitHub'),
+            // ),
+            // const SizedBox(height: 30.0),
+            // // Reset password button
+            // TextButton(
+            //   onPressed: () async {
+            //     if (_emailController.text.isEmpty) {
+            //       _showMessage('Please enter your email.');
+            //       return;
+            //     }
+            //     final message = await AuthService().resetPassword(
+            //       _emailController.text,
+            //     );
+            //     _showMessage(message!);
+            //   },
+            //   child: const Text('Forgot Password? Reset here'),
+            // ),
             const SizedBox(height: 20),
             // Create Account Button
             TextButton(

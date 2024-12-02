@@ -129,7 +129,10 @@ const BookPage = observer(() => {
   }, [id, user.isAuth, currentBook]);
 
   const handleDownload = () => {
-    window.open(process.env.REACT_APP_API_URL + 'Book' + id + '.EPUB');
+    const url = `process.env.REACT_APP_API_URL + 'Book' + id + '.EPUB'`;
+    console.log(url);
+    //window.open(process.env.REACT_APP_API_URL + 'Book' + id + '.EPUB');
+    window.open(url);
   };
 
   const handleBookmarkSelect = async (item) => {

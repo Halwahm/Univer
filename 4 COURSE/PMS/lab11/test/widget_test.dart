@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lab11/auth/home.dart';
 import 'package:lab11/db_services.dart';
+import 'package:lab11/drag.dart';
 import 'package:mockito/mockito.dart';
 
 class MockDatabaseService extends Mock implements DatabaseService {}
@@ -25,7 +26,6 @@ void main() {
       (WidgetTester tester) async {
     await tester.pumpWidget(MaterialApp(home: MyHomePage()));
 
-    // Находим поле ввода и вводим данные
     await tester.enterText(find.byKey(const Key("addField")), 'New Worker');
     await tester.tap(find.byKey(const Key("addButton")));
     await tester.pumpAndSettle();
@@ -34,37 +34,32 @@ void main() {
     expect(find.text('New Worker'), findsOneWidget);
   });
 
-  testWidgets('Add a todo item and drag it to a new position',
+  testWidgets('Test Drag and Drop Button with Key',
       (WidgetTester tester) async {
-    await tester.pumpWidget(MaterialApp(home: MyHomePage()));
+    await tester.pumpWidget(MaterialApp(home: const DragPage()));
+    final draggableButton = find.byKey(Key('draggable_button'));
 
-    // Добавляем задачу
-    final textFieldFinder = find.byKey(const Key("addField"));
-    final addButtonFinder = find.byKey(const Key("addButton"));
+    expect(draggableButton, findsOneWidget);
 
-    await tester.enterText(textFieldFinder, 'Draggable Task');
-    await tester.tap(addButtonFinder);
+    if (draggableButton.evaluate().isNotEmpty) {
+      print('Draggable button found.');
+    } else {
+      print('Draggable button not found.');
+    }
+
+    final draggable = find.byType(Draggable<String>);
+    expect(draggable, findsOneWidget);
+
+    final initialPosition = tester.getTopLeft(draggableButton);
+    print('Initial Position: $initialPosition');
+
+    await tester.drag(draggableButton, Offset(150, 150));
     await tester.pumpAndSettle();
 
-    // Проверяем, что Draggable появился
-    final draggableFinder = find.byType(Draggable<String>);
-    expect(draggableFinder, findsOneWidget,
-        reason: 'Draggable widget not found');
+    final newPosition = tester.getTopLeft(draggableButton);
+    print('New Position: $newPosition');
 
-    // Получаем начальное положение Draggable элемента
-    final initialPosition = tester.getCenter(draggableFinder);
-
-    // Перетаскиваем элемент
-    await tester.drag(draggableFinder, const Offset(0, 100));
-    await tester.pumpAndSettle();
-
-    // Получаем финальную позицию элемента после перетаскивания
-    final finalPosition = tester.getCenter(draggableFinder);
-
-    // Проверяем, что позиция не изменилась (элемент вернулся на место)
-    expect(initialPosition, equals(finalPosition),
-        reason:
-            'Draggable widget has moved after drag, but it should stay in the same position');
+    expect(newPosition, isNot(equals(initialPosition)));
   });
 
   testWidgets('Enter text, tap add, and verify multiple items',

@@ -18,6 +18,8 @@ class _MyHomePageState extends State<MyHomePage> {
   final nameController2 = TextEditingController();
   final specializationController2 = TextEditingController();
 
+  final PageController _pageController = PageController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,11 +55,23 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget _buildUI() {
     return SafeArea(
-        child: Column(
-      children: [
-        _messagesListView(),
-      ],
-    ));
+      child: Column(
+        children: [
+          // PageView с разделением списка на страницы
+          Expanded(
+            child: PageView(
+              controller: _pageController,
+              children: [
+                _messagesListView(),
+                // Можно добавить другие страницы здесь, если нужно
+                Center(child: Text("Page 2")),
+                Center(child: Text("Page 3")),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   Widget _messagesListView() {
