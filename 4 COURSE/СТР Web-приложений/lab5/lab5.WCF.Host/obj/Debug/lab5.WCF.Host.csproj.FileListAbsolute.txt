@@ -1,0 +1,30 @@
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.exe.config
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.exe
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.pdb
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WCF.dll
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WCF.pdb
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WCF.dll.config
+D:\course-4\ПВС\lab5\lab5.WCF.Host\obj\Debug\lab5.WCF.Host.csproj.AssemblyReference.cache
+D:\course-4\ПВС\lab5\lab5.WCF.Host\obj\Debug\lab5.WCF.Host.csproj.CoreCompileInputs.cache
+D:\course-4\ПВС\lab5\lab5.WCF.Host\obj\Debug\lab5.WCF.A02EC83C.Up2Date
+D:\course-4\ПВС\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.exe
+D:\course-4\ПВС\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.pdb
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.exe.manifest
+D:\course-4\ПВС\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.application
+D:\course-4\ПВС\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.exe.manifest
+D:\course-4\ПВС\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.application
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.exe.config
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.exe.manifest
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.application
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.exe
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WcfHttpClient.pdb
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WCF.dll
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WCF.pdb
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\bin\Debug\lab5.WCF.dll.config
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\obj\Debug\lab5.WCF.Host.csproj.AssemblyReference.cache
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\obj\Debug\lab5.WCF.Host.csproj.CoreCompileInputs.cache
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.exe.manifest
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.application
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\obj\Debug\lab5.WCF.A02EC83C.Up2Date
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.exe
+D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF.Host\obj\Debug\lab5.WcfHttpClient.pdb

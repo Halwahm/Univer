@@ -1,0 +1,11 @@
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\bin\Debug\lab5.WcfHttpClient.exe.config
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\bin\Debug\lab5.WcfHttpClient.exe
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\bin\Debug\lab5.WcfHttpClient.pdb
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\bin\Debug\lab5.WCF.dll
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\bin\Debug\lab5.WCF.pdb
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\bin\Debug\lab5.WCF.dll.config
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\obj\Debug\lab5.WcfHttpClient.csproj.AssemblyReference.cache
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\obj\Debug\lab5.WcfHttpClient.csproj.CoreCompileInputs.cache
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\obj\Debug\lab5.Wcf.CB58D524.Up2Date
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\obj\Debug\lab5.WcfHttpClient.exe
+D:\course-4\ПВС\lab5\lab5.WcfHttpClient\obj\Debug\lab5.WcfHttpClient.pdb

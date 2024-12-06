@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:services\\simplex.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab4\\lab4.soapservice\\simplex.wsdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab4\\lab4.SoapService\\simplex.wsdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:simplex.wsdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Simplex.wsdl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
-              "WhenOpened": "2024-11-30T06:00:44.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T06:00:44.356Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "..\\lab4.WebForm\\Default.aspx.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAiwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T05:11:59.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T05:11:59.695Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Services\\Simplex.asmx.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T17:25:04.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T17:25:04.824Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "..\\lab4.AjaxMVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAACMAAAAAAAAAAAASwDEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T17:57:11.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:57:11.232Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "..\\lab4.WinForm\\Form1.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAiwCUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T17:52:17.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:52:17.67Z"
             },
             {
               "$type": "Document",
@@ -124,8 +119,7 @@
               "RelativeToolTip": "..\\lab4.WebForm\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-28T17:42:08.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:42:08.005Z"
             }
           ]
         }
