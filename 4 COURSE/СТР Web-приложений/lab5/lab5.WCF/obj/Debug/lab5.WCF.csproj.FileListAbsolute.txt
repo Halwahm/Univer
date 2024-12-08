@@ -12,3 +12,10 @@ D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF\obj\Debug
 D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF\obj\Debug\lab5.WCF.csproj.CoreCompileInputs.cache
 D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF\obj\Debug\lab5.WCF.dll
 D:\Универ\7 семестр\СТРВП\лаба 4-6\lab5\lab5.WCF\obj\Debug\lab5.WCF.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab5\lab5.WCF\bin\Debug\lab5.WCF.dll.config
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab5\lab5.WCF\bin\Debug\lab5.WCF.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab5\lab5.WCF\bin\Debug\lab5.WCF.pdb
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab5\lab5.WCF\obj\Debug\lab5.WCF.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab5\lab5.WCF\obj\Debug\lab5.WCF.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab5\lab5.WCF\obj\Debug\lab5.WCF.dll
+D:\My Files\Univer\4 COURSE\СТР Web-приложений\lab5\lab5.WCF\obj\Debug\lab5.WCF.pdb

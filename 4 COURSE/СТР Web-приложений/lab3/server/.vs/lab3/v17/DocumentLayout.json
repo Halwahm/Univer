@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|d:\\my files\\univer\\4 course\\\u0441\u0442\u0440 web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\context\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\context\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\context\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "lab3\\Context\\StudentDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:55:25.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T16:55:25.581Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "lab3\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T06:05:35.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T06:05:35.884Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "lab3\\Controllers\\ErrorsController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:37:14.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T21:37:14.538Z"
             },
             {
               "$type": "Document",
@@ -96,7 +93,7 @@
               "RelativeDocumentMoniker": "lab3\\Controllers\\StudentsController.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "lab3\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDMAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwG8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T16:29:29.893Z",
               "EditorCaption": ""
@@ -111,8 +108,7 @@
               "RelativeToolTip": "lab3\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:19:08.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:19:08.693Z"
             }
           ]
         }

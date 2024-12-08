@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\context\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\context\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Context\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "lab3\\Context\\StudentDbContext.cs",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Context\\StudentDbContext.cs",
+              "RelativeToolTip": "lab3\\Context\\StudentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:55:25.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "lab3\\Controllers\\HomeController.cs",
@@ -46,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Web.config",
               "RelativeDocumentMoniker": "lab3\\Web.config",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ErrorsController.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Controllers\\ErrorsController.cs",
               "RelativeDocumentMoniker": "lab3\\Controllers\\ErrorsController.cs",
@@ -77,14 +93,14 @@
               "RelativeDocumentMoniker": "lab3\\Controllers\\StudentsController.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "lab3\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAOMAAAAAAAAAAAAwwPQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwDQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T16:29:29.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\\u0421\u0422\u0420 Web-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439\\lab3\\server\\lab3\\Models\\Student.cs",
               "RelativeDocumentMoniker": "lab3\\Models\\Student.cs",
