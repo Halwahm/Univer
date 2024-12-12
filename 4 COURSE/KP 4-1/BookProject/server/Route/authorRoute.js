@@ -7,7 +7,6 @@ Route.get('/:page', authorController.getAuthors);
 Route.post('/book/:id', checkRole('ADMIN'), authorController.addAuthor);
 Route.delete('/book/:id/:author', checkRole('ADMIN'), authorController.deleteAuthor);
 Route.get('/book/:id', authorController.getBookAuthors);
-//TODO: Неверный контроллер
 Route.get('/book/:id/:book', authorController.getBookAuthors);
 Route.post('/',  checkRole('ADMIN'),authorController.createAuthor);
 Route.put('/:id', checkRole('ADMIN'), authorController.updateAuthor);

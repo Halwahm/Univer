@@ -30,10 +30,20 @@ const Admin = () => {
   const [actions, setActions] = useState([]);
   const [modalState, setModalState] = useState({}); // Для управления модальными окнами
 
+  const formatBookData = (books) => {
+    return books.map((book) => ({
+      ...book,
+      GENRES: book.book_genre.map((genre) => genre.genre.GENRE_NAME).join(", "),
+      TAGS: book.book_tag.map((tag) => tag.tag.TAG_NAME).join(", "),
+    }));
+  };
+
   // Функция для загрузки данных
   const loadData = async (key) => {
     try {
-      let result;
+      let result, filteredUsers;
+      const currentUserId = localStorage.getItem("id");
+
       switch (key) {
         case "books":
           result = await fetchBooks(1);
@@ -41,6 +51,9 @@ const Admin = () => {
             { label: "ID", field: "ID" },
             { label: "Название", field: "BOOK_NAME" },
             { label: "Описание", field: "BOOK_DESCRIPTION" },
+            { label: "Кол-во глав", field: "CHAPTERS" },
+            { label: "Жанры", field: "GENRES" },
+            { label: "Теги", field: "TAGS" }
           ]);
           setActions([
             {
@@ -54,15 +67,19 @@ const Admin = () => {
               onClick: (row) => handleDelete(row, "book"),
             },
           ]);
-          setData(result.books);
+          setData(formatBookData(result.books));
           break;
 
         case "users":
           result = await featchUsers(1);
+          filteredUsers = result.users.filter(
+            (user) => user.ID !== Number(currentUserId)
+          );
           setSchema([
             { label: "ID", field: "ID" },
             { label: "Имя", field: "USER_NAME" },
-            { label: "Email", field: "EMAIL" },
+            { label: "Роль", field: "ACCESS_LEVEL" },
+            { label: "Email", field: "EMAIL" }
           ]);
           setActions([
             {
@@ -76,7 +93,7 @@ const Admin = () => {
               onClick: (row) => handleDelete(row, "user"),
             },
           ]);
-          setData(result.users);
+          setData(filteredUsers);
           break;
 
         case "genres":

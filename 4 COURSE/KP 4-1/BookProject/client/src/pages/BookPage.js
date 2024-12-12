@@ -129,11 +129,16 @@ const BookPage = observer(() => {
   }, [id, user.isAuth, currentBook]);
 
   const handleDownload = () => {
-    const url = `process.env.REACT_APP_API_URL + 'Book' + id + '.EPUB'`;
-    console.log(url);
-    //window.open(process.env.REACT_APP_API_URL + 'Book' + id + '.EPUB');
-    window.open(url);
+    const fileUrl = `${process.env.REACT_APP_API_URL}Book${id}.epub`;
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = `Book${id}.epub`;
+    link.target = "_blank";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
+  
 
   const handleBookmarkSelect = async (item) => {
     setSelectedItem(item);

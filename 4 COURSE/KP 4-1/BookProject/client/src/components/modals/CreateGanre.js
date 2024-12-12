@@ -55,7 +55,7 @@ const CreateGenre = (props) => {
                 isInvalid={!!errors.value}
               />
               <ErrorMessage name="value" component={Form.Control.Feedback} type="invalid" />
-              <Button type="submit">Создать</Button>
+              <Button type="submit" className='mt-2'>Создать</Button>
             </Form>
           )}
         </Formik>
