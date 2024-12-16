@@ -27,11 +27,96 @@ async function getBooks(page, searchTerm, filterParams) {
         where.book_tag = {
             some: {
                 TAGID: {
-                    in: filterParams.tags.map((item) => parseInt(item.value, 10)),
+                    in: filterParams.tags.map((item) => parseInt(item.ID, 10))
                 },
             },
         };
     }
+    
+
+    // Фильтрация по жанрам
+    if (filterParams?.genres?.length) {
+        where.book_genre = {
+            some: {
+                GENREID: {
+                    in: filterParams.genres.map((item) => parseInt(item.ID, 10)),
+                },
+            },
+        };
+    }
+
+    // Фильтрация по авторам
+    if (filterParams?.authors?.length) {
+        where.book_author = {
+            some: {
+                AUTHORID: {
+                    in: filterParams.authors.map((item) => parseInt(item.ID, 10)),
+                },
+            },
+        };
+    }
+
+    try {
+        // Подсчет общего количества записей
+        const count = await prisma.books.count({ where });
+
+        // Запрос книг с фильтрацией и пагинацией
+        const books = await prisma.books.findMany({
+            where,
+            skip: skip(page),
+            take: take,
+            include: {
+                book_tag: {
+                    include: { tag: true },
+                },
+                book_genre: {
+                    include: { genre: true },
+                },
+                book_author: {
+                    include: { authors: true },
+                },
+            },
+        });
+
+        return {
+            books,
+            totalPages: Math.ceil(count / take),
+            totalRecords: count,
+        };
+    } catch (error) {
+        console.error("Error in getBooks:", error.message);
+        throw new Error("Ошибка при выполнении запроса к базе данных");
+    }
+}
+
+async function getBooksFilter(page, searchTerm, filterParams) {
+    const where = {};
+
+    // Поиск по названию, описанию, серии или году
+    if (searchTerm) {
+        const year = parseInt(searchTerm, 10);
+        if (!isNaN(year)) {
+            where.OR = [{ DATA_RELEASE: year }];
+        } else {
+            where.OR = [
+                { BOOK_NAME: { contains: searchTerm } },
+                { BOOK_DESCRIPTION: { contains: searchTerm } },
+                { BOOK_SERIES: { contains: searchTerm } },
+            ];
+        }
+    }
+
+    // Фильтрация по тегам
+    if (filterParams?.tags?.length) {
+        where.book_tag = {
+            some: {
+                TAGID: {
+                    in: filterParams.tags.map((item) => parseInt(item.value, 10))
+                },
+            },
+        };
+    }
+    
 
     // Фильтрация по жанрам
     if (filterParams?.genres?.length) {
@@ -54,8 +139,6 @@ async function getBooks(page, searchTerm, filterParams) {
             },
         };
     }
-
-    console.log("Generated WHERE condition:", JSON.stringify(where, null, 2));
 
     try {
         // Подсчет общего количества записей
@@ -315,4 +398,4 @@ async function addTagToBook(bookId, tagId) {
 
 module.exports = { getBooks, getBooksById, createBook, updateBook, 
     deleteBook, getBookFeedbackCount, getBookReadCount, getBookAverageRating, getBooksByAuthor,
-    linkBookToAuthor, deleteGenresFromBook, addGenreToBook, deleteTagsFromBook, addTagToBook };
+    linkBookToAuthor, deleteGenresFromBook, addGenreToBook, deleteTagsFromBook, addTagToBook, getBooksFilter };

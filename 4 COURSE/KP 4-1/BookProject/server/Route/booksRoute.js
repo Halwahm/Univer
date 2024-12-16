@@ -3,6 +3,7 @@ const bookController = require('../Controller/booksController');
 const checkRole = require('../middleware/checkRoleMiddleware');
 
 Route.get('/:page', bookController.getBooks);
+Route.post('/filter/:page', bookController.getBooksFilter);
 Route.post('/search/:page', bookController.getBookSearch);
 Route.get('/id/:id', bookController.getBookById);
 Route.get('/raiting/:id', bookController.getBookAvarageRaiting);

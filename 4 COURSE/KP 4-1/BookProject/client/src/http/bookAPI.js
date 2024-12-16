@@ -23,6 +23,19 @@ export const fetchBookSearch = async (page, searchTerm, filterParams) => {
     }
 };
 
+export const fetchBookFilter = async (page, searchTerm, filterParams) => {
+    try {
+        const response = await $host.post(`/api/books/filter/${page}`, {
+            searchTerm: searchTerm || '',
+            filterParams: filterParams || {},
+        });
+        return response.data;
+    } catch (error) {
+        console.error('Ошибка при получении книг с фильтрами:', error);
+        throw error;
+    }
+};
+
 export const fetchBooksByAuthor = async (userId, page) => {
     const { data } = await $authHost.get(`/api/books/author/${userId}/${page}`);
     return data;

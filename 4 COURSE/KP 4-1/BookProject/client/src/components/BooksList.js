@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 import { Form, Row, Col } from 'react-bootstrap';
-import { fetchBookSearch, fetchTags, fetchAuthor, fetchGanre } from '../http/bookAPI';
+import { fetchBookFilter, fetchTags, fetchAuthor, fetchGanre } from '../http/bookAPI';
 import BookItem from './BookItem';
 import { Pagination } from 'react-bootstrap';
 
@@ -37,7 +37,7 @@ const BookList = () => {
     useEffect(() => {
         async function fetchData() {
             try {
-                const result = await fetchBookSearch(currentPage, searchTerm, filterParams);
+                const result = await fetchBookFilter(currentPage, searchTerm, filterParams);
                 setBooks(result.books);
                 setTotalPages(result.totalPages);
             } catch (error) {

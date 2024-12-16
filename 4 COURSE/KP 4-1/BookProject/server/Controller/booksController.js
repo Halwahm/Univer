@@ -14,6 +14,18 @@ const BookController = {
         }
     },
 
+    getBooksFilter: async (req, res, next) => {
+        try {
+            const page = parseInt(req.params.page);
+            const { searchTerm, filterParams } = req.body
+            console.log('searchTerm: ', searchTerm, 'filterParams', filterParams);
+            const books = await Book.getBooksFilter(page, searchTerm, filterParams);
+            res.json(books);
+        } catch (error) {
+            next(ApiError.internal('Ошибка при получении списка книг'));
+        }
+    },
+
     getBooksByAuthor: async (req, res, next) => {
         try {
             const userId = parseInt(req.user.id);

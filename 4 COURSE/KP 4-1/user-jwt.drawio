@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+  <diagram id="Y07L605jlKLvzx60TFFA" name="Страница — 1">
+    <mxGraphModel dx="557" dy="391" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-1" target="ApZE57ZHYSGGuRNPVsKW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="87" width="102" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-2" target="ApZE57ZHYSGGuRNPVsKW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-2" value="Открытие соответствующей закладки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-4" target="ApZE57ZHYSGGuRNPVsKW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-4" value="Отправка на сервер запроса с JWT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-6" target="ApZE57ZHYSGGuRNPVsKW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-6" target="ApZE57ZHYSGGuRNPVsKW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-6" value="JWT валиден" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="368" width="151" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-8" value="Ошибка авторизации" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="496" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-10" target="ApZE57ZHYSGGuRNPVsKW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-10" value="Получение списка книг из БД" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="256.5" y="499" width="177" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-12" target="ApZE57ZHYSGGuRNPVsKW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-12" target="ApZE57ZHYSGGuRNPVsKW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-12" value="Книги существуют&amp;nbsp;&lt;div&gt;в этой закладке&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="263" y="605" width="164" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-14" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="426" y="385" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-15" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="342" y="460" width="32" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-18" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="426" y="630" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-19" value="Вывод пустого списка" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="496" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApZE57ZHYSGGuRNPVsKW-21" target="ApZE57ZHYSGGuRNPVsKW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-21" value="Вывод списка прочитанных&amp;nbsp;&lt;div&gt;книг&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="761" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-23" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="342" y="720" width="32" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ApZE57ZHYSGGuRNPVsKW-24" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="866" width="102" height="59" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
