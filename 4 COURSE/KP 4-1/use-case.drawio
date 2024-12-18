@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Страница — 1" id="FpuFNqsItPVQn4xeZ9Ur">
-    <mxGraphModel dx="1341" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2378" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,9 +91,6 @@
         <mxCell id="f_kvPtqis9Xx08yiwRj5-26" value="Удаление жанра" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="384" y="750" width="132" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="f_kvPtqis9Xx08yiwRj5-27" value="Редактирование жанра" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="529" y="708.5" width="139" height="50.5" as="geometry" />
-        </mxCell>
         <mxCell id="f_kvPtqis9Xx08yiwRj5-28" value="" style="endArrow=open;html=1;rounded=0;entryX=0.022;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=none;startFill=0;" parent="1" source="2eWRijvYDjNiIJWqR0ik-6" target="f_kvPtqis9Xx08yiwRj5-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="508" y="515" as="sourcePoint" />
@@ -161,12 +158,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="169" y="686" as="sourcePoint" />
             <mxPoint x="219" y="636" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f_kvPtqis9Xx08yiwRj5-48" value="" style="endArrow=open;html=1;rounded=0;exitX=0.949;exitY=0.72;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=none;startFill=0;" parent="1" source="NlARgI9Lwy11cCyt6wGb-10" target="f_kvPtqis9Xx08yiwRj5-27" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="467" y="711" as="sourcePoint" />
-            <mxPoint x="499" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f_kvPtqis9Xx08yiwRj5-49" value="" style="endArrow=open;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.749;entryY=0.049;entryDx=0;entryDy=0;endFill=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=none;startFill=0;" parent="1" source="NlARgI9Lwy11cCyt6wGb-10" target="f_kvPtqis9Xx08yiwRj5-25" edge="1">
