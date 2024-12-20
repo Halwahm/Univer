@@ -14,7 +14,6 @@ namespace lab5
         [DataMember]
         public float F { get; set; }
 
-        // Параметрический конструктор для удобства
         public A() { }
 
         public A(string s, int k, float f)

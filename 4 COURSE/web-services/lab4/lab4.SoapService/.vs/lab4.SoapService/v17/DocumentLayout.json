@@ -3,15 +3,21 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4130F6E-18DC-4C00-96CC-F4BAE2B255D5}|..\\lab4.WebForm\\lab4.WebForm.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\lab4.webform\\simplexproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\lab4.soapservice\\simplex.wsdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\simplex.wsdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:simplex.wsdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\lab4.soapservice\\services\\simplex.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\services\\simplex.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:services\\simplex.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4130F6E-18DC-4C00-96CC-F4BAE2B255D5}|..\\lab4.WebForm\\lab4.WebForm.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\lab4.webform\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51878CEB-D561-4EEF-930B-F1FC061D9210}|..\\..\\..\\..\\..\\..\\Downloads\\Telegram Downloads\\lab4\\WebFormsProxy\\WebFormsProxy.csproj|d:\\downloads\\telegram downloads\\lab4\\webformsproxy\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4130F6E-18DC-4C00-96CC-F4BAE2B255D5}|..\\lab4.WebForm\\lab4.WebForm.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\lab4.webform\\simplexproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{430FA473-95C7-4F9D-802F-87B1410A3956}|..\\lab4.AjaxMVC\\lab4.AjaxMVC.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\lab4.ajaxmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -28,37 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.WebForm\\Default.aspx",
+              "RelativeDocumentMoniker": "..\\lab4.WebForm\\Default.aspx",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.WebForm\\Default.aspx",
+              "RelativeToolTip": "..\\lab4.WebForm\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-20T17:37:38.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "D:\\Downloads\\Telegram Downloads\\lab4\\WebFormsProxy\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\Telegram Downloads\\lab4\\WebFormsProxy\\WebForm1.aspx",
+              "ToolTip": "D:\\Downloads\\Telegram Downloads\\lab4\\WebFormsProxy\\WebForm1.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\Telegram Downloads\\lab4\\WebFormsProxy\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-20T17:37:35.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SimplexProxy.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.WebForm\\SimplexProxy.cs",
               "RelativeDocumentMoniker": "..\\lab4.WebForm\\SimplexProxy.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.WebForm\\SimplexProxy.cs",
               "RelativeToolTip": "..\\lab4.WebForm\\SimplexProxy.cs",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAkwPIAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAkwPYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-20T17:11:51.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Simplex.asmx.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\Services\\Simplex.asmx.cs",
               "RelativeDocumentMoniker": "Services\\Simplex.asmx.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\Services\\Simplex.asmx.cs",
               "RelativeToolTip": "Services\\Simplex.asmx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-20T16:53:52.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.AjaxMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\lab4.AjaxMVC\\Views\\Home\\Index.cshtml",
@@ -66,12 +98,11 @@
               "RelativeToolTip": "..\\lab4.AjaxMVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T16:45:16.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:45:16.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Simplex.wsdl",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\Simplex.wsdl",
               "RelativeDocumentMoniker": "Simplex.wsdl",
@@ -84,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Simplex.wsdl",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\Simplex.wsdl",
               "RelativeDocumentMoniker": "Simplex.wsdl",
