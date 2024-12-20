@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "lab4.SoapService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\lab4.WinForm\\lab4.WinForm.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\lab4.WebForm\\lab4.WebForm.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\lab4.AjaxMVC\\lab4.AjaxMVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

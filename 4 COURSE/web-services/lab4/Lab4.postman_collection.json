@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "9a650491-b949-4049-98ee-ddf183043885",
+		"name": "Lab4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30704992"
+	},
+	"item": [
+		{
+			"name": "http://localhost:16977/Services/Simplex.asmx",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/soap+xml; charset=utf-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\r\n  <soap12:Body>\r\n    <AddS xmlns=\"http://SMYA/\">\r\n      <x>1</x>  \r\n      <y>2</y>  \r\n    </AddS>\r\n  </soap12:Body>\r\n</soap12:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "http://localhost:16977/Services/Simplex.asmx"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:16977/Services/Simplex.asmx/AddS",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "x",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "y",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:16977/Services/Simplex.asmx/AddS"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,7 @@
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Release\net6.0\PubTmp\Out\lab4.AjaxMVC.exe
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Release\net6.0\PubTmp\Out\lab4.AjaxMVC.dll
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Release\net6.0\PubTmp\Out\lab4.AjaxMVC.deps.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Release\net6.0\PubTmp\Out\lab4.AjaxMVC.runtimeconfig.json
+D:\course-4\ПВС\lab4\lab4.AjaxMVC\obj\Release\net6.0\PubTmp\Out\lab4.AjaxMVC.pdb
