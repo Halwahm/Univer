@@ -1,0 +1,35 @@
+D:\1POIT\4\PWS\lab5\Client2\bin\Debug\Client2.exe.config
+D:\1POIT\4\PWS\lab5\Client2\bin\Debug\Client2.exe
+D:\1POIT\4\PWS\lab5\Client2\bin\Debug\Client2.pdb
+D:\1POIT\4\PWS\lab5\Client2\obj\Debug\Client2.csproj.AssemblyReference.cache
+D:\1POIT\4\PWS\lab5\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
+D:\1POIT\4\PWS\lab5\Client2\obj\Debug\Client2.exe
+D:\1POIT\4\PWS\lab5\Client2\obj\Debug\Client2.pdb
+E:\crianis\4-course\7 sem\PWS\lab5\Client2\bin\Debug\Client2.exe.config
+E:\crianis\4-course\7 sem\PWS\lab5\Client2\bin\Debug\Client2.exe
+E:\crianis\4-course\7 sem\PWS\lab5\Client2\bin\Debug\Client2.pdb
+E:\crianis\4-course\7 sem\PWS\lab5\Client2\obj\Debug\Client2.csproj.AssemblyReference.cache
+E:\crianis\4-course\7 sem\PWS\lab5\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
+E:\crianis\4-course\7 sem\PWS\lab5\Client2\obj\Debug\Client2.exe
+E:\crianis\4-course\7 sem\PWS\lab5\Client2\obj\Debug\Client2.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab5\Client2\bin\Debug\Client2.exe.config
+E:\4course\7sem\ПWS (Смелов)\Lab5\Client2\bin\Debug\Client2.exe
+E:\4course\7sem\ПWS (Смелов)\Lab5\Client2\bin\Debug\Client2.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab5\Client2\obj\Debug\Client2.csproj.AssemblyReference.cache
+E:\4course\7sem\ПWS (Смелов)\Lab5\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
+E:\4course\7sem\ПWS (Смелов)\Lab5\Client2\obj\Debug\Client2.exe
+E:\4course\7sem\ПWS (Смелов)\Lab5\Client2\obj\Debug\Client2.pdb
+W:\7sem\+\example_labs_web_danya\Lab5\Client2\bin\Debug\Client2.exe.config
+W:\7sem\+\example_labs_web_danya\Lab5\Client2\bin\Debug\Client2.exe
+W:\7sem\+\example_labs_web_danya\Lab5\Client2\bin\Debug\Client2.pdb
+W:\7sem\+\example_labs_web_danya\Lab5\Client2\obj\Debug\Client2.csproj.AssemblyReference.cache
+W:\7sem\+\example_labs_web_danya\Lab5\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
+W:\7sem\+\example_labs_web_danya\Lab5\Client2\obj\Debug\Client2.exe
+W:\7sem\+\example_labs_web_danya\Lab5\Client2\obj\Debug\Client2.pdb
+W:\7sem\+\example_labs_web_vanya\Lab5\Client2\bin\Debug\Client2.exe.config
+W:\7sem\+\example_labs_web_vanya\Lab5\Client2\bin\Debug\Client2.exe
+W:\7sem\+\example_labs_web_vanya\Lab5\Client2\bin\Debug\Client2.pdb
+W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.csproj.AssemblyReference.cache
+W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
+W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.exe
+W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.pdb

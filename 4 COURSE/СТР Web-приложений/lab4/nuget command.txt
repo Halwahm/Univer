@@ -1,1 +1,0 @@
-wsdl out:SimplexProxy.cs Services/Simplex.asmx

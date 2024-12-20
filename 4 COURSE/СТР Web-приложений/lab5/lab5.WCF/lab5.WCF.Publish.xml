@@ -1,9 +1,0 @@
-<publishData>
-  <publishTarget publishUrl="C:\Users\dimag\OneDrive\Рабочий стол\lab5\lab5.WCF\">
-    <file relUrl="lab5.WCF.SiplexService.svc" publishTime="09/15/2024 12:58:07" />
-    <file relUrl="bin/lab5.WCF.dll.config" publishTime="09/15/2024 12:52:06" />
-    <file relUrl="bin/lab5.WCF.pdb" publishTime="09/15/2024 12:52:06" />
-    <file relUrl="Web.config" publishTime="09/15/2024 12:52:06" />
-    <file relUrl="bin/lab5.WCF.dll" publishTime="09/15/2024 12:52:06" />
-  </publishTarget>
-</publishData>

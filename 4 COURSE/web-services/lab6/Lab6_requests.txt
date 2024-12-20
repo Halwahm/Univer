@@ -1,0 +1,24 @@
+students?$format=json - получить всех студентов
+students?$filter=startswith(name, 'V')&$format=json - получить студентов с именем, начинающимся на 'V'
+students?$filter=contains(name, 'Vlad')&$format=json - получить студентов, у которых имя содержит 'Vlad'
+students?$orderby=name&$format=json - получить студентов, отсортированных по имени
+students?$orderby=name desc&$format=json - получить студентов, отсортированных по имени в обратном порядке
+students?$select=id,name&$format=json - получить студентов с определёнными полями (например, id и name)
+students?$top=5&$format=json - получить студентов с ограничением на количество возвращаемых записей (например, 5)
+students(1)?$format=json - получение студента по Primary Key
+students(1)/notes?$format=json – получение оценок 1-го студента (первый по PK)
+students?$filter=id eq 1&$format=json - получить студента с id равным 1
+students?$filter=name eq 'Vlad'&$expand=notes&$format=json - получение оценок студента с именем Vlad
+students?$expand=notes&$format=json - с помощью expand включить связанные записи
+
+notes?$format=json - получить все оценки
+notes?$filter=note1 ge 5&$format=json - получить оценки больше или равные 5
+notes?$filter=note1 gt 5&$format=json - получить оценки больше 5
+notes?$filter=note1 ge 7 and note1 ne 10&$format=json - получить оценки, не равные 10 и больше 7
+notes?$filter=not (note1 eq 10)&$format=json - возвращает только те записи, у которых значение поля note1 не равно 10
+students(1)/notes?$select=id,note1&$format=json - получить оценки, связанные с опред.студентом, и только опред. поля
+
+ge/le больше или равно/меньше или равно
+gt/lt больше/меньше
+ne - not equals
+and or

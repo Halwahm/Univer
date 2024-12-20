@@ -1,0 +1,22 @@
+<publishData>
+  <publishTarget publishUrl="W:\7sem\+\example_labs_web_danya\lab05_wcf\">
+    <file relUrl="lab5.csproj.user" publishTime="12/04/2024 15:32:20" />
+    <file relUrl="A.cs" publishTime="12/04/2024 15:46:16" />
+    <file relUrl="bin/lab5.pdb" publishTime="12/04/2024 15:48:43" />
+    <file relUrl="lab5.Publish.xml" publishTime="12/04/2024 15:46:37" />
+    <file relUrl="packages.config" publishTime="12/04/2024 12:41:10" />
+    <file relUrl="WCFSimplex.svc" publishTime="12/04/2024 09:41:07" />
+    <file relUrl="bin\Debug/lab5.dll" publishTime="12/04/2024 15:48:43" />
+    <file relUrl="bin/lab5.dll" publishTime="12/04/2024 15:48:43" />
+    <file relUrl="bin/lab5.dll.config" publishTime="12/04/2024 15:48:39" />
+    <file relUrl="bin\Debug/lab5.pdb" publishTime="12/04/2024 15:48:43" />
+    <file relUrl="lab5.csproj" publishTime="12/04/2024 12:47:07" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="11/12/2024 23:02:35" />
+    <file relUrl="WCFSiplex.cs" publishTime="12/04/2024 15:45:53" />
+    <file relUrl="lab5.WCFSiplex.svc" publishTime="12/04/2024 15:48:51" />
+    <file relUrl="App.config" publishTime="12/04/2024 15:48:39" />
+    <file relUrl="IWCFSiplex.cs" publishTime="12/04/2024 15:45:37" />
+    <file relUrl="Web.config" publishTime="12/04/2024 15:48:39" />
+    <file relUrl="bin\Debug/lab5.dll.config" publishTime="12/04/2024 15:48:39" />
+  </publishTarget>
+</publishData>

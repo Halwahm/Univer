@@ -1,0 +1,563 @@
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.exe.config
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.Form1.resources
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Client.exe.config
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Client.exe
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Client.pdb
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.OData.Core.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.OData.Edm.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Spatial.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Simple.OData.Client.Core.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Simple.OData.Client.V3.Adapter.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Simple.OData.Client.V4.Adapter.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Buffers.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Memory.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Spatial.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Text.Json.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.ValueTuple.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.OData.Core.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.OData.Edm.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Microsoft.Spatial.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Simple.OData.Client.Core.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Buffers.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Memory.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Spatial.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Text.Json.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\System.ValueTuple.xml
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.csproj.Up2Date
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.exe
+C:\Users\dimat\Desktop\PWS_Lab6\Client\obj\Debug\Client.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Client.exe.config
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Client.exe
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Client.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Edm.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.OData.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Core.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Edm.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Spatial.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Core.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.V3.Adapter.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.V4.Adapter.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Buffers.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Memory.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Numerics.Vectors.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Spatial.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Encodings.Web.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Json.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.ValueTuple.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Edm.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.OData.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Core.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Edm.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Spatial.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Core.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Buffers.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Memory.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Numerics.Vectors.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Spatial.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Encodings.Web.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Json.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.ValueTuple.xml
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\System.Spatial.resources.dll
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.exe.config
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.Form1.resources
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.Properties.Resources.resources
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.Up2Date
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.exe
+E:\4course\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.pdb
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.exe.config
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.Form1.resources
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.Properties.Resources.resources
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.exe
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.pdb
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Client.exe.config
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Client.exe
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Client.pdb
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Edm.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.OData.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Core.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Edm.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Spatial.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Core.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.V3.Adapter.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.V4.Adapter.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Buffers.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Memory.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Numerics.Vectors.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Spatial.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Encodings.Web.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Json.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.ValueTuple.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Edm.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.OData.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Core.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.OData.Edm.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Microsoft.Spatial.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Core.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Buffers.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Memory.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Numerics.Vectors.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Spatial.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Encodings.Web.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Text.Json.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\System.ValueTuple.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\de\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\es\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\fr\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\it\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ja\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ko\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\ru\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hans\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\bin\Debug\zh-Hant\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab6\Client\obj\Debug\Client.csproj.Up2Date
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.exe.config
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.Form1.resources
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.Properties.Resources.resources
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.exe
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.pdb
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Client.exe.config
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Client.exe
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Client.pdb
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Data.Edm.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Data.OData.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.OData.Core.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.OData.Edm.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Spatial.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.SqlServer.TransferDatabasesTask.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Simple.OData.Client.Core.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Simple.OData.Client.V3.Adapter.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Simple.OData.Client.V4.Adapter.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Buffers.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Memory.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Numerics.Vectors.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Spatial.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Text.Encodings.Web.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Text.Json.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.ValueTuple.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Data.Edm.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Data.OData.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.OData.Core.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.OData.Edm.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Microsoft.Spatial.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Simple.OData.Client.Core.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Buffers.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Memory.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Numerics.Vectors.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Spatial.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Text.Encodings.Web.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Text.Json.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\System.ValueTuple.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\de\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\es\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\it\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ru\Microsoft.SqlServer.TransferDatabasesTask.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\de\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\es\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\fr\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\it\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ja\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ko\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\ru\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hans\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\bin\Debug\zh-Hant\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab6\Client\obj\Debug\Client.csproj.Up2Date
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.exe.config
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.Form1.resources
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.exe
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.pdb
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Client.exe.config
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Client.exe
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Client.pdb
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.Edm.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.OData.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.OData.Core.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.OData.Edm.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Spatial.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\PWS_Lab6.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Simple.OData.Client.Core.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Simple.OData.Client.V3.Adapter.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Simple.OData.Client.V4.Adapter.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Buffers.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Memory.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Numerics.Vectors.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Spatial.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Text.Encodings.Web.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Text.Json.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.ValueTuple.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\EntityFramework.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.OData.EntityFrameworkProvider.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.Services.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\PWS_Lab6.pdb
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\PWS_Lab6.dll.config
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.Edm.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.OData.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.OData.Core.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.OData.Edm.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Spatial.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Simple.OData.Client.Core.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Buffers.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Memory.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Numerics.Vectors.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Spatial.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Text.Encodings.Web.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Text.Json.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\System.ValueTuple.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\EntityFramework.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.OData.EntityFrameworkProvider.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\Microsoft.Data.Services.xml
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ru\Microsoft.SqlServer.TransferDatabasesTask.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\de\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\es\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\fr\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\it\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ja\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ko\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ru\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ru\EntityFramework.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\de\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\es\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\fr\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\it\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ja\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ko\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\ru\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.resources.dll
+D:\Универ\7 семестр\СТРВП\lab6_test3\Lab6\Client\obj\Debug\Client.csproj.Up2Date
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Client.exe.config
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Client.exe
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Client.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.Edm.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.OData.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.OData.Core.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.OData.Edm.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Spatial.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\PWS_Lab6.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Simple.OData.Client.Core.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Simple.OData.Client.V3.Adapter.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Simple.OData.Client.V4.Adapter.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Buffers.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Memory.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Numerics.Vectors.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Spatial.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Text.Encodings.Web.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Text.Json.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.ValueTuple.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\EntityFramework.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.OData.EntityFrameworkProvider.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.Services.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\PWS_Lab6.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\PWS_Lab6.dll.config
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.Edm.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.OData.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.OData.Core.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.OData.Edm.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Spatial.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Simple.OData.Client.Core.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Simple.OData.Client.Dynamic.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Buffers.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Memory.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Numerics.Vectors.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Spatial.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Text.Encodings.Web.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Text.Json.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\System.ValueTuple.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\EntityFramework.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.OData.EntityFrameworkProvider.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\Microsoft.Data.Services.xml
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\de\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\es\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\fr\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\it\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ja\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ko\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ru\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ru\EntityFramework.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\de\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\es\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\fr\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\it\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ja\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ko\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\ru\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hans\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\bin\Debug\zh-Hant\Microsoft.Data.Services.resources.dll
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.exe.config
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.Form1.resources
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.Properties.Resources.resources
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.csproj.Up2Date
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.exe
+D:\My Files\Univer\4 COURSE\web-services\lab6\Client\obj\Debug\Client.pdb

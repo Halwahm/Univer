@@ -1,0 +1,88 @@
+D:\1POIT\4\PWS\lab5\Host\bin\Debug\Host.exe.config
+D:\1POIT\4\PWS\lab5\Host\bin\Debug\Host.exe
+D:\1POIT\4\PWS\lab5\Host\bin\Debug\Host.pdb
+D:\1POIT\4\PWS\lab5\Host\bin\Debug\lab5.dll
+D:\1POIT\4\PWS\lab5\Host\bin\Debug\lab5.pdb
+D:\1POIT\4\PWS\lab5\Host\bin\Debug\lab5.dll.config
+D:\1POIT\4\PWS\lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+D:\1POIT\4\PWS\lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+D:\1POIT\4\PWS\lab5\Host\obj\Debug\Host.csproj.CopyComplete
+D:\1POIT\4\PWS\lab5\Host\obj\Debug\Host.exe
+D:\1POIT\4\PWS\lab5\Host\obj\Debug\Host.pdb
+E:\crianis\4-course\7 sem\PWS\lab5\Host\bin\Debug\Host.exe.config
+E:\crianis\4-course\7 sem\PWS\lab5\Host\bin\Debug\Host.exe
+E:\crianis\4-course\7 sem\PWS\lab5\Host\bin\Debug\Host.pdb
+E:\crianis\4-course\7 sem\PWS\lab5\Host\bin\Debug\lab5.dll
+E:\crianis\4-course\7 sem\PWS\lab5\Host\bin\Debug\lab5.pdb
+E:\crianis\4-course\7 sem\PWS\lab5\Host\bin\Debug\lab5.dll.config
+E:\crianis\4-course\7 sem\PWS\lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+E:\crianis\4-course\7 sem\PWS\lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+E:\crianis\4-course\7 sem\PWS\lab5\Host\obj\Debug\Host.csproj.Up2Date
+E:\crianis\4-course\7 sem\PWS\lab5\Host\obj\Debug\Host.exe
+E:\crianis\4-course\7 sem\PWS\lab5\Host\obj\Debug\Host.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\bin\Debug\Host.exe.config
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\bin\Debug\Host.exe
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\bin\Debug\Host.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\bin\Debug\lab5.dll
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\bin\Debug\lab5.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\bin\Debug\lab5.dll.config
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\obj\Debug\Host.csproj.Up2Date
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\obj\Debug\Host.exe
+E:\4course\7sem\ПWS (Смелов)\Lab5\Host\obj\Debug\Host.pdb
+W:\7sem\+\example_labs_web_danya\Lab5\Host\bin\Debug\Host.exe.config
+W:\7sem\+\example_labs_web_danya\Lab5\Host\bin\Debug\Host.exe
+W:\7sem\+\example_labs_web_danya\Lab5\Host\bin\Debug\Host.pdb
+W:\7sem\+\example_labs_web_danya\Lab5\Host\bin\Debug\lab5.dll
+W:\7sem\+\example_labs_web_danya\Lab5\Host\bin\Debug\lab5.pdb
+W:\7sem\+\example_labs_web_danya\Lab5\Host\bin\Debug\lab5.dll.config
+W:\7sem\+\example_labs_web_danya\Lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+W:\7sem\+\example_labs_web_danya\Lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+W:\7sem\+\example_labs_web_danya\Lab5\Host\obj\Debug\Host.csproj.Up2Date
+W:\7sem\+\example_labs_web_danya\Lab5\Host\obj\Debug\Host.exe
+W:\7sem\+\example_labs_web_danya\Lab5\Host\obj\Debug\Host.pdb
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\bin\Debug\Host.exe.config
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\bin\Debug\Host.exe
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\bin\Debug\Host.pdb
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\bin\Debug\lab5.dll
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\bin\Debug\lab5.pdb
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\bin\Debug\lab5.dll.config
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\obj\Debug\Host.csproj.Up2Date
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\obj\Debug\Host.exe
+W:\7sem\+\example_labs_web_vanya\Lab5\Host\obj\Debug\Host.pdb
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\bin\Debug\Host.exe.config
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\bin\Debug\Host.exe
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\bin\Debug\Host.pdb
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\bin\Debug\lab5.dll
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\bin\Debug\lab5.pdb
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\bin\Debug\lab5.dll.config
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\obj\Debug\Host.csproj.Up2Date
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\obj\Debug\Host.exe
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\Host\obj\Debug\Host.pdb
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\bin\Debug\Host.exe.config
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\bin\Debug\Host.exe
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\bin\Debug\Host.pdb
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\bin\Debug\lab5.dll
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\bin\Debug\lab5.pdb
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\bin\Debug\lab5.dll.config
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\obj\Debug\Host.csproj.Up2Date
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\obj\Debug\Host.exe
+D:\Downloads\Telegram Downloads\newTG\Lab5\Host\obj\Debug\Host.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\bin\Debug\Host.exe.config
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\bin\Debug\Host.exe
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\bin\Debug\Host.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\bin\Debug\lab5.dll
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\bin\Debug\lab5.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\bin\Debug\lab5.dll.config
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\obj\Debug\Host.csproj.Up2Date
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\obj\Debug\Host.exe
+D:\My Files\Univer\4 COURSE\web-services\lab5\Host\obj\Debug\Host.pdb
