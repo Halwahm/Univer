@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|d:\\my files\\univer\\4 course\\web-services\\lab5\\lab5\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|solutionrelative:lab5\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|solutionrelative:host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\wcfsiplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|solutionrelative:lab5\\wcfsiplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\iwcfsiplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|solutionrelative:lab5\\iwcfsiplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|solutionrelative:host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{522DE719-F99B-4AEF-B49B-2A45F4CE1829}|Client2\\Client2.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\client2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{522DE719-F99B-4AEF-B49B-2A45F4CE1829}|Client2\\Client2.csproj|solutionrelative:client2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687DCD72-CCBD-4AD3-B793-6D8D2F55D3EA}|Client1\\Client1.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\client1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{687DCD72-CCBD-4AD3-B793-6D8D2F55D3EA}|Client1\\Client1.csproj|solutionrelative:client1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{687DCD72-CCBD-4AD3-B793-6D8D2F55D3EA}|Client1\\Client1.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\client1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{687DCD72-CCBD-4AD3-B793-6D8D2F55D3EA}|Client1\\Client1.csproj|solutionrelative:client1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{522DE719-F99B-4AEF-B49B-2A45F4CE1829}|Client2\\Client2.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\client2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|solutionrelative:host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3D9983F-4F10-427F-87B5-9F9C72A7023D}|Host\\Host.csproj|solutionrelative:host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522DE719-F99B-4AEF-B49B-2A45F4CE1829}|Client2\\Client2.csproj|d:\\my files\\univer\\4 course\\web-services\\lab5\\client2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{522DE719-F99B-4AEF-B49B-2A45F4CE1829}|Client2\\Client2.csproj|solutionrelative:client2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687DCD72-CCBD-4AD3-B793-6D8D2F55D3EA}|Client1\\Client1.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\client1\\wcfsimplexproxy.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{687DCD72-CCBD-4AD3-B793-6D8D2F55D3EA}|Client1\\Client1.csproj|solutionrelative:client1\\wcfsimplexproxy.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|solutionrelative:lab5\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\wcfsimplex.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|solutionrelative:lab5\\wcfsimplex.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|solutionrelative:lab5\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\wcfsiplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B63BC11-CA51-4D56-ACC1-263EC7A5AEA8}|lab5\\lab5.csproj|solutionrelative:lab5\\wcfsiplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,30 +58,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client2\\App.config",
+              "RelativeDocumentMoniker": "Client2\\App.config",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client2\\App.config",
+              "RelativeToolTip": "Client2\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-21T05:48:17.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client1\\App.config",
+              "RelativeDocumentMoniker": "Client1\\App.config",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client1\\App.config",
+              "RelativeToolTip": "Client1\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-21T05:47:52.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WCFSimplexProxy.config",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client1\\WCFSimplexProxy.config",
+              "RelativeDocumentMoniker": "Client1\\WCFSimplexProxy.config",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client1\\WCFSimplexProxy.config",
+              "RelativeToolTip": "Client1\\WCFSimplexProxy.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-21T05:47:49.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WCFSimplex.svc",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\WCFSimplex.svc",
+              "RelativeDocumentMoniker": "lab5\\WCFSimplex.svc",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\WCFSimplex.svc",
+              "RelativeToolTip": "lab5\\WCFSimplex.svc",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2024-12-21T05:43:23.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "App.config",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\App.config",
               "RelativeDocumentMoniker": "lab5\\App.config",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\App.config",
               "RelativeToolTip": "lab5\\App.config",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAABWAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAC0AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-04T12:34:58.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:34:58.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "App.config",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Host\\App.config",
               "RelativeDocumentMoniker": "Host\\App.config",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Host\\App.config",
               "RelativeToolTip": "Host\\App.config",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-12-20T06:46:52.727Z",
               "EditorCaption": ""
@@ -78,23 +143,22 @@
               "RelativeDocumentMoniker": "Host\\Program.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Host\\Program.cs",
               "RelativeToolTip": "Host\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T19:59:01.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "A.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\A.cs",
               "RelativeDocumentMoniker": "lab5\\A.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\A.cs",
               "RelativeToolTip": "lab5\\A.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:40:19.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:40:19.954Z"
             },
             {
               "$type": "Document",
@@ -104,46 +168,45 @@
               "RelativeDocumentMoniker": "Client2\\Program.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client2\\Program.cs",
               "RelativeToolTip": "Client2\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA0wCMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T15:56:27.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client1\\Program.cs",
               "RelativeDocumentMoniker": "Client1\\Program.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\Client1\\Program.cs",
               "RelativeToolTip": "Client1\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA0wBQAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T15:56:19.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "WCFSiplex.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\WCFSiplex.cs",
               "RelativeDocumentMoniker": "lab5\\WCFSiplex.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\WCFSiplex.cs",
               "RelativeToolTip": "lab5\\WCFSiplex.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:55:01.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T15:55:01.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "IWCFSiplex.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\IWCFSiplex.cs",
               "RelativeDocumentMoniker": "lab5\\IWCFSiplex.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab5\\lab5\\IWCFSiplex.cs",
               "RelativeToolTip": "lab5\\IWCFSiplex.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T15:54:56.901Z",
               "EditorCaption": ""

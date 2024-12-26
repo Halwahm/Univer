@@ -1,6 +1,10 @@
 ﻿using System;
 using lab5;
 
+
+//  & "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\SvcUtil.exe"
+//  "http://localhost:8733/Design_Time_Addresses/lab5/WCFSiplex/?wsdl" /out:WCFSimplexProxy.cs /config:WCFSimplexProxy.config
+
 namespace Client2
 {
     internal class Program

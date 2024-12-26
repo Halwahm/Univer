@@ -33,3 +33,10 @@ W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.csproj.AssemblyR
 W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
 W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.exe
 W:\7sem\+\example_labs_web_vanya\Lab5\Client2\obj\Debug\Client2.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab5\Client2\obj\Debug\Client2.exe
+D:\My Files\Univer\4 COURSE\web-services\lab5\Client2\obj\Debug\Client2.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab5\Client2\bin\Debug\Client2.exe.config
+D:\My Files\Univer\4 COURSE\web-services\lab5\Client2\bin\Debug\Client2.exe
+D:\My Files\Univer\4 COURSE\web-services\lab5\Client2\bin\Debug\Client2.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab5\Client2\obj\Debug\Client2.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\web-services\lab5\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache

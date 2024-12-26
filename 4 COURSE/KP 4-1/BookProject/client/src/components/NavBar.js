@@ -18,6 +18,7 @@ const NavBar = observer(() => {
     localStorage.removeItem('id');
     localStorage.removeItem('role');
     localStorage.removeItem('name');
+    window.location.reload();
   };
 
   return (
