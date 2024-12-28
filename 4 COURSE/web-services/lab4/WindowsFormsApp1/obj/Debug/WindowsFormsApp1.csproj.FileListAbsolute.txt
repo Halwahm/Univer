@@ -1,0 +1,20 @@
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Study\STRWEB\lab4danik\lab4 (2)\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\My Files\Univer\4 COURSE\web-services\lab4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

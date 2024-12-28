@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WSKNSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="note">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stud_id" Type="Int32" />
+    <Property Name="subject" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="note1" Type="Int32" />
+    <NavigationProperty Name="student" Relationship="Self.FK__note__stud_id__398D8EEE" FromRole="note" ToRole="student" />
+  </EntityType>
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="note" Relationship="Self.FK__note__stud_id__398D8EEE" FromRole="student" ToRole="note" />
+  </EntityType>
+  <Association Name="FK__note__stud_id__398D8EEE">
+    <End Role="student" Type="Self.student" Multiplicity="0..1" />
+    <End Role="note" Type="Self.note" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="student">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="note">
+        <PropertyRef Name="stud_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WSKNSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="note" EntityType="Self.note" />
+    <EntitySet Name="student" EntityType="Self.student" />
+    <AssociationSet Name="FK__note__stud_id__398D8EEE" Association="Self.FK__note__stud_id__398D8EEE">
+      <End Role="student" EntitySet="student" />
+      <End Role="note" EntitySet="note" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

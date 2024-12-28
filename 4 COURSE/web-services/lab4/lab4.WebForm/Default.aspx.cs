@@ -1,5 +1,4 @@
-﻿using lab4.WebForm.ServiceReference1;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,7 +11,7 @@ namespace lab4.WebForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void calcBtn_Click(object sender, EventArgs e)
@@ -31,20 +30,8 @@ namespace lab4.WebForm
                 return;
             }
 
-            //var simpleService = new Simplex();
-            //result.Text = "Результат: " + simpleService.Add(x, y);
-
-            // Создайте объект клиента
-            SimplexSoapClient client = new SimplexSoapClient();
-            result.Text = "Результат: " + client.Add(x, y);
-
-            // Вызовите методы сервиса
-            //int result = client.AddS(5, 10); // Вызов метода AddS
-            //Response.Write($"Результат сложения: {result}");
-
-            //// Пример использования другого метода
-            //string concatenated = client.Concat("Hello", 42.5);
-            //Response.Write($"Конкатенация строки: {concatenated}");
+            var simpleService = new Simplex();
+            result.Text = "Результат: " + simpleService.Add(x, y);
         }
     }
 }

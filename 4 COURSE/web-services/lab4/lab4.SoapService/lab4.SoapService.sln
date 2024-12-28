@@ -6,13 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab4.SoapService", "lab4.SoapService.csproj", "{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab4.WinForm", "..\lab4.WinForm\lab4.WinForm.csproj", "{4A190297-557C-4F41-97BA-772A170D5069}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6} = {6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}
-	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab4.AjaxMVC", "..\lab4.AjaxMVC\lab4.AjaxMVC.csproj", "{430FA473-95C7-4F9D-802F-87B1410A3956}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsProxy", "..\WebFormsProxy\WebFormsProxy.csproj", "{51878CEB-D561-4EEF-930B-F1FC061D9210}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsProxy", "..\..\..\..\..\..\Downloads\Telegram Downloads\lab4\WebFormsProxy\WebFormsProxy.csproj", "{51878CEB-D561-4EEF-930B-F1FC061D9210}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJAX", "..\AJAX\AJAX.csproj", "{15471529-DFDE-478F-9B4F-D3A661D86BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "..\WindowsFormsApp1\WindowsFormsApp1.csproj", "{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,14 +27,18 @@ Global
 		{4A190297-557C-4F41-97BA-772A170D5069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A190297-557C-4F41-97BA-772A170D5069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A190297-557C-4F41-97BA-772A170D5069}.Release|Any CPU.Build.0 = Release|Any CPU
-		{430FA473-95C7-4F9D-802F-87B1410A3956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{430FA473-95C7-4F9D-802F-87B1410A3956}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{430FA473-95C7-4F9D-802F-87B1410A3956}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{430FA473-95C7-4F9D-802F-87B1410A3956}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51878CEB-D561-4EEF-930B-F1FC061D9210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51878CEB-D561-4EEF-930B-F1FC061D9210}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51878CEB-D561-4EEF-930B-F1FC061D9210}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51878CEB-D561-4EEF-930B-F1FC061D9210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15471529-DFDE-478F-9B4F-D3A661D86BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15471529-DFDE-478F-9B4F-D3A661D86BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15471529-DFDE-478F-9B4F-D3A661D86BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15471529-DFDE-478F-9B4F-D3A661D86BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,7 +8,7 @@ students?$top=5&$format=json - получить студентов с огран
 students(1)?$format=json - получение студента по Primary Key
 students(1)/notes?$format=json – получение оценок 1-го студента (первый по PK)
 students?$filter=id eq 1&$format=json - получить студента с id равным 1
-students?$filter=name eq 'Vlad'&$expand=notes&$format=json - получение оценок студента с именем Vlad
+students?$filter=name eq 'Vova'&$expand=notes&$format=json - получение оценок студента с именем
 students?$expand=notes&$format=json - с помощью expand включить связанные записи
 
 notes?$format=json - получить все оценки

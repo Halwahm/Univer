@@ -12,13 +12,9 @@ namespace lab4.SoapService.Services
     /// <summary>
     /// Сводное описание для Simplex
     /// </summary>
-
-    // wsdl.exe /language:CS /out:SimplexContract.cs Simplex.wsdl
-
     [WebService(Namespace = "http://HAN/", Description = "Это SOAP-сервис для выполнения арифметических операций и обработки объектов")]
-    // Стандрарт для совместимости между платформами. Протокол связи
+    // compability standart
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
-    // представлять на панели инструментов Visual Studio (Toolbox)
     [System.ComponentModel.ToolboxItem(false)]
     // Чтобы разрешить вызывать веб-службу из скрипта с помощью ASP.NET AJAX, раскомментируйте следующую строку. 
     [System.Web.Script.Services.ScriptService]
@@ -49,6 +45,7 @@ namespace lab4.SoapService.Services
         {
             public string s { get; set; }
             public int k { get; set; }
+
             public float f { get; set; }
         }
 

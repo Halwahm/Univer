@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <div class="d-flex flex-column gap-3">
+        <div class="d-flex gap-2">
+            <div>
+                X:
+            </div>
+            <div id="x-value">
+
+            </div>
+        </div>
+        <div class="d-flex gap-2">
+            <div>
+                Y:
+            </div>
+            <div id="y-value">
+            </div>
+        </div>
+        <div class="d-flex gap-2">
+            <div>
+                Result:
+            </div>
+            <div id="result-value">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    const xValue = document.getElementById('x-value')
+    const yValue = document.getElementById('y-value')
+    const resultValue = document.getElementById('result-value')
+
+    const x = Math.floor(Math.random() * 1_000)
+    const y = Math.floor(Math.random() * 1_000)
+
+    xValue.innerText = x
+    yValue.innerText = y
+
+
+    $(document).ready(function () {
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:16977/Services/Simplex.asmx/AddS",
+            data: JSON.stringify({ x: x, y: y }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                // Выводим результат
+                $('#result-value').text(response.d);
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    })
+</script>

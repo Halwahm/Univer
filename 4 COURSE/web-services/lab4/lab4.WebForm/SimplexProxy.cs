@@ -24,7 +24,7 @@ using System.Xml.Serialization;
 [System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.8.3928.0")]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Web.Services.WebServiceBindingAttribute(Name="SimplexSoap", Namespace="http://HAN/")]
+[System.Web.Services.WebServiceBindingAttribute(Name="SimplexSoap", Namespace="http://PAV/")]
 public partial class Simplex : System.Web.Services.Protocols.SoapHttpClientProtocol {
     
     private System.Threading.SendOrPostCallback AddOperationCompleted;
@@ -48,7 +48,7 @@ public partial class Simplex : System.Web.Services.Protocols.SoapHttpClientProto
     public event SumCompletedEventHandler SumCompleted;
     
     /// <remarks/>
-    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://HAN/AddMethod", RequestElementName="AddMethod", RequestNamespace= "http://HAN/", ResponseElementName="AddMethodResponse", ResponseNamespace= "http://HAN/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://PAV/AddMethod", RequestElementName="AddMethod", RequestNamespace= "http://PAV/", ResponseElementName="AddMethodResponse", ResponseNamespace= "http://PAV/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
     [return: System.Xml.Serialization.XmlElementAttribute("AddMethodResult")]
     public int Add(int x, int y) {
         object[] results = this.Invoke("Add", new object[] {
@@ -93,7 +93,7 @@ public partial class Simplex : System.Web.Services.Protocols.SoapHttpClientProto
     }
     
     /// <remarks/>
-    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://HAN/ConcatMethod", RequestElementName="ConcatMethod", RequestNamespace= "http://HAN/", ResponseElementName="ConcatMethodResponse", ResponseNamespace= "http://HAN/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://PAV/ConcatMethod", RequestElementName="ConcatMethod", RequestNamespace= "http://PAV/", ResponseElementName="ConcatMethodResponse", ResponseNamespace= "http://PAV/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
     [return: System.Xml.Serialization.XmlElementAttribute("ConcatMethodResult")]
     public string Concat(string s, double d) {
         object[] results = this.Invoke("Concat", new object[] {
@@ -138,7 +138,7 @@ public partial class Simplex : System.Web.Services.Protocols.SoapHttpClientProto
     }
     
     /// <remarks/>
-    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://HAN/SumMethod", RequestElementName="SumMethod", RequestNamespace= "http://HAN/", ResponseElementName="SumMethodResponse", ResponseNamespace= "http://HAN/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://PAV/SumMethod", RequestElementName="SumMethod", RequestNamespace= "http://PAV/", ResponseElementName="SumMethodResponse", ResponseNamespace= "http://PAV/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
     [return: System.Xml.Serialization.XmlElementAttribute("SumMethodResult")]
     public A Sum(A a1, A a2) {
         object[] results = this.Invoke("Sum", new object[] {
@@ -193,7 +193,7 @@ public partial class Simplex : System.Web.Services.Protocols.SoapHttpClientProto
 [System.SerializableAttribute()]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace= "http://HAN/")]
+[System.Xml.Serialization.XmlTypeAttribute(Namespace= "http://PAV/")]
 public partial class A {
     
     private string sField;
