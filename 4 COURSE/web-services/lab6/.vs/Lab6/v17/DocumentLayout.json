@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Lab6_requests.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab6_requests.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|d:\\my files\\univer\\4 course\\web-services\\lab6\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\pws_lab6\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|solutionrelative:pws_lab6\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|d:\\my files\\univer\\4 course\\web-services\\lab6\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Lab6_requests.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab6_requests.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\client\\form1.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|solutionrelative:client\\form1.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\pws_lab6\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|solutionrelative:pws_lab6\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\pws_lab6\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|solutionrelative:pws_lab6\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Client\\Form1.cs",
               "RelativeDocumentMoniker": "Client\\Form1.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Client\\Form1.cs",
               "RelativeToolTip": "Client\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T21:08:06.532Z",
               "IsPinned": true,
@@ -63,12 +51,11 @@
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "PWS_Lab6\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-12-20T07:41:31.574Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-12-20T07:41:31.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Lab6_requests.txt",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Lab6_requests.txt",
               "RelativeDocumentMoniker": "Lab6_requests.txt",
@@ -76,32 +63,7 @@
               "RelativeToolTip": "Lab6_requests.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-19T19:21:00.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IService1.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\IService1.cs",
-              "RelativeDocumentMoniker": "PWS_Lab6\\IService1.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\IService1.cs",
-              "RelativeToolTip": "PWS_Lab6\\IService1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:38:45.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Service1.svc.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\Service1.svc.cs",
-              "RelativeDocumentMoniker": "PWS_Lab6\\Service1.svc.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\Service1.svc.cs",
-              "RelativeToolTip": "PWS_Lab6\\Service1.svc.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:45:31.803Z"
+              "WhenOpened": "2024-12-19T19:21:00.13Z"
             },
             {
               "$type": "Document",
@@ -114,18 +76,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-12-18T09:47:21.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Client\\Program.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Client\\Program.cs",
-              "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:44:56.38Z"
             }
           ]
         }

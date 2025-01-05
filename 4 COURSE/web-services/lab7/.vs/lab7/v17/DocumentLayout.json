@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\syndicationservicelibrary\\ifeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\ifeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9D6D0F6-19CE-48D8-8838-FF8DA275E0F5}|Client\\Client.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\client\\wcfsyndicationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D6D0F6-19CE-48D8-8838-FF8DA275E0F5}|Client\\Client.csproj|solutionrelative:client\\wcfsyndicationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3C55446-6124-4E9C-9BE2-1D3AFB7864BE}|Host\\Host.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3C55446-6124-4E9C-9BE2-1D3AFB7864BE}|Host\\Host.csproj|solutionrelative:host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\syndicationservicelibrary\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\syndicationservicelibrary\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\webapplication1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\webapplication1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9D6D0F6-19CE-48D8-8838-FF8DA275E0F5}|Client\\Client.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\client\\wcfsyndicationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9D6D0F6-19CE-48D8-8838-FF8DA275E0F5}|Client\\Client.csproj|solutionrelative:client\\wcfsyndicationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\webapplication1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\syndicationservicelibrary\\ifeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\ifeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Host\\Program.cs",
-              "RelativeDocumentMoniker": "Host\\Program.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Host\\Program.cs",
-              "RelativeToolTip": "Host\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T05:11:15.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IService1.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\IService1.cs",
               "RelativeDocumentMoniker": "WebApplication1\\IService1.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\IService1.cs",
               "RelativeToolTip": "WebApplication1\\IService1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T05:09:25.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T17:44:10.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service1.svc.cs",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\Service1.svc.cs",
+              "RelativeToolTip": "WebApplication1\\Service1.svc.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:43:43.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IFeed.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\IFeed.cs",
               "RelativeDocumentMoniker": "SyndicationServiceLibrary\\IFeed.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\IFeed.cs",
               "RelativeToolTip": "SyndicationServiceLibrary\\IFeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:31:37.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T13:31:37.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Feed.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\Feed.cs",
               "RelativeDocumentMoniker": "SyndicationServiceLibrary\\Feed.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\Feed.cs*",
-              "RelativeToolTip": "SyndicationServiceLibrary\\Feed.cs*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAiwDcAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\Feed.cs",
+              "RelativeToolTip": "SyndicationServiceLibrary\\Feed.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwBwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T12:59:18.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "WCFSyndicationClient.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\WCFSyndicationClient.cs",
               "RelativeDocumentMoniker": "Client\\WCFSyndicationClient.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\WCFSyndicationClient.cs",
               "RelativeToolTip": "Client\\WCFSyndicationClient.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEUAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwGMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T11:28:21.459Z",
               "EditorCaption": ""

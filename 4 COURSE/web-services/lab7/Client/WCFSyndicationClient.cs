@@ -30,7 +30,7 @@ namespace Client
             if (textBox1.Text != "")
             {
                 XmlDocument xmlDoc = new XmlDocument();
-                xmlDoc.Load(@"http://localhost:8734/SyndicationService/feed/" + textBox1.Text + "?format=atom");
+                xmlDoc.Load(@"http://localhost:9898/SyndicationService/feed/" + textBox1.Text + "?format=atom");
                 XmlElement root = xmlDoc.DocumentElement;
 
                 XmlNamespaceManager nsmgr = new XmlNamespaceManager(xmlDoc.NameTable);
@@ -67,7 +67,7 @@ namespace Client
             {
                 XmlDocument rssXmlDoc = new XmlDocument();
 
-                rssXmlDoc.Load(@"http://localhost:8734/SyndicationService/feed/" + textBox1.Text + "?format=rss");
+                rssXmlDoc.Load(@"http://localhost:9898/SyndicationService/feed/" + textBox1.Text + "?format=rss");
 
                 XmlNodeList rssNodes = rssXmlDoc.SelectNodes("rss/channel/item");
 
@@ -97,7 +97,7 @@ namespace Client
 
             if (textBox1.Text != "")
             {
-                string url = @"http://localhost:8734/SyndicationService/feed/" + textBox1.Text + "?format=json";
+                string url = @"http://localhost:9898/SyndicationService/feed/" + textBox1.Text + "?format=json";
                 using (var webClient = new WebClient())
                 {
                     try

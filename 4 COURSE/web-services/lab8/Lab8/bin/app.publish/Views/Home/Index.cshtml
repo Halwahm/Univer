@@ -1,0 +1,50 @@
+﻿﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row">
+
+    <input id="Id" type="text" placeholder="Id" />
+    <input id="JsonRpc" type="text" placeholder="JsonRpc" />
+    <select id="Method">
+        <option value="SetM">SetM</option>
+        <option value="GetM">GetM</option>
+        <option value="AddM">AddM</option>
+        <option value="SubM">SubM</option>
+        <option value="MulM">MulM</option>
+        <option value="DivM">DivM</option>
+        <option value="ErrorExit">ErrorExit</option>
+    </select>
+    <input id="Key" type="text" placeholder="Key" />
+    <input id="Value" type="text" placeholder="Value" />
+
+    <button onclick="InvokeRPC()">Invoke RPC</button>
+
+
+    <div id="result">
+
+    </div>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script>
+        function InvokeRPC() {
+            $.ajax({
+                url: "http://localhost:60496/api/JRService",
+                type: "POST",
+                dataType: "json",
+                data: {
+                    Id: document.getElementById('Id').value,
+                    JsonRpc: document.getElementById('JsonRpc').value,
+                    Method: document.getElementById('Method').value,
+                    Params: {
+                        Key: document.getElementById('Key').value,
+                        Value: document.getElementById('Value').value
+                    }
+                },
+                success: function (response, status, xhr) {
+                    document.getElementById('result').innerHTML = `Id = ${response.Id}\n JsonRpc = ${response.JsonRPC}\n Method = ${response.Method}\n Result = ${response.Result}`
+                    document.getElementById('result').innerHTML += '<br>'
+                    document.getElementById('result').innerHTML += `Id = ${response.Id}\n JsonRpc = ${response.JsonRPC}\n Error: Code = ${response.Error?.Code}, Message = ${response.Error?.Message}`
+                }
+            })
+        }
+    </script>
+</div>

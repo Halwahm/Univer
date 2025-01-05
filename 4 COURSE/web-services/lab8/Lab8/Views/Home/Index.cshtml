@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="container mt-4">
+    <h1 class="text-center mb-4">RPC Service Interface</h1>
+
+    <div class="card p-4 shadow-sm">
+        <div class="form-row mb-3">
+            <div class="col">
+                <input id="Id" type="text" class="form-control" placeholder="Id">
+            </div>
+            <div class="col">
+                <input id="JsonRpc" type="text" class="form-control" placeholder="JsonRpc">
+            </div>
+        </div>
+        <div class="form-row mb-3">
+            <div class="col">
+                <select id="Method" class="form-control">
+                    <option value="SetM">SetM</option>
+                    <option value="GetM">GetM</option>
+                    <option value="AddM">AddM</option>
+                    <option value="SubM">SubM</option>
+                    <option value="MulM">MulM</option>
+                    <option value="DivM">DivM</option>
+                    <option value="ErrorExit">ErrorExit</option>
+                </select>
+            </div>
+            <div class="col">
+                <input id="Key" type="text" class="form-control" placeholder="Key">
+            </div>
+        </div>
+        <div class="form-row mb-3">
+            <div class="col">
+                <input id="Value" type="text" class="form-control" placeholder="Value">
+            </div>
+        </div>
+        <button class="btn btn-primary btn-block" onclick="InvokeRPC()">Invoke RPC</button>
+    </div>
+
+    <div class="mt-4">
+        <h3>Result:</h3>
+        <pre id="result" class="bg-light p-3 rounded border"></pre>
+    </div>
+</div>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+    function InvokeRPC() {
+        const resultContainer = document.getElementById('result');
+        resultContainer.textContent = "Processing...";
+
+        $.ajax({
+            url: "http://localhost:60496/api/JRService",
+            type: "POST",
+            dataType: "json",
+            contentType: "application/json",
+            data: JSON.stringify({
+                Id: document.getElementById('Id').value,
+                JsonRpc: document.getElementById('JsonRpc').value,
+                Method: document.getElementById('Method').value,
+                Params: {
+                    Key: document.getElementById('Key').value,
+                    Value: document.getElementById('Value').value
+                }
+            }),
+            success: function (response) {
+                resultContainer.textContent = JSON.stringify(response, null, 2);
+            },
+            error: function (xhr, status, error) {
+                resultContainer.textContent = JSON.stringify({ error: xhr.responseText || error }, null, 2);
+            }
+        });
+    }
+</script>

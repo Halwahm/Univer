@@ -1,12 +1,12 @@
 ﻿{
   "ProviderId": "Microsoft.OData.ConnectedService",
-  "Version": "1.1.0.0",
+  "Version": "1.1.1.0",
   "GettingStartedDocument": {
     "Uri": "https://msdn.microsoft.com/en-us/library/cc668772(v=vs.110).aspx"
   },
   "ExtendedData": {
     "ServiceName": "OData Service",
-    "Endpoint": "http://localhost:60376/Service1.svc/$metadata",
+    "Endpoint": "http://localhost:51565/Service1.svc/$metadata",
     "EdmxVersion": {
       "Major": 1,
       "Minor": 0,

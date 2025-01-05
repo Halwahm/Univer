@@ -10,7 +10,7 @@ using System.ServiceModel;
 using System.ServiceModel.Syndication;
 using System.ServiceModel.Web;
 using System.Text;
-using WSKNSModel;
+using WSHANModel;
 
 namespace SyndicationServiceLibrary
 {
@@ -38,7 +38,7 @@ namespace SyndicationServiceLibrary
         {
             SyndicationFeed feed = new SyndicationFeed("Subjects & Notes", "Get list of notes by all subjects for the student", null);
             List<SyndicationItem> items = new List<SyndicationItem>();
-            WSKNSEntities notes = new WSKNSEntities(new Uri("http://localhost:60376/Service1.svc/"));
+            WSHANEntities notes = new WSHANEntities(new Uri("http://localhost:60376/Service1.svc/"));
 
             foreach (var note in notes.note.AsEnumerable().Where(i => i.stud_id == int.Parse(studentId)))
             {

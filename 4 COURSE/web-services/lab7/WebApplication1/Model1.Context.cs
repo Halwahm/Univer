@@ -13,10 +13,10 @@ namespace WebApplication1
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WSKNSEntities : DbContext
+    public partial class WSHANEntities : DbContext
     {
-        public WSKNSEntities()
-            : base("name=WSKNSEntities")
+        public WSHANEntities()
+            : base("name=WSHANEntities")
         {
         }
     

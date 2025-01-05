@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="WSKNSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="WSHANModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="note">
     <Key>
       <PropertyRef Name="id" />
@@ -30,7 +30,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="WSKNSEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="WSHANEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="note" EntityType="Self.note" />
     <EntitySet Name="student" EntityType="Self.student" />
     <AssociationSet Name="FK__note__stud_id__398D8EEE" Association="Self.FK__note__stud_id__398D8EEE">

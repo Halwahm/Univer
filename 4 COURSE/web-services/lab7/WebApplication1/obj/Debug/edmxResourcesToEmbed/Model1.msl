@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Хранилище WSKNSModelContainer" CdmEntityContainer="WSKNSEntities">
+  <EntityContainerMapping StorageEntityContainer="Хранилище WSHANModelContainer" CdmEntityContainer="WSHANEntities">
     <EntitySetMapping Name="note">
-      <EntityTypeMapping TypeName="WSKNSModel.note">
+      <EntityTypeMapping TypeName="WSHANModel.note">
         <MappingFragment StoreEntitySet="note">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="stud_id" ColumnName="stud_id" />
@@ -12,7 +12,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="student">
-      <EntityTypeMapping TypeName="WSKNSModel.student">
+      <EntityTypeMapping TypeName="WSHANModel.student">
         <MappingFragment StoreEntitySet="student">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="name" ColumnName="name" />

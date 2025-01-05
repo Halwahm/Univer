@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.SoapService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A190297-557C-4F41-97BA-772A170D5069}|..\\lab4.WinForm\\lab4.WinForm.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\lab4.winform\\simplexproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}|..\\WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\my files\\univer\\4 course\\web-services\\lab4\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -24,32 +21,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SimplexProxy.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.WinForm\\SimplexProxy.cs",
-              "RelativeDocumentMoniker": "..\\lab4.WinForm\\SimplexProxy.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\lab4.WinForm\\SimplexProxy.cs",
-              "RelativeToolTip": "..\\lab4.WinForm\\SimplexProxy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T05:26:14.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "..\\WindowsFormsApp1\\Form1.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "..\\WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T05:27:12.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab4\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "..\\WindowsFormsApp1\\Program.cs",
@@ -57,8 +41,7 @@
               "RelativeToolTip": "..\\WindowsFormsApp1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T05:26:19.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T05:26:19.793Z"
             }
           ]
         }
