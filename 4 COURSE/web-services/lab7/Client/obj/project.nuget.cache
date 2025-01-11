@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ODjauh0yQ0=",
+  "dgSpecHash": "oaexsaC86bk=",
   "success": true,
-  "projectFilePath": "D:\\Downloads\\Telegram Downloads\\lab7\\Client\\Client.csproj",
+  "projectFilePath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

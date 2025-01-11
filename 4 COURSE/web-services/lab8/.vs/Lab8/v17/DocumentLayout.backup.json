@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|d:\\my files\\univer\\4 course\\web-services\\lab8\\lab8\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -11,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\controllers\\jrservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\controllers\\jrservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,11 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "Lab8\\App_Start\\RouteConfig.cs",
@@ -106,11 +106,12 @@
               "RelativeToolTip": "Lab8\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:10:09.501Z"
+              "WhenOpened": "2024-12-19T07:10:09.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "Lab8\\App_Start\\WebApiConfig.cs",
@@ -122,15 +123,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab8\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Lab8\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T07:14:55.804Z"
+              "WhenOpened": "2024-12-19T07:14:55.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -146,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "JRServiceController.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Controllers\\JRServiceController.cs",
               "RelativeDocumentMoniker": "Lab8\\Controllers\\JRServiceController.cs",
@@ -182,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Web.config",
               "RelativeDocumentMoniker": "Lab8\\Web.config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Downloads\\Telegram Downloads\\lab7\\Client\\Client.csproj": {}
+    "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\Downloads\\Telegram Downloads\\lab7\\Client\\Client.csproj": {
+    "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\Telegram Downloads\\lab7\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\Downloads\\Telegram Downloads\\lab7\\Client\\Client.csproj",
+        "projectPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\Telegram Downloads\\Lab7\\Client\\obj\\",
+        "outputPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
