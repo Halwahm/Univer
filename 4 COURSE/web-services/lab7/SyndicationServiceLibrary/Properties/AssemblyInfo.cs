@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SyndicationServiceLibrary")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий идентификатор GUID представляет идентификатор typelib, если этот проект доступен через COM
-[assembly: Guid("57441364-d86c-4d5d-aca7-bb40376f38cc")]
+[assembly: Guid("2b42d955-7d17-4a7a-bd4e-248e4432e2aa")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

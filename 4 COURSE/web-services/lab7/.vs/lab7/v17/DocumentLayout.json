@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\",
+  "WorkspaceRootPath": "D:\\Downloads\\Telegram Downloads\\Lab7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9D6D0F6-19CE-48D8-8838-FF8DA275E0F5}|Client\\Client.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\client\\wcfsyndicationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9D6D0F6-19CE-48D8-8838-FF8DA275E0F5}|Client\\Client.csproj|solutionrelative:client\\wcfsyndicationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4987D5B9-7138-4A8A-8C09-9964C942D357}|Client\\Client.csproj|d:\\downloads\\telegram downloads\\lab7\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4987D5B9-7138-4A8A-8C09-9964C942D357}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\syndicationservicelibrary\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4700438-5BA4-4614-8382-697777647F2A}|Host\\Host.csproj|D:\\Downloads\\Telegram Downloads\\Lab7\\host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C4700438-5BA4-4614-8382-697777647F2A}|Host\\Host.csproj|solutionrelative:host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\webapplication1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|D:\\Downloads\\Telegram Downloads\\Lab7\\syndicationservicelibrary\\feed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\feed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\webapplication1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{410364C0-C3E9-4BEE-A132-6BE004B08A7E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\syndicationservicelibrary\\ifeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57441364-D86C-4D5D-ACA7-BB40376F38CC}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\ifeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|D:\\Downloads\\Telegram Downloads\\Lab7\\syndicationservicelibrary\\ifeed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\ifeed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IService1.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\IService1.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\IService1.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\IService1.cs",
-              "RelativeToolTip": "WebApplication1\\IService1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Downloads\\Telegram Downloads\\Lab7\\Client\\Form1.cs",
+              "RelativeDocumentMoniker": "Client\\Form1.cs",
+              "ToolTip": "D:\\Downloads\\Telegram Downloads\\Lab7\\Client\\Form1.cs",
+              "RelativeToolTip": "Client\\Form1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T17:44:10.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Service1.svc.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\Service1.svc.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Service1.svc.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\WebApplication1\\Service1.svc.cs",
-              "RelativeToolTip": "WebApplication1\\Service1.svc.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T17:43:43.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IFeed.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\IFeed.cs",
-              "RelativeDocumentMoniker": "SyndicationServiceLibrary\\IFeed.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\IFeed.cs",
-              "RelativeToolTip": "SyndicationServiceLibrary\\IFeed.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:31:37.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Feed.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\Feed.cs",
-              "RelativeDocumentMoniker": "SyndicationServiceLibrary\\Feed.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\Feed.cs",
-              "RelativeToolTip": "SyndicationServiceLibrary\\Feed.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwBwAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:59:18.486Z",
+              "WhenOpened": "2025-01-11T09:23:01.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WCFSyndicationClient.cs",
-              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\WCFSyndicationClient.cs",
-              "RelativeDocumentMoniker": "Client\\WCFSyndicationClient.cs",
-              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\WCFSyndicationClient.cs",
-              "RelativeToolTip": "Client\\WCFSyndicationClient.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwGMAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Feed1.cs",
+              "DocumentMoniker": "D:\\Downloads\\Telegram Downloads\\Lab7\\SyndicationServiceLibrary\\Feed1.cs",
+              "RelativeDocumentMoniker": "SyndicationServiceLibrary\\Feed1.cs",
+              "ToolTip": "D:\\Downloads\\Telegram Downloads\\Lab7\\SyndicationServiceLibrary\\Feed1.cs",
+              "RelativeToolTip": "SyndicationServiceLibrary\\Feed1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:28:21.459Z",
+              "WhenOpened": "2024-11-30T04:59:48.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFeed1.cs",
+              "DocumentMoniker": "D:\\Downloads\\Telegram Downloads\\Lab7\\SyndicationServiceLibrary\\IFeed1.cs",
+              "RelativeDocumentMoniker": "SyndicationServiceLibrary\\IFeed1.cs",
+              "ToolTip": "D:\\Downloads\\Telegram Downloads\\Lab7\\SyndicationServiceLibrary\\IFeed1.cs",
+              "RelativeToolTip": "SyndicationServiceLibrary\\IFeed1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T04:59:49.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Downloads\\Telegram Downloads\\Lab7\\Host\\App.config",
+              "RelativeDocumentMoniker": "Host\\App.config",
+              "ToolTip": "D:\\Downloads\\Telegram Downloads\\Lab7\\Host\\App.config",
+              "RelativeToolTip": "Host\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-20T19:17:59.511Z",
               "EditorCaption": ""
             }
           ]

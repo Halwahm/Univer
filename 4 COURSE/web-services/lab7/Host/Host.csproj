@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3C55446-6124-4E9C-9BE2-1D3AFB7864BE}</ProjectGuid>
+    <ProjectGuid>{C4700438-5BA4-4614-8382-697777647F2A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Host</RootNamespace>
     <AssemblyName>Host</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -52,11 +52,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\SyndicationServiceLibrary\SyndicationServiceLibrary.csproj">
-      <Project>{57441364-d86c-4d5d-aca7-bb40376f38cc}</Project>
+      <Project>{2b42d955-7d17-4a7a-bd4e-248e4432e2aa}</Project>
       <Name>SyndicationServiceLibrary</Name>
     </ProjectReference>
   </ItemGroup>
