@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\syndicationservicelibrary\\feed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4987D5B9-7138-4A8A-8C09-9964C942D357}|Client\\Client.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4987D5B9-7138-4A8A-8C09-9964C942D357}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\syndicationservicelibrary\\feed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\feed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\syndicationservicelibrary\\ifeed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B42D955-7D17-4A7A-BD4E-248E4432E2AA}|SyndicationServiceLibrary\\SyndicationServiceLibrary.csproj|solutionrelative:syndicationservicelibrary\\ifeed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4987D5B9-7138-4A8A-8C09-9964C942D357}|Client\\Client.csproj|d:\\my files\\univer\\4 course\\web-services\\lab7\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4987D5B9-7138-4A8A-8C09-9964C942D357}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4700438-5BA4-4614-8382-697777647F2A}|Host\\Host.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -26,43 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\Form1.cs",
               "RelativeDocumentMoniker": "Client\\Form1.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\Client\\Form1.cs",
               "RelativeToolTip": "Client\\Form1.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwGIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv2sAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T09:23:01.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Feed1.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\Feed1.cs",
               "RelativeDocumentMoniker": "SyndicationServiceLibrary\\Feed1.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\Feed1.cs",
               "RelativeToolTip": "SyndicationServiceLibrary\\Feed1.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAwI8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwG0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T04:59:48.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IFeed1.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\IFeed1.cs",
               "RelativeDocumentMoniker": "SyndicationServiceLibrary\\IFeed1.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab7\\SyndicationServiceLibrary\\IFeed1.cs",
               "RelativeToolTip": "SyndicationServiceLibrary\\IFeed1.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAArwB4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T04:59:49.549Z",
               "EditorCaption": ""

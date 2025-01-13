@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\controllers\\jrservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\reqjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\reqjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\sessionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\sessionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\resjsonrpcerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\resjsonrpcerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\resjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\resjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\errorjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +19,32 @@
       "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|d:\\my files\\univer\\4 course\\web-services\\lab8\\lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\sessionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\sessionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\resjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\resjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\models\\reqjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\models\\reqjsonrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\lab8\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2F4575-2A36-459F-9EAD-28AE78FA8831}|Lab8\\Lab8.csproj|solutionrelative:lab8\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,16 +58,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "Lab8\\App_Start\\RouteConfig.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "Lab8\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:10:09.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T07:10:09.501Z"
             },
             {
               "$type": "Document",
@@ -77,20 +76,19 @@
               "RelativeDocumentMoniker": "Lab8\\App_Start\\WebApiConfig.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "Lab8\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBAAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:10:14.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T07:10:14.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab8\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Lab8\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-19T07:14:55.804Z",
               "EditorCaption": ""
@@ -103,27 +101,26 @@
               "RelativeDocumentMoniker": "Lab8\\Controllers\\JRServiceController.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Controllers\\JRServiceController.cs",
               "RelativeToolTip": "Lab8\\Controllers\\JRServiceController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAqwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T07:10:28.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SessionList.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\SessionList.cs",
               "RelativeDocumentMoniker": "Lab8\\Models\\SessionList.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\SessionList.cs",
               "RelativeToolTip": "Lab8\\Models\\SessionList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:14:41.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T07:14:41.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ResJsonRPCError.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\ResJsonRPCError.cs",
               "RelativeDocumentMoniker": "Lab8\\Models\\ResJsonRPCError.cs",
@@ -136,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ResJsonRPC.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\ResJsonRPC.cs",
               "RelativeDocumentMoniker": "Lab8\\Models\\ResJsonRPC.cs",
@@ -144,25 +141,23 @@
               "RelativeToolTip": "Lab8\\Models\\ResJsonRPC.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:14:38.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T07:14:38.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ReqJsonRPC.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\ReqJsonRPC.cs",
               "RelativeDocumentMoniker": "Lab8\\Models\\ReqJsonRPC.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\ReqJsonRPC.cs",
               "RelativeToolTip": "Lab8\\Models\\ReqJsonRPC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:14:36.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T07:14:36.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ErrorJsonRPC.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\ErrorJsonRPC.cs",
               "RelativeDocumentMoniker": "Lab8\\Models\\ErrorJsonRPC.cs",
@@ -175,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "DataModel.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Models\\DataModel.cs",
               "RelativeDocumentMoniker": "Lab8\\Models\\DataModel.cs",
@@ -188,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab8\\Lab8\\Global.asax.cs",
               "RelativeDocumentMoniker": "Lab8\\Global.asax.cs",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "Lab8\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:15:40.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T07:15:40.746Z"
             }
           ]
         }

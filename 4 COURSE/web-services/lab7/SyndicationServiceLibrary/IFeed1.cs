@@ -19,6 +19,7 @@ namespace SyndicationServiceLibrary
     [ServiceContract]
     [ServiceKnownType(typeof(Atom10FeedFormatter))]
     [ServiceKnownType(typeof(Rss20FeedFormatter))]
+    [ServiceKnownType(typeof(String))]
     public interface IFeed1
     {
         [OperationContract]
@@ -29,6 +30,5 @@ namespace SyndicationServiceLibrary
         [WebGet(UriTemplate = "students/{studentId}/notes/{formatRequest}", BodyStyle = WebMessageBodyStyle.Bare)]
         SyndicationFeedFormatter GetStudentNotes(string studentId, string formatRequest);
 
-        // TODO: Добавьте здесь операции служб
     }
 }

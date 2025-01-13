@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{78113BCE-B7A7-483A-824B-591D32AAEFA8}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\pws_lab6\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|solutionrelative:pws_lab6\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\pws_lab6\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|solutionrelative:pws_lab6\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\pws_lab6\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{E4D06305-3201-4A90-9C25-374C74C8C95A}|PWS_Lab6\\Lab6.csproj|solutionrelative:pws_lab6\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
@@ -36,7 +44,7 @@
               "RelativeDocumentMoniker": "Client\\Form1.cs",
               "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Client\\Form1.cs",
               "RelativeToolTip": "Client\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAADwv6cAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T21:08:06.532Z",
               "IsPinned": true,
@@ -44,7 +52,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "PWS_Lab6\\Service1.svc.cs",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\Service1.svc.cs",
+              "RelativeToolTip": "PWS_Lab6\\Service1.svc.cs",
+              "ViewState": "AgIAAAYAAACALrrosEwvwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:58:02.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\IService1.cs",
+              "RelativeDocumentMoniker": "PWS_Lab6\\IService1.cs",
+              "ToolTip": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\IService1.cs",
+              "RelativeToolTip": "PWS_Lab6\\IService1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:57:56.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\PWS_Lab6\\Model1.edmx",
               "RelativeDocumentMoniker": "PWS_Lab6\\Model1.edmx",
@@ -55,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Lab6_requests.txt",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Lab6_requests.txt",
               "RelativeDocumentMoniker": "Lab6_requests.txt",
@@ -67,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.resx",
               "DocumentMoniker": "D:\\My Files\\Univer\\4 COURSE\\web-services\\lab6\\Client\\Form1.resx",
               "RelativeDocumentMoniker": "Client\\Form1.resx",

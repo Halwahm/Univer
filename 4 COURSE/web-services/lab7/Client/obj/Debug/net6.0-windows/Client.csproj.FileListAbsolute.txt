@@ -53,3 +53,23 @@ D:\Downloads\Telegram Downloads\lab7\Client\obj\Debug\net6.0-windows\refint\Clie
 D:\Downloads\Telegram Downloads\lab7\Client\obj\Debug\net6.0-windows\Client.pdb
 D:\Downloads\Telegram Downloads\lab7\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
 D:\Downloads\Telegram Downloads\lab7\Client\obj\Debug\net6.0-windows\ref\Client.dll
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\bin\Debug\net6.0-windows\Client.exe
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\bin\Debug\net6.0-windows\Client.deps.json
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\bin\Debug\net6.0-windows\Client.dll
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\bin\Debug\net6.0-windows\Client.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.csproj.AssemblyReference.cache
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.Form1.resources
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.csproj.GenerateResource.cache
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfoInputs.cache
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfo.cs
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.sourcelink.json
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.csproj.Up2Date
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.dll
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\refint\Client.dll
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.pdb
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
+D:\My Files\Univer\4 COURSE\web-services\lab7\Client\obj\Debug\net6.0-windows\ref\Client.dll
