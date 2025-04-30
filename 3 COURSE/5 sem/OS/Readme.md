@@ -1,0 +1,1 @@
+![alt text](bernatski.jpg)![alt text](pilinoga.jpg)
