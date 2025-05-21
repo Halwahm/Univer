@@ -1,0 +1,1 @@
+![alt text](grinyuk-1.jpg)
