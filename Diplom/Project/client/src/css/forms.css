@@ -1,0 +1,25 @@
+form.addFilms{
+}
+
+.row{
+
+}
+
+.container{
+    padding-top: 30px !important;
+}
+.error{
+    border: 2px solid red !important ;
+}
+
+.poster-upload{
+    max-width: 100% !important;
+}
+
+.alert-none{
+    display: none !important;
+}
+
+.msg, .msg-success{
+    margin-top:10px;
+}

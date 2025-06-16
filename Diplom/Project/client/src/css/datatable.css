@@ -1,0 +1,30 @@
+.pagination{
+    justify-content: flex-end !important;
+}
+
+.data-table-img{
+    max-width: 100px !important;
+}
+
+#data-table td{
+    vertical-align: middle;
+}
+
+div.dataTables_length label{
+    display: flex!important;
+}
+
+div.dataTables_length label select{
+    max-width: 100px;
+    margin: 0 5px;
+}
+
+div.dataTables_filter label{
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+div.dataTables_filter label input{
+    max-width: 50%;
+    margin-left: 5px;
+}

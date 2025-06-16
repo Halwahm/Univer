@@ -1,0 +1,296 @@
+import React, {useState} from "react";
+import {useNavigate} from "react-router-dom";
+import Store from "../../../store/store";
+import {notifications} from "@mantine/notifications";
+import {
+  ActionIcon,
+  AspectRatio,
+  Button,
+  Center,
+  Container,
+  FileInput,
+  Grid,
+  Group,
+  Image,
+  NumberInput,
+  Paper,
+  Select,
+  Stack,
+  Text,
+  Textarea,
+  TextInput,
+  Title,
+} from "@mantine/core";
+import {IconArrowLeft, IconPhoto} from "@tabler/icons-react";
+import {genreNameMap} from "../../../utils/genreUtils";
+
+const AdminAddFilm = () => {
+  const store = new Store();
+  const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
+  const [preview, setPreview] = useState(null);
+  const [errors, setErrors] = useState({});
+  const [credentials, setCredentials] = useState({
+    name: "",
+    year: "",
+    duration: "",
+    ageLimit: "",
+    date_of_start: "",
+    date_of_end: "",
+    genre: "",
+    description: "",
+    poster: null,
+  });
+
+  const genreOptions = Object.entries(genreNameMap).map(([value, label]) => ({
+    value,
+    label
+  }));
+
+  const handleChange = (e) => {
+    setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }));
+    if (errors[e.target.id]) {
+      setErrors(prev => ({ ...prev, [e.target.id]: null }));
+    }
+  };
+
+  const handleImageChange = (file) => {
+    if (file) {
+      setCredentials((prev) => ({ ...prev, poster: file }));
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setPreview(reader.result);
+      };
+      reader.readAsDataURL(file);
+      if (errors.poster) {
+        setErrors(prev => ({ ...prev, poster: null }));
+      }
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setErrors({});
+
+    // Validate dates
+    const startDate = new Date(credentials.date_of_start);
+    const endDate = new Date(credentials.date_of_end);
+
+    if (endDate < startDate) {
+      setErrors(prev => ({
+        ...prev,
+        date_of_end: "Дата окончания проката не может быть раньше даты начала"
+      }));
+      notifications.show({
+        title: 'Ошибка',
+        message: 'Дата окончания проката не может быть раньше даты начала',
+        color: 'red',
+      });
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const formData = new FormData();
+      formData.append("image", credentials.poster);
+      formData.append("name", credentials.name);
+      formData.append("year", credentials.year);
+      formData.append("duration", credentials.duration);
+      formData.append("ageLimit", credentials.ageLimit);
+      formData.append("startRelease", credentials.date_of_start);
+      formData.append("endRelease", credentials.date_of_end);
+      formData.append("genre", credentials.genre);
+      formData.append("description", credentials.description);
+
+      const response = await store.AddFilm(formData);
+      
+      if (response.data) {
+        notifications.show({
+          title: 'Успех',
+          message: 'Фильм успешно добавлен',
+          color: 'green',
+        });
+        navigate("/AdminAllFilm");
+      }
+    } catch (error) {
+      if (Array.isArray(error.response?.data?.message)) {
+        const newErrors = {};
+        error.response.data.message.forEach(message => {
+          const [field, msg] = message.split(":").map(s => s.trim());
+          newErrors[field] = msg;
+          notifications.show({
+            title: 'Ошибка',
+            message: msg,
+            color: 'red',
+          });
+        });
+        setErrors(newErrors);
+      } else {
+        notifications.show({
+          title: 'Ошибка',
+          message: error.response?.data?.message || 'Не удалось добавить фильм',
+          color: 'red',
+        });
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
+  
+  return (
+    <Container size="xl" py="xl">
+      <Stack spacing="xl">
+        <Group position="apart">
+          <Group>
+            <ActionIcon variant="subtle" onClick={() => navigate("/AdminAllFilm")}>
+              <IconArrowLeft size={20} />
+            </ActionIcon>
+            <Title order={2}>Добавить фильм</Title>
+          </Group>
+        </Group>
+
+        <Paper p="md" radius="md" withBorder>
+          <form onSubmit={handleSubmit}>
+            <Stack spacing="md">
+              <Group grow>
+                <TextInput
+                  label="Название фильма"
+                  id="name"
+                  required
+                  value={credentials.name}
+                  onChange={handleChange}
+                  error={errors.name}
+                />
+                <NumberInput
+                  label="Год выпуска"
+                  id="year"
+                  required
+                  min={1900}
+                  max={new Date().getFullYear()}
+                  value={credentials.year}
+                  onChange={(value) => handleChange({ target: { id: 'year', value } })}
+                  error={errors.year}
+                />
+              </Group>
+
+              <Group grow>
+                <TextInput
+                  label="Продолжительность"
+                  id="duration"
+                  type="time"
+                  required
+                  value={credentials.duration}
+                  onChange={handleChange}
+                  error={errors.duration}
+                />
+                <NumberInput
+                  label="Возрастное ограничение"
+                  id="ageLimit"
+                  required
+                  min={0}
+                  max={18}
+                  value={credentials.ageLimit}
+                  onChange={(value) => handleChange({ target: { id: 'ageLimit', value } })}
+                  error={errors.ageLimit}
+                />
+              </Group>
+
+              <Group grow>
+                <TextInput
+                  label="Дата начала проката"
+                  id="date_of_start"
+                  type="date"
+                  required
+                  value={credentials.date_of_start}
+                  onChange={handleChange}
+                  error={errors.date_of_start}
+                  min={new Date().toISOString().split('T')[0]}
+                />
+                <TextInput
+                  label="Дата окончания проката"
+                  id="date_of_end"
+                  type="date"
+                  required
+                  value={credentials.date_of_end}
+                  onChange={handleChange}
+                  error={errors.date_of_end}
+                  min={credentials.date_of_start || new Date().toISOString().split('T')[0]}
+                />
+              </Group>
+
+              <Group grow>
+                <Select
+                  label="Жанр"
+                  id="genre"
+                  required
+                  data={genreOptions}
+                  value={credentials.genre}
+                  onChange={(value) => handleChange({ target: { id: 'genre', value } })}
+                  error={errors.genre}
+                />
+                <FileInput
+                  label="Постер фильма"
+                  accept="image/*"
+                  onChange={handleImageChange}
+                  placeholder="Выберите изображение"
+                  error={errors.img}
+                />
+              </Group>
+
+              <Grid>
+                <Grid.Col span={4}>
+                  <Paper p="md" radius="md" withBorder>
+                    <Text size="sm" weight={500} mb="xs" align="center">
+                      Постер фильма
+                    </Text>
+                    <AspectRatio ratio={2/3}>
+                      {preview ? (
+                        <Image
+                          src={preview}
+                          alt="Preview"
+                          radius="md"
+                          withPlaceholder
+                        />
+                      ) : (
+                        <Center style={{ background: '#f8f9fa', borderRadius: '8px' }}>
+                          <IconPhoto size={50} color="#adb5bd" />
+                        </Center>
+                      )}
+                    </AspectRatio>
+                  </Paper>
+                </Grid.Col>
+                <Grid.Col span={8}>
+                  <Textarea
+                    label="Описание"
+                    id="description"
+                    required
+                    minRows={8}
+                    autosize
+                    value={credentials.description}
+                    onChange={handleChange}
+                    error={errors.description}
+                  />
+                </Grid.Col>
+              </Grid>
+
+              <Group position="right">
+                <Button
+                  variant="subtle"
+                  onClick={() => navigate("/AdminAllFilm")}
+                >
+                  Отмена
+                </Button>
+                <Button type="submit" loading={loading}>
+                  Добавить фильм
+                </Button>
+              </Group>
+            </Stack>
+          </form>
+        </Paper>
+      </Stack>
+    </Container>
+  );
+};
+
+export default AdminAddFilm;

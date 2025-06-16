@@ -1,0 +1,222 @@
+import React, {useState} from "react";
+import {Link, useNavigate} from "react-router-dom";
+import {
+  Alert,
+  Avatar,
+  Box,
+  Button,
+  Center,
+  Container,
+  Divider,
+  Paper,
+  PasswordInput,
+  Stack,
+  Text,
+  TextInput,
+  Title, useMantineColorScheme,
+  useMantineTheme,
+} from "@mantine/core";
+import {IconAlertCircle, IconArrowRight, IconLock, IconMail, IconUser,} from "@tabler/icons-react";
+import axios from "axios";
+import logo from "../../images/logo.png";
+import ImageBackground from "../../images/background.jpg";
+import ThemeSwitcher from "../../components/header/ThemeSwitcher";
+
+const Registration = () => {
+  const [credentials, setCredentials] = useState({
+    email: "",
+    password: "",
+    name: "",
+  });
+
+  const [errors, setErrors] = useState({
+    email: "",
+    password: "",
+    name: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [generalError, setGeneralError] = useState(null);
+  const navigate = useNavigate();
+  const theme = useMantineTheme();
+  const {colorScheme} = useMantineColorScheme()
+  
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setCredentials((prev) => ({ ...prev, [id]: value }));
+    setErrors((prev) => ({ ...prev, [id]: "" }));
+    setGeneralError(null);
+  };
+
+  const handleClick = async (e) => {
+    e.preventDefault();
+    try {
+      setLoading(true);
+      setGeneralError(null);
+      setErrors({ email: "", password: "", name: "" });
+
+      await axios.post("http://localhost:5000/user/sign-up", credentials);
+      navigate("/login");
+    } catch (err) {
+      const error = err.response.data;
+
+      if (Array.isArray(error.message)) {
+        const newErrors = { email: "", password: "", name: "" };
+        error.message.forEach((msg) => {
+          const [field, message] = msg.split(":").map((part) => part.trim());
+          switch (field) {
+            case "Email":
+              newErrors.email = message;
+              break;
+            case "Password":
+              newErrors.password = message;
+              break;
+            case "Name":
+              newErrors.name = message;
+              break;
+            default:
+              break;
+          }
+        });
+        setErrors(newErrors);
+      } else if (error.message) {
+        const [field, message] = error.message.split(":").map((part) => part.trim());
+        if (field === "Email") {
+          setErrors({ email: message, password: "", name: "" });
+        } else {
+          setGeneralError(error.message);
+        }
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <Box
+        style={{
+          minHeight: "100vh",
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+          
+        }}
+    >
+      <Box
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 100%), url(${ImageBackground})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            filter: colorScheme === 'dark' ? 'brightness(60%)' : 'brightness(120%)',
+            zIndex: -1
+          }}
+      />
+      <Container style={{position: 'absolute', top: '10px', right: '10px'}}>
+        <ThemeSwitcher />
+      </Container>
+      <Container size="md">
+        <Stack spacing={30}>
+          <Stack spacing="xs" justify="center" align="center">
+            <Text size="xl" fw={700} style={{fontSize: "36px"}} align="center" c="white">
+              Добро пожаловать в онлайн-кинотеатр Hm
+            </Text>
+            <Text size="lg" align="center" c="white">
+              Зарегистрируйтесь для продолжения
+            </Text>
+          </Stack>
+
+          <Paper radius="md" p="xl" withBorder shadow="md" style={{ minWidth: '450px' }}>
+            <Stack spacing="xl">
+              <Center>
+                <Avatar src={logo} size={132} radius="xl" alt="User avatar" />
+              </Center>
+
+              <form onSubmit={handleClick}>
+                <Stack spacing="md">
+                  <TextInput
+                    id="name"
+                    label="Имя"
+                    placeholder="Введите ваше имя"
+                    icon={<IconUser size="1rem" />}
+                    value={credentials.name}
+                    onChange={handleChange}
+                    error={errors.name}
+                    required
+                    size="md"
+                  />
+
+                  <TextInput
+                    id="email"
+                    label="Email"
+                    placeholder="Введите ваш email"
+                    icon={<IconMail size="1rem" />}
+                    value={credentials.email}
+                    onChange={handleChange}
+                    error={errors.email}
+                    required
+                    size="md"
+                  />
+
+                  <PasswordInput
+                    id="password"
+                    label="Пароль"
+                    placeholder="Введите ваш пароль"
+                    icon={<IconLock size="1rem" />}
+                    value={credentials.password}
+                    onChange={handleChange}
+                    error={errors.password}
+                    required
+                    size="md"
+                  />
+
+                  {generalError && (
+                    <Alert
+                      icon={<IconAlertCircle size="1rem" />}
+                      color="red"
+                      variant="filled"
+                    >
+                      {generalError}
+                    </Alert>
+                  )}
+
+                  <Button
+                    type="submit"
+                    size="md"
+                    loading={loading}
+                    rightIcon={<IconArrowRight size="1.1rem" />}
+                    fullWidth
+                  >
+                    Зарегистрироваться
+                  </Button>
+                </Stack>
+              </form>
+
+              <Divider label="Уже есть аккаунт?" labelPosition="center" />
+
+              <Button
+                component={Link}
+                to="/login"
+                variant="light"
+                color={theme.primaryColor}
+                size="md"
+                fullWidth
+              >
+                Войти
+              </Button>
+            </Stack>
+          </Paper>
+        </Stack>
+      </Container>
+    </Box>
+  );
+};
+
+export default Registration;

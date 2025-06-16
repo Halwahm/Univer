@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: dream-cinema-db
+    env_file:
+      - ./dream-cinema/.env
+    environment:
+      POSTGRES_USER: Kir
+      POSTGRES_PASSWORD: Kirill-17
+      POSTGRES_DB: dream_cinema_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - dream-cinema-network
+
+  backend:
+    build: 
+      context: ./dream-cinema
+      dockerfile: Dockerfile
+    container_name: dream-cinema-backend
+    env_file:
+      - ./dream-cinema/.env
+    environment:
+      - HOST=postgres
+      - DATABASE_PORT=5432
+      - USER=Kir
+      - PASSWORD=Kirill-17
+      - DATABASE_NAME=dream_cinema_db
+      - REFRESH_TOKEN_SECRET=kirill
+      - REFRESH_TOKEN_EXPIRATION=10d
+      - ACCESS_TOKEN_SECRET=kir
+      - ACCESS_TOKEN_EXPIRATION=2h
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+    networks:
+      - dream-cinema-network
+
+  frontend:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: dream-cinema-frontend
+    env_file:
+      - ./client/.env
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000
+      - REACT_APP_ENVIRONMENT=development
+    ports:
+      - "3000:3000"
+    # depends_on:
+    #   - backend
+    networks:
+      - dream-cinema-network
+
+
+
+networks:
+  dream-cinema-network:
+    driver: bridge
+
+volumes:
+  postgres_data: 
+
+
+# docker cp "C:\Users\user\Documents\Diplom\Project\db.txt" dream-cinema-db:/tmp/db.sql
+# docker exec -i dream-cinema-db psql -U Kir -d dream_cinema_db -f /tmp/db.sql

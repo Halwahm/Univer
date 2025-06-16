@@ -1,0 +1,2 @@
+export const SECRET_KEY = 'ACCESS_TOKEN_SECRET';
+export const JWT_EXPIRES_IN = 'JWT_EXPIRES_IN';

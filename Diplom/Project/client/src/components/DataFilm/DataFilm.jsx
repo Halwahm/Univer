@@ -1,0 +1,162 @@
+import React, { useState, useEffect } from "react";
+import { Buffer } from "buffer";
+import {
+  AspectRatio,
+  Badge,
+  Button,
+  Divider,
+  Grid,
+  Group,
+  Image,
+  Paper,
+  Stack,
+  Text,
+  Title,
+  useMantineTheme,
+} from "@mantine/core";
+import { IconCalendar, IconClock, IconHeart, IconHeartFilled, IconUser } from "@tabler/icons-react";
+import Store from "../../store/store";
+import { getHumanReadableGenre } from "../../utils/genreUtils";
+import { notifications } from "@mantine/notifications";
+
+function DataFilm(props) {
+  const store = new Store();
+  const theme = useMantineTheme();
+  const { endRelease, startRelease, duration } = props.data;
+  const [isLoading, setIsLoading] = useState(false);
+  const [isFavorite, setIsFavorite] = useState(false);
+
+  useEffect(() => {
+    setIsFavorite(props.dataFavorite && props.dataFavorite.length > 0);
+  }, [props.dataFavorite]);
+
+  const months = [
+    "января", "февраля", "марта", "апреля", "мая", "июня",
+    "июля", "августа", "сентября", "октября", "ноября", "декабря",
+  ];
+
+  const start = new Date(startRelease);
+  const end = new Date(endRelease);
+  const len = new Date(`1970-01-01T${duration}`);
+
+  const handleFavoriteClick = async () => {
+    if (isLoading) return;
+    setIsLoading(true);
+    try {
+      if (isFavorite) {
+        await store.removeFavorite(props.data.id, props.dataFavorite[0]?.id);
+        notifications.show({
+          title: 'Успех',
+          message: 'Фильм удален из избранного',
+          color: 'green',
+        });
+      } else {
+        await store.addFavorite(props.data.id);
+        notifications.show({
+          title: 'Успех',
+          message: 'Фильм добавлен в избранное',
+          color: 'green',
+        });
+      }
+      if (props.onFavoriteChange) {
+        await props.onFavoriteChange();
+      }
+    } catch (error) {
+      notifications.show({
+        title: 'Ошибка',
+        message: error.response?.data?.message || 'Не удалось обновить избранное',
+        color: 'red',
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const formatDuration = (minutes) => {
+    const hours = Math.floor(minutes / 60);
+    const remainingMinutes = minutes % 60;
+    return `${hours} ч ${remainingMinutes} мин`;
+  };
+
+  return (
+    <Paper shadow="sm" p="md" radius="md" withBorder>
+      <Grid>
+        <Grid.Col span={4}>
+          <AspectRatio ratio={2/3} mx="auto">
+            <Image
+              src={`data:image/jpeg;base64,${Buffer.from(props.dataImage).toString("base64")}`}
+              alt={props.data.name}
+              radius="md"
+              fit="cover"
+              withPlaceholder
+              placeholder={
+                <Text align="center" color="dimmed">
+                  Нет изображения
+                </Text>
+              }
+            />
+          </AspectRatio>
+        </Grid.Col>
+        <Grid.Col span={8}>
+          <Stack spacing="md">
+            <Group position="apart">
+              <Title order={2}>{props.data.name}</Title>
+              <Badge size="lg" variant="light">
+                {getHumanReadableGenre(props.dataName.name)}
+              </Badge>
+            </Group>
+
+            <Group spacing="xs">
+              <IconCalendar size="1rem" color={theme.colors.blue[6]} />
+              <Text size="sm">
+                Показ с <strong>{start.getDate()} {months[start.getMonth()]} {start.getFullYear()}</strong> по{" "}
+                <strong>{end.getDate()} {months[end.getMonth()]} {end.getFullYear()}</strong>
+              </Text>
+            </Group>
+
+            <Divider />
+
+            <Stack spacing="xs">
+              <Group spacing="xs">
+                <IconClock size="1rem" color={theme.colors.blue[6]} />
+                <Text size="sm">
+                  Длительность: <strong>{formatDuration(len.getHours() * 60 + len.getMinutes())}</strong>
+                </Text>
+              </Group>
+              <Group spacing="xs">
+                <IconUser size="1rem" color={theme.colors.blue[6]} />
+                <Text size="sm">
+                  Возрастное ограничение: <strong>{props.data.ageLimit}+</strong>
+                </Text>
+              </Group>
+            </Stack>
+
+            <Divider />
+
+            <Stack spacing="xs">
+              <Text size="sm" fw={500}>Описание:</Text>
+              <Text size="sm" color="dimmed">
+                {props.data.description}
+              </Text>
+            </Stack>
+
+            <Group position="right" mt="md">
+              <Button
+                rightSection={isFavorite ? <IconHeartFilled size="1rem" /> : <IconHeart size="1rem" />}
+                variant={isFavorite ? "filled" : "outline"}
+                color={isFavorite ? "red" : "gray"}
+                onClick={handleFavoriteClick}
+                loading={isLoading}
+                disabled={isLoading}
+              >
+                {isFavorite ? "Удалить из любимых" : "Добавить в любимые"}
+              </Button>
+            </Group>
+          </Stack>
+        </Grid.Col>
+      </Grid>
+    </Paper>
+  );
+}
+
+export default DataFilm;

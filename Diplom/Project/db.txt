@@ -1,0 +1,76 @@
+select * from "film";
+select * from "favorite";
+select * from "token";
+
+select * from "ticket";
+select * from "place";
+CREATE OR REPLACE FUNCTION CheckSession()
+RETURNS uuid
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    IdSession uuid;
+BEGIN
+    FOR IdSession IN select  ID FROM Session WHERE "dateSession" < CURRENT_DATE OR ("dateSession" = CURRENT_DATE AND "timeSession" <= CURRENT_TIME+ INTERVAL '3 hours')
+LOOP
+        UPDATE Session SET status = 'Disactive' WHERE id = IdSession;
+    END LOOP;
+	return IdSession;
+END;
+$$;
+
+SELECT CheckSession();
+
+select  ID FROM Session WHERE "dateSession" < CURRENT_DATE OR ("dateSession" = CURRENT_DATE AND "timeSession" <= CURRENT_TIME+ INTERVAL '3 hours');
+select CURRENT_TIME;
+
+CREATE OR REPLACE FUNCTION ticket_before_insert_rows()
+RETURNS trigger AS
+$$
+DECLARE
+    Place int;
+    Filename varchar(100);
+    Filmid uuid;
+    SessionDate date;
+BEGIN
+    SELECT Place.place INTO Place FROM Place WHERE Place.id = NEW."placeId";
+    SELECT "dateSession", "IDFilm" INTO SessionDate, Filmid FROM Session WHERE Session.ID = NEW."sessionId";
+    SELECT "name" INTO Filename FROM Film WHERE Film.id = Filmid;
+
+    INSERT INTO AUDITT ("OperationType", "filmname", "date", "datenow", "place", "user")
+    SELECT 'Покупка билета', Filename, SessionDate, NOW(), Place, NEW."userId";
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER Ticket_BEFORE_INSERT_ROWS
+AFTER INSERT ON ticket
+FOR EACH ROW
+EXECUTE FUNCTION ticket_before_insert_rows();
+
+insert into ticket("QR", "sessionId", "placeId", "userId")
+values('someQR', '42691ca4-d262-4ca8-a94b-9f47097e8fc6', '479ec8c4-d22d-4fb7-a002-06a2b093f945', 'dbcf943f-758e-4a39-9df9-44ec535bbb59');
+
+select * from "session";
+select * from "user";
+select * from "place";
+select * from "ticket";
+
+CREATE OR REPLACE FUNCTION audit_ticket() RETURNS TRIGGER AS $$
+BEGIN
+    INSERT INTO AUDITT("OperationType", "filmname", "date", "datenow", "place", "user")
+    SELECT 'Возврат билета', f.name, s."dateSession", NOW(), p.place, OLD."userId"
+    FROM Place p
+    JOIN Session s ON s.ID = OLD."sessionId"
+    JOIN Film f ON f.ID = s."IDFilm"
+    WHERE p.ID = OLD."placeId";
+    RETURN OLD;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER Ticket_BEFORE_DELETE_ROWS
+AFTER DELETE ON Ticket
+FOR EACH ROW
+EXECUTE FUNCTION audit_ticket();
+delete from ticket;

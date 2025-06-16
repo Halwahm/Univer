@@ -1,0 +1,228 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import "../../../lib/boxicons/css/boxicons.min.css";
+import "../../../lib/datatables/datatables.min.css";
+import "../../../css/cinemaDataTable.css";
+import Store from "../../../store/store";
+import React, {useEffect, useState} from "react";
+import {Line} from "react-chartjs-2";
+import {Card, Container, Grid, Group, Paper, Select, Stack, Text, Title,} from "@mantine/core";
+import {IconMovie, IconTicket, IconTrendingUp, IconUsers} from "@tabler/icons-react";
+import {notifications} from "@mantine/notifications";
+import {
+  CategoryScale,
+  Chart as ChartJS,
+  Legend,
+  LinearScale,
+  LineElement,
+  PointElement,
+  Title as ChartTitle,
+  Tooltip,
+} from "chart.js";
+
+// Регистрация компонентов Chart.js
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  ChartTitle,
+  Tooltip,
+  Legend
+);
+
+const AdminStatistic = () => {
+  const store = new Store();
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState([]);
+  const [timeRange, setTimeRange] = useState("7");
+  const [statistics, setStatistics] = useState({
+    totalFilms: 0,
+    totalUsers: 0,
+    totalTickets: 0,
+    averageAttendance: 0,
+  });
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await store.GetStatistic();
+        setData(res.data);
+        calculateStatistics(res.data);
+      } catch (error) {
+        notifications.show({
+          title: 'Ошибка',
+          message: 'Не удалось загрузить статистику',
+          color: 'red',
+        });
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
+
+  const calculateStatistics = (data) => {
+    const uniqueFilms = new Set(data.map(film => film.auditt_filmname));
+    const totalTickets = data.reduce((sum, film) => sum + parseInt(film.count), 0);
+    const totalUsers = new Set(data.map(film => film.auditt_userid)).size;
+    
+    setStatistics({
+      totalFilms: uniqueFilms.size,
+      totalUsers: totalUsers,
+      totalTickets: totalTickets,
+      averageAttendance: Math.round(totalTickets / uniqueFilms.size),
+    });
+  };
+
+  const groupedFilms = data.reduce((result, film) => {
+    const existingFilm = result.find(
+      (item) => item.auditt_filmname === film.auditt_filmname
+    );
+
+    if (existingFilm) {
+      existingFilm.data.push(parseInt(film.count));
+    } else {
+      result.push({
+        auditt_filmname: film.auditt_filmname,
+        data: [parseInt(film.count)],
+      });
+    }
+    return result;
+  }, []);
+
+  const modifiedDates = Array.from(
+    new Set(
+      data.map((film) => {
+        const date = new Date(film.auditt_date);
+        date.setDate(date.getDate() + 1);
+        return date.toISOString();
+      })
+    )
+  );
+
+  const dates = modifiedDates.map((datetime) => {
+    const date = new Date(datetime);
+    date.setUTCHours(0, 0, 0, 0);
+    return date.toISOString().split("T")[0];
+  });
+
+  const getRandomColor = () => {
+    const letters = "0123456789ABCDEF";
+    let color = "#";
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  };
+
+  const datasets = groupedFilms.map((film) => ({
+    data: film.data,
+    label: film.auditt_filmname,
+    borderColor: getRandomColor(),
+    fill: true,
+    lineTension: 0.5,
+  }));
+
+  const lineChartData = {
+    labels: dates,
+    datasets: datasets,
+  };
+
+  const chartOptions = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top",
+      },
+      title: {
+        display: true,
+        text: "Статистика посещаемости фильмов",
+        font: {
+          size: 16,
+        },
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: {
+          display: true,
+          text: "Количество билетов",
+        },
+      },
+      x: {
+        title: {
+          display: true,
+          text: "Дата",
+        },
+      },
+    },
+  };
+
+  return (
+      <Container size="lg" py="xl">
+            <Stack spacing="xl">
+              <Group position="apart">
+                <Title order={2}>Статистика</Title>
+                {/*<Select*/}
+                {/*  label="Период"*/}
+                {/*  placeholder="Выберите период"*/}
+                {/*  value={timeRange}*/}
+                {/*  onChange={setTimeRange}*/}
+                {/*  data={[*/}
+                {/*    { value: "7", label: "Последние 7 дней" },*/}
+                {/*    { value: "30", label: "Последние 30 дней" },*/}
+                {/*    { value: "90", label: "Последние 90 дней" },*/}
+                {/*  ]}*/}
+                {/*/>*/}
+              </Group>
+
+              <Grid>
+                <Grid.Col span={3}>
+                  <Card shadow="sm" padding="lg" radius="md" withBorder>
+                    <Group position="apart" mb="xs">
+                      <Text size="sm" color="dimmed">Всего фильмов</Text>
+                      <IconMovie size="1.5rem" />
+                    </Group>
+                    <Text size="xl" weight={700}>{statistics.totalFilms}</Text>
+                  </Card>
+                </Grid.Col>
+                <Grid.Col span={3}>
+                  <Card shadow="sm" padding="lg" radius="md" withBorder>
+                    <Group position="apart" mb="xs">
+                      <Text size="sm" color="dimmed">Всего пользователей</Text>
+                      <IconUsers size="1.5rem"  />
+                    </Group>
+                    <Text size="xl" weight={700}>{statistics.totalUsers}</Text>
+                  </Card>
+                </Grid.Col>
+                <Grid.Col span={3}>
+                  <Card shadow="sm" padding="lg" radius="md" withBorder>
+                    <Group position="apart" mb="xs">
+                      <Text size="sm" color="dimmed">Всего билетов</Text>
+                      <IconTicket size="1.5rem"  />
+                    </Group>
+                    <Text size="xl" weight={700}>{statistics.totalTickets}</Text>
+                  </Card>
+                </Grid.Col>
+                <Grid.Col span={3}>
+                  <Card shadow="sm" padding="lg" radius="md" withBorder>
+                    <Group position="apart" mb="xs">
+                      <Text size="sm" color="dimmed">Посещаемость</Text>
+                      <IconTrendingUp size="1.5rem"  />
+                    </Group>
+                    <Text size="xl" weight={700}>{statistics.averageAttendance}</Text>
+                  </Card>
+                </Grid.Col>
+              </Grid>
+
+              <Paper shadow="sm" p="md" radius="md" withBorder>
+                <Line options={chartOptions} data={lineChartData} />
+              </Paper>
+            </Stack>
+          </Container>
+  );
+};
+
+export default AdminStatistic;

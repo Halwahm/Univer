@@ -1,0 +1,16 @@
+thead {
+  display: none;
+}
+
+#data-table {
+  width: 100%;
+}
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#data-table_filter{
+ display:none !important; 
+}

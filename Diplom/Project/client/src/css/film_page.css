@@ -1,0 +1,188 @@
+.container {
+    margin: 3rem 0 !important;
+    max-width: 100% !important;
+}
+
+.poster img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.info h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.orderTicket{
+    justify-content: center;
+}
+
+hr{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    border: 0 !important;
+    border-top: 3px solid #222e3c !important;
+    opacity: 0.7;
+}
+
+.booking-block{
+    padding: 10px 0;
+}
+
+.hole{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.row-of-seats{
+    display: flex;
+    flex-direction: row;
+}
+
+.seat{
+    background: #222e3c;
+    width: 16px !important;
+    height: 52px !important;
+    border-right: 5px;
+    color: white;
+    text-align: center;
+    line-height: 52px;
+    margin: 2px;
+    border-radius: 50px;
+}
+
+.seat:hover{
+    background: #1ab7ea;
+}
+
+.occupied_seats{
+    background: red !important;
+}
+
+.hole-title{
+    text-align: center;
+}
+
+.hole-block{
+    margin: 0 auto !important;
+}
+
+/*Session start*/
+
+.select-session{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    justify-content: center;
+}
+
+.session-data{
+    background: #F4F6FA;
+    text-align: center;
+    border: 1px solid #222E3C;
+    padding: 5px;
+    margin: 0 3px;
+}
+
+.session-data:hover{
+    background: #d5d7da;
+}
+
+.session-selected{
+    background: #c8daff;
+}
+
+.session-day{
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.session-month{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.session-time{
+    margin-bottom: 0px;
+}
+
+.session-day{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Session end*/
+
+/*Selected Seats*/
+.sel-sead-item{
+    background: #00d900;
+}
+
+.selected-seats{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.selected-seat{
+    background: #F4F6FA;
+    border: 1px solid #222E3C;
+    padding: 10px;
+    margin: 2px;
+}
+/*Selected Seats End*/
+
+.total-seats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto !important;
+    max-width: 950px;
+    text-align: center;
+    padding: 0px;
+}
+
+.total-seats button{
+    margin: 0 auto;
+}
+
+.favouriteIcon{
+
+}
+
+.favouriteIcon i{
+    margin-left: 5px;
+}
+
+.favBtnBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.favouriteIconTrue{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.btn-check:focus+.btn, .btn:focus, .btn:hover{
+    background-color: transparent;
+}
+
+
+@media (min-width: 576px) {
+    .hole-block {
+        max-width: 1000px !important;
+        width: 650px !important;
+    }
+    .hole{
+        max-width: 1000px !important;
+    }
+}
+
+@media (max-width: 576px){
+    .favIconContainer{
+        flex-direction: column-reverse;
+    }
+}
